@@ -4,7 +4,8 @@ Enrolled Students and Faculty Members
 
 Students
 -----------------
-Mazin M. Mustafa, mazinm2014, [mazinm2015](https://github.com/mazinm2015)
+* Mazin M. Mustafa, mazinm2014, [mazinm2015](https://github.com/mazinm2015)
+* Abhay Shankar Anand, abhaysanand, [abhaysanand](https://github.com/abhaysanand)
 
 Faculty Members
 ---------------
