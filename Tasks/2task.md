@@ -27,5 +27,5 @@ The educational edition is free and open source.
 * __Download and Install__: [PyCharm Educational Edition](https://www.jetbrains.com/pycharm-educational/).
 * __Complete__: Introduction to Python in PyCharm.
 
-
-
+## Anaconda
+I recommend using [Anaconda](https://www.continuum.io/downloads) for this class, especially if you are using Windows. Anaconda is a Python distribution for Mac, Windows, or Linux that includes all of the additional packages you will need for this class (matplolib, numpy, scipy, etc.). Install Anaconda on your computer and make note of the installation directory. Then when you need to select an interpreter for PyCharm, point to python.exe in the Anaconda folder.
