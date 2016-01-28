@@ -55,9 +55,9 @@ The `status` command lists the status of working files and directories.
 ### Action Items
 
 * __Account__: Go to [GitHub](https://github.com/) and create a developer account (if needed).
-Complete the GitHub fields `Name`, `Public email`, and upload a picture.
-Email your GitHubID to your instructor via your TAMU account.
-You will need write permission before you can proceed further.
+Complete the GitHub fields `Name`, `Public email`, and upload a recent (and professional) picture.
+Provide your GitHubID to your instructor via your TAMU account unless instructed otherwise.
+STOP: You will need write permission before you can proceed further, so check back regularly to see if your permissions have been updated. 
 * __Web__: Locate the `README.md` under `Students`.
 Add your TAMU NetID and GitHubID next to you name.
 
