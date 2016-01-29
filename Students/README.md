@@ -10,7 +10,7 @@ Students
 * Sumana Pallampati, f2011287, [sumana-pallampati](https://github.com/sumana-pallampati)
 * Divya Acharya,dna, [DivyaNAcharya](https://github.com/DivyaNAcharya)
 * Deanna Sessions, sd205213, [deannasessions](https://github.com/deannasessions)
-
+* Chloe Dixon, dixonc003, [dixonc003](http://github.com/dixonc003)
 Faculty Members
 ---------------
 
