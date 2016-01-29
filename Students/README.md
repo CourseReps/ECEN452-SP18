@@ -12,6 +12,7 @@ Students
 * Deanna Sessions, sd205213, [deannasessions](https://github.com/deannasessions)
 * Chloe Dixon, dixonc003, [dixonc003](http://github.com/dixonc003)
 * Matthew Walck, articfire77, [mattwalck](https://github.com/mattwalck)
+* Francisco A. Espinal, FAEspinal, [FAEspinal](https://github.com/FAEspinal) 
 Faculty Members
 ---------------
 
