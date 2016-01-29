@@ -1,5 +1,5 @@
-#Identity
+# Identity
 
-*Name: Deanna Sessions
-*GitHubID: deannasessions
-*NetID: sd205213
+* Name: Deanna Sessions
+* GitHubID: deannasessions
+* NetID: sd205213
