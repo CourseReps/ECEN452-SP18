@@ -2,6 +2,8 @@
 
 This tutorial demonstrates how to design a double stub matching network that matches a load impedance <b>Z<sub>L</sub> = 25 - j100</b> ohms to a transmission line with characteristic impedance <b>Z<sub>0</sub> = 50</b> ohms. The main design parameters that you need to determine are <b>d<sub>1</sub></b> (distance from load to first stub), <b>d<sub>2</sub></b> (distance from first stub to second stub), <b>l<sub>1</sub></b> (length of first stub), and <b>l<sub>2</sub></b> (length of second stub). In this example all transmission lines will have <b>Z<sub>0</sub> = 50</b> ohms. If you want to use a different characteristic impedance for the stubs, you must pay careful attention when normalizing and unnormalizing impedances/admittances for the different steps. Lastly, this turtorial only considers <b>open-circuit stubs</b> due to their simplicity of fabrication in microstrip circuits.  
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/DoubleStubTuning/DoubleStubTuning_Diagram.png)
+
 ## Step 1: Plot Normalized Impedance/Admittance and Rotate Distance d<sub>1</sub> Towards the Generator
 The first step is to plot the normalized impedance on the Smith chart. In this example, <b>z<sub>L</sub> = 0.5 - j2</b> which gives us an admittance <b>y<sub>L</sub> = 0.12 + j0.47</b>. You have the freedom to choose the distance <b>d<sub>1</sub></b> between the load and the first stub that best fits your design goals. For simplicity, I have chosen <b>d<sub>1</sub> = 0.5 wavelengths</b> which corresponds to one full rotation on the Smith chart.
 
