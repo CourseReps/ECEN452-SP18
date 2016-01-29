@@ -1,5 +1,5 @@
-+# Identity
-+
-+* Name: Mazin M Mustafa
-+* GitHubID: mazinm2015	
-+* NetID: mazinm2014
+# Identity
+
+* Name: Mazin M Mustafa
+* GitHubID: mazinm2015	
+* NetID: mazinm2014
