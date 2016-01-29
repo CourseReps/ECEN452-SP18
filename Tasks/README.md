@@ -14,4 +14,5 @@ These tasks consist of installing pertinent software and mastering relevant prog
 
 * [Python](https://www.python.org/)
 * [PyCharm](https://www.jetbrains.com/pycharm-educational/)
+* [Anaconda](https://www.continuum.io/downloads)
 
