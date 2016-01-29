@@ -9,6 +9,7 @@ Students
 * Matias S. Kalaswad, msk758, [kalaswad](https://github.com/kalaswad)
 * Sumana Pallampati, f2011287, [sumana-pallampati](https://github.com/sumana-pallampati)
 * Divya Acharya,dna, [DivyaNAcharya](https://github.com/DivyaNAcharya)
+* Deanna Sessions, sd205213, [deannasessions](https://github.com/deannasessions)
 
 Faculty Members
 ---------------
