@@ -11,6 +11,7 @@ Students
 * Divya Acharya,dna, [DivyaNAcharya](https://github.com/DivyaNAcharya)
 * Deanna Sessions, sd205213, [deannasessions](https://github.com/deannasessions)
 * Chloe Dixon, dixonc003, [dixonc003](http://github.com/dixonc003)
+* Matthew Walck, articfire77, [mattwalck](https://github.com/mattwalck)
 Faculty Members
 ---------------
 
