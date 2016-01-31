@@ -14,7 +14,7 @@ Students
 * Matthew Walck, articfire77, [mattwalck](https://github.com/mattwalck)
 * Francisco A. Espinal, FAEspinal, [FAEspinal](https://github.com/FAEspinal) 
 * Zhong Chen,zhongchen,[zhongchen43](https://github.com/zhongchen43)
-* Chung-Huan Huang, tim721w,[tim721w](https://github.com/tim721w)
+* Chung-Huan Huang, tim721w, [tim721w](https://github.com/tim721w)
 
 Faculty Members
 ---------------
