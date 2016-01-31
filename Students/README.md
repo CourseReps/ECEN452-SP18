@@ -13,6 +13,7 @@ Students
 * Chloe Dixon, dixonc003, [dixonc003](http://github.com/dixonc003)
 * Matthew Walck, articfire77, [mattwalck](https://github.com/mattwalck)
 * Francisco A. Espinal, FAEspinal, [FAEspinal](https://github.com/FAEspinal) 
+* Zhong Chen,zhongchen,[zhongchen43](https://github.com/zhongchen43)
 Faculty Members
 ---------------
 
