@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+    <key name="projectsettings" valuetype="QVariantMap">
+        <key name="elements" valuetype="QVariantList">
+            <key name="0" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">0</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">13</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">0</key>
+                <key name="designfrequency" valuetype="double">2400000000</key>
+                <key name="designpermittivity" valuetype="double">2.2000000476837158</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">14</key>
+                        <key name="externalReference" valuetype="int">5</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">P1.IP0</key>
+                        <key name="physicalX" valuetype="double">412.91192626953125</key>
+                        <key name="physicalY" valuetype="double">190.57473754882812</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">3</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">0</key>
+                    <key name="impedance_type" valuetype="int">6</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">nan</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">1</key>
+                    <key name="system_length" valuetype="double">inf</key>
+                    <key name="uid" valuetype="QString">P1</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">P1</key>
+                <key name="numofports" valuetype="int">1</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">0</key>
+                <key name="row" valuetype="int">6</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap"/>
+                <key name="systemwavelength" valuetype="double">inf</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">6</key>
+                <key name="typeIDCount" valuetype="int">1</key>
+                <key name="x" valuetype="int">1170</key>
+                <key name="y" valuetype="int">540</key>
+            </key>
+            <key name="1" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">0</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">15</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">0</key>
+                <key name="designfrequency" valuetype="double">2400000000</key>
+                <key name="designpermittivity" valuetype="double">2.2000000476837158</key>
+                <key name="effectivePermittivity" valuetype="double">1.7648348808288574</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">14</key>
+                        <key name="externalReference" valuetype="int">6</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL2.IP0</key>
+                        <key name="physicalX" valuetype="double">412.91192626953125</key>
+                        <key name="physicalY" valuetype="double">190.57473754882812</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">6</key>
+                        <key name="externalReference" valuetype="int">4</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL2.IP1</key>
+                        <key name="physicalX" valuetype="double">436.4351806640625</key>
+                        <key name="physicalY" valuetype="double">190.57473754882812</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">4</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">0</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">100</key>
+                    </key>
+                    <key name="length" valuetype="double">0.023523248732089996</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">inf</key>
+                    <key name="uid" valuetype="QString">TL2</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.24999959766864777</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL2</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">225823552</key>
+                <key name="physicalWidth" valuetype="double">1.4110281467437744</key>
+                <key name="physicallength" valuetype="double">0.023523248732089996</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">100</key>
+                <key name="rotation" valuetype="int">0</key>
+                <key name="row" valuetype="int">6</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap"/>
+                <key name="systemwavelength" valuetype="double">inf</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">2</key>
+                <key name="x" valuetype="int">1350</key>
+                <key name="y" valuetype="int">540</key>
+            </key>
+            <key name="2" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">0</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">16</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">0</key>
+                <key name="designfrequency" valuetype="double">2400000000</key>
+                <key name="designpermittivity" valuetype="double">2.2000000476837158</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">6</key>
+                        <key name="externalReference" valuetype="int">3</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">Z1.IP0</key>
+                        <key name="physicalX" valuetype="double">436.4351806640625</key>
+                        <key name="physicalY" valuetype="double">190.57473754882812</key>
+                        <key name="plottedX" valuetype="double">45</key>
+                        <key name="plottedY" valuetype="double">0</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">5</key>
+                        <key name="externalReference" valuetype="int">2</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">Z1.IP1</key>
+                        <key name="physicalX" valuetype="double">436.4351806640625</key>
+                        <key name="physicalY" valuetype="double">190.57473754882812</key>
+                        <key name="plottedX" valuetype="double">45</key>
+                        <key name="plottedY" valuetype="double">90</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">5</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">0</key>
+                    <key name="impedance_type" valuetype="int">1</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">200</key>
+                    </key>
+                    <key name="length" valuetype="double">nan</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">inf</key>
+                    <key name="uid" valuetype="QString">Z1</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">Z1</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">200</key>
+                <key name="rotation" valuetype="int">90</key>
+                <key name="row" valuetype="int">7</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap"/>
+                <key name="systemwavelength" valuetype="double">inf</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">14</key>
+                <key name="typeIDCount" valuetype="int">1</key>
+                <key name="x" valuetype="int">1440</key>
+                <key name="y" valuetype="int">630</key>
+            </key>
+            <key name="3" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">0</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">16</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">0</key>
+                <key name="designfrequency" valuetype="double">2400000000</key>
+                <key name="designpermittivity" valuetype="double">2.2000000476837158</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">5</key>
+                        <key name="externalReference" valuetype="int">1</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">SC1.IP0</key>
+                        <key name="physicalX" valuetype="double">436.4351806640625</key>
+                        <key name="physicalY" valuetype="double">190.57473754882812</key>
+                        <key name="plottedX" valuetype="double">45</key>
+                        <key name="plottedY" valuetype="double">0</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">6</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">0</key>
+                    <key name="impedance_type" valuetype="int">1</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">9.9999996826552254e-22</key>
+                    </key>
+                    <key name="length" valuetype="double">nan</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">inf</key>
+                    <key name="uid" valuetype="QString">SC1</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">SC1</key>
+                <key name="numofports" valuetype="int">1</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">9.9999996826552254e-22</key>
+                <key name="rotation" valuetype="int">90</key>
+                <key name="row" valuetype="int">9</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap"/>
+                <key name="systemwavelength" valuetype="double">inf</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">10</key>
+                <key name="typeIDCount" valuetype="int">1</key>
+                <key name="x" valuetype="int">1440</key>
+                <key name="y" valuetype="int">810</key>
+            </key>
+        </key>
+        <key name="images" valuetype="QVariantMap">
+            <key name="cartesianplot" valuetype="QByteArray">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADxATYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK6PUfAfiXSdBXW73TfK05lRhN58bZD42/KGJ5yO1Z1K1Om1Gckm9Fd7vyGk3sc5RU9naT6hfW9lap5lxcSLFEmQNzMcAZPA5PetbxF4O17wmLY63YfZftO7yv30b7tuM/dY4+8OvrRKtTjNU5SSk9lfV+iCztcwqKKK0EFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAdJdeF4bfS7iRb+R9QtLK31C5gNuBEIZvK2bJN5LP+/iyCigfPhjgbs/RdKh1I3s13cyW9nY2/2i4eKISybTIkYCIWUMd0iZyw4yeSADoXXiiG40u4jWwkTULuyt9PuZzcAxGGHytmyPYCr/ALiLJLsD8+FGRtp6Lq9voviMalFDfLbp5ojSC+ME8YdGVSJlX7y7gc7cNjBGCRQBX1rTP7I1M2om86NooriKQrtLRyxrIm5cnDbXXIBIByASOTn1qeIdbm8Q63NqU/mb3SOMGWQyOVjRY1LucbnKqCzYGSScDOBnRTSwOXikeNirISjEEqwKsPoQSD6gmgBlFWV1G+R1db24VlaN1IlYENGNsZHPVRwvoOlM+2XPleV9om8vy/K2bzjZv37cem75sdM89aAIas2DMtw5VnU+TKMpOIjgxsCNx6gjgr1YZUckUNqN87s7XtwzM0jsTKxJaQbZCeerDhvUdatadf6h9rLRXV2XSMyKY180qYomCNgnjYucP1jGSOlAGZRU32y58ryvtE3l+X5WzecbN+/bj03fNjpnnrT21G+d2dr24ZmaR2JlYktINshPPVhw3qOtAFairK6jfI6ut7cKytG6kSsCGjG2Mjnqo4X0HSmfbLnyvK+0TeX5flbN5xs379uPTd82OmeetAD0Zhpc6hnCmaMlROApO18Ex9WPJww4XJB++KrVpi/1B9OuZWurts3G5327hulRw+ZM5UuBgr/GAc/cFVV1G+R1db24VlaN1IlYENGNsZHPVRwvoOlAFaipvtlz5XlfaJvL8vytm842b9+3Hpu+bHTPPWntqN87s7XtwzM0jsTKxJaQbZCeerDhvUdaAK1e2+NPG/hzVPg/a6TZamkt/wCXbxGARuGDR7C+cjgeh6HBxnBrxtdRvkdXW9uFZWjdSJWBDRjbGRz1UcL6DpXrPivwDYaJ8KbfWbbUdSeYwQ/upJE8vbKyMycIGKBvmCk4DZPUknx80WFdfD+3bUub3bd/PyNIc1nY8x8NXcGn+KtIvbp/Lt7e9hllfBO1VcEnA5PA7V6F8ZvGOg+LE0UaJf8A2r7MZ/N/cyJt3eXj7yjP3T09K4PQnudX8S6dY3N9d7L29EcrrMd/75gkrAnPzMvBJznvmu3+KfhCDwGdHk0rVdVke5csxuLgEq0AQRFdqrgqHIHoOmKMUsK8yoOo37S0uVLa3W4R5uR22PLqKm+2XPleV9om8vy/K2bzjZv37cem75sdM89ae2o3zuzte3DMzSOxMrElpBtkJ56sOG9R1r2DML9ma4QszsfJiGXnEpwI1AG4dABwF6qMKeQarVp3t/qEV3E32q7jdY7aRSy+SQUiURsAD/Cp+V+pBzxuNUvtlz5XlfaJvL8vytm842b9+3Hpu+bHTPPWgCGirLajfO7O17cMzNI7EysSWkG2Qnnqw4b1HWhdRvkdXW9uFZWjdSJWBDRjbGRz1UcL6DpQAaczJqloyM6MJkIZJxCwO4ciQ8If9o8Dr2qtWhp11dvfWluk1w6lkhESR+dlPMD7BEThxv8Am2Hgt9agbUb53Z2vbhmZpHYmViS0g2yE89WHDeo60AVqKsrqN8jq63twrK0bqRKwIaMbYyOeqjhfQdKZ9sufK8r7RN5fl+Vs3nGzfv249N3zY6Z560AQ1ZtWZbe9Cs4DQgMFnEYYeYhwVP8ArBkA7RzkBuimhtRvndna9uGZmkdiZWJLSDbITz1YcN6jrVqzv9QEV3JHdXeY44pNyLv2GN0WNixOY9oO1XHIyFGAxoAzKKm+2XPleV9om8vy/K2bzjZv37cem75sdM89ahoAKKKKACiiigAooooAKKKKACiiigAooooAKmtfL81vN8nb5b483fjOw4+7znOMds4zxmoas2DMtw5VnU+TKMpOIjgxsCNx6gjgr1YZUckUAVqKKKACiiigCZfL+xS58nzPMTbnfvxhs4x8uOmc852443VDVlGYaXOoZwpmjJUTgKTtfBMfVjycMOFyQfviq1ABRRRQAV634r+Jmh638Lrfw/axXq3ypDEwkjUKvl7MtkMeDzjvwcgcZ8kr23xp4I8PaX8H7XVbOxeO88u3lDm5lZQ8mwOwQsVBIAzx2HoK8fNHhVXw/t03Lm923fz8jSHNZ2PI9Av4tK8R6ZqM6u0NrdxTuqAFiquGOM45wK7f4q/EDSvHK6SNMt72H7GZvM+0oq537MY2sf7pri/DVpBqHirSLK6TzLe4vYYpUyRuVnAIyORwe1ehfGbwdoPhNNFOiWH2X7SZ/N/fSPu2+Xj7zHH3j09aMU8KsyoKon7S0uVra3W4R5uR22PKaKKK9gzJrry/NXyvJ2+WmfK34zsGfvc5znPbOccYqGrN+zNcIWZ2PkxDLziU4EagDcOgA4C9VGFPINVqACiiigCaz8v7bB5vk+X5i7/O37MZ53bPmx67ecdOahqzpzMmqWjIzowmQhknELA7hyJDwh/2jwOvaq1ABRRRQAVNB5flXO/yd3ljZ5m/Od6/d28Zxn73GN3fbUNWbVmW3vQrOA0IDBZxGGHmIcFT/rBkA7RzkBuimgCtRRRQAUUUUAFFFFABRRRQB6Rqv2z/AIRfUPN8/wD4R7+xLD+zt2fsn2zNr53k/wAHnZ+07tvzf63P8VZfgSOax1fW4WstSOrQ2RS2trGQwXomE8QcRHYzK4TzdwCk7A4OBkji6KANzxhGyeLL95ZpJZ53W5n80KHjllUSSRvtAG9GZkbCryp+VfujT07SNKnt7ZrhLRd8al2F8d+cf3cYBz2zxXIUUAd//wAIlok/EUsn/AJQf6GoJfAtsf8AU3sqf76hv5Yrh6nivruD/U3U0f8AuSEUAdNJ4FlQZS9D/f48vB4X5P4u7cH0HI3dKpx6BJY3JNzHfLFswzx2KXGAY23nBfHDYAOQcfN8pAFV7fxTq9vj/SvMX0kUN+vWtqw8bl32X0EaDax8xC3UAkDGDySMDtk8kDmgDktlt5WfNm83y87fKGN+/G3O7pt5zjOeMY+ansliHYLcXBXdIFJgUEqB+7JG/gk8MP4RyC3Su5F54c175ZREJW7SDY/59/zrPv8AwQMF9PuP+2cv9CP8KAOWVLEuoa4uAu6MMRApIUj94QN/JB4UfxDklelM223lZ86bzPLzt8oY378bc7um3nOM54xj5qfeafd6fL5d1A8R7Ejg/Q9DVagDTEVn/Z1yyTXbRi4wH+wpjGxzHl9+ULEHKDIwCcsVAqqqWJdQ1xcBd0YYiBSQpH7wgb+SDwo/iHJK9KYvl/Ypc+T5nmJtzv34w2cY+XHTOec7ccbqhoAm223lZ86bzPLzt8oY378bc7um3nOM54xj5qeyWIdgtxcFd0gUmBQSoH7skb+CTww/hHILdKrUUAWVSxLqGuLgLujDEQKSFI/eEDfyQeFH8Q5JXpXpXiT4mW2u/DG10H+yruCTy0h+0Ehoi8Jj4B4zlTk91JUYIOR5ZXvfjvw9otn8F7e/ttH0+C8MFoTcRWyLISduTuAzznmvHzSph4V8Oq0HJuXuu9rPv5mkE7OzPG9JvbHSNesdRWS4mWzu/PVDEqGRUIaMH5jgsRhuu0cjf0rrPiF8QrHx8dMVrO4sFs3+YgrMWWQL5hAyvKlcKP4gckpjFcn4UhiufGGiQTxpLDJfwI8bqGVlMiggg9QR2r03476JpWjpoP8AZmmWVl5puPM+zW6x78eXjO0DOMn86MVUw6zKhCcG6jUuV30XfTrcIp8js9DyHbbeVnzpvM8vO3yhjfvxtzu6bec4znjGPmp7JYh2C3FwV3SBSYFBKgfuyRv4JPDD+Ecgt0qtRXsGZoXEcH2iMXT3EJK2+QLNUPlmMFmC7hk42lT/ABg7iVJ5q7bbys+dN5nl52+UMb9+Nud3TbznGc8Yx81F15fmr5Xk7fLTPlb8Z2DP3uc5zntnOOMVDQBZZLEOwW4uCu6QKTAoJUD92SN/BJ4YfwjkFulCpYl1DXFwF3RhiIFJCkfvCBv5IPCj+Ickr0qfT9Fv9TI+zQHZ3kbhR+P+FdTZ+C7O3TzdQuDLjkqp2IPqev8AKgDldPjt2vbXbJcNLlTsSzWbL+YPlCM2HGznkcn5SMfNWhB4XuLliYku1j3SbWmgVCVA/dkgv1Y8Ec7RyC3SulTWvD2lyJBbvCm5grPEhKqM9WYAkge2T7Gsa68c3L5Fraxxj1kJY/0oAlTwI5Hzagq8LwIs84+Ydex4HqOeOlWovA1kP9bdTv8A7oC/0Nc1P4j1e4zuvZFHpHhP5Vny3M8/+tmkk/33JoA7r/hFtBh/1krf8DmAqWHQ/DwiuBH5Lr5Y80mUNsXcvOc/LztGRjrjuQfO6mg8vyrnf5O7yxs8zfnO9fu7eM4z97jG7vtoA7G+0Pw+mnXMtvIhlSJmTbPnkA44zXEUUUAFFFFABRRRQAUUUUAFFblx4XubbS3uzd2jzw28V3PZKX82GCTZ5cjEqEIPmxcKxYbxkDDbc/TbBdQuGjkvrSyiRC7z3TMFUZAGAoZ2JJAwqk9ScAEgAp0Vc1TTZtJv2tJmjchEkSSMkrJG6B0cZAOGVlbBAIzggHIqnQAUUUUAFWbBmW4cqzqfJlGUnERwY2BG49QRwV6sMqOSKrVZsFZrhwqux8mU4SASnAjYk7T0AHJbqoyw5AoArVpafruoaaQIJyYx/wAs3+Zfy7fhWbRQB3tl4p03VI/s2oxJEzcESfNG349vx/Oquq+DUdTPpbgZ58ljkH/dP+P51xlauk+IL3SWCo/mQd4nPH4elAFd4p7WxubeZZY2E8ZaMzBRna+CY+rHk4YcLkg/fFUq9IT+zPFunMxiO6MhWbGHiY5wM++D9ce1cZrGg3WjyZceZAThZVHH0PoaAMqiiigAru9c+Jesa34FttAubPT0tgVi82Jj5hWMJt+XcSPdiMNnAxtNcJX0b8Q/+SEWv/XvZ/8AslePmlejSr4eNSmpOUrJ/wAr7mkE2nZnz5pt/LpWq2eowKjTWs6TorglSysGGcY4yK6Hxn8QNV8ciyGp29lD9j3+X9mRlzv25zuY/wB0VneDv+R30D/sJW//AKMWvWf2iPueHPrc/wDtKjFV6McyoUpU05NStLqv+HCKfI3c8MoorodD8LT6ltuLndDankf3n+noPevYMyibG81S/SO3SSZ/JiBZpxLtHlqBlhwAOgXqoG08iupsPC1hpkP2nU5UlZeTvOI1/Pr+P5VY1PWbDw5ELO2gXzwoxEg2gcDBY+pGD6n8c1xGo6reapL5l1KWA+6g4VfoKAOp1HxpDCDDpkIfHAkcYUfQf/qrlL3U73UX3XVw8nopOFH0HSqlFAFnTmZNUtGRnRhMhDJOIWB3DkSHhD/tHgde1Vqs6crPqloqK7sZkAVIBMxO4cCM8Of9k8Hp3qtQAUUUUAFWbVmW3vQrOA0IDBZxGGHmIcFT/rBkA7RzkBuimq1WbVWa3vSquQsILFYBIFHmIMlj/qxkgbhzkhejGgCtRRRQAUUUUAFFFFABRRRQB1l54i02bS7ySIXf9oX2mWumywNEoiiWDyP3iybiXLfZ1+UouPMPzHb82Ppsmm2ustI97qUEEblrW9tY1E8TKwKOY94GcDoJBtJBDHbhsuigDU8Q6lDq2tzXkCyBGSNDJKAHmZUVWlcAn55GUu3J5c/M3U50UrQuWUISVZfnQMMEEHgg84PB6g4IwQKZRQBZW/mV1YJb5Vo2GbaMjKDC5G3kEfeHRjy2TTPtUnleVth2+X5WfJTON+/OcZzn+Lrj5c44qGigCy1/MzsxS3yzSMcW0YGXGGwNvAA+6OinlcGp7O/ZbjdIljhVDDzrYFdyRsE4VeSTjg/KzYL5Gaz6s2DMtw5VnU+TKMpOIjgxsCNx6gjgr1YZUckUAM+1SeV5W2Hb5flZ8lM43785xnOf4uuPlzjintfzM7MUt8s0jHFtGBlxhsDbwAPujop5XBqtRQBZW/mV1YJb5Vo2GbaMjKDC5G3kEfeHRjy2TTPtUnleVth2+X5WfJTON+/OcZzn+Lrj5c44qGigDTh1WaKKWeP7HHc+eXRltwrjerB9uF2BenB5U4KY+auo0TxPBqKCy1JYxK3ALKCknsQeAf0rjUZhpc6hnCmaMlROApO18Ex9WPJww4XJB++KrUAdZ4g0CexhaaySN7Ty/LZPJUvGu/fnOMnn+L72Plzt4rnGv5mdmKW+WaRji2jAy4w2Bt4AH3R0U8rg10nh7xUYdtnqLlouiTHqvsfb3qTxD4XDK19pqAgjc8K9/df8KAOXW/mV1YJb5Vo2GbaMjKDC5G3kEfeHRjy2TXZ63rvjy58CQWWqw3I0b5V3SacU+QCPy8ybAu3I+Ug5PzZyCtcHX0b8Q/8AkhFr/wBe9n/7JXj5pio0a+Hi6alzStd/Z815mkI3T1PBdP1TUotXtbjT44jfrcmWAR2cbHzXwAFXbg8gbVxhT90A1v8AivXvHN8bBfFNvcAxymS1F5piR5YYyBmMbh93K8g8ZHSsjwaC3jjQAASf7Rt+n/XRa9/+LAs4hpN7d7F+ziba7/w52Zx78CjFYqMMyoUHTTclL3nurdvUIxvBu55BoXh/7Pbi51RIOItixNEnyru35ZsZ3Z75zj5c44qlrni9mLW2mNtTBVp8cnt8vp9evpis7XvEc2quYYd0VoDwvd/c/wCFYVewZmhc37i5R4lsThbd/wB3bgqWSMDkOuSSc7x91myeRg1V+1SeV5W2Hb5flZ8lM43785xnOf4uuPlzjin37M1whZnY+TEMvOJTgRqANw6ADgL1UYU8g1WoAstfzM7MUt8s0jHFtGBlxhsDbwAPujop5XBoW/mV1YJb5Vo2GbaMjKDC5G3kEfeHRjy2TVaigC5Z3X+kQRSraeT8sTmaH5dnmbyWKDf16svz7flBxxTGv5mdmKW+WaRji2jAy4w2Bt4AH3R0U8rg0aczJqloyM6MJkIZJxCwO4ciQ8If9o8Dr2qtQBZW/mV1YJb5Vo2GbaMjKDC5G3kEfeHRjy2TTPtUnleVth2+X5WfJTON+/OcZzn+Lrj5c44qGigCy1/MzsxS3yzSMcW0YGXGGwNvAA+6OinlcGp7a/ZUnZksd6rE0fm2wJ3IVA2gLgkrncH+VhknLbaz6s2rMtvehWcBoQGCziMMPMQ4Kn/WDIB2jnIDdFNADPtUnleVth2+X5WfJTON+/OcZzn+Lrj5c44qGiigAooooAuabpOpazcNb6Xp93fTqhdo7WFpWC5AyQoJxkgZ9xWp/wAIJ4w/6FTXP/BdN/8AE1n6Fpn9t+IdM0nzvJ+3XcVt5u3ds3uF3YyM4znGRWpB4XhubdnS/kWSe3uLzT45LcDzreASF3kIciMkRSBVG8llIO1SrMAc/PBNa3EtvcRSQzxOUkjkUqyMDggg8gg8YqOiigAoorc8O21o8WsX93ax3Y06yFxHbys6xyM08MWH2FWwBKSMMOQOoyCAYdFbHiext7DWhHax+VDNaWt0IwxIjM0EcrKpOTtBcgZJOAMknk5tpayXtylvE0Ku+cGaZIl4GeWchR07mgCGitn/AIRi/wD+fjSf/Bva/wDxyj/hGL//AJ+NJ/8ABva//HKAMarNgrNcOFV2PkynCQCU4EbEnaegA5LdVGWHIFaH/CMX/wDz8aT/AODe1/8AjlTWvhi881vNuND2+W+PN1e3xnYcfdkznOMds4zxmgDAorZ/4Ri//wCfjSf/AAb2v/xyj/hGL/8A5+NJ/wDBva//ABygDGorZ/4Ri/8A+fjSf/Bva/8Axyj/AIRi/wD+fjSf/Bva/wDxygDPRWOlzsFcqJowWEAKg7XwDJ1U8HCjhsEn7gqtW+vhi8+xS5uND8zzE251e334w2cYk246ZzznbjjdUP8AwjF//wA/Gk/+De1/+OUAY1dJ4d8Stp7La3bFrU8K3Ux//W9qqf8ACMX/APz8aT/4N7X/AOOUf8Ixf/8APxpP/g3tf/jlAG94h8NpeRnUdNCl2G5406SD1X3/AJ/zsaroHxCHgy0bUJNRl0lmVkhe6R02sE8vgSFj0+6VwuMjqcQ+HY9S0txb3NzpT2bH/oL2pMZ9R+86e1e7+J5Y1+HEMhlhVPKgId5VRT0x8zEKM+5rx80xksPXw8FFPnlbVXt6dmaQjdM8Z8N6EuivbyBg2pTSJHGysFIdiAqoTjBzjms/4jw+MYZrQ+J47iG2kL/ZI5bpZumNx+Vjg8rVnTbbVdS8d6HcTT6YtvFqEDJFHqts5AEi9AJMs30GfSu8+POmXGpJoHkSWieWbjP2i7igzny+nmMuenbpRisZKnmVDDqKakpataq3Z9AjG8GzwCitn/hGL/8A5+NJ/wDBva//AByj/hGL/wD5+NJ/8G9r/wDHK9gzM+/VluEDK6nyYjh4BEcGNSDtHUEchurDDHkmq1b914YvPNXyrjQ9vlpnytXt8Z2DP3pM5znPbOccYqH/AIRi/wD+fjSf/Bva/wDxygDGorZ/4Ri//wCfjSf/AAb2v/xyj/hGL/8A5+NJ/wDBva//ABygDP05WfVLRUV3YzIAqQCZidw4EZ4c/wCyeD071Wrfs/DF59tg8240Py/MXf52r2+zGed2yTdj12846c1D/wAIxf8A/PxpP/g3tf8A45QBjUVs/wDCMX//AD8aT/4N7X/45R/wjF//AM/Gk/8Ag3tf/jlAGNVm1Vmt70qrkLCCxWASBR5iDJY/6sZIG4c5IXoxrQ/4Ri//AOfjSf8Awb2v/wAcqaDwxeeVc77jQ93ljZ5mr2+c71+7tkxnGfvcY3d9tAGBRWtN4dvoIJJXn0wqiliE1S2diAM8KJCSfYDJrJoAKKKKALmmyabFcM2qWl3cwbCFS1uVgYNkclmjcEYzxjuOeOekfxTo8l5dXkkHit7q7iMFzM3iFC80ZABR2+zZZcADB44FcfRQBJOYWuJWt45I4C5MaSOHZVzwCwABOO+Bn0FR0UUAFXNN1S70m4aa0eMF0KSJLEksci5Bw6OCrDIBAIOCoPUA1TooAsX19cajeSXV1J5kz4BIUKAAAFVVGAqgAAKAAAAAABVeiigAooooAKs2DMtw5VnU+TKMpOIjgxsCNx6gjgr1YZUckVWqzYKzXDhVdj5MpwkAlOBGxJ2noAOS3VRlhyBQBWooooAKKKKALKMw0udQzhTNGSonAUna+CY+rHk4YcLkg/fFVqsorHS52CuVE0YLCAFQdr4Bk6qeDhRw2CT9wVWoAKKKKACu71z4b61ovgW21y5u7V7PKzCNLh2wJQgGEKABuPmO45AX+7zwle/+PNb0m6+CFpb2+qWU05itoxHHcIzFk8suuAc5UEZHbIzXk5lisRQrUIUVpKVpaX0/T1NIRTTueFabYS6rqtnp0DIs11OkCM5IUMzBRnGeMmuh8Z/D/VfAwsjqdxZTfbN/l/ZnZsbNuc7lH94Vl+FJorbxhok88iRQx38DvI7BVVRIpJJPQAd69N+O+t6VrCaD/Zmp2V75RuPM+zXCybM+XjO0nGcH8qMTisRDMKNCC9ySd9O22vQFFODfU8booor1jMs37M1whZnY+TEMvOJTgRqANw6ADgL1UYU8g1Wqzfqy3CBldT5MRw8AiODGpB2jqCOQ3VhhjyTVagAooooAs6czJqloyM6MJkIZJxCwO4ciQ8If9o8Dr2qtVnTlZ9UtFRXdjMgCpAJmJ3DgRnhz/sng9O9VqACiiigAqzasy296FZwGhAYLOIww8xDgqf8AWDIB2jnIDdFNVqs2qs1velVchYQWKwCQKPMQZLH/AFYyQNw5yQvRjQBWooooAKKKKACiiigAoorU03X7zSrdoLeHTXRnLk3Wm29w2cAcNIjEDjpnHX1NABN4e1O30sajJBGINiyMgnjMsaNja7xBt6Idy4ZlAO9MH5lzX03S7vVrhobRIyUQvI8sqRRxrkDLu5CqMkAEkZLAdSBXUX+r6ZJpeo3cd/G89/o9lpq2QjkEsTw/ZtzuSuzYfszY2sx+dMgfNt5/Tbe0TWWjk1W0gELloLqW2ea3kZWGN6lC2wgHGY2ycBlAJIAKd9Y3GnXklrdR+XMmCQGDAggFWVhkMpBBDAkEEEEg1XrY8UX1vqGvS3FrJ5sflQxmQKVR3SJEdkU42xllYouF2rtAVQNoyonWNyzRJKCrLtcnAJBAPBHIJyO2QMgjIoAZRVlbqFXVjYW7ANGxUtJhgowwPzdHPLd8/dKjimefH5Wz7LDu8vZvy+c792/72M4+XpjHbPNAENTWvl+a3m+Tt8t8ebvxnYcfd5znGO2cZ4zT2uoWdmFhbqC0jBQ0mFDDCgfN0Q8r3z94sOKtadeRx3ZYWcPEZJC3Lw7gsTBlLFuQ+cso5b7qFc4oAzKKm8+Pytn2WHd5ezfl8537t/3sZx8vTGO2eae11CzswsLdQWkYKGkwoYYUD5uiHle+fvFhxQBWoqyt1CrqxsLdgGjYqWkwwUYYH5ujnlu+fulRxTPPj8rZ9lh3eXs35fOd+7f97GcfL0xjtnmgAXy/sUufJ8zzE25378YbOMfLjpnPOduON1Q1pi8jOnXIFnCqNcbvLW5cKNyOFHlltzbOSrZ4yQ27cBVVbqFXVjYW7ANGxUtJhgowwPzdHPLd8/dKjigCtRU3nx+Vs+yw7vL2b8vnO/dv+9jOPl6Yx2zzT2uoWdmFhbqC0jBQ0mFDDCgfN0Q8r3z94sOKAK1eleI/haug/D2DxGNVSZmWKUxC2KsRLtwpbzCMLzjCgnJz2x58t1CrqxsLdgGjYqWkwwUYYH5ujnlu+fulRxXsvjPxx4b1P4PW+k2epRzX5it4vJ8twytHsL9QMD0J4POM4OPJzKrioVqCw9+Vy96yvp59vU0gotO549o2n/2trmn6b5vlfa7mODzNu7ZvYLnGRnGema6z4ifDr/hAV04/2r9u+2mT/l38rZs2/wC02c7vbpWH4c1WysfFmlX1zaW8NtBfrPIR5pCJuXoNxJCYJXqSfvbhxXf/ABf8b+HfEy6INHli1H7LLI83mRTR4B2YTnbkNg5xyNowR3MTVxUcwo06d/ZtPm00v0u+gJR5G3ueR0VN58flbPssO7y9m/L5zv3b/vYzj5emMds809rqFnZhYW6gtIwUNJhQwwoHzdEPK98/eLDivWMxl15fmr5Xk7fLTPlb8Z2DP3uc5zntnOOMVDWne3kZu4mezhk2x2xxJcvLkJEoK7lYYDcEr1TAUFcEVS8+Pytn2WHd5ezfl8537t/3sZx8vTGO2eaAIaKstdQs7MLC3UFpGChpMKGGFA+boh5Xvn7xYcULdQq6sbC3YBo2KlpMMFGGB+bo55bvn7pUcUAMs/L+2web5Pl+Yu/zt+zGed2z5seu3nHTmoa0NOuVS+tAluiSBkUSpcGFw3mBt4kJ2o2Pl3EbQOcZGaga6hZ2YWFuoLSMFDSYUMMKB83RDyvfP3iw4oArUVZW6hV1Y2FuwDRsVLSYYKMMD83Rzy3fP3So4pnnx+Vs+yw7vL2b8vnO/dv+9jOPl6Yx2zzQBDU0Hl+Vc7/J3eWNnmb853r93bxnGfvcY3d9tPa6hZ2YWFuoLSMFDSYUMMKB83RDyvfP3iw4q1Z3kaRXZFnDt8uIsguXjDhXTKsN2XDnDFVwQQGUqFIoAzKKm8+Pytn2WHd5ezfl8537t/3sZx8vTGO2eahoAKKKKACiiigAooooAKKKKACiiigAooooAKs2Cs1w4VXY+TKcJAJTgRsSdp6ADkt1UZYcgVWqa18vzW83ydvlvjzd+M7Dj7vOc4x2zjPGaAIaKKKACiiigCyisdLnYK5UTRgsIAVB2vgGTqp4OFHDYJP3BVapl8v7FLnyfM8xNud+/GGzjHy46ZzznbjjdUNABRRRQAV634r+Guj6J8LrfXra5vXuikMu2Qx7cy7A3IQMQOwLYHPqc+SV634r+Jmh638Lrfw/axXq3ypDEwkjUKvl7MtkMeDzjvwcgcZ8nMvrftqH1e/Lze9bt5+RpDls7nmugWEWq+I9M06dnWG6u4oHZCAwVnCnGc84Ndv8Vfh/pXgZdJOmXF7N9sM3mfaXVsbNmMbVH941xGgX8WleI9M1GdXaG1u4p3VACxVXDHGcc4Fdv8VfiBpXjldJGmW97D9jM3mfaUVc79mMbWP900Yn63/aFH2d/ZWfN2v0uC5eR33PN6KKK9YzLN+rLcIGV1PkxHDwCI4MakHaOoI5DdWGGPJNVqmuvL81fK8nb5aZ8rfjOwZ+9znOc9s5xxioaACiiigCzpys+qWioruxmQBUgEzE7hwIzw5/2Tweneq1TWfl/bYPN8ny/MXf52/ZjPO7Z82PXbzjpzUNABRRRQAVZtVZre9Kq5CwgsVgEgUeYgyWP+rGSBuHOSF6MarVNB5flXO/yd3ljZ5m/Od6/d28Zxn73GN3fbQBDRRRQAUUUUAFFFFABWppugXmq27T282moiuUIutSt7ds4B4WR1JHPXGOvoay6KAOsvPDumw6XeRxG7/tCx0y11KWdpVMUqz+R+7WPaChX7QvzF2z5Z+Ubvlp+E9Cg1u6vzcnMNlafaWi+1xWvm5ljjC+dLlE5k3ZIOdu0csCI7jxRc3OlvaG0tEnmt4rSe9UP5s0Eezy42BYoAPKi5VQx2DJOW3V7DWjp97eSx2Fo9peIY5rFzJ5TR71cJkOJAFZEIIfPyjJIJBAI9csU07XL21hjnjt0lYwCdlZzEeY2LJlWyhU7lJU5yCQRVKKGWdykUbyMFZyEUkhVBZj9AASfQA1Z1TUptWv2u5ljQlEjSOMELHGiBEQZJOFVVXJJJxkknJqnQBZXTr53VFsrhmZo0UCJiS0g3RgcdWHK+o6Uz7Hc+V5v2eby/L83fsONm/Zuz6bvlz0zx1qGigCy2nXyOyNZXCsrSIwMTAhoxukB46qOW9B1q1p1hqH2srFa3Yd4zGojbyixliYouSOd65wnWQZA61mVZsFZrhwqux8mU4SASnAjYk7T0AHJbqoyw5AoAZ9jufK837PN5fl+bv2HGzfs3Z9N3y56Z4609tOvkdkayuFZWkRgYmBDRjdIDx1Uct6DrVaigCyunXzuqLZXDMzRooETElpBujA46sOV9R0pn2O58rzfs83l+X5u/YcbN+zdn03fLnpnjrUNFAGmLDUE065ia1u1xcbXTdtG6JHL5jxligOS38AJz98VVXTr53VFsrhmZo0UCJiS0g3RgcdWHK+o6UIrHS52CuVE0YLCAFQdr4Bk6qeDhRw2CT9wVWoAm+x3Pleb9nm8vy/N37DjZv2bs+m75c9M8dae2nXyOyNZXCsrSIwMTAhoxukB46qOW9B1qtRQBZXTr53VFsrhmZo0UCJiS0g3RgcdWHK+o6V7L4z8D6Bpnwet9WsrCRLtYrebf8AaJWVWk2B22lioJ4B47D0FeI16b4k+J39u/Da10D+xJoPuQfajNuQ+SIzx8oyTnkfwgryc8eTmVLFTrUHh78ql71nbTz7+hpBxSdzj/DmhT3vizSrC80+4aGa/W3njMbKSFZfNU45BVTlu6g54rv/AIv+A9K8Oron/COaRLEbqWSGTy3ll3v8nlr8xPJ+bAHJ59K8w0bUP7J1zT9S8rzfslzHP5e7bv2MGxnBxnHXFdZ8RPiL/wAJ8unD+yvsP2Iyf8vHm79+3/ZXGNvv1oxNLFSzCjUp39mk+bXS/S66gnHkae5xn2O58rzfs83l+X5u/YcbN+zdn03fLnpnjrT206+R2RrK4VlaRGBiYENGN0gPHVRy3oOtVqK9YzNO9sNQlu4l+y3cjtHbRqGbziS8SmNQQP4lHyp1AGOdpql9jufK837PN5fl+bv2HGzfs3Z9N3y56Z460+/VluEDK6nyYjh4BEcGNSDtHUEchurDDHkmq1AFltOvkdkayuFZWkRgYmBDRjdIDx1Uct6DrQunXzuqLZXDMzRooETElpBujA46sOV9R0qtRQBoada3aX1pcJDcIoZJhKknk4TzAm8SkYQb/l3ngN9KgbTr5HZGsrhWVpEYGJgQ0Y3SA8dVHLeg60acrPqloqK7sZkAVIBMxO4cCM8Of9k8Hp3qtQBZXTr53VFsrhmZo0UCJiS0g3RgcdWHK+o6Uz7Hc+V5v2eby/L83fsONm/Zuz6bvlz0zx1qGigCy2nXyOyNZXCsrSIwMTAhoxukB46qOW9B1q1Z2GoGK7jjtbvMkcUe1G2bzI6NGpUjMm4DcqDk4DDIU1mVZtVZre9Kq5CwgsVgEgUeYgyWP+rGSBuHOSF6MaAGfY7nyvN+zzeX5fm79hxs37N2fTd8uemeOtQ0UUAFFFFABRRRQAUUUUAFFXJNJ1KHS4dUl0+7TT5n2RXbQsInbnhXxgn5W4B7H0qOxsLzU7yOzsLSe7upM7IYIzI7YBJwo5OACfwoAr0VJPBNa3EtvcRSQzxOUkjkUqyMDggg8gg8YqOgAooooAKmtfL81vN8nb5b483fjOw4+7znOMds4zxmoas2DMtw5VnU+TKMpOIjgxsCNx6gjgr1YZUckUAVqKKKACiiigCZfL+xS58nzPMTbnfvxhs4x8uOmc852443VDVlGYaXOoZwpmjJUTgKTtfBMfVjycMOFyQfviq1ABRRRQAV73478PaLZ/Be3v7bR9PgvDBaE3EVsiyEnbk7gM855rwSu71z4l6xrfgW20C5s9PS2BWLzYmPmFYwm35dxI92Iw2cDG015OZYXEV61CdF6RleWttP19DSEkk7nN+FIYrnxhokE8aSwyX8CPG6hlZTIoIIPUEdq9N+O+iaVo6aD/ZmmWVl5puPM+zW6x78eXjO0DOMn868l02/l0rVbPUYFRprWdJ0VwSpZWDDOMcZFdD4z+IGq+ORZDU7eyh+x7/L+zIy537c53Mf7ooxOFxE8wo14P3Ip3177adQUkoNdTlKKKK9YzJrry/NXyvJ2+WmfK34zsGfvc5znPbOccYqGrN+zNcIWZ2PkxDLziU4EagDcOgA4C9VGFPINVqACiiigCaz8v7bB5vk+X5i7/O37MZ53bPmx67ecdOahqzpzMmqWjIzowmQhknELA7hyJDwh/2jwOvaq1ABRRRQAVNB5flXO/yd3ljZ5m/Od6/d28Zxn73GN3fbUNWbVmW3vQrOA0IDBZxGGHmIcFT/AKwZAO0c5AbopoArUUUUAFFFFABRRRQAVqabqtnY27RXHh/TdQcuWEt1JcKwGB8o8uVBjjPTPJ56Yy6KAO81G5tv7L1XUReWjQX2hWFhAi3CNKZ4vsnmK0QO9APIl+ZlCnAwTuXOP4YURazf6Ndm0aC8t5La4LahHAp8thMAk5DRgl4UUMQVO7GRkMObooA6Dxpc2dz4lc2DZt4bS0twPNEu1oreONl3qAr4ZCNyja2MjgisKIxByZUd12sAEYKd2DtOcHgHBI7gEZGchlFAFlXsQ6lre4K7oywE6glQP3gB2cEnlT/COCG60zdbeVjyZvM8vG7zRjfvzuxt6beMZznnOPlqGigCyz2JditvcBd0hUGdSQpH7sE7OSDyx/iHAC9atacbNrs/6JduBGSyx7JSVETeZwUwMnkPz5YBOHIBrMooAm3W3lY8mbzPLxu80Y3787sbem3jGc55zj5aez2JditvcBd0hUGdSQpH7sE7OSDyx/iHAC9arUUAWVexDqWt7grujLATqCVA/eAHZwSeVP8ACOCG60zdbeVjyZvM8vG7zRjfvzuxt6beMZznnOPlqGigDTBszp1y6Wl2IxccH5GCgo/lgybMgggkgDEgB+4UBqqr2IdS1vcFd0ZYCdQSoH7wA7OCTyp/hHBDdarUUATbrbyseTN5nl43eaMb9+d2NvTbxjOc85x8tPZ7EuxW3uAu6QqDOpIUj92CdnJB5Y/xDgBetVqKALKvYh1LW9wV3RlgJ1BKgfvADs4JPKn+EcEN1r6F+IWP+FD2+Qc/ZrPGD0+5XzjXR6j488S6toK6Je6l5unKqKIfIjXATG35goPGB3rycywFTFVqFSDVqcru/byNISUU0+ovhB7E+OtCK29wF/tSMqDOpIUuvlgnZyQeWP8AEOAF616r+0C1sqeG/tEUsn72Yny5QmU/d7hyp5PGD0GDwc8eG2d3Pp99b3tq/l3FvIssT4B2spyDg8Hkd61vEXjHXvFgthrd/wDavs27yv3Mabd2M/dUZ+6OvpRicBUq5hRxUWuWCaffXsCklBx7mRutvKx5M3meXjd5oxv353Y29NvGM5zznHy09nsS7Fbe4C7pCoM6khSP3YJ2ckHlj/EOAF61Wor1jM0702aXcXm2l2B5dsWVtkJK+Uu/ACEfMcFX9OSGLZqlutvKx5M3meXjd5oxv353Y29NvGM5zznHy1DRQBZZ7EuxW3uAu6QqDOpIUj92CdnJB5Y/xDgBetCvYh1LW9wV3RlgJ1BKgfvADs4JPKn+EcEN1qtRQBoad5D31oiW9w85ZFGxVmzJ5g5ERXDjb8uwnluc4O2oGexLsVt7gLukKgzqSFI/dgnZyQeWP8Q4AXrVaigCyr2IdS1vcFd0ZYCdQSoH7wA7OCTyp/hHBDdaZutvKx5M3meXjd5oxv353Y29NvGM5zznHy1DRQBZZ7EuxW3uAu6QqDOpIUj92CdnJB5Y/wAQ4AXrVqzNmYrsm0u3RY4i+zY+FDoJMsU/d7mI2uM44QhtxNZlFAE2628rHkzeZ5eN3mjG/fndjb028YznPOcfLUNFFABRRRQAUUUUAFFFFABRRRQBueHba0eLWL+7tY7sadZC4jt5WdY5GaeGLD7CrYAlJGGHIHUZBj8T2NvYa0I7WPyoZrS1uhGGJEZmgjlZVJydoLkDJJwBkk8mnpuqXek3DTWjxguhSRJYkljkXIOHRwVYZAIBBwVB6gGo76+uNRvJLq6k8yZ8AkKFAAACqqjAVQAAFAAAAAAAoAr11Hhax02TTtQv9RjsSsMsMKPqTXH2ZS4kJBFv+98w+X8v8GA+7kpXL1oaZrV7pHmi1aBo5cF4bm2juI2Izhtkisu4ZYBsZAZgDgnIBYv9HSPxlc6JE/2KNdQe0V9QlUeSBIUBldMqMfxFcjgkcVTntodO1mW1uJI7yC3uDHI9nMNsyq2CY3KkYIHDbT1BwelV555rq4luLiWSaeVy8kkjFmdickknkknnNEEzW1xFOgjLxuHUSRq6kg55VgQw9iCD3oA7TU9M0nQ9R8XXK6VBeQ6drY0+2tLmWXy0jY3BzlHVywECgEtjBbIJwRr6Z4X8NQXHjnTbuBLqfTvt8envJdhJkMKOyOVEibx8hztR+euwD5uMbxdrD6pe6jLJaSz3ziS5SaxgeKRxnDmJkKb+W+YLn5m5+Zs19O8Q6npmqXGpwTxyXlwkiTS3UEdyXEn38+YrDLAkE9SCR0Jy0xGXXceO9B03SvPh0iKxePS9Qlsbq4t5rgyEnIiEyygL5n7mYlovkJzwo27uLMzNbpARHsR2cERqGywAOWxkj5RgE4HOMZOdDUvEOp6tbrBeTxsgcSOUgjjaZwCA8rKoMr8t8zlj8zc/McoZH/ZX/FPf2v8Ab7H/AI+/sv2Lzv8ASfubvM2Y/wBX23Z68Vcgs7GTwLqF8beT+0INTtoRMZfl8qSKclQmOu6MEkk9gAMHdh1oQ61ewaHc6NG0H2G5lWaVTbRs5deFIkK7xgEgYI+83945APSdT0XwbY6VrIm0KWGLSdR/sv7aJJvNupg1zgIS5iztjti+VUANLtAJjFcvq+haTfeObHSdInght7kRrM1uBIsRJO7YBNL5jbcEKsjFmO0DcQtUrrx54hvtLbTru5tLi3dNredp9u7n753GQpv35kkO/O7Lsc5Yk8/NM07h3EYIRU+SNUGFUKOFAGcDk9Sck5JJoA6Dxxoi6D4iS1i02706CSytZ0guixcF4EL5JAyfM3g4AGQRgYwMvVdK/sv7F/p9jefarSO6/wBEm8zyd2f3cnA2yDHK9sio9R1S71V7d7x43eC3jtkZYkQ+XGu1A20DcQoA3HJwAM8CqdAHaQaLpE1x4edLOQRy6FdahcxyTFvPmgN0eSMEIxgUYXBC8bt3zHpotH8I3+m6Rq40K1sIrsHMP2x2ji3S3Sr5zTXEW75bcbdjryspYcxqfPW8Uas39mfvoF/syJoLby7SJMRtncj4UeYrZbIfcDvfOdzZsat4117XJYJNRuoJvIl85UFnCiO+5ny6KgWT5nkPzg/6x/77ZadhNXLGkW+ktqWqLFYwX8cU2Ypb5pY7WG1BYNLIY3WQNnygoBOdxUBmKCsf7LZ33iH7Hp1x9nsZ7vyrebUHCeXGz4VpWHAwCCxHA5qTSvEGoaNb3FvafZGguHR5Y7qyhuVLIGCkCVGAIDuMjHU1nzzNc3Es7iMPI5dhHGqKCTnhVACj2AAHapSsrFPVlie2h07WZbW4kjvILe4Mcj2cw2zKrYJjcqRggcNtPUHB6V1mp6ZpOh6j4uuV0qC8h07Wxp9taXMsvlpGxuDnKOrlgIFAJbGC2QTgji4JmtriKdBGXjcOokjV1JBzyrAhh7EEHvWw3i7WH1S91GWS0lnvnElyk1jA8UjjOHMTIU38t8wXPzNz8zZYjrdO8KaE2seKdEe1uLufT7y4itBG266mWMttSNVkB3NswWEMoAOSFAJrkvGWlLofjXW9MitpLaC3vZUgifdlYtx8v73JBXaQT1BB5zWPPPNdXEtxcSyTTyuXkkkYszsTkkk8kk85qxquqXetapcalfvG93cvvldIkjDN3O1ABk9SccnJPJNNgiTW9K/sTWJ9O+32N/5O3/SbCbzYXyob5WwM4zg+4NdRdaTo1prGrXUGm+ZZ2OiWV/DZXM7srvMtqreY6FGP+vdvlK/MBwF+WuHrcm8XaxcaoNRkktDP9nW1ZBYwCKSJcbUeIJscDauNynGxMfdXCA6Kz0jw5H4hvoNQiihtZNNtr1DJL8tuZYI5XVAZo2bBkwozI2ByrnmuBqxfX1xqN5JdXUnmTPgEhQoAAAVVUYCqAAAoAAAAAAFV6ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA9A03UNMs/hU8l3BYm/klvLW1EmlwyGbi2+9Nt8xWQTSupBHIGWwoRsu+8I2Ka3pmjabrMl3f6k9oYRNZ+SkaXCIy+Y29iHBdcqocYIO7OVHPyatqU2lw6XLqF2+nwvvitGmYxI3PKpnAPzNyB3PrRqWralrNwtxqmoXd9OqBFkupmlYLknALEnGSTj3NAHQXPhCytdSuQ2txzaba2QvZp7URTzIplWEIUjlaPfvdTjzfuEHOfkq5deArO2nu7f+2Z2mt5dVt/8AjyAVpLJBJ18zhXQ9cZVuMMPmrn08U63/AG5a6zcapfXV9bYCTTXcu/ZzlN4YOFIZgdrD7x5GasXPjPW31zUtW0+9n0ibUZfOuY9NuJYkd+ST98k8ljyTjccYHFAGxbfD+Bp/D8F1rsEU2qy20TxReVLJF9oTfEwjEocqAVDlwmCw2+YOaz/+EWs9/wBs/tOf+xv7P/tDz/sg+0eX9o+zY8rzNu7ze3mY2c5z8tZdt4l16yt7a3tNb1KCC1cvbxxXTqsLEMCUAOFJDuCR/ePqaB4l14XFvcDW9S8+3eV4JPtT7omkJMhU5yCxJLEdc85oA6C38HaLdaXc6pD4gu5bCyuJ0u549NBEUS4EMmDKGzMzxqqkLz5mTiMk8XWpda7c3eltYukeZrj7Vd3BZ3lu5Rv2vIWYjKiRx8oXO7LbjgjLoA9EuIobG0zbfZFNjb6W0Md1AJ4Ldbq3V7m6eLa28+Z5almVsCRVAyItu4dOsLSSc6hFpR1Wxu9eEUdjpUbWjvHaJLsYyBSVidm2bkfpgEKAa8vt9c1S0+xm1v57eSy3i2mhfZJEH+8quPmCnLHbnALOQMs2S313WLT7H9m1W+h+w7/snl3Dr9n3/f2YPy7u+MZ70AaF7p9no2j6Nq9jq18NTuv9IjiNqIvKVGK+Ysqysf8AWIyrwrfISQvy7o/FsEMGuqYYo4hPZWdy6xqFXzJbaKRyFHCgs7HaMAZwAAAKrv4k1qa3tLW41S7urSzdHgtbqUzQIUGFxG+UwBxjGMEjpWfPPNdXEtxcSyTTyuXkkkYszsTkkk8kk85oAjooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z</key>
+            <key name="smithchart" valuetype="QByteArray">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</key>
+        </key>
+        <key name="intersections" valuetype="QVariantList">
+            <key name="0" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">SC1.IP0</key>
+                        <key name="1" valuetype="QString">SC1</key>
+                        <key name="2" valuetype="QString">Z1.IP1</key>
+                        <key name="3" valuetype="QString">Z1</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">5</key>
+                <key name="intersection_number" valuetype="int">5</key>
+            </key>
+            <key name="1" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">Z1.IP0</key>
+                        <key name="1" valuetype="QString">Z1</key>
+                        <key name="2" valuetype="QString">TL2.IP1</key>
+                        <key name="3" valuetype="QString">TL2</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">6</key>
+                <key name="intersection_number" valuetype="int">6</key>
+            </key>
+            <key name="2" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">P1.IP0</key>
+                        <key name="1" valuetype="QString">P1</key>
+                        <key name="2" valuetype="QString">TL2.IP0</key>
+                        <key name="3" valuetype="QString">TL2</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">14</key>
+                <key name="intersection_number" valuetype="int">14</key>
+            </key>
+        </key>
+        <key name="name" valuetype="QString"></key>
+        <key name="simulation_frequency" valuetype="double">0</key>
+        <key name="solution" valuetype="QVariantMap">
+            <key name="frequencies" valuetype="QVariantList">
+                <key name="0" valuetype="double">0</key>
+                <key name="1" valuetype="double">100000000</key>
+                <key name="2" valuetype="double">200000000</key>
+                <key name="3" valuetype="double">300000000</key>
+                <key name="4" valuetype="double">400000000</key>
+                <key name="5" valuetype="double">500000000</key>
+                <key name="6" valuetype="double">600000000</key>
+                <key name="7" valuetype="double">700000000</key>
+                <key name="8" valuetype="double">800000000</key>
+                <key name="9" valuetype="double">900000000</key>
+                <key name="10" valuetype="double">1000000000</key>
+                <key name="11" valuetype="double">1100000000</key>
+                <key name="12" valuetype="double">1200000000</key>
+                <key name="13" valuetype="double">1300000000</key>
+                <key name="14" valuetype="double">1400000000</key>
+                <key name="15" valuetype="double">1500000000</key>
+                <key name="16" valuetype="double">1600000000</key>
+                <key name="17" valuetype="double">1700000000</key>
+                <key name="18" valuetype="double">1800000000</key>
+                <key name="19" valuetype="double">1900000000</key>
+                <key name="20" valuetype="double">2000000000</key>
+                <key name="21" valuetype="double">2100000000</key>
+                <key name="22" valuetype="double">2200000000</key>
+                <key name="23" valuetype="double">2300000000</key>
+                <key name="24" valuetype="double">2400000000</key>
+                <key name="25" valuetype="double">2500000000</key>
+                <key name="26" valuetype="double">2600000000</key>
+                <key name="27" valuetype="double">2700000000</key>
+                <key name="28" valuetype="double">2800000000</key>
+                <key name="29" valuetype="double">2900000000</key>
+                <key name="30" valuetype="double">3000000000</key>
+                <key name="31" valuetype="double">3100000000</key>
+                <key name="32" valuetype="double">3200000000</key>
+                <key name="33" valuetype="double">3300000000</key>
+                <key name="34" valuetype="double">3400000000</key>
+                <key name="35" valuetype="double">3500000000</key>
+                <key name="36" valuetype="double">3600000000</key>
+                <key name="37" valuetype="double">3700000000</key>
+                <key name="38" valuetype="double">3800000000</key>
+                <key name="39" valuetype="double">3900000000</key>
+                <key name="40" valuetype="double">4000000000</key>
+                <key name="41" valuetype="double">4100000000</key>
+                <key name="42" valuetype="double">4200000000</key>
+                <key name="43" valuetype="double">4300000256</key>
+                <key name="44" valuetype="double">4400000000</key>
+                <key name="45" valuetype="double">4499999744</key>
+                <key name="46" valuetype="double">4599999488</key>
+                <key name="47" valuetype="double">4699999232</key>
+                <key name="48" valuetype="double">4799998976</key>
+                <key name="49" valuetype="double">4899998720</key>
+                <key name="50" valuetype="double">4999998464</key>
+            </key>
+            <key name="simulationMatrices" valuetype="QVariantList">
+                <key name="0" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0</key>
+                            <key name="real" valuetype="double">0.60000008344650269</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="1" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.031374555081129074</key>
+                            <key name="real" valuetype="double">0.5983549952507019</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="2" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.062499817460775375</key>
+                            <key name="real" valuetype="double">0.59341752529144287</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="3" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.093119800090789795</key>
+                            <key name="real" valuetype="double">0.58518195152282715</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="4" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.12296518683433533</key>
+                            <key name="real" valuetype="double">0.57364135980606079</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="5" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.15174698829650879</key>
+                            <key name="real" valuetype="double">0.55879116058349609</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="6" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.17915037274360657</key>
+                            <key name="real" valuetype="double">0.54063498973846436</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="7" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.20482926070690155</key>
+                            <key name="real" valuetype="double">0.51919174194335938</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="8" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.22840206325054169</key>
+                            <key name="real" valuetype="double">0.49450591206550598</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="9" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.24944888055324554</key>
+                            <key name="real" valuetype="double">0.46665924787521362</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="10" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.26751139760017395</key>
+                            <key name="real" valuetype="double">0.43578547239303589</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="11" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.28209617733955383</key>
+                            <key name="real" valuetype="double">0.40208724141120911</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="12" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.29268285632133484</key>
+                            <key name="real" valuetype="double">0.365854412317276</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="13" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.29873844981193542</key>
+                            <key name="real" valuetype="double">0.327484130859375</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="14" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.29973948001861572</key>
+                            <key name="real" valuetype="double">0.28749856352806091</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="15" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.29520207643508911</key>
+                            <key name="real" valuetype="double">0.24656042456626892</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="16" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.28472104668617249</key>
+                            <key name="real" valuetype="double">0.20548051595687866</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="17" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.26801672577857971</key>
+                            <key name="real" valuetype="double">0.16521467268466949</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="18" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.24498502910137177</key>
+                            <key name="real" valuetype="double">0.12684586644172668</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="19" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.21574756503105164</key>
+                            <key name="real" valuetype="double">0.091546133160591125</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="20" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.18069273233413696</key>
+                            <key name="real" valuetype="double">0.060521066188812256</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="21" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.14049988985061646</key>
+                            <key name="real" valuetype="double">0.034934341907501221</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="22" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.096137508749961853</key>
+                            <key name="real" valuetype="double">0.015821218490600586</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="23" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.04883161187171936</key>
+                            <key name="real" valuetype="double">0.0040008425712585449</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="24" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-1.8468338112143101e-06</key>
+                            <key name="real" valuetype="double">0</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="25" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.048827916383743286</key>
+                            <key name="real" valuetype="double">0.0040002167224884033</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="26" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.09613393247127533</key>
+                            <key name="real" valuetype="double">0.015819907188415527</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="27" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.1404966413974762</key>
+                            <key name="real" valuetype="double">0.03493267297744751</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="28" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.18068985641002655</key>
+                            <key name="real" valuetype="double">0.060518920421600342</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="29" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.21574506163597107</key>
+                            <key name="real" valuetype="double">0.091543510556221008</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="30" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.24498298764228821</key>
+                            <key name="real" valuetype="double">0.12684288620948792</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="31" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.26801514625549316</key>
+                            <key name="real" valuetype="double">0.16521167755126953</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="32" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.28472006320953369</key>
+                            <key name="real" valuetype="double">0.20547743141651154</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="33" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.29520145058631897</key>
+                            <key name="real" valuetype="double">0.24655729532241821</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="34" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.29973933100700378</key>
+                            <key name="real" valuetype="double">0.28749558329582214</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="35" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.29873871803283691</key>
+                            <key name="real" valuetype="double">0.32748103141784668</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="36" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.29268348217010498</key>
+                            <key name="real" valuetype="double">0.36585140228271484</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="37" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.28209713101387024</key>
+                            <key name="real" valuetype="double">0.40208441019058228</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="38" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.26751267910003662</key>
+                            <key name="real" valuetype="double">0.43578290939331055</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="39" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.24945038557052612</key>
+                            <key name="real" valuetype="double">0.46665698289871216</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="40" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.22840379178524017</key>
+                            <key name="real" valuetype="double">0.49450382590293884</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="41" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.20483121275901794</key>
+                            <key name="real" valuetype="double">0.51918995380401611</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="42" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.1791524738073349</key>
+                            <key name="real" valuetype="double">0.5406334400177002</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="43" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.15174908936023712</key>
+                            <key name="real" valuetype="double">0.55879002809524536</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="44" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.12296748161315918</key>
+                            <key name="real" valuetype="double">0.57364034652709961</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="45" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.093122266232967377</key>
+                            <key name="real" valuetype="double">0.58518117666244507</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="46" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.062502346932888031</key>
+                            <key name="real" valuetype="double">0.59341692924499512</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="47" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">0.031377147883176804</key>
+                            <key name="real" valuetype="double">0.59835469722747803</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="48" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">2.7085259262094041e-06</key>
+                            <key name="real" valuetype="double">0.60000008344650269</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="49" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.031371749937534332</key>
+                            <key name="real" valuetype="double">0.59835529327392578</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+                <key name="50" valuetype="QVariantMap">
+                    <key name="cols" valuetype="int">1</key>
+                    <key name="list" valuetype="QVariantList">
+                        <key name="0" valuetype="QVariantMap">
+                            <key name="imag" valuetype="double">-0.062496952712535858</key>
+                            <key name="real" valuetype="double">0.59341812133789062</key>
+                        </key>
+                    </key>
+                    <key name="rows" valuetype="int">1</key>
+                </key>
+            </key>
+        </key>
+        <key name="solutionReference" valuetype="QVariantMap"/>
+    </key>
+    <key name="systemsettings" valuetype="QVariantMap">
+        <key name="autoScale" valuetype="bool">true</key>
+        <key name="centerFrequency" valuetype="double">2.3999999999999999</key>
+        <key name="centerFrequencyUnits" valuetype="int">1</key>
+        <key name="circuitBoardHeight" valuetype="double">200</key>
+        <key name="circuitBoardWidth" valuetype="double">200</key>
+        <key name="circuitName" valuetype="QString">circuit_name</key>
+        <key name="comments" valuetype="QString"></key>
+        <key name="electricPermeability" valuetype="double">1</key>
+        <key name="electricPermittivity" valuetype="double">2.1999999999776501</key>
+        <key name="height" valuetype="int">0</key>
+        <key name="heightSubstrate" valuetype="double">62</key>
+        <key name="heightSubstrateUnitsIndex" valuetype="int">1</key>
+        <key name="lossTangent" valuetype="double">1</key>
+        <key name="maxReturnLoss" valuetype="int">30</key>
+        <key name="maxVSWR" valuetype="double">5</key>
+        <key name="metalThickness" valuetype="double">0.01</key>
+        <key name="metalThicknessUnitsIndex" valuetype="int">0</key>
+        <key name="miteringFraction" valuetype="double">0.59999999999999998</key>
+        <key name="numOfPointsN" valuetype="int">1000</key>
+        <key name="phaseVelocity" valuetype="double">202259958.74000001</key>
+        <key name="smithChart" valuetype="double">1</key>
+        <key name="startFrequency" valuetype="double">0</key>
+        <key name="startFrequencyUnits" valuetype="int">1</key>
+        <key name="stepSizeDelta" valuetype="double">100</key>
+        <key name="stepSizeDeltaUnits" valuetype="int">2</key>
+        <key name="stopFrequency" valuetype="double">5</key>
+        <key name="stopFrequencyUnits" valuetype="int">1</key>
+        <key name="surfaceRoughness" valuetype="double">0</key>
+        <key name="systemImpedance" valuetype="double">50</key>
+        <key name="systemImpedanceUnits" valuetype="int">4</key>
+        <key name="transmissionTypeSelected" valuetype="int">0</key>
+        <key name="useBoard" valuetype="bool">false</key>
+        <key name="width" valuetype="int">0</key>
+    </key>
+    <key name="version" valuetype="QString">1.6.0.5-0-ga4d9bed</key>
+</settings>
