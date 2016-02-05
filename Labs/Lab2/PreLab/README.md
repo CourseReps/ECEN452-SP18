@@ -1,0 +1,1 @@
+You may use these templates to simulate your designs in z0lver. An easy way to change design parameters in z0lver is to expand the current netlist window and enter the parameters for each element. Remember to click "apply changes". 
