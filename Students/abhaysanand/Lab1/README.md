@@ -37,9 +37,9 @@ ABCD | V Out | I Out
 * &#952;2 = &#946; *L2* = 2&#960;*0.25 = 0.5&#960; = 90&#176;
 
 The shift in reference planes will affect only the angle of each of the S paremeters. The magnitude will remain unaffected.
-* S11 is shifted by -2*&#952;1
-* S12 and S21 are shifted by -(&#952;1 + &#952;2)
-* S22 is shifted by -2*&#952;2
+* S11 is shifted by -2*&#952;1 = -2 * 288&#176; &#8801; 144&#176;
+* S12 and S21 are shifted by -(&#952;1 + &#952;2) = -(288&#176; + 90&#176;) &#8801; -18&#176;
+* S22 is shifted by -2*&#952;2 = -2 * 90&#176; &#8801; -180&#176;
 
 S | Port 1 | Port 2
 ------ | ------- | -------
