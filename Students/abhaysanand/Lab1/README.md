@@ -1,7 +1,7 @@
 # Lab 1 Report
 ## 1. Python Test
 Python environment has been setup. CSV import and MatPlotLib are functional.
-![Python Test Image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/CSVPlotter_Result.jpeg)
+![Python Test Image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/CSVPlotter_Result.jpeg)
 
 ## 2. GitHub Account
 Account created - [abhaysanand](https://github.com/abhaysanand)
@@ -10,13 +10,13 @@ Account created - [abhaysanand](https://github.com/abhaysanand)
 HFSS and Z0lver files have been downloaded from Resources folder and simulations have been executed.
 
 **HFSS Files:**
-![HFSS Model] (https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/HFSS_Model.jpg)
-![HFSS Simulation S11] (https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/HFSS_S11.jpg)
-![HFSS Simulation S21] (https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/HFSS_S21.jpg)
+![HFSS Model] (https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/HFSS_Model.jpg)
+![HFSS Simulation S11] (https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/HFSS_S11.jpg)
+![HFSS Simulation S21] (https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/HFSS_S21.jpg)
 
 **Z0lver Files:**
-![Z0lver A with Result](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/Z0lver_1.png)
-![Z0lver B with Result](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/Z0lver_2.png)
+![Z0lver A with Result](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/Z0lver_1.png)
+![Z0lver B with Result](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/Z0lver_2.png)
 
 ## 4. Two-Port S & ABCD Matrix for Series Impedence Z = 10 + j25 &#937;
 * S11 = S22 = 0.24&#8736;55.39&#176; ( Z/(Z+2Z0) )
@@ -47,8 +47,8 @@ S | Port 1 | Port 2
 **Port 2** | 0.89&#8736;-30.8&#176; | 0.24&#8736;-124.61&#176;
 
 ## 6. Comparison of S11 & S21 (Analytical, HFSS and Z0lver)
-![S11 Comparison](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/S11Comparison.jpeg)
-![S21 Comparison](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/S21Comparison.jpeg)
+![S11 Comparison](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/S11Comparison.jpeg)
+![S21 Comparison](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab1/results/S21Comparison.jpeg)
 
 ## 7. Substrates, their Relative Permittivities and Dielectric Losses
 Substrate | Fr4 | Duroid 5880 | Duroid 6006 | Duroid 6010.2
