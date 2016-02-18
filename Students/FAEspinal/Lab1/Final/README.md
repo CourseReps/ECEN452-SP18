@@ -2,8 +2,8 @@
 
 ### 6
 
-Inline-style: 
 ![alt text](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab1/Final/ECEN_452_S11_Plot.png "S11")
+![alt text](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab1/Final/ECEN_452_S21_Plot.png "S21")
 
 
 ### 7
