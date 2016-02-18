@@ -12,12 +12,12 @@ Z0lver = []
 
 ##Read .csv data file
 #replace quoted text below with filepath to your .csv file
-with open('ECEN_452_PlottingTestData.csv') as csvfile:
+with open('ECEN_452_Lab1_s11_dB.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         #items in '' below need to exactly match the entry in the first row of the columns in the .csv file
         #edit/add additional lines as needed for each column of data
-        Freq.append(float(row[gfjhfjhkgkjhkjhg]))
+        Freq.append(float(row['Freq']))
         HFSS.append(float(row['HFSS']))
         Analytical.append(float(row['Analytical']))
         Z0lver.append(float(row['Z0lver']))
