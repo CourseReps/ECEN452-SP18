@@ -1,5 +1,11 @@
 # LAB1
 
+### 6
+
+Inline-style: 
+![alt text](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab1/Final/ECEN_452_S11_Plot.png "S11")
+
+
 ### 7
 
 |               | FR4   | Duroid 5880 | Duroid 6006 | Duroid 6010.2 | 
