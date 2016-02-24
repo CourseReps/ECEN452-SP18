@@ -18,3 +18,8 @@ First double-click on a design in the Project Manager window to make it the acti
 The pre-made HFSS files already have the graphs set up for the data that you need. To view the graphs, expand the design in the Project Manager window and expand the Results section. Here you will find the graphs of the data that you will need for the report (typically S parameters in dB). Double click on the graph names to view them. Right-click on the graph and click "Export...", then choose the file path and click OK. You will need to combine this data with calculations and z0lver data into one .csv file, then use the python program to plot the data. You will need to modify the python code to produce the required plots for a particular lab report.
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/HFSS_Help_Slide2.png)
+
+## Port De-Embedding
+Since we will be using a TRL calibration when measuring our devices, it is important to use port de-embedding in our HFSS simulations so that the reference plane is the same for simulated and measured data. To de-embed a port, expand the Excitations section under the design name in the Project Manager window and click on the port number. Then, in the Properties window below, click the "Deembed" checkbox and enter the "Deembed Distance" (TRL reference plane). Repeat this for each port. 
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/HFSS_DeEmbedding.png)
