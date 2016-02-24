@@ -2,4 +2,4 @@
 
 * Name: Benjamin Jack
 * GitHubID: benejack
-* NetID: aggieland18new
+* NetID: aggieland18
