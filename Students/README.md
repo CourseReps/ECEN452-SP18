@@ -20,6 +20,7 @@ Students
 * Hung-I Lin, linhung1, [linhung1](https://github.com/linhung1)
 * Thomas Darden, diabloczar, [td2016](https://github.com/td2016)
 * Lisa Smith, lisa.smith75056, [lisamsmith](https://github.com/lisamsmith)
+* Joshua Ruff, joshruff, [joshruff](https://github.com/joshruff)
 Faculty Members
 ---------------
 
