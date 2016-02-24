@@ -21,6 +21,7 @@ Students
 * Thomas Darden, diabloczar, [td2016](https://github.com/td2016)
 * Lisa Smith, lisa.smith75056, [lisamsmith](https://github.com/lisamsmith)
 * Joshua Ruff, joshruff, [joshruff](https://github.com/joshruff)
+* Benjamin Jack, aggieland18, [benejack](https://github.com/benejack)
 Faculty Members
 ---------------
 
