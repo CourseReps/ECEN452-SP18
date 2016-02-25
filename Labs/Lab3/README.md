@@ -14,3 +14,7 @@ Line-Thru = 6.44 mm (**This is the physical length measured after the reference 
 Substrate thickness (62 mil) <br>
 
 You only really need one frequency point to do this assignment. I suggest using 3 GHz since it is in the middle of the measured frequency band. The electrical length is the the negative of the phase measurement in degrees (e.g. phase = -45deg => electrical length = 45deg). Use the Line-Thru physical length in your calculations. 
+
+Useful Equation: <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Labs/Lab3/Equation.png) <br>
+where l is a physical length, and theta is electrical length (phase) in degrees.
