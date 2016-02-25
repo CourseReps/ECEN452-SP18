@@ -1,4 +1,27 @@
 # LAB1
+##1
+![alt text](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab1/Final/Python_Test_Data.png "S11")
+
+##2
+Check
+
+##3
+Check
+
+##4
+|  ABCD |       |       |
+| ----- |:-----:|:-----:|
+|       |   1   | 10+j25| 
+|       |   0   |   1   |
+
+|  S    |    1  |   2    |
+| ----- |:-----:|:-----:|
+|    1  |   -12.44463 dB   | -1.0471 dB| 
+|    2  |   -1.0471 dB   |   -12.4463 dB   |
+
+
+##5
+Hand written
 
 ### 6
 
@@ -18,9 +41,9 @@
 
 |               | Type N | SMA | 3.5 mm | 2.92 mm | 2.4 mm| 1.85 mm | 
 | ------------- |:------:|:---:|:------:|:-------:|:-----:|:-------:| 
-| Type N        |   N    |  Y  |   N    |   Y     |   Y   |   N     |  
-| SMA           |   N    |  N  |   Y    |   Y     |   N   |   N     |
-| 3.5 mm        |   N    |  Y  |   N    |   Y     |   N   |   N     |
-| 2.92 mm       |   N    |  Y  |   Y    |   N     |   N   |   N     |
-| 2.4 mm        |   N    |  N  |   N    |   N     |   N   |   Y     |
-| 1.85 mm       |   N    |  N  |   N    |   N     |   Y   |   N     |
+| Type N        |   Y    |  Y  |   N    |   Y     |   Y   |   N     |  
+| SMA           |   N    |  Y  |   Y    |   Y     |   N   |   N     |
+| 3.5 mm        |   N    |  Y  |   Y    |   Y     |   N   |   N     |
+| 2.92 mm       |   N    |  Y  |   Y    |   Y     |   N   |   N     |
+| 2.4 mm        |   N    |  N  |   N    |   N     |   Y   |   Y     |
+| 1.85 mm       |   N    |  N  |   N    |   N     |   Y   |   Y     |
