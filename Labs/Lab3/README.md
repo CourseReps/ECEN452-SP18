@@ -4,7 +4,7 @@ The data provided in this folder is the measured S21 magnitude and phase of the 
 * valid frequency range for the TRL kit (extrapolate S21 phase plot to find the frequencies where the phase is -20deg and -160deg)
 * effective dielectric constant of the material (use equation that relates physical length to electrical length)
 * propagation velocity of the medium (use the effective dielectric constant calculated above)
-* attenuation coefficient [Np/m] (use the magnitude at one frequency and convert dB/m to Np/m)
+* attenuation coefficient in Np/m (use the magnitude at one frequency and convert dB/m to Np/m)
 
 ## TRL Properties
 Reflect Length (11 mm)
