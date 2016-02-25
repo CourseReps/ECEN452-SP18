@@ -1,5 +1,2 @@
-# Identity
+#Lab 3
 
-* Name: Francisco A. Espinal 
-* GitHubID: FAEspinal
-* NetID: FAEspinal
