@@ -7,10 +7,10 @@ The data provided in this folder is the measured S21 magnitude and phase of the 
 * attenuation coefficient in Np/m (use the magnitude at one frequency and convert dB/m to Np/m)
 
 ## TRL Properties
-Reflect Length (11 mm)
-Thru Length (22 mm)
-Line Length (28.44  mm)
-Line-Thru = 6.44 mm (**This is the physical length measured after the reference planes are established)
-Substrate thickness (62 mil)
+Reflect Length (11 mm) <br>
+Thru Length (22 mm) <br>
+Line Length (28.44  mm) <br>
+Line-Thru = 6.44 mm (**This is the physical length measured after the reference planes are established) <br>
+Substrate thickness (62 mil) <br>
 
 You only really need one frequency point to do this assignment. I suggest using 3 GHz since it is in the middle of the measured frequency band. The electrical length is the the negative of the phase measurement in degrees (e.g. phase = -45deg => electrical length = 45deg). Use the Line-Thru physical length in your calculations. 
