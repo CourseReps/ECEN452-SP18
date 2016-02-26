@@ -2,21 +2,24 @@
 
 Measured values:
 
-S21(phase)=-41.3281
-          
+S21(phase)=
+
+          =-41.3281
           =-40.390
           
-S21(Mag dB)= -0.0390625
+S21(Mag dB)= 
+
+          =-0.0390625
          
           = -0.0130208
           
           =-0.0260417
           
-#####The values kept changing everytime I ran the code.
+######The values kept changing everytime I ran the code.
 
 ##Step 1: Find effective Dielectric
 
-#####Using the equation given, solve the e_eff.
+######Using the equation given, solve the e_eff.
 
 c=3E8
 
@@ -30,7 +33,7 @@ e_eff= 3.1777
 
 ##Step 2: Find Valid Frequency Range
 
-#####Rearrange equation given to solve for frequency and plug in 20 and 160 for theta. 
+######Rearrange equation given to solve for frequency and plug in 20 and 160 for theta. 
 
 f_Low= 1.45179GHz
 
@@ -48,7 +51,7 @@ alpha= S21_magnitudedB / L
     
     = -4.0437 dB/m
 
-#####Convert
+######Convert
 
 alpha= -35.1239 Np/m
 
