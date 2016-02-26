@@ -15,7 +15,7 @@ S21(Mag dB)
           
 ######The values kept changing everytime I ran the code.
 
-##Step 1: Find effective Dielectric
+##Step 1: Find Effective Dielectric
 
 ######Using the equation given, solve the e_eff.
 
