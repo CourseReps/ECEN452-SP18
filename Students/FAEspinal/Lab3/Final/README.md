@@ -2,17 +2,15 @@
 
 Measured values:
 
-S21(phase)=
+S21(phase)
 
           =-41.3281
           =-40.390
           
-S21(Mag dB)= 
+S21(Mag dB) 
 
           =-0.0390625
-         
           = -0.0130208
-          
           =-0.0260417
           
 ######The values kept changing everytime I ran the code.
