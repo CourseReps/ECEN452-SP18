@@ -1,7 +1,7 @@
 #Lab 3
 
 Measured values
-+S21(phase)=-41.3281
+*+S21(phase)=-41.3281
           =-40.390
 +S21(Mag dB)= -0.0390625
           = -0.0130208
