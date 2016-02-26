@@ -4,6 +4,7 @@ The data provided in this folder is the measured S21 magnitude and phase of the 
 * valid frequency range for the TRL kit (extrapolate S21 phase plot to find the frequencies where the phase is -20deg and -160deg)
 * effective dielectric constant of the material (use equation that relates physical length to electrical length)<br>
 <b>Ans:<br>
+phase shift = phi = 40.8388 degrees @ 3GHz<br>
 lumda_g = (360/40.8388) * 6.44mm = 56.77mm <br>
 lumda_g = lumda_air / squreroot(dielectric_constant_effective) => dielectric_constant_effective = 3.1<br></b>
 
@@ -18,7 +19,8 @@ V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/a)<br></b>
 <b>Ans:<br>
 |S21| = -0.02936dB = 0.9933  @3GHz<br>
 phi = -40.8388 degrees @ 3GHz<br>
-attenuation coefficient = -20*log|S21| = -20*log0.9933 = 0.05839(dB)<br>
+attenuation = -20*log|S21| = -20*log0.9933 = 0.05839(dB)/6.44 * 10^-3 m<br>
+attenuation = 9.07 dB/m = 8.07 NP/m<br></b>
 
 
 ## TRL Properties
