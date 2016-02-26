@@ -9,8 +9,8 @@ lumda_g = lumda_air / squreroot(dielectric_constant_effective) => dielectric_con
 
 
 * propagation velocity of the medium (use the effective dielectric constant calculated above)<br>
-Ans:<br>
-V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/a)<br>
+<b>Ans:<br>
+<b>V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/a)<br>
 
 
 
