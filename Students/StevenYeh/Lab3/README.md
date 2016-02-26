@@ -9,12 +9,12 @@ Estimate frequency from 1.45GHz to 8.7GHz
 <b>Ans:<br>
 phase shift = phi = 40.8388 degrees @ 3GHz<br>
 lumda_g = (360/40.8388) * 6.44mm = 56.77mm <br>
-lumda_g = lumda_air / squreroot(dielectric_constant_effective) => dielectric_constant_effective = 3.1<br></b>
+lumda_g = lumda_air / squreroot(effective_dielectric_constant) => dielectric_constant_effective = 3.1<br></b>
 
 
 * propagation velocity of the medium (use the effective dielectric constant calculated above)<br>
 <b>Ans:<br>
-V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/a)<br></b>
+V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/s)<br></b>
 
 
 
