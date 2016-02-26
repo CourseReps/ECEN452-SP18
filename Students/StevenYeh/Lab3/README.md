@@ -4,7 +4,7 @@ The data provided in this folder is the measured S21 magnitude and phase of the 
 * valid frequency range for the TRL kit (extrapolate S21 phase plot to find the frequencies where the phase is -20deg and -160deg)<br>
 <b>Ans:<br>
 Estimate frequency from 1.45GHz to 8.7GHz
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab3/plot.jpg) <br></b>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab3/plot2.jpg) <br></b>
 * effective dielectric constant of the material (use equation that relates physical length to electrical length)<br>
 <b>Ans:<br>
 phase shift = phi = 40.8388 degrees @ 3GHz<br>
