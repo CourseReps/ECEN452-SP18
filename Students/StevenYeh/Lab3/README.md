@@ -2,15 +2,15 @@
 The data provided in this folder is the measured S21 magnitude and phase of the Line standard of a TRL kit. Your assignment is to use this data and the TRL properties below to calculate the following.
 
 * valid frequency range for the TRL kit (extrapolate S21 phase plot to find the frequencies where the phase is -20deg and -160deg)
-* effective dielectric constant of the material (use equation that relates physical length to electrical length)
-Ans:
-lumda_g = (360/40.8388) * 6.44mm = 56.77mm 
-lumda_g = lumda_air / squreroot(dielectric_constant_effective) => dielectric_constant_effective = 3.1
+* effective dielectric constant of the material (use equation that relates physical length to electrical length)<br>
+Ans:<br>
+lumda_g = (360/40.8388) * 6.44mm = 56.77mm <br>
+lumda_g = lumda_air / squreroot(dielectric_constant_effective) => dielectric_constant_effective = 3.1<br>
 
 
-* propagation velocity of the medium (use the effective dielectric constant calculated above)
-Ans:
-V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/a)
+* propagation velocity of the medium (use the effective dielectric constant calculated above)<br>
+Ans:<br>
+V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/a)<br>
 
 
 
