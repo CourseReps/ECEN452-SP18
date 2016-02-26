@@ -3,6 +3,11 @@ The data provided in this folder is the measured S21 magnitude and phase of the 
 
 * valid frequency range for the TRL kit (extrapolate S21 phase plot to find the frequencies where the phase is -20deg and -160deg)
 * effective dielectric constant of the material (use equation that relates physical length to electrical length)
+* Ans:
+* lumda_g = (360/40.8388) * 6.44mm = 56.77mm 
+* lumda_g = lumda_air / squreroot(dielectric_constant_effective) => dielectric_constant_effective = 3.1
+
+
 * propagation velocity of the medium (use the effective dielectric constant calculated above)
 * attenuation coefficient in Np/m (use the magnitude at one frequency and convert dB/m to Np/m)
 
