@@ -23,7 +23,7 @@ V_g = c/squareroot(effective_dielectric_constant) = 1.7 * 10^8  (m/s)<br></b>
 |S21| = -0.02936dB = 0.9933  @3GHz<br>
 phi = -40.8388 degrees @ 3GHz<br>
 attenuation = -20*log|S21| = -20*log0.9933 = 0.05839(dB)/6.44 * 10^-3 m<br>
-attenuation = 9.07 dB/m = 8.07 NP/m<br></b>
+attenuation = 9.07 dB/m = 9.07/8.68=1.04 NP/m<br></b>
 
 
 ## TRL Properties
