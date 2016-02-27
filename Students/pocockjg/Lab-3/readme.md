@@ -10,4 +10,4 @@ Propagation velocity: 1.71x10^8 m/s
 Question 4:
 .357 Np/m
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/Students/pocockjg/Lab-3/scan0002.jpg)
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/pocockjg/Lab-3/scan0002.jpg)
