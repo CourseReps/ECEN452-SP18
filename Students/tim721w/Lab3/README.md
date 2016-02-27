@@ -16,7 +16,7 @@ The data provided in this folder is the measured S21 magnitude and phase of the 
 
 * attenuation coefficient in Np/m (use the magnitude at one frequency and convert dB/m to Np/m)<br>
   alpha = 0.52487 Np/m<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab3/attenuation_coefficient)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab3/attenuation_coefficient.png)<br>
 
 ## TRL Properties
 Reflect Length (11 mm) <br>
