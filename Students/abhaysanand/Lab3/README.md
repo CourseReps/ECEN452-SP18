@@ -1,10 +1,32 @@
-# Assignment
-The data provided in this folder is the measured S21 magnitude and phase of the Line standard of a TRL kit. Your assignment is to use this data and the TRL properties below to calculate the following.
+# Lab 3 Report
+Abhay Shankar Anand
 
-* valid frequency range for the TRL kit (extrapolate S21 phase plot to find the frequencies where the phase is -20deg and -160deg)
-* effective dielectric constant of the material (use equation that relates physical length to electrical length)
-* propagation velocity of the medium (use the effective dielectric constant calculated above)
-* attenuation coefficient in Np/m (use the magnitude at one frequency and convert dB/m to Np/m)
+### Frequency Range for TRL Kit (-20&#176; and -160&#176;)
+Frequency range was calculated by extrapolating the Phase CSV data using Python. The calculated values are:<br>
+![freqRange](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab3/freqRange.jpg)
+
+### Effective Dielectric Constant &#949;<sub>eff</sub>
+Using the equation:<br>
+![equation](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab3/Equation.png)
+
+We know, <br>
+*l* = 6.44 mm <br>
+&#952; = -40.84&#176; <br>
+*c* = 3 x 10<sup>8</sup> m/s <br>
+*f* = 3 GHz <br>
+
+Substituting all these values, we get,<br>
+**&#949;<sub>eff</sub> = 3.103**
+
+### Propagation Velocity of the Medium
+The propagation velocity is the speed of light (*c*) scaled by 1 / &#8730;&#949;<sub>eff</sub><br>
+__*v* = 1.703 x 10<sup>8</sup> m/s__
+
+### Attenuation Constant
+|S21| at 3 GHz = -0.02936 dB = 3.3802 x 10<sup>-3</sup> Np <br>
+*l* = 6.44 mm <br>
+&#945; = |S21| / *l* <br>
+**&#945; = 0.5249 Np/m**
 
 ## TRL Properties
 Reflect Length (11 mm) <br>
@@ -12,9 +34,3 @@ Thru Length (22 mm) <br>
 Line Length (28.44  mm) <br>
 Line-Thru = 6.44 mm (**This is the physical length measured after the reference planes are established) <br>
 Substrate thickness (62 mil) <br>
-
-You only really need one frequency point to do this assignment. I suggest using 3 GHz since it is in the middle of the measured frequency band. The electrical length is the the negative of the phase measurement in degrees (e.g. phase = -45deg => electrical length = 45deg). Use the Line-Thru physical length in your calculations. 
-
-Useful Equation: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Labs/Lab3/Equation.png) <br>
-where l is a physical length, and theta is electrical length (phase) in degrees.
