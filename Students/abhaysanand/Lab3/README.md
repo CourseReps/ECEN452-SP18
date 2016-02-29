@@ -3,11 +3,11 @@ Abhay Shankar Anand
 
 ### Frequency Range for TRL Kit (-20&#176; and -160&#176;)
 Frequency range was calculated by extrapolating the Phase CSV data using Python. The calculated values are:<br>
-![freqRange](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab3/freqRange.jpg)
+![freqRange](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab3/results/freqRange.jpg)
 
 ### Effective Dielectric Constant &#949;<sub>eff</sub>
 Using the equation:<br>
-![equation](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab3/Equation.png)
+![equation](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/abhaysanand/Lab3/results/Equation.png)
 
 We know, <br>
 *l* = 6.44 mm <br>
