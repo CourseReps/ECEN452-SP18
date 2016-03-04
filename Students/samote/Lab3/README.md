@@ -1,31 +1,31 @@
 ## Samuel Mote
 ## ECEN 452 Lab #3
 
-Properties:
-lref = 11 E-3 m
-lthru = 22 E-3 m / lline = 28.44 E-3 m ==> ?lTL = 6.44 E-3 m
-thickness = 62 E-3 m
+Properties: <br>
+lref = 11 E-3 m <br>
+lthru = 22 E-3 m / lline = 28.44 E-3 m ==> ?lTL = 6.44 E-3 m <br>
+thickness = 62 E-3 m <br>
 
-1. Valid Frequency Range:
-@ 1.5 GHz, ?1 = -20.154594°
-@ 4.5 GHz, ?2 = -62.111099°
-?? = -41.956505°
-Slope = ??/?f ==> m = -41.956505°/3 GHz ==> m = -13.9855°/GHz
--160 + 62.1 = -13.9855(fmax - 4.5) ==> fmax = 11.5 GHz
--20 + 62.1 = -13.9855(fmin - 4.5) ==> fmin = 1.4897 GHz
-1.4897 GHz < f < 11.5 GHz 
+1. Valid Frequency Range: <br>
+@ 1.5 GHz, ?1 = -20.154594° <br>
+@ 4.5 GHz, ?2 = -62.111099° <br>
+?? = -41.956505° <br>
+Slope = ??/?f ==> m = -41.956505°/3 GHz ==> m = -13.9855°/GHz <br>
+-160 + 62.1 = -13.9855(fmax - 4.5) ==> fmax = 11.5 GHz <br>
+-20 + 62.1 = -13.9855(fmin - 4.5) ==> fmin = 1.4897 GHz <br>
+1.4897 GHz < f < 11.5 GHz  <br>
 
-2. Dielectric Constant:
-@ 3 GHz, ?1 = -40.838772°
-l= (c/(fv?))(?/360) ==> 6.44 E-3 = ((3 E8)/(3 E9 v?))(40.838772/360) ==> eeff = 3.103
+2. Dielectric Constant: <br>
+@ 3 GHz, ?1 = -40.838772° <br>
+l= (c/(fv?))(?/360) ==> 6.44 E-3 = ((3 E8)/(3 E9 v?))(40.838772/360) ==> eeff = 3.103 <br>
 
-3. Propagation Velocity:
-v = c/v? ==> v = (3 E9)/v3.103  ==> v = 1.7 E8 m/s
+3. Propagation Velocity: <br>
+v = c/v? ==> v = (3 E9)/v3.103  ==> v = 1.7 E8 m/s <br>
 
-4. Attenuation Coefficient:
-1 Np = 8.686 dB
-@ 3 GHz, dB = 0.029361164
-a = dB/(m(8.686)) ==> a = 0.029361164/((6.44 E-3)(8.686)) ==> a = 0.5249 Np/m
+4. Attenuation Coefficient: <br>
+1 Np = 8.686 dB <br>
+@ 3 GHz, dB = 0.029361164 <br>
+a = dB/(m(8.686)) ==> a = 0.029361164/((6.44 E-3)(8.686)) ==> a = 0.5249 Np/m <br>
 
 
 
