@@ -17,7 +17,7 @@ with open('ECEN_452_PlottingTestData.csv') as csvfile:
     for row in reader:
         #items in '' below need to exactly match the entry in the first row of the columns in the .csv file
         #edit/add additional lines as needed for each column of data
-        x.append(float(row['x']))
+        x.append(float(row[gfjhfjhkgkjhkjhg]))
         y1.append(float(row['y1']))
         y2.append(float(row['y2']))
         y3.append(float(row['y3']))
