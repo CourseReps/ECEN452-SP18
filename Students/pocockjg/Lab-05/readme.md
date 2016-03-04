@@ -24,9 +24,11 @@ The results from the simulations in HFSS are similar to what was measured.
 <br>
 ![S21_PIN_Diode](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/pocockjg/Lab-05/PIN_diode.png) <br>
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
+Some reasons for the differences between simulated and measured values is that the network analyzer took more data points per frequency while the simulated has just one point per step in frequency.
+
+The phase velocity of the TRL is simply the speed of light divided by the effective dielectric constant which was calculated to be 3.15. This gives a velocity of 1.69*10^8 m/s
+
+The coefficients for the polynomial fitting are 1E-15*X^3 - 2E-14*X^2 + 6E-14*X + 1E-14. I haven't been able to graph it in Python yet.
 
 ## Conclusion
 The key points to the lab are to understand the various lengths of the TRL circuit and the PIN diode. Knowing how the lengths of the thru, reflect, and line are related makes the lab much simpler to complete. Similarly knowing the lengths of the stubs in the diode circuit should be a quarter wavelength again makes that part of the lab much easier.
