@@ -50,8 +50,8 @@ PIN diode switch:<br>
 
 ## Results and Discussion
 S21 Line dB<br>
-`![Plot_Name](https://ECEN452-Spring2016/Students/tim721w/Lab5/S21_Line_dB.png)` <br>
-
+`![S21_Line_dB](https://ECEN452-Spring2016/Students/tim721w/Lab5/S21_Line_dB.png)` <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/S21_Line_dB.png)
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
