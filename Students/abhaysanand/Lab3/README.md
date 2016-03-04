@@ -27,8 +27,8 @@ __*v* = 1.703 x 10<sup>8</sup> m/s__
 *l* = 6.44 mm <br>
 &#945; = 0.02936 / (6.44 x 10<sup>-3</sup>) = 4.559 dB/m <br>
 1 dB/m = 8.686 Np/m <br>
-Therefore, &#945; = 4.559 / 8.686 <br>
-**&#945; = 0.5249 Np/m**
+Therefore, &#945; = 4.559 * 8.686 <br>
+**&#945; = 39.5995 Np/m**
 
 ## TRL Properties
 Reflect Length (11 mm) <br>
