@@ -23,8 +23,8 @@ where l is a physical length, and theta is electrical length (phase) in degrees.
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab3/Phase_vs_Freq.png)
 
 ##Final Calculations
-Valid Frequency Range = 1.5 - 11.5 GHz
-Relative Permittivity = 3.101 
-Vp = 1.7 * 10^8 m/s
-Attenuation = 16.707 Np/m
+Valid Frequency Range = 1.5 - 11.5 GHz <br>
+Relative Permittivity = 3.101 <br>
+Vp = 1.7 * 10^8 m/s <br>
+Attenuation = 16.707 Np/m <br>
 
