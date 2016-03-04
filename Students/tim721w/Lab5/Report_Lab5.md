@@ -49,11 +49,9 @@ PIN diode switch:<br>
 	4. Record Step 2 and 3 parameters and put those parameters into PINSeriesSwitch model, simulate PINSeriesSwitch model for both diode ON and OFF <br>
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
+S21 Line dB<br>
+`![Plot_Name](https://ECEN452-Spring2016/Students/tim721w/Lab5/S21_Line_dB.png)` <br>
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
