@@ -22,6 +22,8 @@ Students
 * Lisa Smith, lisa.smith75056, [lisamsmith](https://github.com/lisamsmith)
 * Joshua Ruff, joshruff, [joshruff](https://github.com/joshruff)
 * Benjamin Jack, aggieland18, [benejack](https://github.com/benejack)
+* Derek Janak, dajanak, [derekjanak](https://github.com/derekjanak)
+
 Faculty Members
 ---------------
 
