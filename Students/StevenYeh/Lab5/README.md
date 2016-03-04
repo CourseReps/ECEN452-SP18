@@ -7,9 +7,10 @@ Task 1: Design of a TRL calibration kit.<br>
 In this exercise you will complete the design of the Thru, Line, and Reflect microstrip calibration fixtures found in your “ECEN452_Lab5_TRL_GroupX.hfss” project file. These design files are named “Thru”, “Line”, and “Reflect”. You will be designing these
 for a Z0 = 50  reference impedance on the 62 mil thick FR4 (r = 4.1, tan  = 0.01) substrate to support a frequency range of 1 GHz to 5 GHz and provide a 15mm reference plane beyond the SMA end launch connectors.<br><br>
 
-Step 1: Calculate the physical width w of the microstrip lines required for this calibration kit and change all line widths in the design files.<br><br>
+Step 1: Calculate the physical width w of the microstrip lines required for this calibration kit and change all line widths in the design files.<br>
+Ans:3.12mm<br>
 
-Step 2: Calculate the design frequency of the calibration and the effective dielectric constant, and then use this information to determine the physical length (in mm) for a quarter-wavelength section of transmission line. Use this quarterwavelength distance and the desired reference plane distance to set the lengths of the three calibration fixtures.<br><br>
+<br>Step 2: Calculate the design frequency of the calibration and the effective dielectric constant, and then use this information to determine the physical length (in mm) for a quarter-wavelength section of transmission line. Use this quarterwavelength distance and the desired reference plane distance to set the lengths of the three calibration fixtures.<br><br>
 
 Step 3: Simulate all three designs using the simulation parameters provided in the design files.<br><br>
 
