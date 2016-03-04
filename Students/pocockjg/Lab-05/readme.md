@@ -13,6 +13,8 @@ For the first part of the lab, the simulation of the TRL was edited so that the 
 ## Results and Discussion
 
 The results from the simulations in HFSS are similar to what was measured.
+<br>
+![S21_Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/pocockjg/Lab-05/S21_phase.png) <br>
 
 To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
 `![Plot_Name](https://link_to_image_on_github)` <br>
