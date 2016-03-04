@@ -49,6 +49,8 @@ PIN diode switch:<br>
 	4. Record Step 2 and 3 parameters and put those parameters into PINSeriesSwitch model, simulate PINSeriesSwitch model for both diode ON and OFF <br>
 
 ## Results and Discussion
+
+Task:<br>
 S21 magnitude for Line<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/S21_Line_dB.png)<br>
 
@@ -61,7 +63,21 @@ S21 magnitude for Thru<br>
 S21 phase for Thru<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/S21_Thru_Phase.png)<br>
 
+TRL Capacitance<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/TRL_Capacitance.png)<br>
 
+Task2:<br>
+PIN Diode Switch OFF for S11<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/PIN_Diode_OFF_S11.png)<br>
+
+PIN Diode Switch ON for S11<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/PIN_Diode_ON_S11.png)<br>
+
+PIN Diode Switch OFF for S21<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/PIN_Diode_OFF_S21.png)<br>
+
+PIN Diode Switch ON for S21<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/PIN_Diode_ON_S21.png)<br>
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
