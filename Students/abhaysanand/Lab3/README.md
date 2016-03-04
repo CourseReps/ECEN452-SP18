@@ -23,9 +23,11 @@ The propagation velocity is the speed of light (*c*) scaled by 1 / &#8730;&#949;
 __*v* = 1.703 x 10<sup>8</sup> m/s__
 
 ## Attenuation Constant
-|S21| at 3 GHz = -0.02936 dB = 3.3802 x 10<sup>-3</sup> Np <br>
+|S21| at 3 GHz = -0.02936 dB <br>
 *l* = 6.44 mm <br>
-&#945; = |S21| / *l* <br>
+&#945; = 0.02936 / (6.44 x 10<sup>-3</sup>) = 4.559 dB/m <br>
+1 dB/m = 8.686 Np/m <br>
+Therefore, &#945; = 4.559 / 8.686 <br>
 **&#945; = 0.5249 Np/m**
 
 ## TRL Properties
