@@ -80,7 +80,7 @@ PIN Diode Switch ON for S21<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/PIN_Diode_ON_S21.png)<br>
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+The key points for this lab is that you have to know the parameters of microstrip line such as lengths and widths. Not only plugging those parameters into simulation, but still need to fine tuning for a better matching. Through this lab, I gain more knowledge about Python and HFSS.
 
 ## Hindsight
 None
