@@ -28,6 +28,7 @@ v = c/v? ==> v = (3 E9)/v3.103  ==> v = 1.7 E8 m/s <br>
 a = dB/(m(8.686)) ==> a = 0.029361164/((6.44 E-3)(8.686)) ==> a = 0.5249 Np/m <br>
 
 
+Note: I could not get certain characters to come out properly, so I have attached the original word document for reference.
 
 
 # Assignment
