@@ -38,9 +38,9 @@ Then put above lengths into PIN diode model and start simulation for both diode 
 ## Procedure
 TRL:<br>
 	1. Calculate all parameters such as microstrip width, length and operating frequency we need in HFSS <br>
-	2. De-embedding reference plane for each port.<br>
-	3. Simulate HFSS file and check Thru and Line phase, if not match with standard then fine-tune length.<br>
-	4. Extract Reflect csv file and convert it into capacitance and <br>
+	2. De-embedding reference plane for each port<br>
+	3. Simulate HFSS file and check Thru and Line phase, if not match with standard then fine-tune length<br>
+	4. Extract Reflect csv file and convert it into capacitance using python file<br>
 
 PIN diode switch:<br>
 	1. Calculate all parameters such as microstrip width, length we need in HFSS <br>
