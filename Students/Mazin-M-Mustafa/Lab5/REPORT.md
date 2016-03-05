@@ -31,6 +31,9 @@ Quarter wave-length = 11.36 mm
 
 Based on the discussion in lab 3, the dimension of Line = 41.36 mm. The dimesnion of Thru = 30 mm. The dimension of Refl = 15 mm.
 
+The circuit diagram:
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL.png) <br>
+
 RF PIN Diode switch:
 
 The frequency of this design is fo = 2.5 GHz. 
@@ -46,10 +49,10 @@ Effective dielectric constant = 3.14
 Quarter wave-length = 17.71 mm
 
 The circuit diagram: Source David M. Pozar 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Circuit.png) <br>
 
 ## Procedure
 Provide a step-by-step decription of the activities you performed during the lab.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Circuit.png) <br>
 
 ## Results and Discussion
 Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
