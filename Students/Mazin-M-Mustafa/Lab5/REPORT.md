@@ -32,6 +32,7 @@ Quarter wave-length = 11.36 mm
 Based on the discussion in lab 3, the dimension of Line = 41.36 mm. The dimesnion of Thru = 30 mm. The dimension of Refl = 15 mm.
 
 The circuit diagram:
+
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL.png) <br>
 
 RF PIN Diode switch:
@@ -49,6 +50,7 @@ Effective dielectric constant = 3.14
 Quarter wave-length = 17.71 mm
 
 The circuit diagram: Source David M. Pozar 
+
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Circuit.png) <br>
 
 ## Procedure
