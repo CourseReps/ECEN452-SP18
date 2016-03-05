@@ -18,8 +18,6 @@ To embed graphs or diagrams in your README.md file, commit and push the graphs t
 
 [image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_dB.pdf)
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/ZhongChen/Lab5/S21_dB_line.png) 
-
 See the raw text of the tutorials for an example.
 
 ## Conclusion
