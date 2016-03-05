@@ -84,12 +84,15 @@ S21 for Thru:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_phase.png) <br>
 
-
-
+Refl capacitance:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Capacitance.png) <br>
 
-See the raw text of the tutorials for an example.
+Polynomial coefficients:
+C0 = -8.999
+C1 = 76341.87
+C2 = -19366.39
+C3 = 1591.59
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
