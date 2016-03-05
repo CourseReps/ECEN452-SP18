@@ -3,12 +3,47 @@ Mazin M Mustafa
 
 ## Background
 
+TRL: 
 TRL calibration is a very useful calibration technique. TRL allows us to move the reference planes into the test fixture. This is important in order to cancel the effect of the transmission lines and coaxial connectors.
 
-The second part is about PIN diode switch design. The purpose of this circuit is to design an RF switch
+RF PIN Diode:
+The second part is about PIN diode switch design. The purpose of this circuit is to design an RF switch controlled by DC bias. The key point in this design is to isolate the RF circuit from the DC circuit using a bias T. This simply achieved by introducing a high impedance quarter wave-length stub that can produce an open-circuit for RF signal. For the DC signal the circuit will be a short circuit, but also open-circuit from the RF transmission line because because of blocking capacitors.
 
 ## Design
-All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
+
+TRL:
+The calibration kit design for 50 ohm transmission line. The calculations for 50 ohm microstrip is based on the follwoing parameters:
+
+Z0 = 50 ohm
+h = 62 mil FR4
+Dielectric constant = 4.1
+tand = 0.01
+fL = 1 GHz
+fH = 5 GHz
+Refrence plane = 15 mm
+
+fo = (fL+fH)/2 = 3 GHz
+
+Using microstrio equations : 
+w = 3.175 mm
+Effective dielectric constant = 3.14
+Quarter wave-length = 11.36 mm
+
+Based on the discussion in lab 3, the dimension of Line = 41.36 mm. The dimesnion of Thru = 30 mm. The dimension of Refl = 15 mm.
+
+RF PIN Diode switch:
+
+The frequency of this design is fo = 2.5 GHz. 
+
+for Z0 = 50 ohm
+w = 3.175 mm
+Effective dielectric constant = 3.14
+Quarter wave-length = 16.94 mm
+
+for Z0 = 100 ohm
+w = 3.175 mm
+Effective dielectric constant = 3.14
+Quarter wave-length = 17.71 mm
 
 ## Procedure
 Provide a step-by-step decription of the activities you performed during the lab.
