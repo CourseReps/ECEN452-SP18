@@ -5,17 +5,27 @@ Mazin M Mustafa
 
 TRL: 
 
-TRL calibration is a very useful calibration technique. TRL allows us to move the reference planes into the test fixture. This is important in order to cancel the effect of the transmission lines and coaxial connectors.
+TRL calibration is a very useful calibration technique. TRL allows us to move the reference planes into the test fixture. This
+
+is important in order to cancel the effect of the transmission lines and coaxial connectors.
 
 RF PIN Diode switch:
 
-The second part is about PIN diode switch design. The purpose of this circuit is to design an RF switch controlled by DC bias. The key point in this design is to isolate the RF circuit from the DC circuit using a bias T. This simply achieved by introducing a high impedance quarter wave-length stub that can produce an open-circuit for RF signal. For the DC signal the circuit will be a short circuit, but also open-circuit from the RF transmission line because because of blocking capacitors.
+The second part is about PIN diode switch design. The purpose of this circuit is to design an RF switch controlled by DC bias.
+
+The key point in this design is to isolate the RF circuit from the DC circuit using a bias T. This simply achieved by
+
+introducing a high impedance quarter wave-length stub that can produce an open-circuit for RF signal. For the DC signal the
+
+circuit will be a short circuit, but also open-circuit from the RF transmission line because because of blocking capacitors.
 
 ## Design
 
 TRL:
 
-The calibration kit design for 50 ohm transmission line. The calculations for 50 ohm microstrip is based on the follwoing parameters:
+The calibration kit design for 50 ohm transmission line. The calculations for 50 ohm microstrip is based on the follwoing
+
+parameters:
 
 Z0 = 50 ohm
 
@@ -141,10 +151,16 @@ ON S11 & S21
 
 ## Conclusion
 
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+HFSS & measured results were almost identical for the TRL calibration kit. The HFSS & measured results for RF PIN Diode switch
+
+were very close but not identical. This is due to the modeling of the Diode in HFSS. From the results obtained for both TRL
+
+calibration kit and RF PIN Diode switch, one can conclude that both designs were successfully obtained.
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+
+It would better to fabricate the TRL designs and go throught the calibration procedure. 
 
 ## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
+
+Optimizing the HFSS design took long time.
