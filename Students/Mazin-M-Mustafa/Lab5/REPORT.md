@@ -89,9 +89,13 @@ Refl capacitance:
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Capacitance.png) <br>
 
 Polynomial coefficients:
+
 C0 = -8.999
+
 C1 = 76341.87
+
 C2 = -19366.39
+
 C3 = 1591.59
 
 ## Conclusion
