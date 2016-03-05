@@ -16,6 +16,9 @@ Include measured/simulated Plots here. All plots are to be made in Python by mod
 
 To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use:
 ![Plot_Name](https://link_to_image_on_github)
+
+https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Capacitance.png
+
 See the raw text of the tutorials for an example.
 Conclusion
 
