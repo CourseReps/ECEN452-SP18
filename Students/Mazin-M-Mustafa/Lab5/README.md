@@ -55,7 +55,7 @@ Based on the discussion in lab 3, the dimension of Line = 41.36 mm. The dimesnio
 
 The circuit diagram:
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL.png) <br>
+![image]( <br>
 
 RF PIN Diode switch:
 
