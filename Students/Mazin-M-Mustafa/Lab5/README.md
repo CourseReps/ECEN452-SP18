@@ -16,7 +16,9 @@ Include measured/simulated Plots here. All plots are to be made in Python by mod
 To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
 `![Plot_Name](https://link_to_image_on_github)` <br>
 
-![Test](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_dB.pdf)
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_dB.pdf)
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/ZhongChen/Lab5/S21_dB_line.png) 
 
 See the raw text of the tutorials for an example.
 
