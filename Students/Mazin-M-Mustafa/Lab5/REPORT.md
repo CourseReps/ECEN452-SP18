@@ -6,7 +6,7 @@ Mazin M Mustafa
 TRL: 
 TRL calibration is a very useful calibration technique. TRL allows us to move the reference planes into the test fixture. This is important in order to cancel the effect of the transmission lines and coaxial connectors.
 
-RF PIN Diode:
+RF PIN Diode switch:
 The second part is about PIN diode switch design. The purpose of this circuit is to design an RF switch controlled by DC bias. The key point in this design is to isolate the RF circuit from the DC circuit using a bias T. This simply achieved by introducing a high impedance quarter wave-length stub that can produce an open-circuit for RF signal. For the DC signal the circuit will be a short circuit, but also open-circuit from the RF transmission line because because of blocking capacitors.
 
 ## Design
@@ -54,13 +54,27 @@ The circuit diagram: Source David M. Pozar
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Circuit.png) <br>
 
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+
+TRL:
+1- Frequncy of design was calculated
+2- The 50 ohm microstrip dimesnions were calculated
+3- Design models were simulated using HFSS
+4- De-embding was applied to the excitation ports
+5- Design was optimzed to achieve almost ideal results
+6- Results were obtained and compared to measured results
+7- Polynomial coeffiecients were calculated for the Refl capacitance
+
+RF PIN Diode swistch:
+1- Microstrip lines for 50 and 100 ohms weree calculated
+2- Quarter wave-length transmission lines for short-circuit stub and short-circuit bias stube were calculated
+3- The complete design of RF PIN Diode siwitch was simulated and optimized
+4- Results were obtained and compared to the measured results
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
+S21 for Line:
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_dB.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_phase.png <br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Capacitance.png) <br>
 
