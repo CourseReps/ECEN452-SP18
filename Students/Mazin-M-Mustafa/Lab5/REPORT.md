@@ -1,8 +1,11 @@
-# Lab X Report
-Your Name (**Rename this file README.md and place it in the LabX folder in your student folder)
+# Lab 5 Report
+Mazin M Mustafa 
 
 ## Background
-Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
+
+TRL calibration is a very useful calibration technique. TRL allows us to move the reference planes into the test fixture. This is important in order to cancel the effect of the transmission lines and coaxial connectors.
+
+The second part is about PIN diode switch design. The purpose of this circuit is to design an RF switch
 
 ## Design
 All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
