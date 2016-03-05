@@ -74,7 +74,6 @@ The way I know my design was working was by comparing it to David’s measured v
 ![PIN switch S21 OFF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab5/Final/Compared%20Plots/PIN_Switch_Compared_S21_dB_OFF.png) <br>
 ![PIN switch S11 ON](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab5/Final/Compared%20Plots/PIN_Switch_Compared_S21_dB_ON.png) <br>
 
-See the raw text of the tutorials for an example.
 
 ## Conclusion
 The lab did what it was intended to do; I became more familiar with TRL calibration kit, PIN diode switch, HFSS, and python. It’s a good intermediate step for designing devices. I learn how to calculate width, E_eff, and physical lengths for any transmission line. And how to get the polynomial model using the s-parameters of the reflect line. All of my simulated data was very similar to measured data. No unexpected challenges, the lab did a good job at explaining everything.
@@ -85,4 +84,4 @@ The lab did what it was intended to do; I became more familiar with TRL calibrat
 Before starting the lab I wish I would've read up on the purpose of each design. It would've helped my interpretation of the graphs, and made it easier for me to grasp the overall concept of how the design functioned.   
 
 ## Reflection
-The most challenging parts of the lab was trying to understand why the y-axis would change every time I ran a simulation, and the small adjustments needed to achieve the desired performance. It was very sensitive. The knowledge we gained through the step-by-step process the lab was conducted was the most rewarding part of the lab. It baby steps allowed me to focus more on the why of the design process. The lab was well written, and didn't confuse me at any point.  
+The most challenging parts of the lab was trying to understand why the y-axis would change every time I ran a simulation, and the small adjustments needed to achieve the desired performance. It was very sensitive. The knowledge we gained through the step-by-step process the lab was conducted was the most rewarding part of the lab. Its baby steps allowed me to focus more on the why of the design process. The lab was well written, and didn't confuse me at any point.  
