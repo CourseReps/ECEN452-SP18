@@ -45,8 +45,11 @@ w = 3.175 mm
 Effective dielectric constant = 3.14
 Quarter wave-length = 17.71 mm
 
+The circuit diagram: Source David M. Pozar 
+
 ## Procedure
 Provide a step-by-step decription of the activities you performed during the lab.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Circuit.png) <br>
 
 ## Results and Discussion
 Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
