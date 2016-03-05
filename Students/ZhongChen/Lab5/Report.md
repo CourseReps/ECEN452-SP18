@@ -74,7 +74,7 @@ PIN Diode Switch ON for S11<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/ZhongChen/Lab5/PIN_Diode_ON_S11.png) (br)
 
 PIN Diode Switch ON for S21<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/ZhongChen/Lab5/PIN_Diode_ON_S211.png) (br)
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/ZhongChen/Lab5/PIN_Diode_ON_S21.png) (br)
 
 ## Conclusion
 The simulations and the measured data compared well to one another.   
