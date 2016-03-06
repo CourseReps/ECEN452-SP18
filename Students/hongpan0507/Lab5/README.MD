@@ -7,14 +7,22 @@ It has the advantage of shifting the reference plane to any kind of transmission
 
 Pin diode is DC voltage controlled RF switch.
 
-## Design
-### TRL Calculation
-Design Parameter: Z0 = 50ohms, FR4 substrate height = 62mil, dielectric constant = 4.1, Frequency Range = 
-#### Reflect
-Reflect standard provides high reflectivity
-
-All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
-
+## Design  
+   + Design Parameter 
+     + Z0 = 50ohms 
+     + FR4 substrate height = 62mil
+     + dielectric constant = 4.1
+     + Frequency Range = 1GHz to 5Ghz
+     + referecen plane = 15mm beyond SMA probe end launch
+   + Calculation
+     + Microstrip width = 3.07mm; [microstrip line calculator](http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm)
+     + Center Frequency = 3GHz
+       + effective dielectric constant = 3.2
+       + quarter wavelength = 14mm
+     + Reflect length = 15mm; Reflect provides high reflectivity required by the VNA TRL calibration
+     + Through length = 30mm; Through sets the reference plane
+     + Line length = through length + quarter wavelength @ 3GHz = 44mm; Line implements transmission line characteristic impedance
+     
 ## Procedure
 Provide a step-by-step decription of the activities you performed during the lab.
 
