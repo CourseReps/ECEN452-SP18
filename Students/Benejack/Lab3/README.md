@@ -1,20 +1,12 @@
-# Assignment
-The data provided in this folder is the measured S21 magnitude and phase of the Line standard of a TRL kit. Your assignment is to use this data and the TRL properties below to calculate the following.
+# Lab 3
+Results: <br>
+* Frequency Range [1.5-11.5] GHz
+* Eeff = 3.10
+* Phase Velocity (Vp) = 1.70x10^8 m/s
+* Attenuation Coefficient = .209 Np/m @ 3GHz
 
-* valid frequency range for the TRL kit (extrapolate S21 phase plot to find the frequencies where the phase is -20deg and -160deg)
-* effective dielectric constant of the material (use equation that relates physical length to electrical length)
-* propagation velocity of the medium (use the effective dielectric constant calculated above)
-* attenuation coefficient in Np/m (use the magnitude at one frequency and convert dB/m to Np/m)
+Phase S21: <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab3/Lab3_S21TRL_Phase.png) <br>
 
-## TRL Properties
-Reflect Length (11 mm) <br>
-Thru Length (22 mm) <br>
-Line Length (28.44  mm) <br>
-Line-Thru = 6.44 mm (**This is the physical length measured after the reference planes are established) <br>
-Substrate thickness (62 mil) <br>
-
-You only really need one frequency point to do this assignment. I suggest using 3 GHz since it is in the middle of the measured frequency band. The electrical length is the the negative of the phase measurement in degrees (e.g. phase = -45deg => electrical length = 45deg). Use the Line-Thru physical length in your calculations. 
-
-Useful Equation: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Labs/Lab3/Equation.png) <br>
-where l is a physical length, and theta is electrical length (phase) in degrees.
+Mag S21: <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab3/Lab3_S21TRL_Mag.png) <br>
