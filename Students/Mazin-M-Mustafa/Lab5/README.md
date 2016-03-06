@@ -163,8 +163,8 @@ calibration kit and RF PIN Diode switch, one can conclude that both designs were
 
 ## Hindsight
 
-It would better to fabricate the TRL designs and go throught the calibration procedure. 
+It would be better to fabricate the TRL designs and go throught the calibration procedure. 
 
 ## Reflection
 
-Optimizing the HFSS design took long time.
+Optimizing the HFSS design took most of the time.
