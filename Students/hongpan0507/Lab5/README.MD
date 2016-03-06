@@ -1,8 +1,11 @@
-# Lab X Report
-Your Name (**Rename this file README.md and place it in the LabX folder in your student folder)
+# Lab 5 Report
+Hong Pan
 
 ## Background
-Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
+TRL is a calibration kit that performs VNA calibration which is unique to the transmission line implemented on a device.
+It has the advantage of shifting the reference plane to any kind of transmission line that the device is attached.
+
+Pin diode is DC voltage controlled RF switch.
 
 ## Design
 All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
