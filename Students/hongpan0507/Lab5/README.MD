@@ -70,7 +70,7 @@ Pin diode is DC voltage controlled RF switch.
 #### Observations:
 1. Polynomial coefficients have a good representation of the simulated capacitance at the end of the transmission line of the reflect standard
 2. The measured TRL S parameters is very close to the simulation.
-3. The measured s21 has magnitude greater than 0dB at center freuencies; the error could come from the process of constructing the TRL kit.
+3. The measured s21 and s11 has magnitude greater than 0dB approaching the starting freuency; the error could come from the process of constructing the TRL kit.
 
 ### RF Switch
 ![PIN diode s parameter](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab5/figures/PIN_diode.png)
@@ -87,7 +87,6 @@ Pin diode is DC voltage controlled RF switch.
 
 ## Hindsight
 1. It was very helpful to go through the process of deriving the TRL calibration equations in the class.
-2. 
 
 ## Reflection
 1. I feel much more comfortable using TRL calibration
