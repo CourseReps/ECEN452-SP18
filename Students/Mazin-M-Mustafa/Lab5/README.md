@@ -45,13 +45,17 @@ fo = (fL+fH)/2 = 3 GHz
 
 Using microstrio equations : 
 
-w = 3.175 mm
+w = 3.175 mm 
 
 Effective dielectric constant = 3.14
 
-Quarter wave-length = 11.36 mm
+Quarter wave-length = 11.36 mm 
 
-Based on the discussion in lab 3, the dimension of Line = 41.36 mm. The dimesnion of Thru = 30 mm. The dimension of Refl = 15 mm.
+Based on the discussion in lab 3, the dimension of Line = 41.36 mm. The dimesnion of Thru = 30 mm. The dimension of Refl = 15
+
+mm.
+
+The Line dimension was optimzed to 44.1 mm and w to 3.18 mm
 
 The circuit diagram:
 
@@ -75,7 +79,7 @@ w = 3.175 mm
 
 Effective dielectric constant = 3.14
 
-Quarter wave-length = 17.71 mm
+Quarter wave-length = 17.71 mm optimized to 17.6 mm
 
 The circuit diagram: Source David M. Pozar 
 
