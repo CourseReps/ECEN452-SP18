@@ -41,17 +41,22 @@ Pin diode is DC voltage controlled RF switch.
 
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
+![TRL Reflect z img](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab5/figures/TRL_reflect_z_img.png)
+![TRL Thru S21 mag and phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab5/figures/TRL_thru_s21_mag_phase.png)
+![TRL Line S21 mag and phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab5/figures/TRL_line_s21_mag_phase.png)
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
+### Observations:
+1. Polynomial coefficients have a good representation of the simulated capacitance at the end of the transmission line of the reflect standard
+2. The measured TRL S parameters is very close to the simulation.
+3. The measured s21 has magnitude greater than 0dB at center freuencies; the error could come from the process of constructing the TRL kit.
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+### TRL
+1. It's important to understand the function of each TRL standard.
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+1. It was very helpful to go through the process of deriving the TRL calibration equations in the class.
+2. 
 
 ## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
+1. I feel much more comfortable using TRL calibration
