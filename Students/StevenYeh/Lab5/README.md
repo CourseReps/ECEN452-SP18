@@ -36,8 +36,13 @@ Simulated results: SCGround_length=18mm, SCBias_length=18mm<br>
 
 <br>Step 3: Modify the design file “PINSeriesSwitch” with the lengths and widths you obtained, and simulate the file. This file contains a global variable that has been set up to run the diode in both the “ON” and “OFF” states (by altering the equivalent circuit of the diode in the design). Observe the results.<br>
 Ans:<br>
+Simulation is run under the following parameters.<br>
+feed_line_width = 3.13mm<br>
+SCBias_width = SCGround_width = 0.75mm<br>
+SCGround_length = 18mm<br>
+SCBias_length=18mm<br>
 
-Step 4: In lab, the TA will measure the PIN diode switch with you and provide the measured results. Reporting Items: Provide a brief accounting of the activities in this section, including any calculations, etc. that you made. Discuss any modifications that were made after simulating the design, and include your rationale for making these modifications. Include plots of the switch in the “ON” and “OFF” states (magnitude in dB), and discuss any differences between the measured and simulated data.<br>
+<br>Step 4: In lab, the TA will measure the PIN diode switch with you and provide the measured results. Reporting Items: Provide a brief accounting of the activities in this section, including any calculations, etc. that you made. Discuss any modifications that were made after simulating the design, and include your rationale for making these modifications. Include plots of the switch in the “ON” and “OFF” states (magnitude in dB), and discuss any differences between the measured and simulated data.<br>
 http://www.skyworksinc.com/uploads/documents/Design_With_PIN_Diodes_200312D.pdf<br>
 http://literature.cdn.keysight.com/litweb/pdf/5091-1943E.pdf<br>
 Ans:<br>
