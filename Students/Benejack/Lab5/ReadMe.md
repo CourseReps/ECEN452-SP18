@@ -53,8 +53,6 @@ Mag S21 Thru: <br>
 
 Phase S21 Thru: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/PIN_Off.png)<br>
-<<<<<<< Updated upstream
-=======
 
 ## Conclusion
 It is important to remember the precision of the TRL kit because calibration is critical for more complex designs. The
@@ -70,4 +68,3 @@ I also wish I had known \b is a special character in python... but that's anothe
 ## Reflection
 It was challenging to setup the lab simulations, software, formatting and so forth and truly understanding the theory behind even the simple portions of this first lab
 was difficult, but it was rewarding to get a more tangible feel for what we are learning means and how it applies to producing something for an end goal.
->>>>>>> Stashed changes
