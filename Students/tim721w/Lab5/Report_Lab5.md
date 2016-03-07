@@ -64,6 +64,11 @@ S21 phase for Thru<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/S21_Thru_Phase.png)<br>
 
 TRL Capacitance<br>
+Polynomial coefficients: <br>
+C0 = -1.52543590008<br>
+C1 = 55316.4289656<br>
+C2 = -10405.6012169<br>
+C3 = 582.382179152<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/TRL_Capacitance.png)<br>
 
 Task2:<br>
