@@ -24,29 +24,29 @@ Task 2: Design of an RF PIN diode series switch.<br>
 In this exercise you will examine the design of a PIN diode switch using quarter-wave bias tees found in your “ECEN452_Lab5_PIN_GroupX.hfss” project file, and compare simulated results to a fabricated design. You will be designing this switch for a reference impedance Z0 = 50  on the 62 mil thick FR4 and a center frequency f0 = 2.5 GHz. Your design should maintain a 10mm separation from the 15mm reference planes set by the TRL calibration.<br><br>
 
 <br>Step 1: Calculate the physical width w of the 50 ohm microstrip line, and the physical width wc for the two high impedance microwave chokes (quarter-wave short circuited stubs with Z0 = 100<br>
-Ans:<br>
+<b>Ans:<br>
 w=3.13mm<br>
-wc=0.75mm<br>
+wc=0.75mm<br></b>
 
 <br>Step 2: Calculate the physical length of the quarter-wavelength transmission lines used for the bias tees, and modify the design files “SCGroundStub” (this is the bias tee connected to RF and DC ground using a via) and “SCBiasStub” (this is the bias tee terminating with a bias capacitor CBias = 47 nF in series with a via and a bias resistor RBias = 510 ohm with a via). Simulate these lines, and alter the length of the lines lSCG and lSCB to minimize the insertion loss through both structures at the design frequency.<br>
-Ans:<br>
+<b>Ans:<br>
 Calculated results: Z0=100 ohm, effective dielectric constant = 2.88, lumda/4 = 17.68mm<br>
 
-Simulated results: SCGround_length=18mm, SCBias_length=18mm<br>
+Simulated results: SCGround_length=18mm, SCBias_length=18mm<br></b>
 
 <br>Step 3: Modify the design file “PINSeriesSwitch” with the lengths and widths you obtained, and simulate the file. This file contains a global variable that has been set up to run the diode in both the “ON” and “OFF” states (by altering the equivalent circuit of the diode in the design). Observe the results.<br>
-Ans:<br>
+<b>Ans:<br>
 Simulation is run under the following parameters.<br>
 feed_line_width = 3.13mm<br>
 SCBias_width = SCGround_width = 0.75mm<br>
 SCGround_length = 18mm<br>
-SCBias_length=18mm<br>
+SCBias_length=18mm<br></b>
 
 <br>Step 4: In lab, the TA will measure the PIN diode switch with you and provide the measured results. Reporting Items: Provide a brief accounting of the activities in this section, including any calculations, etc. that you made. Discuss any modifications that were made after simulating the design, and include your rationale for making these modifications. Include plots of the switch in the “ON” and “OFF” states (magnitude in dB), and discuss any differences between the measured and simulated data.<br>
 http://www.skyworksinc.com/uploads/documents/Design_With_PIN_Diodes_200312D.pdf<br>
 http://literature.cdn.keysight.com/litweb/pdf/5091-1943E.pdf<br>
-Ans:<br>
-Measured and simulated results are very similar, as shown in the following figures.<br>
+<b>Ans:<br>
+Measured and simulated results are very similar, as shown in the following figures.<br></b>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s11.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s21.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_off_s11.jpg) <br>
