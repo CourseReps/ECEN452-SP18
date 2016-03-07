@@ -40,3 +40,6 @@ Ans:<br>
 Step 4: In lab, the TA will measure the PIN diode switch with you and provide the measured results. Reporting Items: Provide a brief accounting of the activities in this section, including any calculations, etc. that you made. Discuss any modifications that were made after simulating the design, and include your rationale for making these modifications. Include plots of the switch in the “ON” and “OFF” states (magnitude in dB), and discuss any differences between the measured and simulated data.<br>
 http://www.skyworksinc.com/uploads/documents/Design_With_PIN_Diodes_200312D.pdf<br>
 http://literature.cdn.keysight.com/litweb/pdf/5091-1943E.pdf<br>
+Ans:<br>
+https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s11.jpg<br>
+https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s211.jpg<br>
