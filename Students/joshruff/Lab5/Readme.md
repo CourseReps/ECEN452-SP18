@@ -17,10 +17,16 @@ We calculated the major parameters for our TRL Kit and PIN Diode Switch, and sim
 
 ## Results and Discussion
 Line Magnitude and Phase: 
-![Line S21 dB](githu://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Line_S21_Magnitude.png)` <br>
-![Line S21 Phase](
+![Line S21 dB](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Line_S21_Magnitude.png) <br>
+![Line S21 Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Line_S21_Phase.png)
 
+Thru Magnitude and Phase: 
+![Thru S21 dB](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Thru_S21_dB.png)
+![Thru S21 Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Thru_S21_Phase.png)
 
+Capacitance Polynomial Fit: 
+
+![Capacitance](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Capacitance_Fit.png)
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
