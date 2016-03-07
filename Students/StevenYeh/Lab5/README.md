@@ -41,7 +41,9 @@ for the through: S11 = -40.7654 dB, S21 = -0.0116 dB, S21_phase = -0.8115 degree
 for the line: S21_phase = -90.5442 degrees, S11 =  -44.9875 dB, S21 = -0.0836  dB @ 3 GHz<br>
 effective dielectric constant = square(lumda/lumda_g) = square(100mm/(13.92mm*4)) = 3.23<br>
 phase velocity = c/square_root(effective dielectric constant) = 3*10^8 / 1.8 = 1.67 * 10^8 m/s<br>
-delay time = 13.92mm/1.67 * 10^8 = 8.34 * 10^-11 s<br></b>
+delay time = 13.92mm/1.67 * 10^8 = 8.34 * 10^-11 s<br>
+3rd order polynomial => y = 1.0e-13( 0.0058*x^3 - 0.0811*x^2 + 0.3740*x^1 + 0.3049)<br></b>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/curve_fitting.jpg) <br>
 
 <br>Step 5: In lab, the TA will measure the three standards and provide you with the measured results.<br>
 Reporting Items: Provide a brief accounting of the activities in this section, including any calculations, etc. that you made. Discuss any modifications that were made after simulating the design, and include your rationale for making these modifications. Include plots of the magnitude and phase of the de-embedded calibration standards, and discuss any differences between the measured and simulated data.<br>
