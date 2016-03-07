@@ -27,9 +27,13 @@ In this exercise you will examine the design of a PIN diode switch using quarter
 Ans:<br>
 w=3.13mm<br>
 wc=0.75mm<br>
+
 <br>Step 2: Calculate the physical length of the quarter-wavelength transmission lines used for the bias tees, and modify the design files “SCGroundStub” (this is the bias tee connected to RF and DC ground using a via) and “SCBiasStub” (this is the bias tee terminating with a bias capacitor CBias = 47 nF in series with a via and a bias resistor RBias = 510 ohm with a via). Simulate these lines, and alter the length of the lines lSCG and lSCB to minimize the insertion loss through both structures at the design frequency.<br>
 Ans:<br>
-lumda/4 = 17.5mm<br>
+Calculated results: Z0=100 ohm, effective dielectric constant = 2.88, lumda/4 = 17.68mm<br>
+
+Simulated results: SCGround_length=18mm, SCBias_length=18mm<br>
+
 <br>Step 3: Modify the design file “PINSeriesSwitch” with the lengths and widths you obtained, and simulate the file. This file contains a global variable that has been set up to run the diode in both the “ON” and “OFF” states (by altering the equivalent circuit of the diode in the design). Observe the results.<br>
 Ans:<br>
 
