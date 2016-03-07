@@ -8,9 +8,14 @@ In this exercise you will complete the design of the Thru, Line, and Reflect mic
 for a Z0 = 50  reference impedance on the 62 mil thick FR4 (r = 4.1, tan  = 0.01) substrate to support a frequency range of 1 GHz to 5 GHz and provide a 15mm reference plane beyond the SMA end launch connectors.<br><br>
 
 Step 1: Calculate the physical width w of the microstrip lines required for this calibration kit and change all line widths in the design files.<br>
-Ans:3.12mm<br>
+Ans:<br>
+For Z0 = 50 ohm, microstrip line width = 3.12mm<br>
 
 <br>Step 2: Calculate the design frequency of the calibration and the effective dielectric constant, and then use this information to determine the physical length (in mm) for a quarter-wavelength section of transmission line. Use this quarterwavelength distance and the desired reference plane distance to set the lengths of the three calibration fixtures.<br><br>
+<b>Ans:<br>
+f0 = (fL + fH)/2 = (1G + 5G)/2 = 3 GHz<br>
+For Z0 = 50 Ohm @ 3 GHz, effective dielectric constant = 3.17<br>
+lumda/4 = 14.04mm<br></b>
 
 Step 3: Simulate all three designs using the simulation parameters provided in the design files.<br><br>
 
