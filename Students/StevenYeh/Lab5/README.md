@@ -42,4 +42,5 @@ http://www.skyworksinc.com/uploads/documents/Design_With_PIN_Diodes_200312D.pdf<
 http://literature.cdn.keysight.com/litweb/pdf/5091-1943E.pdf<br>
 Ans:<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s11.jpg) <br><br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s211.jpg) <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s21.jpg) <br>
