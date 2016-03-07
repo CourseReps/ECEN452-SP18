@@ -19,13 +19,18 @@ lumda/4 = 14.04mm<br></b>
 
 Step 3: Simulate all three designs using the simulation parameters provided in the design files.<br>
 <b>Ans:<br>
-The simulation is run under the following parameters.<br>
+Initially, the simulation is run under the following parameters.<br>
 line_width = 3.12 mm<br>
 reflect_length = 15 mm<br>
 line_length = 30 mm<br>
-thru_length = 44.04 mm<br></b>
+thru_length = 44.04 mm<br><br>
 
-Step 4: Use the de-embedding feature at each port (in each design file) and examine the S-parameters of each calibration fixture. First, verify that the Thru standard has zero phase and loss at the design frequency (but observe the behavior across the bandwidth).
+Results:<br>
+for the line: S21_phase = -193.95 degrees, S11 = -40.9 dB, S21 = -0.15 dB @ 3 GHz<br>
+for the reflect: S11 = -0.23 dB, im(Z11) = 10.29 @ 3 GHz<br>
+for the through: S11 = -37.88 dB, S21 = -0.22 dB, S21_phase = -284.89 degrees @ 3 GHz<br></b>
+
+<br>Step 4: Use the de-embedding feature at each port (in each design file) and examine the S-parameters of each calibration fixture. First, verify that the Thru standard has zero phase and loss at the design frequency (but observe the behavior across the bandwidth).
 Next, verify that the Line standard is exactly 90 Deg. at the design frequency; if it is not, adjust this length of this section accordingly. Once you have determined the correct length, use the S-parameters to calculate the phase velocity of the line and the delay of the line standard. Last, examine the S-parameters of the Reflect standard and use them to extract the polynomial model of the capacitive open-circuit termination. (Hint: export the Im(Z) plot data and convert reactance to capacitance. Then, use a curve fitting tool such as MATLAB or Excel to generate a 3rd order polynomial that fits the capacitance data)<br><br>
 
 Step 5: In lab, the TA will measure the three standards and provide you with the measured results.<br>
