@@ -20,9 +20,9 @@ Line: Width = 3.115234375 mm
       Length = 44.03649575801128 mm (Length of Thru plus quarter-wavelength)
 Since S21 phase is a slightly different from standart, thus we adjust length to 44.011456 mm.
 
-Using the formula ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/Equation.png) to calculate phase velocity. <br>
-For theta = 89.41072, l = 14.011456 mm, we get phase velocity = 1.692 x 10^8 m/s
-From python, we also got delay time of line length is 82.7877037037 ps 
+Using the following formula to calculate phase velocity. <br> ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab5/Equation.png)<br>
+For theta = 89.41072, l = 14.011456 mm, we get phase velocity = 1.692 x 10^8 m/s <br>
+From python, we also got delay time of line length is 82.7877037037 ps <br>
 
 
 RF PIN Diode design:
