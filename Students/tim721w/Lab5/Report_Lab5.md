@@ -18,7 +18,9 @@ Thru: Width = 3.115234375 mm
       Length = 30 mm (Twice length of Reflect)
 Line: Width = 3.115234375 mm 
       Length = 44.03649575801128 mm (Length of Thru plus quarter-wavelength)
-Since S21 phase is a slightly different from standart, thus we adjust length to 44.011456 mm
+Since S21 phase is a slightly different from standart, thus we adjust length to 44.011456 mm.
+
+Using the formula
 
 RF PIN Diode design:
 Calculate the physical width and length of the microstrip lines through microstrip online calculator (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm). With parameters as er = 4.1, h = 1.5748mm, f = 2.5Ghz, widths can be calculatd as following: <br>
