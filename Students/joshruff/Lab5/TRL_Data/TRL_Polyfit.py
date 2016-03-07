@@ -29,7 +29,6 @@ X = np.array(X)
 f = f*1e9 #convert GHz to Hz
 C = -1/(2*np.pi*f*X) #convert reactance to capacitance
 
-
 p3 = np.polyfit(f, C, 3) #get 3rd order polynomial coefficients
 p = np.poly1d(p3) #create function based on polynomial
 
@@ -39,16 +38,15 @@ print('C1 = ',p3[2]/1e-27)
 print('C2 = ',p3[1]/1e-36)
 print('C3 = ',p3[0]/1e-45)
 
-C=C/1e12 
-f=f/1e9
+
 
 plt.figure(1) #initialize plot1
 ax1 = plt.subplot(111) #create axes handle for plot1
-ax1.plot(f, C, '-b') #plot y1 vs. x, solid-blue, add lable for legend
-ax1.plot(f, p(f), '-r') #plot y2 vs. x, solid-red, add lable for legend
+ax1.plot(f, C, '-b',label="Capacitance") #plot y1 vs. x, solid-blue, add lable for legend
+ax1.plot(f, p(f), '-r',label="Polynomail Fit") #plot y2 vs. x, solid-red, add lable for legend
 ax1.set_xlim(min(f), max(f)) #set x-axis limits
 plt.title('TRL Capacitance') #add plot title
 plt.xlabel('Frequency [Hz]') #add x-axis title
 plt.ylabel('Capacitance [F]') #add y-axis title
-
+ax1.legend(loc=4)
 plt.show() #required to display plots
