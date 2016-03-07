@@ -26,18 +26,19 @@ thru_length = 30 mm<br>
 line_length = 44.04 mm<br><br>
 
 Results:<br>
-for the line: S21_phase = -284.8875 degrees, S11 =  -37.8750 dB, S21 = -0.2212  dB @ 3 GHz<br>
 for the reflect: S11 = -0.2263 dB, im(Z11) = 10.2862 @ 3 GHz<br>
-for the through: S11 = -40.9004 dB, S21 = -0.1462 dB, S21_phase = -193.9517 degrees @ 3 GHz<br></b>
+for the through: S11 = -40.9004 dB, S21 = -0.1462 dB, S21_phase = -193.9517 degrees @ 3 GHz<br>
+for the line: S21_phase = -284.8875 degrees, S11 =  -37.8750 dB, S21 = -0.2212  dB @ 3 GHz<br></b>
 
 <br>Step 4: Use the de-embedding feature at each port (in each design file) and examine the S-parameters of each calibration fixture. First, verify that the Thru standard has zero phase and loss at the design frequency (but observe the behavior across the bandwidth).
 Next, verify that the Line standard is exactly 90 Deg. at the design frequency; if it is not, adjust this length of this section accordingly. Once you have determined the correct length, use the S-parameters to calculate the phase velocity of the line and the delay of the line standard. Last, examine the S-parameters of the Reflect standard and use them to extract the polynomial model of the capacitive open-circuit termination. (Hint: export the Im(Z) plot data and convert reactance to capacitance. Then, use a curve fitting tool such as MATLAB or Excel to generate a 3rd order polynomial that fits the capacitance data)<br>
 <b>Ans:<br>
 Apply the de-embedding features on each port, where deembed distance = 15 mm<br>
+Also change the line_length to 43.92 mm<br>
 Results:<br>
-for the line: S21_phase = -284.8875 degrees, S11 =  -37.8750 dB, S21 = -0.2212  dB @ 3 GHz<br>
-for the reflect: S11 = -0.2263 dB, im(Z11) = 10.2862 @ 3 GHz<br>
-for the through: S11 = -40.9004 dB, S21 = -0.1462 dB, S21_phase = -193.9517 degrees @ 3 GHz<br></b>
+for the reflect: S11 = -0.0922 dB, im(Z11) = -620.5008 @ 3 GHz<br>
+for the through: S11 = -40.7654 dB, S21 = -0.0116 dB, S21_phase = -0.8115 degrees @ 3 GHz<br>
+for the line: S21_phase = -90.5442 degrees, S11 =  -44.9875 dB, S21 = -0.0836  dB @ 3 GHz<br></b>
 
 <br>Step 5: In lab, the TA will measure the three standards and provide you with the measured results.<br>
 Reporting Items: Provide a brief accounting of the activities in this section, including any calculations, etc. that you made. Discuss any modifications that were made after simulating the design, and include your rationale for making these modifications. Include plots of the magnitude and phase of the de-embedded calibration standards, and discuss any differences between the measured and simulated data.<br><br>
