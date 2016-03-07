@@ -22,18 +22,24 @@ Step 3: Simulate all three designs using the simulation parameters provided in t
 Initially, the simulation is run under the following parameters.<br>
 line_width = 3.12 mm<br>
 reflect_length = 15 mm<br>
-line_length = 30 mm<br>
-thru_length = 44.04 mm<br><br>
+thru_length = 30 mm<br>
+line_length = 44.04 mm<br><br>
 
 Results:<br>
-for the line: S21_phase = -193.95 degrees, S11 = -40.9 dB, S21 = -0.15 dB @ 3 GHz<br>
-for the reflect: S11 = -0.23 dB, im(Z11) = 10.29 @ 3 GHz<br>
-for the through: S11 = -37.88 dB, S21 = -0.22 dB, S21_phase = -284.89 degrees @ 3 GHz<br></b>
+for the line: S21_phase = -284.8875 degrees, S11 =  -37.8750 dB, S21 = -0.2212  dB @ 3 GHz<br>
+for the reflect: S11 = -0.2263 dB, im(Z11) = 10.2862 @ 3 GHz<br>
+for the through: S11 = -40.9004 dB, S21 = -0.1462 dB, S21_phase = -193.9517 degrees @ 3 GHz<br></b>
 
 <br>Step 4: Use the de-embedding feature at each port (in each design file) and examine the S-parameters of each calibration fixture. First, verify that the Thru standard has zero phase and loss at the design frequency (but observe the behavior across the bandwidth).
-Next, verify that the Line standard is exactly 90 Deg. at the design frequency; if it is not, adjust this length of this section accordingly. Once you have determined the correct length, use the S-parameters to calculate the phase velocity of the line and the delay of the line standard. Last, examine the S-parameters of the Reflect standard and use them to extract the polynomial model of the capacitive open-circuit termination. (Hint: export the Im(Z) plot data and convert reactance to capacitance. Then, use a curve fitting tool such as MATLAB or Excel to generate a 3rd order polynomial that fits the capacitance data)<br><br>
+Next, verify that the Line standard is exactly 90 Deg. at the design frequency; if it is not, adjust this length of this section accordingly. Once you have determined the correct length, use the S-parameters to calculate the phase velocity of the line and the delay of the line standard. Last, examine the S-parameters of the Reflect standard and use them to extract the polynomial model of the capacitive open-circuit termination. (Hint: export the Im(Z) plot data and convert reactance to capacitance. Then, use a curve fitting tool such as MATLAB or Excel to generate a 3rd order polynomial that fits the capacitance data)<br>
+<b>Ans:<br>
+Apply the de-embedding features on each port, where deembed distance = 15 mm<br>
+Results:<br>
+for the line: S21_phase = -284.8875 degrees, S11 =  -37.8750 dB, S21 = -0.2212  dB @ 3 GHz<br>
+for the reflect: S11 = -0.2263 dB, im(Z11) = 10.2862 @ 3 GHz<br>
+for the through: S11 = -40.9004 dB, S21 = -0.1462 dB, S21_phase = -193.9517 degrees @ 3 GHz<br></b>
 
-Step 5: In lab, the TA will measure the three standards and provide you with the measured results.<br>
+<br>Step 5: In lab, the TA will measure the three standards and provide you with the measured results.<br>
 Reporting Items: Provide a brief accounting of the activities in this section, including any calculations, etc. that you made. Discuss any modifications that were made after simulating the design, and include your rationale for making these modifications. Include plots of the magnitude and phase of the de-embedded calibration standards, and discuss any differences between the measured and simulated data.<br><br>
 
 Task 2: Design of an RF PIN diode series switch.<br>
