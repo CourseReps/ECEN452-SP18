@@ -9,7 +9,7 @@ for a Z0 = 50  reference impedance on the 62 mil thick FR4 (er = 4.1, tan d =
 
 Step 1: Calculate the physical width w of the microstrip lines required for this calibration kit and change all line widths in the design files.<br>
 <b>Ans:<br>
-For Z0 = 50 ohm, microstrip line width = 3.12mm<br></b>
+For Z0 = 50 ohm, microstrip line width = 3.12 mm<br></b>
 
 <br>Step 2: Calculate the design frequency of the calibration and the effective dielectric constant, and then use this information to determine the physical length (in mm) for a quarter-wavelength section of transmission line. Use this quarterwavelength distance and the desired reference plane distance to set the lengths of the three calibration fixtures.<br>
 <b>Ans:<br>
@@ -59,8 +59,8 @@ In this exercise you will examine the design of a PIN diode switch using quarter
 
 <br>Step 1: Calculate the physical width w of the 50 ohm microstrip line, and the physical width wc for the two high impedance microwave chokes (quarter-wave short circuited stubs with Z0 = 100<br>
 <b>Ans:<br>
-w=3.13mm<br>
-wc=0.75mm<br></b>
+w = 3.13 mm<br>
+wc = 0.75 mm<br></b>
 
 <br>Step 2: Calculate the physical length of the quarter-wavelength transmission lines used for the bias tees, and modify the design files “SCGroundStub” (this is the bias tee connected to RF and DC ground using a via) and “SCBiasStub” (this is the bias tee terminating with a bias capacitor CBias = 47 nF in series with a via and a bias resistor RBias = 510 ohm with a via). Simulate these lines, and alter the length of the lines lSCG and lSCB to minimize the insertion loss through both structures at the design frequency.<br>
 <b>Ans:<br>
