@@ -5,7 +5,7 @@ Go to the Lab 5 subdirectory in the ECEN 452 GitHub directory Labs and download 
 
 Task 1: Design of a TRL calibration kit.<br>
 In this exercise you will complete the design of the Thru, Line, and Reflect microstrip calibration fixtures found in your “ECEN452_Lab5_TRL_GroupX.hfss” project file. These design files are named “Thru”, “Line”, and “Reflect”. You will be designing these
-for a Z0 = 50  reference impedance on the 62 mil thick FR4 (r = 4.1, tan  = 0.01) substrate to support a frequency range of 1 GHz to 5 GHz and provide a 15mm reference plane beyond the SMA end launch connectors.<br><br>
+for a Z0 = 50  reference impedance on the 62 mil thick FR4 (er = 4.1, tan d = 0.01) substrate to support a frequency range of 1 GHz to 5 GHz and provide a 15mm reference plane beyond the SMA end launch connectors.<br><br>
 
 Step 1: Calculate the physical width w of the microstrip lines required for this calibration kit and change all line widths in the design files.<br>
 <b>Ans:<br>
@@ -40,9 +40,9 @@ for the reflect: S11 = -0.0922 dB, im(Z11) = -620.5008 @ 3 GHz<br>
 for the through: S11 = -40.7654 dB, S21 = -0.0116 dB, S21_phase = -0.8115 degrees @ 3 GHz<br>
 for the line: S21_phase = -90.5442 degrees, S11 =  -44.9875 dB, S21 = -0.0836  dB @ 3 GHz<br>
 effective dielectric constant = square(lumda/lumda_g) = square(100mm/(13.92mm*4)) = 3.23<br>
-phase velocity = c/square_root(effective dielectric constant) = 3x10^8 / 1.8 = 1.67 * 10^8 m/s<br>
-delay time = 13.92mm/1.67 * 10^8 = 8.34 * 10^-11 s<br>
-3rd order polynomial => y = 1.0e-13( 0.0058*x^3 - 0.0811*x^2 + 0.3740*x^1 + 0.3049)<br></b>
+phase velocity = c/square_root(effective dielectric constant) = 3 * 10^8 / square_root(3.23) = 1.67 * 10^8 m/s<br>
+delay time = 13.92 mm/1.67 * 10^8 = 8.34 * 10^-11 s<br>
+3rd order polynomial => y = 10^-13( 0.0058*x^3 - 0.0811*x^2 + 0.3740*x^1 + 0.3049)<br></b>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/curve_fitting.jpg) <br>
 
 <br>Step 5: In lab, the TA will measure the three standards and provide you with the measured results.<br>
