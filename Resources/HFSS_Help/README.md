@@ -7,7 +7,7 @@ Each lab requires you to simulate designs in HFSS. For the first few labs, you w
 ## Creating a New Design
 When you open HFSS you will see a blank project in the Project Manager window. Click the blue icon in the upper left corner to 'Insert HFSS Design' to the project. You can add multiple designs to a single project as needed. Each design will have its own parameters, solutions setups, frequency sweeps, data reports, etc. Double-click on the design name in the Project Manager window to make it the active design. You may also copy and paste designs in the project, which is useful when you want to make variations on a similar design.
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/New_Design.png)
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/New_Deisgn.png)
 
 ## Navigating the Model Space
 Rotate: Hold Alt -> click and drag <br>
