@@ -42,6 +42,7 @@ The original design parameters are shown in the following figures. Obviously, th
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/original_maximally_flat_tline_amp_S11_S21.jpg) <br><br><br>
 After some tuning works, the new design parameters are illustrated below and also the results.<br>
+The new Z1 = 80.9 (lumda/8 = 8.7278mm), UE3 = 130.9 (lumda/8 = 8.9679mm), Z2 = 80.9 (lumda/8 = 8.7278mm), UE1 = 50 (lumda/8 = 8.4416mm), Z3 = 25 (lumda/8 = 8.04mm), UE2 = 130.9 (lumda/8 = 8.9679mm), Z4 = 80.9 (lumda/8 = 8.7278mm), UE4 = 50 (lumda/8 = 8.4416mm), Z5 = 80.9 (lumda/8 = 8.7278mm) (Ohm)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_parameters.jpg)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S11.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S21.jpg) <br>
