@@ -39,7 +39,8 @@ To simplify the analysis (visually), we will replace this ladder network will th
 <br>Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
 <b>Ans:<br>
 The original design parameters are shown in the following figures. Obviously, the results doesn't meet the requirement.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg) <br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/original_maximally_flat_tline_amp_S11_S21.jpg) <br><br><br>
 After some tuning works, the new design parameters are illustrated below and also the results.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S11.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S21.jpg) <br>
