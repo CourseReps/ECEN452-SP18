@@ -1,5 +1,5 @@
-<center><font size=36><b>ECEN 452-500: Ultra High Frequency Techniques</b></font></center><br>
-Spring 2016 – Prof. Huff
+<b>ECEN 452-500: Ultra High Frequency Techniques</b><br>
+Spring 2016 – Prof. Huff<br>
 Lab 6
 
 Pull the Lab 6 subdirectory in the ECEN 452 GitHub directory Labs and locate the HFSS project files “ECEN452_Lab6_Filters.hfss”. Open each project file (File-Open…), then save them to the local drive of the computer you are running your simulations on and rename it by appending your team number to each file (e.g., “ECEN452_LabX_TopicY_TeamZ”).<br>
