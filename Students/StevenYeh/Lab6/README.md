@@ -7,13 +7,13 @@ In this lab you will be completing two designs of a low pass filter and the desi
 Task 1: Synthesis and implementation of a maximally-flat low-pass filter.<br>
 In this exercise you will synthesize a maximally-flat low-pass filter with a cut-off frequency fc = 2.5 GHz and a minimum attenuation of 10 dB at 3.25 GHz.<br>
 <br>Step 1: First, calculate the order N of the filter required to meet the specifications of providing 10 dB isolation at 3.25 GHz using abs(w/w_c)-1 = abs(f_10dB/f_c)-1 and the figure below.<br>
-Ans:<br>
+<b>Ans:<br>
 abs(w/wc) - 1= abs(3.25-2.5) - 1 = 0.3<br>
-After check the table, n =5 to have at leat 10 dB attenuation at 3.25 GHz.<br>
+After check the table, n =5 to have at leat 10 dB attenuation at 3.25 GHz.<br></b>
 
-<br>Step 2: Next, use the table on the following page to determine the filter coefficients for the (hint: five-element) low-pass prototype.
-Ans:<br>
-For n = 5, g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000<br>
+<br>Step 2: Next, use the table on the following page to determine the filter coefficients for the (hint: five-element) low-pass prototype.<br>
+<b>Ans:<br>
+For n = 5, g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000<br></b>
 
 <br>Step 3: Assemble the prototype LC ladder network.
 To simplify the analysis (visually), we will replace this ladder network will the table shown below.
