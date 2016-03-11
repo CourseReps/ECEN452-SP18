@@ -8,7 +8,7 @@ Task 1: Synthesis and implementation of a maximally-flat low-pass filter.<br>
 In this exercise you will synthesize a maximally-flat low-pass filter with a cut-off frequency fc = 2.5 GHz and a minimum attenuation of 10 dB at 3.25 GHz.<br>
 <br>Step 1: First, calculate the order N of the filter required to meet the specifications of providing 10 dB isolation at 3.25 GHz using abs(w/w_c)-1 = abs(f_10dB/f_c)-1 and the figure below.<br>
 <b>Ans:<br>
-abs(w/wc) - 1= abs(3.25-2.5) - 1 = 0.3<br>
+abs(w/w_c) - 1= abs(3.25-2.5) - 1 = 0.3<br>
 After check the table, n =5 to have at leat 10 dB attenuation at 3.25 GHz.<br></b>
 
 <br>Step 2: Next, use the table on the following page to determine the filter coefficients for the (hint: five-element) low-pass prototype.<br>
@@ -39,8 +39,15 @@ To simplify the analysis (visually), we will replace this ladder network will th
 <br>Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.
 
 
-<br>Step 7: Perform impedance and frequency scaling for the lumped element prototype you found in Step 2 and enter these into the “N5_MaxFlat_LPF_LC.zov” Z0lver assignment.
-
+<br>Step 7: Perform impedance and frequency scaling for the lumped element prototype you found in Step 2 and enter these into the “N5_MaxFlat_LPF_LC.zov” Z0lver assignment.<br>
+<b>Ans:<br>
+For n = 5, g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000<br>
+impedance scaling:<br>
+Rs = 50, RL = 50, C1 = 0.618/50 = 0.01236, L2 = 50 * 1.618 = 80.9, C3 = 2/50 = 0.04, L4 = 80.9, C5 = 0.01236
+Frequency Scaling:<br>
+C1' = C5' = C1/w_c = 0.01236/(2 * pi * 2.5 * 10^9) = 0.787 pF<br>
+L2' = L4' = L2/w_c = 80.9/(2 * pi * 2.5 * 10^9) = 5.15 nH<br>
+C3' = 0.04/(2 * pi * 2.5 * 10^9) = 2.55 pF<br></b>
 
 <br>Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design “N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 W).
 
