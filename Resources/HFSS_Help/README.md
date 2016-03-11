@@ -38,6 +38,8 @@ Now you can use your substrate parameters to define the Position of the box. For
 
 Now in the sidebar double-click on the name of the box you created (‘Box1’ by default) to bring up the properties window for the object. In this window you can change the name of the object, adjust the color and transparency, and assign a material to the object. First, change the name to ‘Substrate’ or whatever makes sense to you (this is to help you keep organized when you have several objects in your design). Next, click on the drop-down value for Material and click ‘Edit’. This brings up the HFSS materials library. You can use the search bar to find a particular material, or you can add a material if it is not already in the library.<br>
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Box_Properties.png)
+
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Assign_Material.png)
 
 <b>The FR4 in the materials library has a relative permittivity of 4.4 which is different from the FR4 we have. To change this, highlight FR4_epoxy in the list and click on ‘View/Edit Materials …’. Then, change the value of the relative permittivity to 4.1 and click ‘OK’.</b> <br>
