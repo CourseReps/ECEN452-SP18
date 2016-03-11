@@ -44,7 +44,7 @@ After some tuning works, the new design parameters are illustrated below and als
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S11.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S21.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_phase_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_phase_S11.jpg) <br></b>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_phase_S21.jpg) <br></b>
 
 <br>Step 7: Perform impedance and frequency scaling for the lumped element prototype you found in Step 2 and enter these into the “N5_MaxFlat_LPF_LC.zov” Z0lver assignment.<br>
 <b>Ans:<br>
@@ -68,7 +68,10 @@ The design parameters are shown in the following figures.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_parameter.jpg) <br><br>
 
 The HFSS simulation results are as follows.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_result.jpg) <br></b>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_amp_S11.jpg) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_amp_S21.jpg) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_phase_S11.jpg) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_phase_S21.jpg) <br></b>
 
 <br>Task 2: Synthesis and implementation of an equi-ripple band-stop filter.
 In this exercise you will synthesize a fifth-order 0.5 dB equi-ripple band-pass filter with a center frequency fc = 3.0 GHz and a bandwidth of 2.25 GHz to 3.75 GHz (e.g., delta = 0.5), and then implement your design using microstrip transmission lines for a Z0 = 50 Ohm reference impedance on a 62 mil thick FR4 (er = 4.1, tan_d = 0.01).
