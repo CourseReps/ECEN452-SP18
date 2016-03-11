@@ -38,7 +38,11 @@ To simplify the analysis (visually), we will replace this ladder network will th
 
 <br>Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
 Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg) <br>
+The design parameters are shown in the following figures.<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg) <br><br>
+
+The HFSS simulation results are as follows.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_result.jpg) <br>
 
 <br>Step 7: Perform impedance and frequency scaling for the lumped element prototype you found in Step 2 and enter these into the “N5_MaxFlat_LPF_LC.zov” Z0lver assignment.<br>
 <b>Ans:<br>
