@@ -1,5 +1,6 @@
 # Lab X Report
-Your Name (**Rename this file README.md and place it in the LabX folder in your student folder)
+Hung-I Lin
+UIN:424009692
 
 ## Background
 Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
