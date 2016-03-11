@@ -66,7 +66,7 @@ The design parameters are shown in the following figures.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_parameter.jpg) <br><br>
 
 The HFSS simulation results are as follows.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_result.jpg) <br></b>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_result.png) <br></b>
 
 <br>Task 2: Synthesis and implementation of an equi-ripple band-stop filter.
 In this exercise you will synthesize a fifth-order 0.5 dB equi-ripple band-pass filter with a center frequency fc = 3.0 GHz and a bandwidth of 2.25 GHz to 3.75 GHz (e.g.,  = 0.5), and then implement your design using microstrip transmission lines for a Z0 = 50  reference impedance on a 62 mil thick FR4 (r = 4.1, tan  = 0.01).
