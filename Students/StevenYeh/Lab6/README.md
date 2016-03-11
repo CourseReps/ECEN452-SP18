@@ -37,12 +37,12 @@ To simplify the analysis (visually), we will replace this ladder network will th
 
 
 <br>Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
-Ans:<br>
+<b>Ans:<br>
 The design parameters are shown in the following figures.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg) <br><br>
 
 The HFSS simulation results are as follows.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_result.jpg) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_result.jpg) <br></b>
 
 <br>Step 7: Perform impedance and frequency scaling for the lumped element prototype you found in Step 2 and enter these into the “N5_MaxFlat_LPF_LC.zov” Z0lver assignment.<br>
 <b>Ans:<br>
@@ -60,9 +60,13 @@ for Z_in_x1 = -362j, characteristic impedance of x1 = 89 Ohm, l_x1 = 0.038 lumda
 l_x1 = l_x5<br>
 for Z_in_x2 = -86j, characteristic impedance of x1 = 89 Ohm, l_x2 = 0.1277 lumda = 8.9703 mm<br>
 l_x2 = l_x4<br>
-for Z_in_x3 = -50j, characteristic impedance of x1 = 89 Ohm, l_x3 = 0.1685 lumda = 11.8363 mm<br></b>
+for Z_in_x3 = -50j, characteristic impedance of x1 = 89 Ohm, l_x3 = 0.1685 lumda = 11.8363 mm<br>
 
+The design parameters are shown in the following figures.<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_parameter.jpg) <br><br>
 
+The HFSS simulation results are as follows.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_result.jpg) <br></b>
 
 <br>Task 2: Synthesis and implementation of an equi-ripple band-stop filter.
 In this exercise you will synthesize a fifth-order 0.5 dB equi-ripple band-pass filter with a center frequency fc = 3.0 GHz and a bandwidth of 2.25 GHz to 3.75 GHz (e.g.,  = 0.5), and then implement your design using microstrip transmission lines for a Z0 = 50  reference impedance on a 62 mil thick FR4 (r = 4.1, tan  = 0.01).
