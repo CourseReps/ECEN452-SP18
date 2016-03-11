@@ -1,4 +1,4 @@
-ECEN 452-500: Ultra High Frequency Techniques
+<center><font size=16><b>ECEN 452-500: Ultra High Frequency Techniques</b></font></center>
 Spring 2016 – Prof. Huff
 Lab 6
 
