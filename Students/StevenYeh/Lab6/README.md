@@ -58,9 +58,9 @@ C3' = 0.04/(2 * pi * 2.5 * 10^9) = 2.55 pF<br></b>
 <b>Ans:<br>
 for Z_in_x1 = -362j, characteristic impedance of x1 = 89 Ohm, l_x1 = 0.038, lumda = 2.6693 mm<br>
 l_x1 = l_x5<br>
-for Z_in_x2 = -86j, characteristic impedance of x1 = 89 Ohm, l_x2 = 0.1277, lumda = 8.9703 mm<br>
+for Z_in_x2 = -86j, characteristic impedance of x2 = 89 Ohm, l_x2 = 0.1277, lumda = 8.9703 mm<br>
 l_x2 = l_x4<br>
-for Z_in_x3 = -50j, characteristic impedance of x1 = 89 Ohm, l_x3 = 0.1685, lumda = 11.8363 mm<br>
+for Z_in_x3 = -50j, characteristic impedance of x3 = 89 Ohm, l_x3 = 0.1685, lumda = 11.8363 mm<br>
 
 The design parameters are shown in the following figures.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_parameter.jpg) <br><br>
