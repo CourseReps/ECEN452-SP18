@@ -85,7 +85,7 @@ To simplify the analysis (visually), we will replace this ladder network will th
 
 
 <br>Step 5: Calculate the scaled impedance values of the equivalent open-circuit stubs using<br>
-<b>Ans:
+<b>Ans:<br>
 The design parameters are shown in the following figures.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/equal_ripple_parameter.jpg) <br><br>
 
