@@ -47,15 +47,15 @@ Ans: Calculate widths of the transmission using Microstrip line Calculator (http
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_T-Line_Z0lver_HFSS_S11_S21_phase.png)<br>
 
-Step 7: Perform impedance and frequency scaling for the lumped element prototype I found in Step 2 and enter these into the "N5_MaxFlat_LPF_LC.zov" Z0lver assignment.<br>
+Step 7: Perform impedance and frequency scaling for the lumped element prototype I found in Step 2 and enter these into the    "N5_MaxFlat_LPF_LC.zov" Z0lver assignment.<br>
 Ans: From Step 2, coefficients can be determined as g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000 (N = 5) <br>
+For impedance scaling:<br>
      
-     For impedance scaling:<br>
-	C1' = C5' = C1/(w_c*RL) = 0.618/(2*pi*2.5*10^9*50) = 0.78686 pF
+    	C1' = C5' = C1/(w_c*RL) = 0.618/(2*pi*2.5*10^9*50) = 0.78686 pF
 	L2' = L4' = L2*RL/w_c = 80.9*50/(2*pi*2.5*10^9) = 5.15035 nH
 	C3' = 2/(2*pi*2.5*10^9*50) = 2.54648 pF
         
-        S parameters will be plotted and compared in Step 8.<br>
+        S parameters will be plotted and compared in Step 8.
         
 Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design "N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 ohm).<br>
 Ans: The electrical lengths of the open stubs can be calculated using following formula:<br>
