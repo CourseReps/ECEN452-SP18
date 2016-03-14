@@ -11,27 +11,33 @@ Task 1: Synthesis and implementation of a maximally-flat low-pass filter. <br>
 In this exercise, a maximally-flat low-pass filter with a cut-off frequency fc = 2.5GHz and a minimum attenuation of 10 dB at 3.25 GHz was conducted.<br>
 
 Step 1: First, calculate the order N of the filter required to meet the specification of providing 10 dB isolation at 3.25 GHz.<br>
+
 Ans: abs(w/wc)-1 = abs(3.25/2.5)-1 = 0.3 <br>
      It can be found out that N = 5 from attenuation figure. <br>
 
 Step 2: Next, use the Butterworth(Maximally Flat) Low-Pass Filter Prototypes table to determine the filter coefficients. <br>
+
 Ans: For N = 5, coefficients are chosen as following: <br>
      g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000 <br>
 
 Step 3: Assemble the prototype LC ladder network. <br>
+
 Ans: In order to simplify the ladder network, the network is replaced by table shown in Lab6 manual.<br>
 
 Step 4: Use Richard's Transformation to convert the capacitors into open circuit stubs and the inductors into short circuit stubs. <br>
+
 Ans: Open circuit stubs and short circuit stubs are transformed in Lab6 manual. <br>
 
 Step 5: Use Kuroda's identities to convert series stubs to shunt stubs. This is a multi-step process, but the filter coefficients are symmetric in so we only need to transform one side of the filter and then capitalize on the symmetry. This will begin at the load and/or source side and work to the center of the filter (note: the center element is a shunt open-circuit stub, so it will remain untouched in this process). <br> 
 Step 5.1: Insert unit elements source and load sides of the circuit to separate z1 from z2 and z5 from z4.<br>
 Step 5.2: Insert two more unit element source and load sides of the circuit. This will separate z2 from z3 and z4 from z3, then separate z4 from z5 and z1 from z2. This process will also convert z1, z2, z4, and z5 into shunt OC stubs.<br>
 Step 5.3: Perform impedance scaling for the transmission line. <br>
+
 Ans: By going through process from Step 5.1 to Step 5.3, impedance scaling for the transmission is shown in the following table: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/imped_scaling_Task1.png)<br>
 
 Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
+
 Ans: Calculate widths of the transmission using Microstrip line Calculator (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm), and input parameters into "N5_MazFlat_LPF_T-Line" HFSS file. <br>
      Parameters are shown in the following table: <br>
      
@@ -48,16 +54,18 @@ Ans: Calculate widths of the transmission using Microstrip line Calculator (http
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_T-Line_Z0lver_HFSS_S11_S21_phase.png)<br>
 
 Step 7: Perform impedance and frequency scaling for the lumped element prototype I found in Step 2 and enter these into the    "N5_MaxFlat_LPF_LC.zov" Z0lver assignment.<br>
+
 Ans: From Step 2, coefficients can be determined as g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000 (N = 5) <br>
-For impedance scaling:<br>
+    For impedance scaling:<br>
      
     	C1' = C5' = C1/(w_c*RL) = 0.618/(2*pi*2.5*10^9*50) = 0.78686 pF
 	L2' = L4' = L2*RL/w_c = 80.9*50/(2*pi*2.5*10^9) = 5.15035 nH
 	C3' = 2/(2*pi*2.5*10^9*50) = 2.54648 pF
-        
-        S parameters will be plotted and compared in Step 8.
+    
+    S parameters will be plotted and compared in Step 8.<br>
         
 Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design "N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 ohm).<br>
+
 Ans: The electrical lengths of the open stubs can be calculated using following formula:<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task1_Step8_length_calculated.png)<br>
 
@@ -76,18 +84,23 @@ Task 2: Synthesis and implementation of an equi-ripple band-stop filter.<br>
 In this exercise, I will synthesize a fifth-order 0.5 dB equi-ripple band-pass filter with a center frequency fc = 3.0 GHz and a bandwidth of 2.25 GHz to 3.75 GHz (e.g., delta = 0.5), and then implement my design using microstrip transmission lines for a Z0 = 50 Ohm reference impedance on a 62 mil thick FR4 (er = 4.1, tan_d = 0.01). <br>
 
 Step 1: First, use the 0.5 dB Ripple table to determine the element values of the low pass prototype.<br>
+
 Ans: For N = 5, we get g1 = 1.7058, g2 = 1.2296, g3 = 2.5408, g4 = 1.2296, g5 = 1.7058, g6 = 1.0000 <br>
 
 Step 2: Assemble the prototype LC ladder network.<br>
+
 Ans: The LC ladder network is shown in Lab6 manual.<br>
 
 Step 3: Convert this to a band-stop filter topology by replacing shunt elements with shunted LC series networks, and series LC parallel networks.<br>
+
 Ans: The topology is shown is Lab6 manual.<br>
 
 Step 4: Use inverters (e.g., quarter-wave transformers) to provide separation between the series elements and convert series stubs into shunt stubs. <br>
+
 Ans: The stubs are shown is Lab6 manual.<br>
 
 Step 5: Calculate the scaled impedance values of the equivalent open-circuit stubs using <br>
+
 Ans: By using equation, <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task2_Step5_impedance.png)<br>
   
