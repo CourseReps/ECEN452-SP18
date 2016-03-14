@@ -97,9 +97,8 @@ Ans: By using equation, <br>
      z4 = 104 ohm<br>
      z5 = 75 ohm<br>
 
-  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_dB.PNG) <br>
-
-  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_phase.PNG) <br>
+  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_dB.PNG)<br>
+  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_phase.PNG)<br>
 
 ## Conclusion
 In this lab, I learn how to design filters on microstrip line, among them are LPF and BSF. Furthermore, I also learn how to fabricate my design and understand more the process of implementing a filter. Although the simulated results are not exactly the same as hardware design, and this may due to measurement error, hand made error, I still gain a lot of knowledge from this lab.  
