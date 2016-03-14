@@ -29,7 +29,7 @@ Step 5.1: Insert unit elements source and load sides of the circuit to separate 
 Step 5.2: Insert two more unit element source and load sides of the circuit. This will separate z2 from z3 and z4 from z3, then separate z4 from z5 and z1 from z2. This process will also convert z1, z2, z4, and z5 into shunt OC stubs.<br>
 Step 5.3: Perform impedance scaling for the transmission line. <br>
 Ans: By going through process from Step 5.1 to Step 5.3, impedance scaling for the transmission is shown in the following table: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/Students/tim721w/Lab6/imped_scaling_Task1.PNG) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/imped_scaling_Task1.png)<br>
 
 Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
 Ans: Calculate widths of the transmission using Microstrip line Calculator (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm), and input parameters into "N5_MazFlat_LPF_T-Line" HFSS file. <br>
