@@ -62,11 +62,11 @@ Ans: The electrical lengths of the open stubs can be calculated using following 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task1_Step8_length_calculated.png)<br>
 
      The lengths are:
-     l_x1 = 0.03837 = 2.69531 mm 
-     l_x2 = 0.12773 = 8.97242 mm 
-     l_x3 = 0.16854 = 11.83912 mm 
-     l_x4 = 0.12773 = 8.97242 mm 
-     l_x5 = 0.03837 = 2.69531 mm 
+     l_x1 = 0.03837 = 2.69531 mm 
+     l_x2 = 0.12773 = 8.97242 mm 
+     l_x3 = 0.16854 = 11.83912 mm 
+     l_x4 = 0.12773 = 8.97242 mm 
+     l_x5 = 0.03837 = 2.69531 mm 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_T-Line_Tapped_Stubs_S11_S21_dB.png)<br>
 
@@ -90,13 +90,13 @@ Ans: The stubs are shown is Lab6 manual.<br>
 Step 5: Calculate the scaled impedance values of the equivalent open-circuit stubs using <br>
 Ans: By using equation, <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task2_Step5_impedance.png)<br>
-   
-     Impedances are calculated as following:<br>
-     z1 = 75 ohm<br>
-     z2 = 104 ohm<br>
-     z3 = 50 ohm<br>
-     z4 = 104 ohm<br>
-     z5 = 75 ohm<br>
+  
+     Impedances are calculated as following:
+     z1 = 75 ohm
+     z2 = 104 ohm
+     z3 = 50 ohm
+     z4 = 104 ohm
+     z5 = 75 ohm
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_dB.png)<br>
 
