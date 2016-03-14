@@ -35,13 +35,13 @@ Step 6: Calculate the widths of the transmission lines and enter these into the 
 Ans: Calculate widths of the transmission using Microstrip line Calculator (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm), and input parameters into "N5_MazFlat_LPF_T-Line" HFSS file. <br>
      Parameters are shown in the following table: <br>
      
-     Name   Value	     Name   Value    	     Name   Value           Name    Value <br>
-     W0	    3.127929688	     L1     8.635694914      wUE1   0.53918457      UE_L1   8.897579027<br>
-     W1     0.084247589	     L2	    8.635694914      wUE2   0.53918457	    UE_L2   8.897579027<br>
-     W2     3.961914063      L3     8.635694914	     wUE3   1.75921631      UE_L3   8.897579027<br>
-     W3     8.396484375      L4     8.635694914      wUE4   1.75921631	    UE_L4   8.897579027<br>
-     W4	    3.961914063      L5     8.635694914<br>				
-     W5     0.084247589<br>						
+     Name   Value	     Name   Value    	     Name   Value           Name    Value 
+     W0	    3.127929688	     L1     8.635694914      wUE1   0.53918457      UE_L1   8.897579027
+     W1     0.084247589	     L2	    8.635694914      wUE2   0.53918457	    UE_L2   8.897579027
+     W2     3.961914063      L3     8.635694914	     wUE3   1.75921631      UE_L3   8.897579027
+     W3     8.396484375      L4     8.635694914      wUE4   1.75921631	    UE_L4   8.897579027
+     W4	    3.961914063      L5     8.635694914				
+     W5     0.084247589						
   ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_T-Line_S1_S21_dB.PNG) (br)
   ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_T-Line_S1_S21_phase.PNG) (br)
 
@@ -58,12 +58,12 @@ Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length
 Ans: The electrical lengths of the open stubs can be calculated using following formula:<br>
      ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task1_Step8_length_calculated.PNG) <br>
 
-     The lengths are:<br>
-     l_x1 = 0.03837 = 2.69531 mm <br>
-     l_x2 = 0.12773 = 8.97242 mm <br>
-     l_x3 = 0.16854 = 11.83912 mm <br>
-     l_x4 = 0.12773 = 8.97242 mm <br>
-     l_x5 = 0.03837 = 2.69531 mm <br>
+     The lengths are:
+     l_x1 = 0.03837 = 2.69531 mm 
+     l_x2 = 0.12773 = 8.97242 mm 
+     l_x3 = 0.16854 = 11.83912 mm 
+     l_x4 = 0.12773 = 8.97242 mm 
+     l_x5 = 0.03837 = 2.69531 mm 
 
   ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_T-Line_Tapped_Stubs_S11_S21_dB.PNG) <br>
 
