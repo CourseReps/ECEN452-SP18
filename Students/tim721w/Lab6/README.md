@@ -45,7 +45,7 @@ Ans: Calculate widths of the transmission using Microstrip line Calculator (http
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_T-Line_S11_S21_dB.png)<br>
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_T-Line_S11_S21_phase.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_T-Line_Z0lver_HFSS_S11_S21_phase.png)<br>
 
 Step 7: Perform impedance and frequency scaling for the lumped element prototype I found in Step 2 and enter these into the "N5_MaxFlat_LPF_LC.zov" Z0lver assignment.<br>
 Ans: From Step 2, coefficients can be determined as g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000 (N = 5) <br>
