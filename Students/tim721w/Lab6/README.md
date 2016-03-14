@@ -59,7 +59,7 @@ Ans: From Step 2, coefficients can be determined as g1 = 0.6180, g2 = 1.6180, g3
         
 Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design "N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 ohm).<br>
 Ans: The electrical lengths of the open stubs can be calculated using following formula:<br>
-     ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task1_Step8_length_calculated.PNG) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task1_Step8_length_calculated.png)<br>
 
      The lengths are:
      l_x1 = 0.03837 = 2.69531 mm 
@@ -68,9 +68,9 @@ Ans: The electrical lengths of the open stubs can be calculated using following 
      l_x4 = 0.12773 = 8.97242 mm 
      l_x5 = 0.03837 = 2.69531 mm 
 
-  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_T-Line_Tapped_Stubs_S11_S21_dB.PNG) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_T-Line_Tapped_Stubs_S11_S21_dB.png)<br>
 
-  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_T-Line_Tapped_Stubs_S11_S21_phase.PNG) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_Z0lver_HFSS_Tapped_Stubs_S11_S21_phase.png)<br>
 
 Task 2: Synthesis and implementation of an equi-ripple band-stop filter.<br>
 In this exercise, I will synthesize a fifth-order 0.5 dB equi-ripple band-pass filter with a center frequency fc = 3.0 GHz and a bandwidth of 2.25 GHz to 3.75 GHz (e.g., delta = 0.5), and then implement my design using microstrip transmission lines for a Z0 = 50 Ohm reference impedance on a 62 mil thick FR4 (er = 4.1, tan_d = 0.01). <br>
@@ -89,7 +89,8 @@ Ans: The stubs are shown is Lab6 manual.<br>
 
 Step 5: Calculate the scaled impedance values of the equivalent open-circuit stubs using <br>
 Ans: By using equation, <br>
-     ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task2_Step5_impedance.PNG) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task2_Step5_impedance.png)<br>
+   
      Impedances are calculated as following:<br>
      z1 = 75 ohm<br>
      z2 = 104 ohm<br>
@@ -97,8 +98,9 @@ Ans: By using equation, <br>
      z4 = 104 ohm<br>
      z5 = 75 ohm<br>
 
-  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_dB.PNG)<br>
-  ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_phase.PNG)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_dB.png)<br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_phase.png)<br>
 
 ## Conclusion
 In this lab, I learn how to design filters on microstrip line, among them are LPF and BSF. Furthermore, I also learn how to fabricate my design and understand more the process of implementing a filter. Although the simulated results are not exactly the same as hardware design, and this may due to measurement error, hand made error, I still gain a lot of knowledge from this lab.  
