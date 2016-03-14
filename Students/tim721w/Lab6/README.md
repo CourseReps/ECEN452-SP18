@@ -65,7 +65,7 @@ Ans: From Step 2, coefficients can be determined as g1 = 0.6180, g2 = 1.6180, g3
 	C3' = 2/(2*pi*2.5*10^9*50) = 2.54648 pF
     
   <br>S parameters will be plotted and compared in Step 8. <br>
-Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design "N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 ohm).<br>
+<br>Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design "N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 ohm).<br>
 
 Ans: The electrical lengths of the open stubs can be calculated using following formula:<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task1_Step8_length_calculated.png)<br>
