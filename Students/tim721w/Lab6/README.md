@@ -29,9 +29,9 @@ Step 5.1: Insert unit elements source and load sides of the circuit to separate 
 Step 5.2: Insert two more unit element source and load sides of the circuit. This will separate z2 from z3 and z4 from z3, then separate z4 from z5 and z1 from z2. This process will also convert z1, z2, z4, and z5 into shunt OC stubs.<br>
 Step 5.3: Perform impedance scaling for the transmission line. <br>
 Ans: By going through process from Step 5.1 to Step 5.3, impedance scaling for the transmission is shown in the following table: <br>
-     ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/imped_scaling_Task1.PNG) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/imped_scaling_Task1.PNG) <br>
 
-Step 6: Calculate the widths of the transmission lines and enter these into the design °∞N5_MaxFlat_LPF_T-Line°± within the HFSS project °∞ECEN452_Lab6_Filters.hfss°±. You will also need to enter this information into the °∞N5_MaxFlat_LPF_T-Line.zov°± Z0lver assignment.<br>
+Step 6: Calculate the widths of the transmission lines and enter these into the design ‚ÄúN5_MaxFlat_LPF_T-Line‚Äù within the HFSS project ‚ÄúECEN452_Lab6_Filters.hfss‚Äù. You will also need to enter this information into the ‚ÄúN5_MaxFlat_LPF_T-Line.zov‚Äù Z0lver assignment.<br>
 Ans: Calculate widths of the transmission using Microstrip line Calculator (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm), and input parameters into "N5_MazFlat_LPF_T-Line" HFSS file. <br>
      Parameters are shown in the following table: <br>
      
@@ -57,16 +57,16 @@ Ans: From Step 2, coefficients can be determined as g1 = 0.6180, g2 = 1.6180, g3
 	C3' = 2/(2*pi*2.5*10^9*50) = 2.54648 pF<br>
      S parameters will be plotted and compared with Step 8.
 
-Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design "N5_MaxFlat_LPF_T-Line_Tapped_Stubs°± that uses tapped stubs with a 1 mm width (Z0 = 89 ohm).<br>
+Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design "N5_MaxFlat_LPF_T-Line_Tapped_Stubs‚Äù that uses tapped stubs with a 1 mm width (Z0 = 89 ohm).<br>
 Ans: The electrical lengths of the open stubs can be calculated using following formula:<br>
      ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/Task1_Step8_length_calculated.PNG) <br>
 
      The lengths are:<br>
-     l_x1 = 0.03837£f = 2.69531 mm <br>
-     l_x2 = 0.12773£f = 8.97242 mm <br>
-     l_x3 = 0.16854£f = 11.83912 mm <br>
-     l_x4 = 0.12773£f = 8.97242 mm <br>
-     l_x5 = 0.03837£f = 2.69531 mm <br>
+     l_x1 = 0.03837Óñ¨ = 2.69531 mm <br>
+     l_x2 = 0.12773Óñ¨ = 8.97242 mm <br>
+     l_x3 = 0.16854Óñ¨ = 11.83912 mm <br>
+     l_x4 = 0.12773Óñ¨ = 8.97242 mm <br>
+     l_x5 = 0.03837Óñ¨ = 2.69531 mm <br>
 
   ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_T-Line_Tapped_Stubs_S11_S21_dB.PNG) <br>
 
