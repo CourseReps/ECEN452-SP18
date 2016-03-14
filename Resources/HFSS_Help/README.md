@@ -48,6 +48,30 @@ Now in the sidebar double-click on the name of the box you created (‘Box1’ b
 
 I typically change the transparency of substrates to 0.8 to make the traces on top easier to see, but that is up to the designer. 
 
+### Step 2: Create Rectangle for Microstrip Line
+The top trace for a microstrip line is modeled as a 2-D rectangle in HFSS (could be modeled as a box if design is sensitive to metal thickness). Click 'Draw Rectangle' in the toolbar to enter the drawing mode (note the other 2-D shapes available in the toolbar).  Now click in two different points in the model space to set the dimensions for the rectangle. These points can be completely random, because we will define the exact dimensions next. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Draw_Rectangle.png)
+
+In the object list, double-click 'CreateRectangle' under the rectangle you just created. The options here are similar to the cube except there are only 2 dimensions to define. There is also the option 'Axis' which defines the normal vector for the object, for this design Axis should be set to 'Z'. We first define the dimensions (using parameters) of the rectangle and then we set the position such that it is centered on the substrate. Notice how the position is defined as '-feed_line_width/2,-suby/2,0' and the Ysize is set to 'suby'. This ensures that if we change our 'suby' parameter, the feed line we just created will automatically resize to match the substrate dimension and remain centered. Click 'OK' to close the CreateRectangle window and keep your changes. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Create_Rectangle.png)
+
+You can change the name, color, and transparency of the rectangle in the same way you did for the box, however, applying material properties to 2-D objects is different than for 3-D objects. This will be covered in a later step. <br>
+
+
+## Assigning Boundaries to 2-D objects
+
+### Perfect E / Finite Conductivity
+Typically, we can use ideal perfect electric conductor boundaries to model our traces. Right-click on the name of your 2-D microstrip line object in the object list and select "Assign Boundary -> Perfect E" and click 'OK' on the window that appears. You could instead use a Finite Conductivity boundary and select a material from the materials library (e.g. copper, gold, etc.) if your design requires that level of precision. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Assign_PerfectE.png)
+
+### Radiation
+We need to assign a radiation boundary to the external faces of our design. Right-click somewhere in the design space and click "Select Faces" (or just press the 'f' key). Now hold ctrl on the keyboard and click on each external face of the design except for the bottom face of the substrate (Ground Plane). Right-click and select "Assign Boundary -> Radiation" and click 'OK'on the window that appears. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Assign_Radiation.png)
+
 ## Modify Design Parameters
 First double-click on a design in the Project Manager window to make it the active design. Single-clicking the design name will bring up the parameter list in the Properties window below. Here you must enter the values for the physical dimensions of your design (e.g. widths and lengths of transmission lines). You should only modify parameters that pertain to your specific design, changing the substrate parameters can lead to errors in the simulation. When you have entered all of your design parameters and are ready to simulate, click on the green exclamation point ('Analyze All') to begin the simulation. 
 
