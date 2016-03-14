@@ -39,6 +39,7 @@ Ans: By going through process from Step 5.1 to Step 5.3, impedance scaling for t
 Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
 
 Ans: Calculate widths of the transmission using Microstrip line Calculator (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm), and input parameters into "N5_MazFlat_LPF_T-Line" HFSS file. <br>
+   
      Parameters are shown in the following table: <br>
      
      Name   Value	     Name   Value    	     Name   Value           Name    Value 
@@ -56,6 +57,7 @@ Ans: Calculate widths of the transmission using Microstrip line Calculator (http
 Step 7: Perform impedance and frequency scaling for the lumped element prototype I found in Step 2 and enter these into the    "N5_MaxFlat_LPF_LC.zov" Z0lver assignment.<br>
 
 Ans: From Step 2, coefficients can be determined as g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000 (N = 5) <br>
+   
     For impedance scaling:<br>
      
     	C1' = C5' = C1/(w_c*RL) = 0.618/(2*pi*2.5*10^9*50) = 0.78686 pF
