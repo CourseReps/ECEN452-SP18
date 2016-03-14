@@ -70,7 +70,7 @@ Ans: The electrical lengths of the open stubs can be calculated using following 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_T-Line_Tapped_Stubs_S11_S21_dB.png)<br>
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_Z0lver_HFSS_Tapped_Stubs_S11_S21_phase.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_LPF_LC_Z0lver_HFSS_Tapped_S11_S21_phase.png)<br>
 
 Task 2: Synthesis and implementation of an equi-ripple band-stop filter.<br>
 In this exercise, I will synthesize a fifth-order 0.5 dB equi-ripple band-pass filter with a center frequency fc = 3.0 GHz and a bandwidth of 2.25 GHz to 3.75 GHz (e.g., delta = 0.5), and then implement my design using microstrip transmission lines for a Z0 = 50 Ohm reference impedance on a 62 mil thick FR4 (er = 4.1, tan_d = 0.01). <br>
