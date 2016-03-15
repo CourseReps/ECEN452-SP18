@@ -42,7 +42,7 @@ Ans: Calculate widths of the transmission using Microstrip line Calculator (http
      <br>Parameters are shown in the following table:<br>
      
      
-     Name   Value	         Name   Value    	  Name   Value        Name    Value 
+     Name   Value	         Name   Value    	    Name   Value          Name    Value 
      W0	    3.127929688	     L1     8.635694914      wUE1   0.53918457      UE_L1   8.897579027
      W1     0.084247589	     L2	    8.635694914      wUE2   0.53918457	    UE_L2   8.897579027
      W2     3.961914063      L3     8.635694914	     wUE3   1.75921631      UE_L3   8.897579027
