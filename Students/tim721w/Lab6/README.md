@@ -116,7 +116,7 @@ Ans: By using equation, <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab6/N5_MaxFlat_BSF_T-Line_S11_S21_phase.png)<br>
 
 ## Conclusion
-In this lab, I learn how to design filters on microstrip line, among them are LPF and BSF. Furthermore, I also learn how to fabricate my design and understand more the process of implementing a filter. Although the simulated results are not exactly the same as hardware design (actual central frequency shifted to 3.4GHz), and this may due to measurement error, hand made error, but I still gain a lot of knowledge from this lab.  
+In this lab, I learn how to design filters on microstrip line, among them are LPF and BSF. Furthermore, I also learn how to fabricate my design and understand more the process of implementing a filter. Although the simulated results are not exactly the same as hardware design (actual central frequency shifted to 3.4GHz) results, this may due to measurement error and hand made error, the S parameter plots are still similiar to each other showing that it's a band stop filter.
 
 ## Hindsight
 I wish I could have more time doing calculation before starting the Lab. That can make the troubleshooting more easily if all the parameters are more precisely.
