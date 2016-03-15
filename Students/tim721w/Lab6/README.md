@@ -39,7 +39,7 @@ Ans: By going through process from Step 5.1 to Step 5.3, impedance scaling for t
 Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
 
 Ans: Calculate widths of the transmission using Microstrip line Calculator (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm), and input parameters into "N5_MazFlat_LPF_T-Line" HFSS file. <br>
-     <br>Parameters are shown in the following talbe:<br>
+     <br>Parameters are shown in the following table:<br>
      
      
      Name   Value	     Name   Value    	     Name   Value           Name    Value 
