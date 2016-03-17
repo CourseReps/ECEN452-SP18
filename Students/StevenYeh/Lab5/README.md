@@ -86,3 +86,8 @@ Measured and simulated results are very similar, as shown in the following figur
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_on_s21.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_off_s11.jpg) <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/switch_off_s21.jpg) <br>
+
+
+<b>Conclusion:<br>
+1. Traditional calibration kit (short, open, matched load) used to calibrate the VNA can cause some errors if the kit deviated from the factory standard. It's more obvious at HF. Therefor the TRL calibration kit can provide an alternative way other than the tradional one. It uses the thru, reflect and line connections to estimate VNA's error boxes.<br>
+2. One critical factor in designing a TRL kit is the repeatability of each connection such as the soldering and so on.<br>
