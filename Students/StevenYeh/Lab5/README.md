@@ -42,7 +42,7 @@ for the line: S21_phase = -90.5442 degrees, S11 =  -44.9875 dB, S21 = -0.0836  d
 effective dielectric constant = square(lumda/lumda_g) = square(100mm/(13.92mm*4)) = 3.23<br>
 phase velocity = c/square_root(effective dielectric constant) = 3 * 10^8 / square_root(3.23) = 1.67 * 10^8 m/s<br>
 delay time = 13.92 mm/1.67 * 10^8 = 8.34 * 10^-11 s<br><br>
-3rd order polynomial => y = 0.0013 * x^3 - 0.0145 * x^2 + 0.0547 * x^1 + 0.0186<br>
+After using the polyfit and polyval function in Matlab to get the best estimation of the curve fitting values. We derived the 3rd order polynomial => y = 0.0013 * x^3 - 0.0145 * x^2 + 0.0547 * x^1 + 0.0186<br>
 where x is the frequency in GHz, y is the capacitance in pF.<br></b>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab5/curve_fitting.jpg) <br>
 
