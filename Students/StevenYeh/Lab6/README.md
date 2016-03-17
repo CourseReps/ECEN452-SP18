@@ -9,7 +9,7 @@ In this exercise you will synthesize a maximally-flat low-pass filter with a cut
 <br>Step 1: First, calculate the order N of the filter required to meet the specifications of providing 10 dB isolation at 3.25 GHz using abs(w/w_c)-1 = abs(f_10dB/f_c)-1 and the figure below.<br>
 <b>Ans:<br>
 abs(w/w_c) - 1= abs(3.25-2.5) - 1 = 0.3<br>
-After check the table, n =5 to have at leat 10 dB attenuation at 3.25 GHz.<br></b>
+After check the table, n = 5 can provide at leat 10 dB attenuation at 3.25 GHz.<br></b>
 
 <br>Step 2: Next, use the table on the following page to determine the filter coefficients for the (hint: five-element) low-pass prototype.<br>
 <b>Ans:<br>
