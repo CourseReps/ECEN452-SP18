@@ -91,3 +91,4 @@ Measured and simulated results are very similar, as shown in the following figur
 <b>Conclusion:<br>
 1. Traditional calibration kit (short, open, matched load) used to calibrate the VNA can cause some errors if the kit deviated from the factory standard. It's more obvious at HF. Therefor the TRL calibration kit can provide an alternative way other than the tradional one. It uses the thru, reflect and line connections to estimate VNA's error boxes.<br>
 2. One critical factor in designing a TRL kit is the repeatability of each connection such as the soldering and so on.<br>
+3. The 2nd task is to design a phase shifter using a PIN diode. Two major problems on designing this MW devices are the DC block and RF choke design. One popular method is to use the quarter-wave transformer to implement the RF choke and use the capacitor to realize the DC block.</b><br>
