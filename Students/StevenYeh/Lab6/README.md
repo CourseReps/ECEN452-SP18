@@ -109,4 +109,12 @@ The HFSS simulation results are as follows.
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/equal_ripple_phase_S21.jpg) <br></b>
 
 
-<b>Conclusion:</b>
+<b>Conclusion:<br>
+
+1. Two filters are designed using the insertion loss method in this lab. One is the maximally flat LPF and another is the Equal-Ripple BSF.<br>
+2. Different filter transformations are involved in the filter design. For the maximally LPF, the impedance and frequency scaling are needed. Also, the Richard's transformation and Kuroda's identities are involved to successfully implement the LPF design. On the other hand, the BSF needs one extra process from the prototype filter. The inductor should convert to an inductor parallel with a capacitor and a capacitor should convert to an inductor in series with a capacitor.</b>
+
+
+
+
+</b>
