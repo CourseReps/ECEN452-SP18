@@ -42,7 +42,7 @@ The original design parameters are shown in the following figures. Obviously, th
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/original_maximally_flat_tline_amp_S11_S21.jpg) <br><br>
 Also, the Zolver design layout and simulation results are shown in the following figures.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_Tline_Design.jpg)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_Tline_Design.jpg)<br><br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_Tline_Result.jpg)<br><br><br>
 After some tuning works, the new design parameters are illustrated below and also the results.<br>
 The new Z1 = 80.9 (lumda/8 = 8.7278mm), UE3 = 130.9 (lumda/8 = 8.9679mm), Z2 = 80.9 (lumda/8 = 8.7278mm), UE1 = 50 (lumda/8 = 8.4416mm), Z3 = 25 (lumda/8 = 8.04mm), UE2 = 130.9 (lumda/8 = 8.9679mm), Z4 = 80.9 (lumda/8 = 8.7278mm), UE4 = 50 (lumda/8 = 8.4416mm), Z5 = 80.9 (lumda/8 = 8.7278mm) (Ohm)<br>
@@ -61,7 +61,9 @@ Frequency Scaling:<br>
 C1' = C5' = C1/w_c = 0.01236/(2 * pi * 2.5 * 10^9) = 0.787 pF<br>
 L2' = L4' = L2/w_c = 80.9/(2 * pi * 2.5 * 10^9) = 5.15 nH<br>
 C3' = 0.04/(2 * pi * 2.5 * 10^9) = 2.55 pF<br></b>
-
+The Zolver design layout and simulation results are shown in the following figures.<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_LC_Design.jpg)<br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_LC_Result.jpg)<br><br><br>
 <br>Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design “N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 W).<br>
 <b>Ans:<br>
 for Z_in_x1 = -362j, characteristic impedance of x1 = 89 Ohm, l_x1 = 0.038, lumda = 2.6693 mm<br>
