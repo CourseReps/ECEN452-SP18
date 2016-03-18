@@ -133,11 +133,13 @@ Which is the criteria for designing the LPF in the first place. The milled LPF m
 
 ## Conclusion
 
+LPF and BSF design and simulations were performed successfully. Variation in results between milled and simulated can be discussed further more. But according to the requirements, the milled versions don't agree with requirements while the simulated versions agree.
+
 ## Hindsight
 
-It would be better to fabricate the TRL designs and go throught the calibration procedure. 
+It would be better to fabricate milled versions of the filters and perform the measurements on the VNA.
 
 ## Reflection
 
-Optimizing the HFSS design took most of the time.
+Optimizing the HFSS design wasn't needed
 
