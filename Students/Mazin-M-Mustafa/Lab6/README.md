@@ -60,6 +60,10 @@ LPF:
 
 x is the fraction of lamda
 
+for Zo = 181 ohm => x = 0.03837
+for Zo = 43  ohm => x = 0.12773
+for Zo = 25  ohm => x = 0.16854
+
 BSF:
 
 1- Selecting the order of filter N
