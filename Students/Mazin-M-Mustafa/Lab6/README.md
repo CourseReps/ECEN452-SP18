@@ -56,6 +56,10 @@ LPF:
 
 7- Transform the desing into tapped stubs
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/eq3.png) <br>
+
+x is the fraction of lamda
+
 BSF:
 
 1- Selecting the order of filter N
@@ -71,6 +75,8 @@ BSF:
 6- Calculate microstrip dimensions
 
 7- Use intverters
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/eq2.png) <br>
 
 ## Results and Discussion
 
@@ -94,39 +100,24 @@ fig.8 : HFSS model
 fig.9 : MAG S21 dB
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF2_phase.png) <br>
-fig.19 : Phase S21 degree
+fig.10 : Phase S21 degree
 
-Refl capacitance:
+Z0lver files were developed as shown below:
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Capacitance.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/Zolv1.png) <br>
+fig.11 : LPF Transmision Line
 
-Polynomial coefficients:
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/Zolv2.png) <br>
+fig.12 : LPF Transmision Line Tapped Stubs
 
-C0 = -8.999
+Transmission lines values are available in the HFSS file uploaded : ECEN452_Lab6_Filters_MM_HIL_MW.hfss
 
-C1 = 76341.87
+## Discussion
 
-C2 = -19366.39
-
-C3 = 1591.59
-
-RF PIN Diode switch results:
-
-OFF S11 & S21
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/OFF.png) <br>
-
-ON S11 & S21
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/ON.png) <br>
+HFSS and Z0lover simulatioins have shown results close to what expected from the design. For example the LPF cut-off frequency should be 2.5 GHz MAG S21 dB around -3 dB. Also, for rejection of 10 dB at fo = 3.25 GHz where MAG S21 dB around -10 dB.
+Which is the criteria for designing the LPF in the first place. The milled LPF measured results are far away from these design requirements compared to the obtained design. Similarly for the BSF, the measured response is far away from the desired. However, the fabricated filter and HFSS were closer. S21 phases are not expected to match since it depends on the refence plans. The most important feature in the S21 phases is the linearity which is achieved.
 
 ## Conclusion
-
-HFSS & measured results were almost identical for the TRL calibration kit. The HFSS & measured results for RF PIN Diode switch
-
-were very close but not identical. This is due to the modeling of the Diode in HFSS. From the results obtained for both TRL
-
-calibration kit and RF PIN Diode switch, one can conclude that both designs were successfully obtained.
 
 ## Hindsight
 
