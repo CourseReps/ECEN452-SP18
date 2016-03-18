@@ -10,7 +10,6 @@ fig.1 : Equations for Insertion Loss
 
 The LPF prototypes and implementations are basically lumped elements. This gives a possibility to implement the filter using discrete components or microstrip realization ... etc
 
-
 ## Design
 
 The design of LPF starts with selecting cut-off frequency and substrate parameters. By identifying the rejection required for the filter will allow us to decide the number of elements in the filter. This can be obtained from design tables. These values give us the gk for each lumped element and this will be the initial design. The next step is to apply transformations by using Richards' transformations. Then by using Kuroda identities, a practically realizable microstrip version can be obtained. The same concept can be applied for BSF by introducing inverter, this gives a BSF filter. Similar process can be done for HPF and BPF.
@@ -23,7 +22,6 @@ fig.3 : Richards' transformation
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/kord.png) <br>
 fig.4 : Kuroda identity
-
 
 Substrate : FR4
 er = 4.1
@@ -39,9 +37,6 @@ For LPF:
 fc = 3 GHz
 BW = 2.25 GHz - 3.75 GHz
 Equal-ripple 0.5 dB
-
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Circuit.png) <br>
 
 ## Procedure
 
@@ -61,22 +56,45 @@ LPF:
 
 7- Transform the desing into tapped stubs
 
+BSF:
+
+1- Selecting the order of filter N
+
+2- Evaluate the corresponding elements values
+
+3- Assemble the prototypr LC ladder network
+
+4- Applu Richards transformation
+
+5- Apply Kuroda's identity
+
+6- Calculate microstrip dimensions
+
+7- Use intverters
 
 ## Results and Discussion
 
 LPF transmision line:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1.png) <br>
+fig.5 : HFSS model
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1_dB.png) <br>
+fig.6 : MAG S21 dB
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1_phase.png) <br>
+fig.7 : Phase S21 degree
 
-S21 for Thru:
+LPF transmision line Tapped Stubs:
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1_phase.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF2.png) <br>
+fig.8 : HFSS model
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_phase.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF2_dB.png) <br>
+fig.9 : MAG S21 dB
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF2_phase.png) <br>
+fig.19 : Phase S21 degree
 
 Refl capacitance:
 
