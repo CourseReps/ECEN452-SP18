@@ -152,3 +152,8 @@ It would be better to fabricate milled versions of the filters and perform the m
 
 Optimizing the HFSS design wasn't needed
 
+## Reference
+
+Microwave Engineering , David M Pozar
+
+
