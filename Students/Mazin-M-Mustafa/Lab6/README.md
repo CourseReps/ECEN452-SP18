@@ -24,71 +24,57 @@ fig.3 : Richards' transformation
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/kord.png) <br>
 fig.4 : Kuroda identity
 
-RF PIN Diode switch:
 
-The frequency of this design is fo = 2.5 GHz. 
+Substrate : FR4
+er = 4.1
+tand = 0.01
+h = 62 mil
 
-for Z0 = 50 ohm
+For LPF:
+fc = 2.5 GHz
+Rej = 10 dB at 3.25 GHz
+maximally-flat
 
-w = 3.175 mm
+For LPF:
+fc = 3 GHz
+BW = 2.25 GHz - 3.75 GHz
+Equal-ripple 0.5 dB
 
-Effective dielectric constant = 3.14
-
-Quarter wave-length = 16.94 mm
-
-for Z0 = 100 ohm
-
-w = 3.175 mm
-
-Effective dielectric constant = 3.14
-
-Quarter wave-length = 17.71 mm optimized to 17.6 mm
-
-The circuit diagram: Source David M. Pozar 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Circuit.png) <br>
 
 ## Procedure
 
-TRL:
+LPF:
 
-1- Frequncy of design was calculated
+1- Selecting the order of filter N
 
-2- The 50 ohm microstrip dimesnions were calculated
+2- Evaluate the corresponding elements values
 
-3- Design models were simulated using HFSS
+3- Assemble the prototypr LC ladder network
 
-4- De-embding was applied to the excitation ports
+4- Applu Richards transformation
 
-5- Design was optimzed to achieve almost ideal results
+5- Apply Kuroda's identity
 
-6- Results were obtained and compared to measured results
+6- Calculate microstrip dimensions
 
-7- Polynomial coeffiecients were calculated for the Refl capacitance
+7- Transform the desing into tapped stubs
 
-RF PIN Diode swistch:
-
-1- Microstrip lines for 50 and 100 ohms weree calculated
-
-2- Quarter wave-length transmission lines for short-circuit stub and short-circuit bias stube were calculated
-
-3- The complete design of RF PIN Diode siwitch was simulated and optimized
-
-4- Results were obtained and compared to the measured results
 
 ## Results and Discussion
 
-TRL results:
+LPF transmision line:
 
-S21 for Line:
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1.png) <br>
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_dB.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1_dB.png) <br>
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_phase.png>) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1_phase.png) <br>
 
 S21 for Thru:
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Thru_S21_dB.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/LPF1_phase.png) <br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/Line_S21_phase.png) <br>
 
