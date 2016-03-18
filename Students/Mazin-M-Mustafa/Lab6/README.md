@@ -1,23 +1,11 @@
-# Lab 5 Report
+# Lab 6 Report
 Mazin M Mustafa 
 
 ## Background
 
-TRL: 
+In this lab we will desing, simulate and fabricate LPF and BSF. The design of both LPF and BSF will be obtained using insertion loss method. Microstrip implementation of the filters will be done through filter transformation. The insertion loss method is used to control the transfer function behaviour of the filter specially in the pass-band. There are two possible ways to implement the filter: Maximally flat and Equal ripple. Each techique has advantages and disadvantages. 
 
-TRL calibration is a very useful calibration technique. TRL allows us to move the reference planes into the test fixture. This
-
-is important in order to cancel the effect of the transmission lines and coaxial connectors.
-
-RF PIN Diode switch:
-
-The second part is about PIN diode switch design. The purpose of this circuit is to design an RF switch controlled by DC bias.
-
-The key point in this design is to isolate the RF circuit from the DC circuit using a bias T. This simply achieved by
-
-introducing a high impedance quarter wave-length stub that can produce an open-circuit for RF signal. For the DC signal the
-
-circuit will be a short circuit, but also open-circuit from the RF transmission line because because of blocking capacitors.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL2.png) <br>
 
 ## Design
 
