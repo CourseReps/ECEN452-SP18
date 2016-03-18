@@ -15,7 +15,14 @@ The LPF prototypes and implementations are basically lumped elements. This gives
 
 The design of LPF starts with selecting cut-off frequency and substrate parameters. By identifying the rejection required for the filter will allow us to decide the number of elements in the filter. This can be obtained from design tables. These values give us the gk for each lumped element and this will be the initial design. The next step is to apply transformations by using Richards' transformations. Then by using Kuroda identities, a practically realizable microstrip version can be obtained. The same concept can be applied for BSF by introducing inverter, this gives a BSF filter. Similar process can be done for HPF and BPF.
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL2.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/prototype.png) <br>
+fig.2 : LPF prototype
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/Rich.png) <br>
+fig.3 : Richards' transformation
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/kord.png) <br>
+fig.4 : Kuroda identity
 
 RF PIN Diode switch:
 
