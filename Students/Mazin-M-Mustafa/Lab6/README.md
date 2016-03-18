@@ -125,7 +125,7 @@ BSF:
 fig.14 : BSF HFSS vs Milled MAG S21 dB
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF2_phase.png) <br>
-fig.15 : BSF HFSS vs Fabricated S21 phases
+fig.15 : BSF HFSS vs Milled S21 phases
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF3_dB.png) <br>
 fig.16 : BSF HFSS vs Fabricated MAG S21 dB
