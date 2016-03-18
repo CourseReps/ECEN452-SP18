@@ -124,13 +124,13 @@ BSF:
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF2_dB.png) <br>
 fig.14 : BSF HFSS vs Milled MAG S21 dB
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF3_phase.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF2_phase.png) <br>
 fig.15 : BSF HFSS vs Fabricated S21 phases
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF3_dB.png) <br>
 fig.16 : BSF HFSS vs Fabricated MAG S21 dB
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF2_phase.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF3_phase.png) <br>
 fig.17 : BSF HFSS vs Fabricated S21 phases
 
 Transmission lines values are available in the HFSS file uploaded : ECEN452_Lab6_Filters_MM_HIL_MW.hfss
