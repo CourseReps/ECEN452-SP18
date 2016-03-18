@@ -5,7 +5,7 @@ Mazin M Mustafa
 
 In this lab we will desing, simulate and fabricate LPF and BSF. The design of both LPF and BSF will be obtained using insertion loss method. Microstrip implementation of the filters will be done through filter transformation. The insertion loss method is used to control the transfer function behaviour of the filter specially in the pass-band. There are two possible ways to implement the filter: Maximally flat and Equal ripple. Each techique has advantages and disadvantages. 
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL2.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/equations.png) <br>
 
 ## Design
 
