@@ -116,26 +116,29 @@ fig.11 : LPF Transmision Line
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/Zolv2.png) <br>
 fig.12 : LPF Transmision Line Tapped Stubs
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/Zolver.png) <br>
+fig.13 : Z0lover LPF results
+
 BSF:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF3_dB.png) <br>
-fig.13 : BSF HFSS vs Milled MAG S21 dB
+fig.14 : BSF HFSS vs Milled MAG S21 dB
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF3_phase.png) <br>
-fig.14 : BSF HFSS vs Fabricated S21 phases
+fig.15 : BSF HFSS vs Fabricated S21 phases
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF2_dB.png) <br>
-fig.15 : BSF HFSS vs Fabricated MAG S21 dB
+fig.16 : BSF HFSS vs Fabricated MAG S21 dB
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/BSF2_phase.png) <br>
-fig.16 : BSF HFSS vs Fabricated S21 phases
+fig.17 : BSF HFSS vs Fabricated S21 phases
 
 Transmission lines values are available in the HFSS file uploaded : ECEN452_Lab6_Filters_MM_HIL_MW.hfss
 
 ## Discussion
 
 HFSS and Z0lover simulatioins have shown results close to what expected from the design. For example the LPF cut-off frequency should be 2.5 GHz MAG S21 dB around -3 dB. Also, for rejection of 10 dB at fo = 3.25 GHz where MAG S21 dB around -10 dB.
-Which is the criteria for designing the LPF in the first place. The milled LPF measured results are far away from these design requirements compared to the obtained design. Similarly for the BSF, the measured response is far away from the desired. However, the fabricated filter and HFSS were closer. S21 phases are not expected to match since it depends on the refence plans. The most important feature in the S21 phases is the linearity which is achieved.
+Which is the criteria for designing the LPF in the first place. The milled LPF measured results are far away from these design requirements compared to the obtained design. Similarly for the BSF, the measured response is far away from the desired. However, the fabricated filter and HFSS were closer. S21 phases are not expected to match since it depends on the refence plans. The most important feature in the S21 phases is the linearity which is achieved. Z0lver results shouldn't be reliable because the software lacks tee model with different Zo for each side. 
 
 ## Conclusion
 
