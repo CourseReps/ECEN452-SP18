@@ -6,46 +6,14 @@ Mazin M Mustafa
 In this lab we will desing, simulate and fabricate LPF and BSF. The design of both LPF and BSF will be obtained using insertion loss method. Microstrip implementation of the filters will be done through filter transformation. The insertion loss method is used to control the transfer function behaviour of the filter specially in the pass-band. There are two possible ways to implement the filter: Maximally flat and Equal ripple. Each techique has advantages and disadvantages. 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/equations.png) <br>
+fig.1 : Equations for Insertion Loss
+
+The LPF prototypes and implementations are basically lumped elements. This gives a possibility to implement the filter using discrete components or microstrip realization ... etc
+
 
 ## Design
 
-TRL:
-
-The calibration kit design for 50 ohm transmission line. The calculations for 50 ohm microstrip is based on the follwoing
-
-parameters:
-
-Z0 = 50 ohm
-
-h = 62 mil FR4
-
-Dielectric constant = 4.1
-
-tand = 0.01
-
-fL = 1 GHz
-
-fH = 5 GHz
-
-Refrence plane = 15 mm
-
-fo = (fL+fH)/2 = 3 GHz
-
-Using microstrio equations : 
-
-w = 3.175 mm 
-
-Effective dielectric constant = 3.14
-
-Quarter wave-length = 11.36 mm 
-
-Based on the discussion in lab 3, the dimension of Line = 41.36 mm. The dimesnion of Thru = 30 mm. The dimension of Refl = 15
-
-mm.
-
-The Line dimension was optimzed to 44.1 mm and w to 3.18 mm
-
-The circuit diagram:
+The design of LPF starts with selecting cut-off frequency and substrate parameters. By identifying the rejection required for the filter will allow us to decide the number of elements in the filter. This can be obtained from design tables. These values give us the gk for each lumped element and this will be the initial design. The next step is to apply transformations by using Richards' transformations. Then by using Kuroda identities, a practically realizable microstrip version can be obtained. The same concept can be applied for BSF by introducing inverter, this gives a BSF filter. Similar process can be done for HPF and BPF.
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL2.png) <br>
 
