@@ -1,4 +1,4 @@
-Lab 5 Report
+#Lab 5 Report
 Joshua Ruff
 
 ## Background
@@ -6,11 +6,11 @@ The TRL kit is used to calibrate a network analyzer in situations where an Open 
 
 The PIN Diode can be used in a switching circuit such as a Bias Tee to control the flow of RF Signals. 
 ## Design
-TRL Kit: 
+TRL Kit: <br>
 ![Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/TRL_Calcs.png)<br>
 The Reflect was taken to be the length of the reference plane, the Thru was double the length of the reflect, and the Line was a quarter wave length longer than the Thru. All of these were built on 50 Ohm line. 
 
-PIN Diode: 
+PIN Diode: <br>
 ![Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/PIN_Data/PIN_Calcs.png)<br>
 The width of the 100 Ohm Chokes was calculated, as well as the quarter wavelength at the design frequency. 
 
