@@ -73,10 +73,10 @@ For the first design, I started off by finding the order (N) of the filter using
 
 ## Results and Discussion
 
-
-![Plot_Name](https://link_to_image_on_github) <br>
-
-
+![LPF_S11](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S11_dB.png) <br>
+![LPF_S11](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S11_Phase.png) <br>
+![LPF_S21](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S21_dB.png) <br>
+![LPF_S21](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S21_Phase.png) <br>
 
 ## Conclusion
 Overall my filters worked in their desired range.  
