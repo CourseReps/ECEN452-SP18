@@ -72,13 +72,14 @@ Impedance and Frequency Scaling
 For the first design, I started off by finding the order (N) of the filter using the giving specification. With the order I found the Element values. Next I assembled the ladder network and transformed them using Richard’s Transformation and Kuroda’s identities. Then I found the lengths of each line and plugged them into HFSS. Got all the values and compared their behaviors in python.  I did the same with the second design.        
 
 ## Results and Discussion
-
+##### LPF
 ![LPF_S11](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S11_dB.png) <br>
 ![LPF_S11](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S11_Phase.png) <br>
 ![LPF_S21](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S21_dB.png) <br>
 ![LPF_S21](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_S21_Phase.png) <br>
 ![LPF_Z](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/LPF_Zolver_TL.png) <br>
 
+##### BSF
 
 ![BSF_S11](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/BSF_S11_dB.png) <br>
 ![BSF_S11](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab6/Final/BSF_S11_Phase.png) <br>
