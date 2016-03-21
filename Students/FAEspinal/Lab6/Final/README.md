@@ -59,23 +59,30 @@ equi- ripple BSF
 | w5         |   1.462951 |  3.135823 |   14.54179    |   2.25    |  75   |   4.1     |
 
 
+Impedance and Frequency Scaling
+
+|      | g1 | g2| g3 | g4 | g5 |  g6|
+| -------- |:------:|:---:|:------:|:-------:|:-----:| :-----:|
+|     Element Value    |   0.6180    |   1.6180 |     2.0  |   1.6180     |   0.6180   |  1.00 |
+| Impedance     |   0.01236 | 80.9  |   0.04    |   80.9    |  0.01236   | 0  |
+| Value  |   0.7868pF |  5.15nH |   2.55 pF    |   5.15nH  |  0.7868pF   | 0  |
 
 
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+For the first design, I started off by finding the order (N) of the filter using the giving specification. With the order I found the Element values. Next I assembled the ladder network and transformed them using Richard’s Transformation and Kuroda’s identities. Then I found the lengths of each line and plugged them into HFSS. Got all the values and compared their behaviors in python.  I did the same with the second design.        
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
+
+![Plot_Name](https://link_to_image_on_github) <br>
+
+
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+Overall my filters worked in their desired range.  
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+The only thing I wish I would have had know before starting this lab was knowing how to use HFSS a little bit better.  
 
 ## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
+Everything was pretty straightforward, I didn’t have trouble with any part of the lab. 
