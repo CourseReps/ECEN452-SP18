@@ -22,13 +22,13 @@ minimum attenuation of 10 dB at 3.25GHz. I used the graph below relating the cut
 set frequency to calculate the order of the filter required, which is a fifth order filter.
 
 Figure 1: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/FilterOrder.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/FilterOrder.PNG)<br>
 
 I then used a lookup table to determine the filter coefficients for a fifth order Butterworth low pass filter
 prototype. g1=.618, g2=1.618, g3=2.00, g4=1.618, g5=.618 The ladder network is shown in Figure 2.
 
 Figure 2: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/Ladder.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/Ladder.PNG)<br>
 
 In the diagram, we see three shunt capacitors and two series inductors. We can use Richard's Transformations to 
 conver the capacitors to open circuit stubs and the inductors into short circuit stubs. 
@@ -46,7 +46,7 @@ The final result, after impedance scaling where we multiply by our characteristi
 is given by the circuit below:
 
 Maximally Flat LPF T-Line Model:
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/Final1.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/Final1.PNG)<br>
 
 Using the online microstrip calculator, we found the wavelength and line width for each of the 1/8 wavelength sections.
 For the lumped element model which we found with the ladder network and the lookup table, we can find the value of
@@ -76,7 +76,7 @@ drops out: Z = (4Zo)/(pi*d*g), which we can use to solve for each impedance for 
 defined by our characteristic impedance of 50 ohms. The final result is seen below.
 
 BSF Final Values:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/BSFFinal.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/BSFFinal.PNG)<br>
 
 I did not have to make any modifications for either design while in lab other than redoing my incompetent soldering.
 
