@@ -77,12 +77,12 @@ We saw the same data here in S31 as we saw in S21, where the design frequency fo
 than intended and the loss is higher than desired at 3GHz.
 
 Mag S32: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S32Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S32_Mag.png)<br>
 At S32 we should see high attenuation because we do not want the signals from ports 3 and 2 reflecting back and
 forth between the two ports.
 
 Mag S33: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S33Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S33_Mag.png)<br>
 
 ## Conclusion
 The phase shifter is important for controlling antenna directions and other applications and although the design is simple,
