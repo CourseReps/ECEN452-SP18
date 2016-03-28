@@ -45,7 +45,7 @@ ue2=z1'*N2=1.382, z2'=ue1'*N1'=.854, ue1''=2.236.
 The final result, after impedance scaling where we multiply by our characteristic impedance of 50 ohms,
 is given by the circuit below:
 
-Maximally Flat LPF T-Line Model:
+Maximally Flat LPF T-Line Model:<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/Final1.PNG)<br>
 
 Using the online microstrip calculator, we found the wavelength and line width for each of the 1/8 wavelength sections.
@@ -88,8 +88,6 @@ the VNA. The results are shown below. We did not implement the center-tapped stu
 the exact same thing as with the LPF and the results are once again below.
 
 ## Results and Discussion
-Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
-
 LPF T-Line Mag: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/LPF_TLine_dB.png)<br>
 From this plot, we can see that at our cutoff frequency of 2.5GHz our circuit is not attenuating the signal and does
