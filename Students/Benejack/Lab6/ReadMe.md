@@ -13,7 +13,7 @@ The .5dB means the oscillations in the passband are under .5dB in magnitude. Equ
 equal ripple in both the pass and stop bands.(2)
 
 ## Design
-*Task 1:
+*Task 1:<br>
 Data:
 Zo = 50 ohms, 62 mil thick = 1.578mm, FR4 (Er = 4.1), f[1,5] GHz, 15mm ref. plane
 
@@ -118,7 +118,8 @@ From the magnitude of S21, we see there were definitely some problems with our t
 around 3.5 GHz instead of 3GHz and our equiripple did not approach 0db, in the bandpass region. This could have been
 from a number of problems: our measuring and cutting, the distances separating stubs, the length of stubs and our soldering.
 I think the biggest problem is when we had to resolder several times, our tape started to peel off the substrate
-and change the output significantly. The HFSS shows the nice ideal behavior across the bandstop region.
+and change the output significantly. The HFSS shows the nice ideal behavior across the bandstop region as the signal is
+attenuated from 2.25-3.75 GHz and the signal passes through outside of the stopband.
 
 BSF S11 Phase: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/BSF_S11_Phase.png)<br>
@@ -133,6 +134,8 @@ BSF Total Mag: <br>
 
 BSF Total Phase: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab6/BSF_Phase.png)<br>
+A lot of the phase results seemed to be off because we were not particularly interested in the phase measurements so we
+did not worry about de-embedding.
 
 ## Conclusion
 The main points of the LPF design were the simple design process using a low pass prototype and filter table and
