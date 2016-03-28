@@ -9,7 +9,7 @@ it is a one directional device and one port is always used for the input. The po
 this makes the device more complicated to design.
 
 ## Design
-*Task1:
+*Task1:<br>
 Data:
 Zo = 50 ohms, 62 mil thick = 1.578mm, FR4 (Er = 4.1), f=3 GHz, w = 3.1mm line
 
@@ -23,7 +23,7 @@ the biggest problem is how we were measuring and cutting the stubs - not from th
 When you measure from the centers, in particular for the 90 degree shifter, it adds another 3mm on either side, which would
 have brought our data significantly closer to correct. 
 
-*Task2:
+*Task2:<br>
 Data:
 Zo = 50 ohms, 62 mil thick = 1.578mm, FR4 (Er = 4.1), f=2.5 GHz
 
@@ -55,7 +55,7 @@ and taping alone. I think the biggest difference was that we did not measure fro
 lines already taped down.
 
 180 Degree Phase Shifter: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/180PhaseShifter)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/180PhaseShifter.png)<br>
 Our 180 degree phase shifter came in over by about 35 degrees and I am not sure entirely why this one did not
 work as well. When we were soldering, we left a gap so the lines would not be touching and tried to account for
 this in our measurements by subtracting a millimeter, but I don't know if this is enough to change the phase so much.

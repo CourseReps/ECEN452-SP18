@@ -9,14 +9,15 @@ biasing the diode with a DC bias voltage.
 ## Design
 *Data:
 Zo = 50 ohms, 62 mil thick, FR4, f[1,5] GHz, 15mm ref. plane
-*Task 1
+
+*Task 1:
 In task one, I used the online microstrip calculator to calculate the values for the TRL kit: the width to give a 50 ohm characteristic impedance line, and the length
 of a quarter wavelength section to append to the Line standard. The microstrip line width was 3.09mm and the line lengths (TRL) were 15mm, 30mm, and 40.07mm respectively.
 I simulated all three of the files in HFSS and exported the data after de-embedding. The data came out at -92 degrees phase at 3 GHz for the Line standard
 and I changed the length but I did not see the phase get closer to -90 degrees. I would have changed the width, but the lab manual did not say whether to modify
 the width and I could not find the impedance of the line calculated in HFSS. 
 
-*Task 2
+*Task 2:
 For task two, I used the online microstrip calculator again to calculate the stub width and length to give a characteristic impedance of 100 ohms. I simulated the first 
 file, isolating a single stub, and adjusted the length of the stub slightly to get the correct operating frequency lowered down to 2.5 GHz. My original calculations yielded a stub
 length of 18.8 mm, but after simulation, I realized I needed to shorten the length to 18.1 mm. The stub was tuned to too low of a frequency, and because of the inverse relationship
@@ -61,7 +62,6 @@ based off of a DC voltage biasing the diode. The S-parameters, which are easy to
 our design is working.
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
 The VNA and HFSS output data in Hz and GHz respectively and that took a bit to figure out why my plotting was not working for my python plots because my x-axis scaling was off.
 I also wish I had known \b is a special character in python... but that's another story.
 
