@@ -62,7 +62,6 @@ based off of a DC voltage biasing the diode. The S-parameters, which are easy to
 our design is working.
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
 The VNA and HFSS output data in Hz and GHz respectively and that took a bit to figure out why my plotting was not working for my python plots because my x-axis scaling was off.
 I also wish I had known \b is a special character in python... but that's another story.
 
