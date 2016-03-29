@@ -12,7 +12,7 @@ Zo = 50 ohms, 62 mil thick, FR4, f[1,5] GHz, 15mm ref. plane
 
 *Task 1:
 In task one, I used the online microstrip calculator to calculate the values for the TRL kit: the width to give a 50 ohm characteristic impedance line, and the length
-of a quarter wavelength section to append to the Line standard. The microstrip line width was 3.09mm and the line lengths (TRL) were 15mm, 30mm, and 40.07mm respectively.
+of a quarter wavelength section to append to the Line standard. The microstrip line width was 3.09mm and the line lengths (TRL) were 15mm, 30mm, and 44.07mm respectively.
 I simulated all three of the files in HFSS and exported the data after de-embedding. The data came out at -92 degrees phase at 3 GHz for the Line standard
 and I changed the length but I did not see the phase get closer to -90 degrees. I would have changed the width, but the lab manual did not say whether to modify
 the width and I could not find the impedance of the line calculated in HFSS. 
@@ -28,6 +28,11 @@ In lab we measured the S21 phase and magnitude for each of the standards of the 
 for the S11 and S21 parameters.
 
 ## Results and Discussion
+
+To calculate the phase velocity and the delay of the line standard we use the following equation:<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/Equation.png)<br>
+
+From this equation, we can solve for Eeff, as we know the line length is 14.07mm and the phase at 3GHz at the end of the line is -92 degrees. When we solve, we get Eeff = 3.3. With Eeff, we calculate Vp = 1.65*10^8 m/s. The delay of the circuit is given by the length of the line segment divided by the phase velocity, giving us: .852 pSec delay.
 
 I did not see any significant differences in the measured in simulated data for task 1 as the measurements where all on such a small scale.
 
