@@ -40,14 +40,22 @@ Polynomial Fit Capacitance: <br>
 Mag S21 Line: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/S21_Line_Mag.png)<br>
 
+We see that there is not much loss through the line standard as we expect with only a transmission line.
+
 Phase S21 Line: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/S21_Line_Phase.png) <br>
+
+The line standard should have a 90 degree phase shift at the output because we added a quarter wavelength section to the end of the thru standard.
 
 Mag S21 Thru: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/S21_Thru_Mag.png) <br>
 
+The thru standard also has no loss.
+
 Phase S21 Thru: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/S21_Thru_Phase.png)<br>
+
+The thru should have zero phase change if it is 30mm and de embedded 15mm from each port.
 
 Mag S21 Thru: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/PIN_On.png)<br>
