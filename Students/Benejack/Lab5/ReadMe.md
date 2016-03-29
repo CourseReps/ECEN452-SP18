@@ -57,17 +57,18 @@ Phase S21 Thru: <br>
 
 The thru should have zero phase change if it is 30mm and de embedded 15mm from each port.
 
-Mag S21 Thru: <br>
+PIN Diode On: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/PIN_On.png)<br>
 
-Phase S21 Thru: <br>
+With the diode on, the signal passes through unattenuated at the design frequency of 3GHz.
+
+PIN Diode Off Thru: <br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab5/PIN_Off.png)<br>
 
+If the diode is turned off, the signal does not propagate through, in particular at the design frequency.
+
 ## Conclusion
-It is important to remember the precision of the TRL kit because calibration is critical for more complex designs. The
-pin diode allows us to pass through our signal not only at a certain frequency, but also with a controlled on/off switch
-based off of a DC voltage biasing the diode. The S-parameters, which are easy to measure, allow us to easily evaluate whether
-our design is working.
+It is important to remember the precision of the TRL kit because calibration is critical for more complex designs. The calibration is relatively simple but important to account for many variables precisely. The pin diode allows us to pass through our signal not only at a certain frequency, but also with a controlled on/off switch based off of a DC voltage biasing the diode. The additional control here provides some flexibility that isn't found in a typical filter which cannot control the circuit state. The S-parameters, which are easy to measure, allow us to easily evaluate whether our design is working. In particular, we can see when S21 is attenuated or not and we can look at the phase measurements to see whether the phase shift is how we expect for particular line lengths or configurations. Here, it is simple to see the results from S21.
 
 ## Hindsight
 The VNA and HFSS output data in Hz and GHz respectively and that took a bit to figure out why my plotting was not working for my python plots because my x-axis scaling was off.
