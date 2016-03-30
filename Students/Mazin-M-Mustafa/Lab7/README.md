@@ -4,86 +4,25 @@ Mazin M Mustafa
 
 ## Background
 
-In this lab we will design a Wilkinson power divider. The theory of the power divider
+In this lab we will design a Wilkinson power divider. The theory of the power divider is well established and the design is shown in figure 1. The design frequency was choosen to be 2.5 GHz.
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/equations.png) <br>
-fig.1 : Equations for Insertion Loss
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/Po.png) <br>
+fig.1 : Wilkinson Power Divider
 
-The LPF prototypes and implementations are basically lumped elements. This gives a possibility to implement the filter using discrete components or microstrip realization ... etc
 
 ## Design
 
-The design of LPF starts with selecting cut-off frequency and substrate parameters. By identifying the rejection required for the filter will allow us to decide the number of elements in the filter. This can be obtained from design tables. These values give us the gk for each lumped element and this will be the initial design. The next step is to apply transformations by using Richards' transformations. Then by using Kuroda identities, a practically realizable microstrip version can be obtained. The same concept can be applied for BSF by introducing inverter, this gives a BSF filter. Similar process can be done for HPF and BPF.
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/prototype.png) <br>
-fig.2 : LPF prototype
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/Rich.png) <br>
-fig.3 : Richards' transformation
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/kord.png) <br>
-fig.4 : Kuroda identity
+An HFSS file was simulated for the power divider
 
 Substrate : FR4
 er = 4.1
 tand = 0.01
 h = 62 mil
-
-For LPF:
-fc = 2.5 GHz
-Rej = 10 dB at 3.25 GHz
-maximally-flat
-
-For LPF:
-fc = 3 GHz
-BW = 2.25 GHz - 3.75 GHz
-Equal-ripple 0.5 dB
+fo = 2.5 GHz
 
 ## Procedure
 
-LPF:
-
-1- Selecting the order of filter N
-
-2- Evaluate the corresponding elements values
-
-3- Assemble the prototypr LC ladder network
-
-4- Applu Richards transformation
-
-5- Apply Kuroda's identity
-
-6- Calculate microstrip dimensions
-
-7- Transform the desing into tapped stubs
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/eq3.png) <br>
-
-x is the fraction of lamda
-
-for Zo = 181 ohm => x = 0.03837
-
-for Zo = 43  ohm => x = 0.12773
-
-for Zo = 25  ohm => x = 0.16854
-
-BSF:
-
-1- Selecting the order of filter N
-
-2- Evaluate the corresponding elements values
-
-3- Assemble the prototypr LC ladder network
-
-4- Applu Richards transformation
-
-5- Apply Kuroda's identity
-
-6- Calculate microstrip dimensions
-
-7- Use intverters
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab6/eq2.png) <br>
+The procedure is to calculate the dimensions of the structure at the specified frequency. Then optimizing the results to achieve the best performance.
 
 ## Results and Discussion
 
