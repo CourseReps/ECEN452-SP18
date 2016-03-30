@@ -30,6 +30,8 @@ Thru Magnitude and Phase
 ![Thru S21 dB](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Thru_S21_dB.png)<br>
 ![Thru S21 Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Thru_S21_Phase.png)<br>
 The Thru segment had zero loss at the design frequency, as well as zero phase at the design frequency. 
+The Thru phase at 3GHz was used to calculate the phase velocity and delay of the line: 
+![delay](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/TRL_Data/Delay.png)<br>
 
 Capacitance Polynomial Fit: 
 
@@ -39,7 +41,7 @@ The polynomial fit of the capacitance data shows a fairly close match to the cap
 ###PIN Diode 
 
 ![PIN S11](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/PIN_Data/PIN_Diode_S11.png)<br>
-This graph compares the magnitude of the reflected signal from the pin diode circuit in both the ON and OFF states. The measured signal level took on approximately the same shape as the simulated signal, with some minor differences. In the OFF state, almost the entire signal is reflected back into the input ports. Additionally, there is a noticable resonance at 4.3 GHz where signal passes through the circuit. This is likely due to the quarter-wave chokes becoming closer to half-wave as the frequency doubles. This inverts the filter behavior and allows signal to pass through at these frequencies. In the ON state, the reflected signal is heavily attenuated in and around the design frequency of 2.5 GHz. Also, the reflection strength reached a minimum slightly below the design frequency, because... 
+This graph compares the magnitude of the reflected signal from the pin diode circuit in both the ON and OFF states. The measured signal level took on approximately the same shape as the simulated signal, with some minor differences. In the OFF state, almost the entire signal is reflected back into the input ports. Additionally, there is a noticable resonance at 4.3 GHz where signal passes through the circuit. This is likely due to the quarter-wave chokes becoming closer to half-wave as the frequency doubles. This inverts the filter behavior and allows signal to pass through at these frequencies. In the ON state, the reflected signal is heavily attenuated in and around the design frequency of 2.5 GHz. Also, the reflection strength reached a minimum slightly below the design frequency when the entire pin diode switch circuit was constructed.  
 
 
 ![PIN S21](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab5/PIN_Data/PIN_Diode_S21.png)<br>
