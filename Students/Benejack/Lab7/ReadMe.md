@@ -30,9 +30,7 @@ Zo = 50 ohms, 62 mil thick = 1.578mm, FR4 (Er = 4.1), f=2.5 GHz
 For the Wilkinson Power Divider (WPD), the design is well-known so for the simulations, I knew we wanted a 3dB split
 so the legs would be equal on the divider. For this, we have all three ports with impedance 50 ohms and the quarter
 wavelength sections of the divider have impedance 70.7 ohms (increased by a factor of root 2). The resistor across the
-two legs of the WPD is given by 2Zo = 100 ohms. Because we used a circular model for the WPD, the length across the
-circle is a quarter wavelength. In HFSS, the length calls for a half circle, so I solved to find this length based
-off of the diameter and found the length to be 31.6mm.
+two legs of the WPD is given by 2Zo = 100 ohms. Because we used a circular model for the WPD, the length of the line is not exactly what I initially calculated. From our calculations, a quarter wavelength in the 70.7 ohm section at 2.5GHz is 17.36 mm, however, this does not work exactly in our HFSS simulations. Because the line is curved, we add inductance to the line and effectively shorten the line so we have to add length to the line, according to online, you have to add approximately 1.5*w for a 180 degree span (2.5 mm). However, there are also effects generated from the t-junction split we have which create more inductance by the transformer effect and we have to add more length to our line to account for this. From HFSS, it turned out that 24.2mm length gave the best output instead of 17.36 mm. The results are shown below.
 
 ## Procedure
 In lab we created the 50 ohm line standard and then we used the online microstrip calculator to figure out the wavelengths
@@ -61,39 +59,38 @@ work as well. When we were soldering, we left a gap so the lines would not be to
 this in our measurements by subtracting a millimeter, but I don't know if this is enough to change the phase so much.
 
 Mag S11: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S11Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S11.png)<br>
 
 Mag S21: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S21Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S21.png)<br>
 Here we can see that at 3 GHz we get about -3.7dB at port 2, which is actually lower than it should be, but not terribly
 far off from the measured data.
 
 Mag S22: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S22Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S22.png)<br>
 
 Mag S31: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S31Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S31.png)<br>
 We saw the same data here in S31 as we saw in S21, where the design frequency for the circuit seems to be lower
 than intended and the loss is higher than desired at 3GHz.
 
 Mag S32: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S32_Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S32.png)<br>
 At S32 we should see high attenuation because we do not want the signals from ports 3 and 2 reflecting back and
 forth between the two ports.
 
 Mag S33: <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S33_Mag.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab7/S33.png)<br>
 
 ## Conclusion
 The phase shifter is important for controlling antenna directions and other applications and although the design is simple,
 the precision is difficult to achieve. The WPD is a simple design for power splitting, in particular for even power
-splits. However, my design was not centered on the correct frequency.
+splits. However, there are many effects to account for with the layout of the microstrip. The line length changed pretty significantly from the original length due to the added inductance. The line probably has coupling effects as well from the split into ports 2 and 3 where the lines run almost parallel.
 
 ## Hindsight
 I wish I understood how to measure the lengths for stubs and transmissions lines in microstrip better than I do,
-because when you are dealing with millimeters, small changes make a significant difference.
+because when you are dealing with millimeters, small changes make a significant difference. I am getting a better feel now for understanding the relationship between lumped element an transmission line models and how the effects of each translate back and forth.
 
 ## Reflection
 The phase shifter was the most challenging, although it shouldn't have been. Understanding the theory of the Wilkinson 
-divider was the most rewarding, however, I still think I am missing something for the WPD using the circular quarter
-wavelength section. Either that or I made an error in my calculations.
+divider was the most rewarding. I also see now how important the non ideal effects are for microstrip layout in the actual implementation of a design after treating the ideal case.
