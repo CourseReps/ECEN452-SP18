@@ -14,7 +14,7 @@ fig.2 : Rat Race coupler
 
 ## Design
 
-An HFSS file was simulated for the power divider
+An HFSS file was simulated for the structures
 
 Substrate : FR4
 er = 4.1
@@ -26,13 +26,13 @@ fo = 2.5 GHz
 
 The procedure is to calculate the dimensions of the structure at the specified frequency. Then optimizing the results to achieve the best performance as shown in the following figure.
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/W1.png) <br>
-fig.2 : HFSS model
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/ddd.png) <br>
+fig.3 : 90 Hybrid coupler HFSS model
 
 ## Results
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/PowerDivider.png) <br>
-fig.3 : HFSS simulation results
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/ww.png) <br>
+fig.4 : Rat Race coupler HFSS model
 
 ## Discussion
 
