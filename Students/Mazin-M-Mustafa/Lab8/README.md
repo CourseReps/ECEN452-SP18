@@ -52,7 +52,7 @@ The results of the HFSS model is shown in the next figure. Results are close to 
 
 ## Conclusion
 
-LPF and BSF design and simulations were performed successfully. Variations could be due to the effect of the SMA connectors in the fabricated design.
+Rat Race and 90 degree Hybrid couplers designs and simulations were performed successfully. Variations could be due to the effect of the SMA connectors in the fabricated design.
 
 ## Hindsight
 
