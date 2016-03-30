@@ -29,10 +29,22 @@ The procedure is to calculate the dimensions of the structure at the specified f
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/ddd.png) <br>
 fig.3 : 90 Hybrid coupler HFSS model
 
-## Results
-
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/ww.png) <br>
 fig.4 : Rat Race coupler HFSS model
+
+## Results
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid1.png) <br>
+fig.5 : 90 Hybrid coupler |S| dB
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid2.png) <br>
+fig.6 : 90 Hybrid coupler Phase Difference
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid3.png) <br>
+fig.7 : 90 Hybrid coupler RL
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/RatRace.png) <br>
+fig.8 : Rat Race coupler |S| dB
 
 ## Discussion
 
