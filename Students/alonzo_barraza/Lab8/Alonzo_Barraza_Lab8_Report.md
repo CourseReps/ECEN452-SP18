@@ -13,14 +13,12 @@ The second design was a Rat-Race coupler. A Rat-Race or ring-coupler has four po
 Due to the short week, this lab consisted only of the simulation portion.  
 
 ## Results and Discussion
-![Time Delay Shift: S11 Magnitude](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/TDS_mag_S11.png) <br>
-![Time Delay Shift: S21 Magnitude](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/TDS_mag_S21.png) <br>
-![Time Delay Shift: S11 Pahse](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/TDS_phase_S11.png) <br>
-![Time Delay Shift: S21 Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/TDS_phase_S21.png) <br>
-![Wilkinson Power Divider Magnitude: S11, S22, S33](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/WPD_mag_S11.png) <br>
-![Wilkinson Power Divider Magnitude: S21, S31, S32](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/WPD_mag_S21.png)<br>
-![Wilkinson Power Divider Phase: S11, S22, S33](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/WPD_phase_S11.png)<br>
-![Wilkinson Power Divider Phase: S21, S31, S32](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab7/WPD_phase_S21.png)<br>
+![Hybrid Coupler: Input Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab8/HC_Input_Port1.png) <br>
+![Hybrid Coupler: Port Matching S11 and S22](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab8/HC_Port_Matching_S11.png) <br>
+![Hybrid Coupler: Port Matching S33 and S44](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab8/HC_Port_Matching.png) <br>
+![Rat-Race Coupler: Input Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab8/RR_Input_Port1.png) <br>
+![Rat-Race Coupler: Port Matching S11 and S22](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab8/RR_Port_Matching_S11.png) <br>
+![Rat-Race Coupler: Port Matching S33 and S44](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab8/RR_Port_Matching.png)<br>
 
 ## Conclusion
 The measurement portion of this lab was done by David and he provided the results in order to compare them with the HFSS results. For the most part the simulations and the fabracated designs produced the same results. As of right now the simulated ones have a phase shift but that can be corrected by adjusting the values.  
