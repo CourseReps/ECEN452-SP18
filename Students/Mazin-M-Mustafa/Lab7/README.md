@@ -27,6 +27,11 @@ The procedure is to calculate the dimensions of the structure at the specified f
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/W1.png) <br>
 fig.2 : HFSS model
 
+## Results
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/PowerDivider.png) <br>
+fig.2 : HFSS simulation results
+
 ## Discussion
 
 The results of the HFSS model is shown in the next figure. Results are close to the simulation as expected.
