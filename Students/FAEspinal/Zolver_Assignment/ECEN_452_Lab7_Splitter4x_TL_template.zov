@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+    <key name="projectsettings" valuetype="QVariantMap">
+        <key name="elements" valuetype="QVariantList">
+            <key name="0" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">41.887901306152344</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">12</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">41</key>
+                        <key name="externalReference" valuetype="int">1</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">P1.IP0</key>
+                        <key name="physicalX" valuetype="double">380.75625610351562</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">1</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">41.887901306152344</key>
+                    <key name="impedance_type" valuetype="int">6</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">1</key>
+                    <key name="system_length" valuetype="double">0.15000000596046448</key>
+                    <key name="uid" valuetype="QString">P1</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">P1</key>
+                <key name="numofports" valuetype="int">1</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">0</key>
+                <key name="row" valuetype="int">8</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.15000000596046448</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">6</key>
+                <key name="typeIDCount" valuetype="int">1</key>
+                <key name="x" valuetype="int">1080</key>
+                <key name="y" valuetype="int">720</key>
+            </key>
+            <key name="1" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">41.887901306152344</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">20</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">48</key>
+                        <key name="externalReference" valuetype="int">13</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">P2.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">2</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">41.887901306152344</key>
+                    <key name="impedance_type" valuetype="int">6</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">1</key>
+                    <key name="system_length" valuetype="double">0.15000000596046448</key>
+                    <key name="uid" valuetype="QString">P2</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">P2</key>
+                <key name="numofports" valuetype="int">1</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">6</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.15000000596046448</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">6</key>
+                <key name="typeIDCount" valuetype="int">2</key>
+                <key name="x" valuetype="int">1800</key>
+                <key name="y" valuetype="int">540</key>
+            </key>
+            <key name="2" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">41.887901306152344</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">20</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">49</key>
+                        <key name="externalReference" valuetype="int">15</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">P3.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">3</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">41.887901306152344</key>
+                    <key name="impedance_type" valuetype="int">6</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">1</key>
+                    <key name="system_length" valuetype="double">0.15000000596046448</key>
+                    <key name="uid" valuetype="QString">P3</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">P3</key>
+                <key name="numofports" valuetype="int">1</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">7</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.15000000596046448</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">6</key>
+                <key name="typeIDCount" valuetype="int">3</key>
+                <key name="x" valuetype="int">1800</key>
+                <key name="y" valuetype="int">630</key>
+            </key>
+            <key name="3" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0.0044198906980454922</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">74.266944885253906</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">14</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">3.1435034275054932</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">41</key>
+                        <key name="externalReference" valuetype="int">2</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL1.IP0</key>
+                        <key name="physicalX" valuetype="double">380.75625610351562</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">42</key>
+                        <key name="externalReference" valuetype="int">3</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL1.IP1</key>
+                        <key name="physicalX" valuetype="double">448.43624877929688</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">4</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">74.266944885253906</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0.067680001258850098</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">0.084602713584899902</key>
+                    <key name="uid" valuetype="QString">TL1</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.99996787309646606</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL1</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">169205424</key>
+                <key name="physicalWidth" valuetype="double">3.16672682762146</key>
+                <key name="physicallength" valuetype="double">0.067680001258850098</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">0</key>
+                <key name="row" valuetype="int">7</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.084602713584899902</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">1</key>
+                <key name="x" valuetype="int">1260</key>
+                <key name="y" valuetype="int">630</key>
+            </key>
+            <key name="4" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0.0044198906980454922</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">74.266944885253906</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">16</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">3.1435034275054932</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">46</key>
+                        <key name="externalReference" valuetype="int">6</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL2.IP0</key>
+                        <key name="physicalX" valuetype="double">516.11627197265625</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">42</key>
+                        <key name="externalReference" valuetype="int">4</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL2.IP1</key>
+                        <key name="physicalX" valuetype="double">448.436279296875</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">5</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">74.266944885253906</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0.067680001258850098</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">0.084602713584899902</key>
+                    <key name="uid" valuetype="QString">TL2</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.99996787309646606</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL2</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">169205424</key>
+                <key name="physicalWidth" valuetype="double">3.16672682762146</key>
+                <key name="physicallength" valuetype="double">0.067680001258850098</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">6</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.084602713584899902</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">2</key>
+                <key name="x" valuetype="int">1440</key>
+                <key name="y" valuetype="int">540</key>
+            </key>
+            <key name="5" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0.0044198906980454922</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">74.266944885253906</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">16</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">3.1435034275054932</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">42</key>
+                        <key name="externalReference" valuetype="int">5</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL3.IP0</key>
+                        <key name="physicalX" valuetype="double">448.43624877929688</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">47</key>
+                        <key name="externalReference" valuetype="int">9</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL3.IP1</key>
+                        <key name="physicalX" valuetype="double">516.11627197265625</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">6</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">74.266944885253906</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0.067680001258850098</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">0.084602713584899902</key>
+                    <key name="uid" valuetype="QString">TL3</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.99996787309646606</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL3</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">169205424</key>
+                <key name="physicalWidth" valuetype="double">3.16672682762146</key>
+                <key name="physicallength" valuetype="double">0.067680001258850098</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">0</key>
+                <key name="row" valuetype="int">9</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.084602713584899902</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">3</key>
+                <key name="x" valuetype="int">1440</key>
+                <key name="y" valuetype="int">810</key>
+            </key>
+            <key name="6" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">41.887901306152344</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">20</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">50</key>
+                        <key name="externalReference" valuetype="int">17</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">P4.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">7</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">0</key>
+                    <key name="impedance_type" valuetype="int">6</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">1</key>
+                    <key name="system_length" valuetype="double">0</key>
+                    <key name="uid" valuetype="QString">P4</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">P4</key>
+                <key name="numofports" valuetype="int">1</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">8</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.15000000596046448</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">6</key>
+                <key name="typeIDCount" valuetype="int">4</key>
+                <key name="x" valuetype="int">1800</key>
+                <key name="y" valuetype="int">720</key>
+            </key>
+            <key name="7" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">41.887901306152344</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">20</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">1</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">51</key>
+                        <key name="externalReference" valuetype="int">19</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">P5.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">8</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">0</key>
+                    <key name="impedance_type" valuetype="int">6</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">1</key>
+                    <key name="system_length" valuetype="double">0</key>
+                    <key name="uid" valuetype="QString">P5</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">P5</key>
+                <key name="numofports" valuetype="int">1</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">300000000</key>
+                <key name="physicalWidth" valuetype="double">1</key>
+                <key name="physicallength" valuetype="double">0</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">9</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.15000000596046448</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">6</key>
+                <key name="typeIDCount" valuetype="int">5</key>
+                <key name="x" valuetype="int">1800</key>
+                <key name="y" valuetype="int">810</key>
+            </key>
+            <key name="8" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0.0044198906980454922</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">74.266944885253906</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">18</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">3.1435034275054932</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">48</key>
+                        <key name="externalReference" valuetype="int">12</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL4.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">46</key>
+                        <key name="externalReference" valuetype="int">7</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL4.IP1</key>
+                        <key name="physicalX" valuetype="double">516.11627197265625</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">9</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">74.266944885253906</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0.067680001258850098</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">0.084602713584899902</key>
+                    <key name="uid" valuetype="QString">TL4</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.99996787309646606</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL4</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">169205424</key>
+                <key name="physicalWidth" valuetype="double">3.16672682762146</key>
+                <key name="physicallength" valuetype="double">0.067680001258850098</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">4</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.084602713584899902</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">4</key>
+                <key name="x" valuetype="int">1620</key>
+                <key name="y" valuetype="int">360</key>
+            </key>
+            <key name="9" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0.0044198906980454922</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">74.266944885253906</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">18</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">3.1435034275054932</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">49</key>
+                        <key name="externalReference" valuetype="int">14</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL5.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">46</key>
+                        <key name="externalReference" valuetype="int">8</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL5.IP1</key>
+                        <key name="physicalX" valuetype="double">516.11627197265625</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">10</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">74.266944885253906</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0.067680001258850098</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">0.084602713584899902</key>
+                    <key name="uid" valuetype="QString">TL5</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.99996787309646606</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL5</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">169205424</key>
+                <key name="physicalWidth" valuetype="double">3.16672682762146</key>
+                <key name="physicallength" valuetype="double">0.067680001258850098</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">6</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.084602713584899902</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">5</key>
+                <key name="x" valuetype="int">1620</key>
+                <key name="y" valuetype="int">540</key>
+            </key>
+            <key name="10" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0.0044198906980454922</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">74.266944885253906</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">18</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">3.1435034275054932</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">50</key>
+                        <key name="externalReference" valuetype="int">16</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL6.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">47</key>
+                        <key name="externalReference" valuetype="int">11</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL6.IP1</key>
+                        <key name="physicalX" valuetype="double">516.11627197265625</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">11</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">74.266944885253906</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0.067680001258850098</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">0.084602713584899902</key>
+                    <key name="uid" valuetype="QString">TL6</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.99996787309646606</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL6</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">169205424</key>
+                <key name="physicalWidth" valuetype="double">3.16672682762146</key>
+                <key name="physicallength" valuetype="double">0.067680001258850098</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">8</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.084602713584899902</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">6</key>
+                <key name="x" valuetype="int">1620</key>
+                <key name="y" valuetype="int">720</key>
+            </key>
+            <key name="11" valuetype="QVariantMap">
+                <key name="alpha" valuetype="double">0.0044198906980454922</key>
+                <key name="ampGain" valuetype="double">1</key>
+                <key name="beta" valuetype="double">74.266944885253906</key>
+                <key name="capacitance" valuetype="double">1</key>
+                <key name="col" valuetype="int">18</key>
+                <key name="coupler2ImaginaryBeta" valuetype="double">0</key>
+                <key name="coupler2RealAlpha" valuetype="double">0</key>
+                <key name="coupler2RealBeta" valuetype="double">0</key>
+                <key name="couplingConstant" valuetype="double">0</key>
+                <key name="currentfrequency" valuetype="double">2000000000</key>
+                <key name="designfrequency" valuetype="double">2500000000</key>
+                <key name="designpermittivity" valuetype="double">4.0999999046325684</key>
+                <key name="effectivePermittivity" valuetype="double">3.1435034275054932</key>
+                <key name="elementIP" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">51</key>
+                        <key name="externalReference" valuetype="int">18</key>
+                        <key name="internalReference" valuetype="int">1</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL7.IP0</key>
+                        <key name="physicalX" valuetype="double">583.7962646484375</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">90</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                    <key name="1" valuetype="QVariantMap">
+                        <key name="connectedIntersection" valuetype="int">47</key>
+                        <key name="externalReference" valuetype="int">10</key>
+                        <key name="internalReference" valuetype="int">2</key>
+                        <key name="isConnected" valuetype="bool">true</key>
+                        <key name="isDisconnected" valuetype="bool">false</key>
+                        <key name="isFloating" valuetype="bool">false</key>
+                        <key name="name" valuetype="QString">TL7.IP1</key>
+                        <key name="physicalX" valuetype="double">516.11627197265625</key>
+                        <key name="physicalY" valuetype="double">253.83749389648438</key>
+                        <key name="plottedX" valuetype="double">0</key>
+                        <key name="plottedY" valuetype="double">45</key>
+                    </key>
+                </key>
+                <key name="evenEffectivePerm" valuetype="double">1</key>
+                <key name="id" valuetype="int">12</key>
+                <key name="imgEvenValue" valuetype="double">0</key>
+                <key name="imgOddValue" valuetype="double">0</key>
+                <key name="imgvalue" valuetype="double">0</key>
+                <key name="impedance" valuetype="QVariantMap">
+                    <key name="alpha" valuetype="double">0</key>
+                    <key name="beta" valuetype="double">74.266944885253906</key>
+                    <key name="impedance_type" valuetype="int">3</key>
+                    <key name="impedance_value" valuetype="QVariantMap">
+                        <key name="imag" valuetype="double">0</key>
+                        <key name="real" valuetype="double">50</key>
+                    </key>
+                    <key name="length" valuetype="double">0.067680001258850098</key>
+                    <key name="local_id" valuetype="int">0</key>
+                    <key name="num_of_ports" valuetype="int">2</key>
+                    <key name="system_length" valuetype="double">0.084602713584899902</key>
+                    <key name="uid" valuetype="QString">TL7</key>
+                </key>
+                <key name="impedance_valid" valuetype="bool">true</key>
+                <key name="inductance" valuetype="double">1</key>
+                <key name="length" valuetype="double">0.99996787309646606</key>
+                <key name="lineSpacing" valuetype="double">1</key>
+                <key name="name" valuetype="QString">TL7</key>
+                <key name="numofports" valuetype="int">2</key>
+                <key name="oddEffectivePerm" valuetype="double">1</key>
+                <key name="phase" valuetype="double">0</key>
+                <key name="phaseVelocity" valuetype="double">169205424</key>
+                <key name="physicalWidth" valuetype="double">3.16672682762146</key>
+                <key name="physicallength" valuetype="double">0.067680001258850098</key>
+                <key name="realEvenValue" valuetype="double">50</key>
+                <key name="realOddValue" valuetype="double">0</key>
+                <key name="realvalue" valuetype="double">50</key>
+                <key name="rotation" valuetype="int">180</key>
+                <key name="row" valuetype="int">10</key>
+                <key name="scatteringMatrix" valuetype="QVariantMap" />
+                <key name="systemwavelength" valuetype="double">0.084602713584899902</key>
+                <key name="turnsRatio" valuetype="double">1</key>
+                <key name="type" valuetype="int">3</key>
+                <key name="typeIDCount" valuetype="int">7</key>
+                <key name="x" valuetype="int">1620</key>
+                <key name="y" valuetype="int">900</key>
+            </key>
+        </key>
+        <key name="intersections" valuetype="QVariantList">
+            <key name="0" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">P1.IP0</key>
+                        <key name="1" valuetype="QString">P1</key>
+                        <key name="2" valuetype="QString">TL1.IP0</key>
+                        <key name="3" valuetype="QString">TL1</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">41</key>
+                <key name="intersection_number" valuetype="int">41</key>
+            </key>
+            <key name="1" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL1.IP1</key>
+                        <key name="1" valuetype="QString">TL1</key>
+                        <key name="2" valuetype="QString">TL2.IP1</key>
+                        <key name="3" valuetype="QString">TL2</key>
+                    </key>
+                    <key name="1" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL3.IP0</key>
+                        <key name="1" valuetype="QString">TL3</key>
+                        <key name="2" valuetype="QString">TL1.IP1</key>
+                        <key name="3" valuetype="QString">TL1</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">42</key>
+                <key name="intersection_number" valuetype="int">42</key>
+            </key>
+            <key name="2" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL2.IP0</key>
+                        <key name="1" valuetype="QString">TL2</key>
+                        <key name="2" valuetype="QString">TL4.IP1</key>
+                        <key name="3" valuetype="QString">TL4</key>
+                    </key>
+                    <key name="1" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL5.IP1</key>
+                        <key name="1" valuetype="QString">TL5</key>
+                        <key name="2" valuetype="QString">TL2.IP0</key>
+                        <key name="3" valuetype="QString">TL2</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">46</key>
+                <key name="intersection_number" valuetype="int">46</key>
+            </key>
+            <key name="3" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL3.IP1</key>
+                        <key name="1" valuetype="QString">TL3</key>
+                        <key name="2" valuetype="QString">TL7.IP1</key>
+                        <key name="3" valuetype="QString">TL7</key>
+                    </key>
+                    <key name="1" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL6.IP1</key>
+                        <key name="1" valuetype="QString">TL6</key>
+                        <key name="2" valuetype="QString">TL3.IP1</key>
+                        <key name="3" valuetype="QString">TL3</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">47</key>
+                <key name="intersection_number" valuetype="int">47</key>
+            </key>
+            <key name="4" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL4.IP0</key>
+                        <key name="1" valuetype="QString">TL4</key>
+                        <key name="2" valuetype="QString">P2.IP0</key>
+                        <key name="3" valuetype="QString">P2</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">48</key>
+                <key name="intersection_number" valuetype="int">48</key>
+            </key>
+            <key name="5" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL5.IP0</key>
+                        <key name="1" valuetype="QString">TL5</key>
+                        <key name="2" valuetype="QString">P3.IP0</key>
+                        <key name="3" valuetype="QString">P3</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">49</key>
+                <key name="intersection_number" valuetype="int">49</key>
+            </key>
+            <key name="6" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL6.IP0</key>
+                        <key name="1" valuetype="QString">TL6</key>
+                        <key name="2" valuetype="QString">P4.IP0</key>
+                        <key name="3" valuetype="QString">P4</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">50</key>
+                <key name="intersection_number" valuetype="int">50</key>
+            </key>
+            <key name="7" valuetype="QVariantMap">
+                <key name="connections" valuetype="QVariantList">
+                    <key name="0" valuetype="QVariantList">
+                        <key name="0" valuetype="QString">TL7.IP0</key>
+                        <key name="1" valuetype="QString">TL7</key>
+                        <key name="2" valuetype="QString">P5.IP0</key>
+                        <key name="3" valuetype="QString">P5</key>
+                    </key>
+                </key>
+                <key name="id" valuetype="int">51</key>
+                <key name="intersection_number" valuetype="int">51</key>
+            </key>
+        </key>
+        <key name="name" valuetype="QString" />
+        <key name="simulation_frequency" valuetype="double">2000000000</key>
+    </key>
+    <key name="systemsettings" valuetype="QVariantMap">
+        <key name="autoScale" valuetype="bool">true</key>
+        <key name="centerFrequency" valuetype="double">2.5</key>
+        <key name="centerFrequencyUnits" valuetype="int">1</key>
+        <key name="circuitBoardHeight" valuetype="double">387.73389492479345</key>
+        <key name="circuitBoardWidth" valuetype="double">123.59900722948083</key>
+        <key name="electricPermeability" valuetype="double">1</key>
+        <key name="electricPermittivity" valuetype="double">4.0999999999999996</key>
+        <key name="height" valuetype="int">0</key>
+        <key name="heightSubstrate" valuetype="double">1.5700000000000001</key>
+        <key name="heightSubstrateUnitsIndex" valuetype="int">0</key>
+        <key name="lossTangent" valuetype="double">0.02</key>
+        <key name="maxReturnLoss" valuetype="int">30</key>
+        <key name="maxVSWR" valuetype="double">5</key>
+        <key name="metalConductivity" valuetype="double">58000000</key>
+        <key name="metalThickness" valuetype="double">0.01</key>
+        <key name="metalThicknessUnitsIndex" valuetype="int">0</key>
+        <key name="miteringFraction" valuetype="double">0.59999999999999998</key>
+        <key name="numOfPointsN" valuetype="int">1000</key>
+        <key name="phaseVelocity" valuetype="double">143838990.44600001</key>
+        <key name="smithChart" valuetype="double">1</key>
+        <key name="startFrequency" valuetype="double">2</key>
+        <key name="startFrequencyUnits" valuetype="int">1</key>
+        <key name="stepSizeDelta" valuetype="double">10</key>
+        <key name="stepSizeDeltaUnits" valuetype="int">2</key>
+        <key name="stopFrequency" valuetype="double">3</key>
+        <key name="stopFrequencyUnits" valuetype="int">1</key>
+        <key name="surfaceRoughness" valuetype="double">0</key>
+        <key name="systemImpedance" valuetype="double">50</key>
+        <key name="systemImpedanceUnits" valuetype="int">4</key>
+        <key name="transmissionTypeSelected" valuetype="int">0</key>
+        <key name="useBoard" valuetype="bool">true</key>
+        <key name="width" valuetype="int">0</key>
+        <key name="circuitName" valuetype="QString">ECEN_452_Lab7_Splitter4x_TL</key>
+        <key name="comments" valuetype="QString" />
+    </key>
+    <key name="version" valuetype="QString">1.7.3-0-ge1c86ea</key>
+</settings>
