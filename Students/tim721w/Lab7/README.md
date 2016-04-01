@@ -4,13 +4,13 @@ Chung-Huan Huang
 
 ## Background
 In this lab, Wilkinson power divider was designed and compared with simulation results. The design is based on following figure and operating frequency is set to be 2.5 GHz.<br>
-<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab7/Wilkinson_equivalent_circuit.PNG) <br>
+<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab7/Wilkinson_equivalent_circuit.png)<br>
 
 ## Design
 Using Microstrip online calculator, parameters can be easily calculated based on above figure and given substrate information (FR4). Parameters of power divider are setup as:<br>
 <br>50ohm<br>
 Feed line width: 3.1298828125 mm<br>
-<br>70.71067ohm (¡Ô2Z0)<br>
+<br>70.71067ohm (Â¡Ã”2Z0)<br>
 QW line width: 1.6767578125 mm<br>
 QW line length: 17.295580370995644 mm<br>
 Resistor 2*Z0  = 100 ohm<br>
@@ -33,4 +33,4 @@ Both simulation and hardware measurement of Wilkinson power divider are conducte
 None<br>
 
 ## Reflection
-If possible, it¡¦s better to have a lab instruction document. That would make me more clearly to understand what to do for the lab.<br>
+If possible, itÂ¡Â¦s better to have a lab instruction document. That would make me more clearly to understand what to do for the lab.<br>
