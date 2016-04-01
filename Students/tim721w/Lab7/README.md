@@ -21,7 +21,6 @@ Simply key in above calculated parameters into HFSS file and simulate at certain
 
 S parameters are shown below:<br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab7/Wilkinson_S_dB.png)<br>
-<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab7/Wilkinson_S_dB.png)<br>
 
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab7/Wilkinson_S_phase.png)<br>
 
