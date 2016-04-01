@@ -18,8 +18,7 @@ Simply key in above calculated parameters into HFSS file and simulate at certain
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab7/model.png)<br>
 
 S parameters are shown below:<br>
-<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab7/Wilkinson_S_dB.png)<br>
-
+<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/Students/tim721w/Lab7/Wilkonson_S_dB.png)<br>
 
 ## Discussion
 The results of measurement data and simulated data are close to each other basically. However, there may be some curves such as S32(mag) are not match very well. The center frequency shifts about 1.5 GHz. This may due to that connectors may not be will implemented and microstrip line may not be fabricated as precise as simulated model.<br>
@@ -31,4 +30,4 @@ Both simulation and hardware measurement of Wilkinson power divider are conducte
 None<br>
 
 ## Reflection
-If possible, it¡¦s better to have a lab instruction document. That would make me more clearly to understand what to do for the lab.<br>
+If possible, it's better to have a lab instruction document. That would make me more clearly to understand what to do for the lab.<br>
