@@ -4,7 +4,7 @@ Chung-Huan Huang
 
 ## Background
 In this lab, Hybrid couple and Rat Race coupler were designed and compared with simulation results. The design is based on following figure and operating frequency is set to be 2.5 GHz.<br>
-<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/Hybrid_coupler.PNG) <br>
+<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/Hybrid_coupler.png) <br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/rat_race_coupler.PNG) <br>
 
 ## Design
@@ -38,4 +38,4 @@ Only simulation are conducted for both Hybrid coupler and Rat Race coupler. The 
 None<br>
 
 ## Reflection
-If possible, it¡¦s better to have a lab instruction document. That would make me more clearly to understand what to do for the lab. Also, it¡¦s much easier to understand design process if we can do the hardware experiment.<br>
+If possible, it's better to have a lab instruction document. That would make me more clearly to understand what to do for the lab. Also, it's much easier to understand design process if we can do the hardware experiment.<br>
