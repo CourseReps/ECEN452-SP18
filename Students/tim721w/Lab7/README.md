@@ -8,11 +8,9 @@ In this lab, Wilkinson power divider was designed and compared with simulation r
 
 ## Design
 Using Microstrip online calculator, parameters can be easily calculated based on above figure and given substrate information (FR4). Parameters of power divider are setup as:<br>
-<br>50ohm<br>
-Feed line width: 3.1298828125 mm<br>
-<br>70.71067ohm (¡Ô2Z0)<br>
-QW line width: 1.6767578125 mm<br>
-QW line length: 17.295580370995644 mm<br>
+Feed line width (50 ohm): 3.1298828125 mm<br>
+QW line width (70.71067 ohm): 1.6767578125 mm<br>
+QW line length (70.71067 ohm): 17.295580370995644 mm<br>
 Resistor 2*Z0  = 100 ohm<br>
 
 ##Procedure and Results
