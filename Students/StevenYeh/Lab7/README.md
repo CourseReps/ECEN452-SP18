@@ -4,7 +4,7 @@ Lab 7
 
 
 Task 1: Wilkinson Power Divider Design<br>
-<br>Step 1:In this exercise, a two ways power divider will be designed and simulated in the HFSS. The power divider should have 3 dB equal split characteristics at 2.5 GHz. A minimum return loss at each port should be less than -10 dB and a decent isolation between port #2 and port #3. All the ports have characteristic impedance of 50 Ohm.<br>
+<br>Step 1:In this exercise, a two ways power divider will be designed and simulated in the HFSS. The power divider should have 3 dB equal split characteristics at 2.5 GHz. A minimum return loss at each port should be less than -10 dB and a decent isolation between port #2 and port #3 is wanted. All the ports have characteristic impedance of 50 Ohm.<br>
 <b>Ans:<br>
 <b>The design layout along with the parameters(width, length and so on) are shown in the following figure.</b><br>
 
