@@ -4,7 +4,7 @@ Lab 8
 
 
 Task 1: Hybrid Coupler<br>
-<br>Step 1:In this exercise, a four port hybrid coupler will be designed and simulated in the HFSS. Port #1 is the input port port #2 is the through port, port #3 is the coupled port and port #4 is the isolation port. The coupler should have 3 dB power split from port #1 to port #2 and port #3. A minimum return loss at each port should be less than -10 dB and at port #4 there should have no power out. All the ports have characteristic impedance of 50 Ohm and are designed to operate at 2.5 GHz.<br>
+<br>Step 1:In this exercise, a four port hybrid coupler will be designed and simulated in the HFSS. Port #1 is the input port, port #2 is the through port, port #3 is the coupled port and port #4 is the isolation port. The coupler should have 3 dB power split from port #1 to port #2 and port #3. A minimum return loss at each port should be less than -10 dB and at port #4 there should have no power out. All the ports have characteristic impedance of 50 Ohm and are designed to operate at 2.5 GHz.<br>
 <b>Ans:<br>
 The design layout along with the parameters(width, length and so on) are shown in the following figure.<br>
 
