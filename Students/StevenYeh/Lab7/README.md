@@ -4,10 +4,12 @@ Lab 7
 
 
 Task 1: Wilkinson Power Divider Design<br>
-In this exercise, a two ways power divider will be designed and simulated. The power divider should also have 3 dB equal split characteristics at 2.5 GHz. A minimum return loss at each port should be less than -10 dB.<br>
+In this exercise, a two ways power divider will be designed and simulated in the HFSS. The power divider should have 3 dB equal split characteristics at 2.5 GHz. A minimum return loss at each port should be less than -10 dB.<br>
 <b>Ans:<br>
-<b>The design layout is shown in the following figure.</b><br>
+<b>The design layout along with the parameters(width, length and so on) are shown in the following figure.</b><br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/design_layout.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/design_parameter.png)<br>
+
 
 <br>Step 2: Next, use the table on the following page to determine the filter coefficients for the (hint: five-element) low-pass prototype.<br>
 <b>Ans:<br>
