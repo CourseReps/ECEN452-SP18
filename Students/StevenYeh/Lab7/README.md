@@ -23,4 +23,11 @@ Figure 3 - S parameters<br><br>
 
 The results shown a very close power split between port #2 and port #3 which are -3.57 dB and -3.59 dB, respectively. An -14.89 dB isolation is founded between port #2 and port #3. Next, all the ports have return loss less than -14.75 dB are observed. The insertion loss is around 0.5 dB from port #1 to port #2 or port #3 which is acceptable at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide acceptable performance at 2.5 GHz.</b><br>
 
+<br>Step 3: Finally, the simulated and measured data are compared and shown in the following figures. The results are close from the simulated and measured data.<br>
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/impedance_matching_comparison.png)<br>
+Figure 4 - Impedance Matching comparison <br><br>
+
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/power_split_isolation_comparison.png)<br>
+Figure 5 - Power split and isolation comparison<br><br>
