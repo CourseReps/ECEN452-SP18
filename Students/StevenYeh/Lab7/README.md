@@ -1,15 +1,13 @@
 <b>ECEN 452-500: Ultra High Frequency Techniques</b><br>
 Spring 2016 – Prof. Huff<br>
-Lab 6
+Lab 7
 
-Pull the Lab 6 subdirectory in the ECEN 452 GitHub directory Labs and locate the HFSS project files “ECEN452_Lab6_Filters.hfss”. Open each project file (File-Open…), then save them to the local drive of the computer you are running your simulations on and rename it by appending your team number to each file (e.g., “ECEN452_LabX_TopicY_TeamZ”).<br>
-In this lab you will be completing two designs of a low pass filter and the design of a band stop. These are found in your “ECEN452_Lab6_Filters_GroupX.hfss” project file. These design files are named “N5_MaxFlat_LPF_T-Line”, “N5_MaxFlat_LPF_TLine_Tapped”, and “N5_MaxFlat_BSF_T-Line”. You will be designing these for a Z0 = 50 Ohm reference impedance on the 62 mil thick FR4 (er = 4.1, tan_d = 0.01) substrate.<br>
-Task 1: Synthesis and implementation of a maximally-flat low-pass filter.<br>
-In this exercise you will synthesize a maximally-flat low-pass filter with a cut-off frequency fc = 2.5 GHz and a minimum attenuation of 10 dB at 3.25 GHz.<br>
-<br>Step 1: First, calculate the order N of the filter required to meet the specifications of providing 10 dB isolation at 3.25 GHz using abs(w/w_c)-1 = abs(f_10dB/f_c)-1 and the figure below.<br>
+
+Task 1: Wilkinson Power Divider Design<br>
+In this exercise, a two ways power divider will be designed and simulated. The power divider should also have 3 dB equal split characteristics at 2.5 GHz. A minimum return loss at each port should be less than -10 dB.<br>
 <b>Ans:<br>
-abs(w/w_c) - 1= abs(3.25-2.5) - 1 = 0.3<br>
-After check the table, n = 5 can provide at leat 10 dB attenuation at 3.25 GHz.<br></b>
+<b>The design layout is shown in the following figure.</b><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/design_layout.png)<br>
 
 <br>Step 2: Next, use the table on the following page to determine the filter coefficients for the (hint: five-element) low-pass prototype.<br>
 <b>Ans:<br>
