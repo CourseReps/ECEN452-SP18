@@ -14,6 +14,8 @@ Figure 1 - Disign layout of the hybrid coupler<br><br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_parameter_hybrid_coupler.png)<br>
 Figure 2 - Design parameter<br><br>
 
+The coupler x trace is calculated to have impedance of 50 Ohm; on the other hand, the coupler y trace has 35.36 Ohm impedance. Each traces on the coupler are designed to have quarter-wavelength length. The port #3 should have an extra 90 degrees phase delay compared to port #2 if input from port #1. The phase delay can be predicted if input from any other ports. 
+
 A 100 Ohm resistor is connected at the joint of the traces to provide good isolation between port #2 and port #3. The quarter-wavelength ring structure has impedance of 70.71 Ohm and trace length of 17.36mm. The traces after the ring structure are also quarter-wavelength and have impedance tapering features. Because the designs are all symmetric, we are supposed to have a 3 dB power split result.<br></b>
 
 <br>Step 2: Next, the S parameters of the Wilkinson power divider are illustrated below.<br>
