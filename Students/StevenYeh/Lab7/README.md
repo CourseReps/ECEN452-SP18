@@ -24,8 +24,3 @@ Figure 3 - S parameters<br><br>
 The results shown a very close power split between port #2 and port #3 which are -3.57 dB and -3.59 dB, respectively. An -14.89 dB isolation is founded between port #2 and port #3. Next, all the ports have return loss less than -14.75 dB are observed. The insertion loss is around 0.5 dB from port #1 to port #2 or port #3 which is acceptable at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide acceptable performance at 2.5 GHz.</b><br>
 
 
-<b>Conclusion:<br>
-
-1. Two filters are designed using the insertion loss method in this lab. One is the maximally flat LPF and another is the Equal-Ripple BSF.<br>
-2. Different filter transformations are involved in the filter design. For the maximally LPF, the impedance and frequency scaling are needed. Also, the Richard's transformation and Kuroda's identities are involved to successfully implement the LPF design. On the other hand, the BSF needs one extra process from the prototype filter. The inductor should convert to an inductor parallel with a capacitor and a capacitor should convert to an inductor in series with a capacitor.
-3. The lumped LC used in Task 1 step 7 only works well at low frequency. At high frequency, the distributed components are prefered.</b>
