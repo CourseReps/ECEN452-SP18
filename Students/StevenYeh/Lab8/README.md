@@ -6,7 +6,7 @@ Lab 8
 Task 1: Hybrid Coupler<br>
 <br>Step 1:In this exercise, a four port hybrid coupler will be designed and simulated in the HFSS. Port #1 is the input port, port #2 is the through port, port #3 is the coupled port and port #4 is the isolation port. The coupler should have a 3 dB power split from port #1 to port #2 and port #3. A minimum return loss at each port should be less than -10 dB and at port #4 there should have no power out. All the ports have characteristic impedance of 50 Ohm and are designed to operate at 2.5 GHz.<br>
 <b>Ans:<br>
-The design layout along with the parameters(width, length and so on) are shown in the following figure.<br>
+<br>Step 2: The design layout along with the parameters(width, length and so on) are shown in the following figure.<br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_layout_hybrid_coupler.png)<br>
 Figure 1 - Disign layout of the hybrid coupler<br><br>
@@ -14,24 +14,22 @@ Figure 1 - Disign layout of the hybrid coupler<br><br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_parameter_hybrid_coupler.png)<br>
 Figure 2 - Design parameter<br><br>
 
-The coupler x trace is calculated to have impedance of 50 Ohm; on the other hand, the coupler y trace has 35.36 Ohm impedance. Each traces on the coupler are designed to have quarter-wavelength length. The port #3 should have an extra 90 degrees phase delay compared to port #2 if input from port #1. The phase delay can be predicted if input from any other ports. 
+The coupler x trace is calculated to have impedance of 50 Ohm; on the other hand, the coupler y trace has 35.36 Ohm impedance. Each traces on the coupler are designed to be quarter-wavelength. The port #2 and port #3 have have phase delay of 90 degrees and 180 degrees respectively if input from port #1. If input from port #2 or port #3, the results are the same due to the symmetric structure. It's also a reciprocal device and it can be proved from the S matrix. <br></b>
 
-A 100 Ohm resistor is connected at the joint of the traces to provide good isolation between port #2 and port #3. The quarter-wavelength ring structure has impedance of 70.71 Ohm and trace length of 17.36mm. The traces after the ring structure are also quarter-wavelength and have impedance tapering features. Because the designs are all symmetric, we are supposed to have a 3 dB power split result.<br></b>
-
-<br>Step 2: Next, the S parameters of the Wilkinson power divider are illustrated below.<br>
+<br>Step 2: Next, the S parameters of the hybrid coupler are illustrated below.<br>
 <b>Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/S_parameter.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/input_port_s_parameters_dB_hybrid_coupler.png)<br>
 Figure 3 - S parameters<br><br>
 
 The results shown a very close power split between port #2 and port #3 which are -3.57 dB and -3.59 dB, respectively. An -14.89 dB isolation is founded between port #2 and port #3. Next, all the ports have return loss less than -14.75 dB are observed. The insertion loss is around 0.5 dB from port #1 to port #2 or port #3 which is acceptable at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide acceptable performance at 2.5 GHz.</b><br>
 
 <br>Step 3: Finally, the simulated and measured data are compared and shown in the following figures. The results are close from the simulated and measured data.<br>
 <b>Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/impedance_matching_comparison.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/port_matching_s_parameters_dB_hybrid_coupler.png)<br>
 Figure 4 - Impedance Matching comparison <br><br>
 
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/power_split_isolation_comparison.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/input_port_90deg_phase_difference_hybrid_coupler.png)<br>
 Figure 5 - Power split and isolation comparison</b><br><br>
 
 
