@@ -21,13 +21,13 @@ The coupler x trace is calculated to have impedance of 50 Ohm; on the other hand
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/input_port_s_parameters_dB_hybrid_coupler.png)<br>
 Figure 3 - Input from Port #1 to Port #2, #3, and #4<br><br>
 
-The results shown a very close power split between port #2 and port #3 which are -3.51 dB and -3.71 dB, respectively. An -22.91 dB isolation is founded at port #4. The insertion loss is around 0.51 dB from port #1 to port #2 and 0.71 dB from port #1 to port #3 at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide decent performance at 2.5 GHz.<br>
+The above results shown a very close power split between port #2 and port #3 which are -3.51 dB and -3.71 dB, respectively. An -22.91 dB isolation is founded at port #4. The insertion loss is around 0.51 dB from port #1 to port #2 and 0.71 dB from port #1 to port #3 at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide decent performance at 2.5 GHz.<br><br>
 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/port_matching_s_parameters_dB_hybrid_coupler.png)<br>
 Figure 4 - Impedance Matching at each port <br><br>
 
-Moreover, all the ports have return loss less than -20 dB are observed and it means only 1% of the power will be returned back to the source.<br>
+Moreover, all the ports have return loss less than -20 dB are observed and it means only 1% of the power will be returned back to the source.<br><br>
 
 
 
@@ -35,20 +35,20 @@ Moreover, all the ports have return loss less than -20 dB are observed and it me
 Figure 5 - Phase delay measurement from port #1 to port #3<br><br>
 
 
-A 89.58 degree of phase difference is derived from port #1 to port #3 which is acceptable to the desired values.<br></b>
+A 89.58 degree of phase difference is simulated from port #1 to port #3 which is acceptable to the desired values. The ideal phase difference value is 90 degrees from port #2 and port #3, if input from port #1.</b><br><br>
 
 
 
-<br>Step 3: Finally, the simulated and measured data are compared and shown in the following figures. The results are close from the simulated and measured data.<br>
+<br>Step 3: Finally, the simulated and measured data are compared and shown in the following figures.<br>
 <b>Ans:<br>
 
 
 
 
+The measured results agree with the simulate ones.
 
 
-
-
+</b><br><br>
 
 
 
