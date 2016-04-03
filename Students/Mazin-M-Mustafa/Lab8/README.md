@@ -46,9 +46,12 @@ fig.7 : 90 Hybrid coupler RL
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/RatRace.png) <br>
 fig.8 : Rat Race coupler |S| dB
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/sigma_delta.png) <br>
+fig.9 : Rat Race coupler phase difference
+
 ## Discussion
 
-Results are close to the simulation as expected. This process required optimizing the dimensions.
+Results are close to the simulation as expected. This process required optimizing the dimensions. One expection is the phase values for Delta. The HFSS simulations give correct results for both Felta and Sigma, where the measured resutls were correct for Sigma but not for Delta. The reason could be that S24 measurements were missing, so instead, S42 results were used.
 
 ## Conclusion
 
