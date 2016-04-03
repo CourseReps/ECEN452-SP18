@@ -89,6 +89,6 @@ Figure 11 - Impedance Matching comparison <br><br>
 All the ports have return loss less than -20 dB are observed from both simulated and milled results and it means only 1% of the power will be returned back to the source.<br><br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/power_split_isolation_rat_race.png)<br>
-Figure 12 - Power split and isolation comparison</b><br><br>
+Figure 12 - Power split and isolation comparison<br><br>
 
-The above results shown a very close power split between port #2 and port #3 which are -3.32 dB and -3.33 dB, respectively. An -37.43 dB isolation is founded at port #4. The insertion loss is around 0.32 dB from port #1 to port #2 and 0.33 dB from port #1 to port #3 at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide decent performance at 2.5 GHz.<br><br>
+The above results shown a very close power split between port #2 and port #3 which are -3.32 dB and -3.33 dB, respectively. An -37.43 dB isolation is founded at port #4. The insertion loss is around 0.32 dB from port #1 to port #2 and 0.33 dB from port #1 to port #3 at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide decent performance at 2.5 GHz.</b><br><br>
