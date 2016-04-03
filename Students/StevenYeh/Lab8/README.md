@@ -74,30 +74,18 @@ A minimum return loss at each port should be less than -10 dB. All the ports hav
 The design layout along with the parameters(width, length and so on) are shown in the following figure.<br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_layout_rat_race.png)<br>
-Figure 1 - Disign layout of the rat-race coupler<br><br>
+Figure 9 - Disign layout of the rat-race coupler<br><br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_parameters_rat_race.png)<br>
-Figure 2 - Design parameter<br><br>
+Figure 10 - Design parameter</b><br><br>
 
 
 
-
-
-
-A 100 Ohm resistor is connected at the joint of the traces to provide good isolation between port #2 and port #3. The quarter-wavelength ring structure has impedance of 70.71 Ohm and trace length of 17.36mm. The traces after the ring structure are also quarter-wavelength and have impedance tapering features. Because the designs are all symmetric, we are supposed to have a 3 dB power split result.<br></b>
-
-<br>Step 2: Next, the S parameters of the Wilkinson power divider are illustrated below.<br>
+<br>Step 2: Finally, the simulated and measured data are compared and shown in the following figures. The measured data agree with the simulated ones.<br>
 <b>Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/S_parameter.png)<br>
-Figure 3 - S parameters<br><br>
-
-The results shown a very close power split between port #2 and port #3 which are -3.57 dB and -3.59 dB, respectively. An -14.89 dB isolation is founded between port #2 and port #3. Next, all the ports have return loss less than -14.75 dB are observed. The insertion loss is around 0.5 dB from port #1 to port #2 or port #3 which is acceptable at 2.5 GHz. A little bit losses come from the conductor or dielectric material are expected. The FR4 substrate can provide acceptable performance at 2.5 GHz.</b><br>
-
-<br>Step 3: Finally, the simulated and measured data are compared and shown in the following figures. The results are close from the simulated and measured data.<br>
-<b>Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/impedance_matching_comparison.png)<br>
-Figure 4 - Impedance Matching comparison <br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/impedance_matching_rat_race.png)<br>
+Figure 11 - Impedance Matching comparison <br><br>
 
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/power_split_isolation_comparison.png)<br>
-Figure 5 - Power split and isolation comparison</b><br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/power_split_isolation_rat_race.png)<br>
+Figure 12 - Power split and isolation comparison</b><br><br>
