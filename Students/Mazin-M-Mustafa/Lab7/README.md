@@ -34,7 +34,7 @@ fig.3 : HFSS Vs Measured results
 
 ## Discussion
 
-The results of the HFSS model is shown in the next figure. Results are close to the simulation as expected.
+Results are close to the simulation but not exact. This depends on the many factors during the design, the fabrication or the measurement. 
 
 ## Conclusion
 
