@@ -68,8 +68,8 @@ The measured results agree with the simulate ones.
 
 
 Task 2: Rat-Race Coupler<br>
-<br>Step 1:In this exercise, a 180 degree hybrid will be designed and simulated in the HFSS. A 0 degree or 180 degree phase differences are expected when input from port #1 or port #4. If input from port #1, it will be eaually split into two in-phase signals at port #2 and port #3. In this case, port #4 will be isolated. On the contrary, if input from port #4, two evenlys split signals with 180 degree phase difference can be derived at port #2 and #3. Also the port #1 is the isolation port in this case.<r>
-A minimum return loss at each port should be less than -10 dB and a decent isolation between port #2 and port #3 is wanted. All the ports have characteristic impedance of 50 Ohm.<br>
+<br>Step 1:In this exercise, a 180 degree hybrid will be designed and simulated in the HFSS. A 0 degree or 180 degree phase differences are expected when input from port #1 or port #4. If input from port #1, it will be equally split into two in-phase signals at port #2 and port #3. In this case, port #4 will be isolated. On the contrary, if input from port #4, two evenlys split signals with 180 degree phase difference can be derived at port #2 and #3. Also the port #1 is the isolation port in this case.<br>
+A minimum return loss at each port should be less than -10 dB. All the ports have characteristic impedance of 50 Ohm.<br>
 <b>Ans:<br>
 The design layout along with the parameters(width, length and so on) are shown in the following figure.<br>
 
@@ -78,6 +78,11 @@ Figure 1 - Disign layout of the rat-race coupler<br><br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_parameters_rat_race.png)<br>
 Figure 2 - Design parameter<br><br>
+
+
+
+
+
 
 A 100 Ohm resistor is connected at the joint of the traces to provide good isolation between port #2 and port #3. The quarter-wavelength ring structure has impedance of 70.71 Ohm and trace length of 17.36mm. The traces after the ring structure are also quarter-wavelength and have impedance tapering features. Because the designs are all symmetric, we are supposed to have a 3 dB power split result.<br></b>
 
