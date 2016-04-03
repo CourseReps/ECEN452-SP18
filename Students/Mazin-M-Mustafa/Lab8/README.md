@@ -52,7 +52,7 @@ Results are close to the simulation as expected. This process required optimizin
 
 ## Conclusion
 
-Rat Race and 90 degree Hybrid couplers designs and simulations were performed successfully. Variations could be due to the effect of the SMA connectors in the fabricated design.
+Rat Race and 90 degree Hybrid couplers designs and simulations were performed successfully. 
 
 ## Hindsight
 
