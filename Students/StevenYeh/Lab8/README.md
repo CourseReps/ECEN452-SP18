@@ -32,7 +32,7 @@ Moreover, all the ports have return loss less than -20 dB are observed and it me
 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/input_port_90deg_phase_difference_hybrid_coupler.png)<br>
-Figure 5 - Phase delay measurement from port #1 to port #3<br><br>
+Figure 5 - Phase difference between port #2 and port #3 (input from port #1)<br><br>
 
 
 A 89.58 degree of phase difference is simulated from port #1 to port #3 which is acceptable to the desired values. The ideal phase difference value is 90 degrees from port #2 and port #3, if input from port #1.</b><br><br>
