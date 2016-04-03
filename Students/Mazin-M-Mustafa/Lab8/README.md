@@ -48,7 +48,7 @@ fig.8 : Rat Race coupler |S| dB
 
 ## Discussion
 
-The results of the HFSS model is shown in the next figure. Results are close to the simulation as expected.
+Results are close to the simulation as expected. This process required optimizing the dimensions.
 
 ## Conclusion
 
