@@ -73,10 +73,10 @@ A minimum return loss at each port should be less than -10 dB and a decent isola
 <b>Ans:<br>
 The design layout along with the parameters(width, length and so on) are shown in the following figure.<br>
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/design_layout_rat_race.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_layout_rat_race.png)<br>
 Figure 1 - Disign layout of the rat-race coupler<br><br>
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab7/design_parameters_rat_race.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/design_parameters_rat_race.png)<br>
 Figure 2 - Design parameter<br><br>
 
 A 100 Ohm resistor is connected at the joint of the traces to provide good isolation between port #2 and port #3. The quarter-wavelength ring structure has impedance of 70.71 Ohm and trace length of 17.36mm. The traces after the ring structure are also quarter-wavelength and have impedance tapering features. Because the designs are all symmetric, we are supposed to have a 3 dB power split result.<br></b>
