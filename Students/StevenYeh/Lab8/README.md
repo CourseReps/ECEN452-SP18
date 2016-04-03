@@ -42,7 +42,16 @@ A 89.58 degree of phase difference is simulated from port #1 to port #3 which is
 <br>Step 3: Finally, the simulated and measured data are compared and shown in the following figures.<br>
 <b>Ans:<br>
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/power_split_ioslation_hybrid_coupler.png)<br>
+Figure 6 - Input from Port #1 to Port #2, #3, and #4<br><br>
 
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/impedance_matching_hybrid_coupler.png)<br>
+Figure 7 - Impedance Matching at each port<br><br>
+
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab8/phase_difference_between_2_3_hybrid_coupler.png)<br>
+Figure 8 - Phase difference between port #2 and port #3 (input from port #1)<br><br>
 
 
 The measured results agree with the simulate ones.
