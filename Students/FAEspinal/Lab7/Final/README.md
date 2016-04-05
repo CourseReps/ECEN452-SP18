@@ -19,7 +19,7 @@ Provide a step-by-step decription of the activities you performed during the lab
 
 
 
-##### BSF
+##### Phase Shifter
 
 ![S11_M](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab7/Final/Phase_Shifter_S11_Magnitude_Plot.png) <br>
 ![S11_P](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab7/Final/Phase_Shifter_S11_Phase_Plot.png) <br>
