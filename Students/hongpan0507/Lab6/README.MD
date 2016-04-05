@@ -19,8 +19,6 @@ The basic design procedures are:
 
 ## Results and Discussion
 By comparing the simulated magtidue data with meausured data, the simulation has slightly higher frequency band than designed frequency band.
-
-### Band-stop filter
 s11 magtidue is high over the operating frequency band, and s21 magtidue is very low (-50dB). The device is consistant with band stop 
 filter behavior.  
 The phase of the filter is very distored in the stop band and relatively linear outside of the stop band.
@@ -28,8 +26,6 @@ The phase of the filter is very distored in the stop band and relatively linear 
 ![s21 mag](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab6/plotting/s21_mag.png)
 ![s11 phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab6/plotting/s11_phase.png)
 ![s21 phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab6/plotting/s21_phase.png)
-
-### Low-pass filter
 
 ## Conclusion
 The calculation for the filter design is straight forward, but book keeping must be done right to avoid introducing calculation errors when 
