@@ -27,10 +27,10 @@ However,the center frequency is a little shifted,below is the first simulation r
 
 Modify the Coupler_x_length: 18.5 mm. <br> 
 
-Parameters of Rat Race coupler are set up as:
-Feed line width (50 ohm): 3.1298828125
-Rat race line width (70.71 ohm): 1.6767578125 mm
-Rat race circumference: 6/4 lambda : 17.295580370995644*6=103.7734822 mm
+Parameters of Rat Race coupler are set up as: <br>
+Feed line width (50 ohm): 3.1298828125 <br>
+Rat race line width (70.71 ohm): 1.6767578125 mm <br>
+Rat race circumference: 6/4 lambda : 17.295580370995644*6=103.7734822 mm <br>
 
 
 ## Results
