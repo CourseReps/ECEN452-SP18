@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen452/.idea/ecen452.iml" filepath="$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen452/.idea/ecen452.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/.idea/ecen641.iml" filepath="$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/.idea/ecen641.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hongpan0507.iml" filepath="$PROJECT_DIR$/.idea/hongpan0507.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/.idea/programs.iml" filepath="$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/.idea/programs.iml" />
     </modules>
   </component>
 </project>
