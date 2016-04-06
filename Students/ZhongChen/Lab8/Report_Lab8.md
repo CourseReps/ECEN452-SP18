@@ -15,11 +15,11 @@ Rat-Race Coupler Model:<br>
 ## Design
 
 Use Microstrip online calculator, parameters can be easily calculated based on above figure and given substrate information (FR4). 
-Parameters of Hybrid coupler are set up as:
-Feed line width: 3.1298828125 mm
-Coupler_x_width: 3.1298828125 mm
-Coupler_y_width: 5.28125 mm
-Coupler_x_length: 16.880172629099 mm 
+Parameters of Hybrid coupler are set up as: <br>
+Feed line width: 3.1298828125 mm <br>
+Coupler_x_width: 3.1298828125 mm <br>
+Coupler_y_width: 5.28125 mm <br>
+Coupler_x_length: 16.880172629099 mm  <br>
 Coupler_y_length: 16.470546778345 mm <br>
 
 However,the center frequency is a little shifted,below is the first simulation result:<br>
