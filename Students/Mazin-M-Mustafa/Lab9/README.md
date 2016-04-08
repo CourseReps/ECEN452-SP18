@@ -89,6 +89,8 @@ fig.10 : S11 smith chart
 
 Both the measured and simulated model results were close enough to what was expected. The main focus is to reduce the VSWR at the resonance frequency. VSWR around 1.1 was obtained from the fabricated antenna. Where VSWR from HFSS was  with more accurate resonant frequency.
 
+The probe feed is eaiser to model and simulate but it requires drilling the substrate to create the via hold through the substrate. The stub matching requires extra calculation but on the other hand, is easier to fabricate since the whole design will be planar.
+
 ## Conclusion
 
 Patch antenna was fabricated and simulated successfully.
