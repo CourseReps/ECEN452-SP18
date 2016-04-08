@@ -17,7 +17,7 @@ The Low Pass Filter was designed for a cut-off frequency of 2.5 GHz and a minimu
 
 The result was plotted on the following Graph: 
 
-![Filter_Order](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Filter_Order.png)
+![Filter_Order](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Filter_Order.PNG)
 
 The Order chosen on the graph will determine the number of capacitors and inductors in the ladder network. Because a 5th order filter is desired, the ladder network consists of five elements: three capacitors, and two inductors.
 
