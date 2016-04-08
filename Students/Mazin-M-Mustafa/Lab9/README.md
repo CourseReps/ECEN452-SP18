@@ -70,7 +70,7 @@ l = 0.128 lamda = 8.59 mm (stub length)
 
 HFSS model
 
-In this step we will simulate an HFSS model for the same patch antenna using probe feed as shown in figure 7. In this design there is no need for matching network. Instead, we can determine the location to feed the antenna directly where the input impedance is equal to Zo as described in the equations. Then by optimizing the the simulation model we can obtain the best results as shown in figures 9 and 10.
+In this step we will simulate an HFSS model for the same patch antenna using probe feed as shown in figure 7. In this design there is no need for matching network. Instead, we can determine the location to feed the antenna directly where the input impedance is equal to Zo as described in the equations. Then by optimizing the the simulation model we can obtain the best results as shown in figures 8 and 9.
 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab9/hfss.png) <br>
@@ -78,11 +78,11 @@ fig.7 : HFSS probe fed patch antenna
 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab9/VSWRHFSS.png) <br>
-fig.9 : VSWR results
+fig.8 : VSWR results
 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab9/smith.png) <br>
-fig.10 : S11 smith chart
+fig.9 : S11 smith chart
 
 
 ## Discussion
