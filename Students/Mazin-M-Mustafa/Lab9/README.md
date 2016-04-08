@@ -1,71 +1,81 @@
 
 
-# Lab 8 Report
+# Lab 9 Report
 Mazin M Mustafa 
 
 ## Background
 
-In this lab we will design a Rat Race and 90 degree Hybrid couplers. The theory of the two structures are well established and the design is the following figures. The design frequency was choosen to be 2.5 GHz.
+In this lab we will design and simulate a patch antenna as shown in figure 1. Also, we will macth the antenna to 50 ohm transmission line. The design of patch atnenna can be done using the follwoing equations.
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
-fig.1 : 90 degree Hybrid coupler
+fig.1 : Patch Antenna
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Ra.png) <br>
-fig.2 : Rat Race coupler
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.2 : Equations
 
 ## Design
 
-An HFSS file was simulated for the structures
-
-Substrate : FR4
+For FR4 substrate :
 er = 4.1
-tand = 0.01
+fo = 3 GHz
 h = 62 mil
-fo = 2.5 GHz
+
+The calculated resutls using the previously mentioned equations:
+
+L = 24.27 mm
+W = 31.31 mm
+x = 8.94 mm
 
 ## Procedure
 
-The procedure is to calculate the dimensions of the structure at the specified frequency. Then optimizing the results to achieve the best performance as shown in the following figure.
+The desing was done in two steps: desinging the patch antenna and then perform the impedance matching. The first step is shown in figure 3. In this step we only consider the resonance frequency for the patch antenna. From theory, the input impedance wi;; be much larger than 50 ohm. Witch requires impedance matching. Measured results are shown in figure 4.
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/ddd.png) <br>
-fig.3 : 90 Hybrid coupler HFSS model
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.4 : Unmatched patch antenna
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/ww.png) <br>
-fig.4 : Rat Race coupler HFSS model
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.5 : VSWR for unmatched patch antenna
 
-## Results
+The next step in to measure the input impedance and then use single stub to match the antenna to 50 ohm line as shown in figure 6. The corresponding results are shown in figure 7
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid1.png) <br>
-fig.5 : 90 Hybrid coupler |S| dB
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.6 : Matched patch antenna
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid2.png) <br>
-fig.6 : 90 Hybrid coupler Phase Difference
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.7 : VSWR for matched patch antenna
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid3.png) <br>
-fig.7 : 90 Hybrid coupler RL
+The obtained Zin = 133 + j22 ohms
+The stub matching required:
+d = 0.152 lamda = 7.23 mm (moving towards the load)
+l = 0.128 lamda = 8.59 mm (stub length)
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/RatRace.png) <br>
-fig.8 : Rat Race coupler |S| dB
+HFSS model
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/sigma_delta.png) <br>
-fig.9 : Rat Race coupler phase difference
+In this step we will simulate an HFSS model for the same patch antenna using probe feed as shown in figure 8. In this design there is no need for matching network. Instead, we can determine the location to feed the antenna directly where the input impedance is equal to Zo as described in the equations. Then by optimizing the the simulation model we can obtain the best results as shown in figures 9 and 10.
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.8 : HFSS probe fed patch antenna
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.9 : VSWR results
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+fig.10 : S11 smith chart
 
 ## Discussion
 
-Results are close to the simulation as expected. This process required optimizing the dimensions. One expection is the phase values for Delta. The HFSS simulations give correct results for both Felta and Sigma, where the measured resutls were correct for Sigma but not for Delta. The reason could be that S24 measurements were missing, so instead, S42 results were used.
+Both the measured and simulated model results were close enough to what was expected. The main focus is to reduce the VSWR at the resonance frequency. VSWR around 1.1 was obtained from the fabricated antenna. Where VSWR from HFSS was  with more accurate resonant frequency.
 
 ## Conclusion
 
-Rat Race and 90 degree Hybrid couplers designs and simulations were performed successfully. 
+Patch antenna was fabricated and simulated successfully.
 
 ## Hindsight
 
 ## Reflection
 
-It would be better to have a document for the lab
-
 ## Reference
 
-Microwave Engineering , David M Pozar
+Antenna Theory: Analysis and Design , Constantine A. Balanis
 
 
