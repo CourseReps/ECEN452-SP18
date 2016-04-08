@@ -16,15 +16,22 @@ fig.2 : Equations
 ## Design
 
 For FR4 substrate :
+
 er = 4.1
+
 fo = 3 GHz
+
 h = 62 mil
+
 
 The calculated resutls using the previously mentioned equations:
 
 L = 24.27 mm
+
 W = 31.31 mm
+
 x = 8.94 mm
+
 
 ## Procedure
 
@@ -45,9 +52,13 @@ fig.5 : Matched patch antenna
 fig.6 : VSWR for matched patch antenna
 
 The obtained Zin = 133 + j22 ohms
+
 The stub matching required:
+
 d = 0.152 lamda = 7.23 mm (moving towards the load)
+
 l = 0.128 lamda = 8.59 mm (stub length)
+
 
 HFSS model
 
