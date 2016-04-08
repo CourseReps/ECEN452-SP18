@@ -56,10 +56,10 @@ In this step we will simulate an HFSS model for the same patch antenna using pro
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab9/hfss.png) <br>
 fig.7 : HFSS probe fed patch antenna
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab9/VSWRHFSS.png) <br>
 fig.9 : VSWR results
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/h.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab9/smith.png) <br>
 fig.10 : S11 smith chart
 
 ## Discussion
