@@ -44,7 +44,7 @@ Once the stubs are separated, the Impedances ase scaled by the impedance of the 
 
 This Low pass filter could be converted into a tapped stub filter by converting the stubs in the current filter to two parallel stubs with the same input impedance. This transformation involves converting the stubs into 89 Ohm stubs (so they all have the same width) with varying length. The length is calculated by the relation: 
 
-![Tapped_Eq](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Tapped_Stub-eq.png)
+![Tapped_Eq](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Tapped_Stub_eq.png)
 
 Where ZoA is the original stub's impedance, ZoB is 89 Ohms, and L is the length of the parallel stubs. Like in the previous filter, the stubs are separated by eighth wave unit elements of either 69 or 112 Ohms. The final device is pictured below: 
 
@@ -58,7 +58,7 @@ The development of an equi-ripple filter begins the same way as the development 
 
 With the impedances and electrical lengths determined, the physical lengths and widths were calculated via a microstrip line width calculator. The resulting device is pictured below: 
 
-![Equi-Ripple](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Equi-Ripple.PNG)
+![Equi-Ripple](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/EquiRipple.PNG)
 
 
 ## Procedure
