@@ -44,32 +44,40 @@ Once the stubs are separated, the Impedances ase scaled by the impedance of the 
 
 This Low pass filter could be converted into a tapped stub filter by converting the stubs in the current filter to two parallel stubs with the same input impedance. This transformation involves converting the stubs into 89 Ohm stubs (so they all have the same width) with varying length. The length is calculated by the relation: 
 
-![Tapped_Eq](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Kuroda_Identity.png)
+![Tapped_Eq](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Tapped_Stub-eq.png)
 
 Where ZoA is the original stub's impedance, ZoB is 89 Ohms, and L is the length of the parallel stubs. Like in the previous filter, the stubs are separated by eighth wave unit elements of either 69 or 112 Ohms. The final device is pictured below: 
 
 ![Tapped_Stub_LPF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/LPF-Tapped_Stub.PNG)
 https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Kuroda_Identity.png)
 
-###Equi-Ripple Bandpass Filter
-The development of an equi-ripple filter begins the same way as the development of the Maximally Flat filter did. A ladder network of Inductors and Capacitors is constructed based on a table of known values. This low pass prototype is then converted to a band pass prototype by replacing each series inductor or shunt capacitor in the circuit with a series or paralell LC network. 
+###Equi-Ripple Bandstop Filter
+The development of an equi-ripple filter begins the same way as the development of the Maximally Flat filter did. A ladder network of Inductors and Capacitors is constructed based on a table of known values. This low pass prototype is then converted to a band pass prototype by replacing each series inductor or shunt capacitor in the circuit with a series or paralell LC network. Quarter wave resonators were used to replace the LC networks so that each LC network could either be converted into a quarter-wave stub separated by a quarter wave transformer. For band stop characteristics, all lengths are quarter-wave and all stubs are open circuit. The scaled impedance values of each stub were calculated by the relation:
+
+![BP_Stub](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/BP_Stub.png)
+
+With the impedances and electrical lengths determined, the physical lengths and widths were calculated via a microstrip line width calculator. The resulting device is pictured below: 
+
+![Equi-Ripple](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Equi-Ripple.PNG)
 
 
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+Each device was modeled and simulated in HFSS. Also, David milled a version of each device, which was tested with the Network Analyzer. The Network Analyzer was configured for a 15mm reference plane to calculate out the effects of the connectors and isolate the filter response. In Lab the Equi-Ripple Band Stop Filter was constructed on FR4 substrate using copper tape as the conductor. A heat gun was used to solder the lengths of tape to one another as well as to solder connections to the boards. The results of each of these filters are plotted in the following section.
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
+(analysis coming)
+###Low Pass Filter
+![LPF_TLine](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/LPF_TL-SParams.png)
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
+###Tapped Stub Filter
+![LPF-TappedStub](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/LPF-TappedStub-SParam.PNG)
 
-See the raw text of the tutorials for an example.
+###Equi-Ripple Bandstop Filter
+
+![BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/BSFilter.png)
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
-
-## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+The filters designed in this lab achieved the desired behavior (i.e the low-pass filter exhibited low-pass filter behavior, and the band-stop filter exhibited band-stop filter behavior); however, there were discrepancies in the cut-off frequency of the low pass filters and the band-stop filters. The frequency range didn't necessarily match up to the desired range, likely due to small errors in calculations. 
 
 ## Reflection
 Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
