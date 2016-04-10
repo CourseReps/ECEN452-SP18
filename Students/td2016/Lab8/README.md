@@ -64,7 +64,7 @@ From the milled rat race coupler, we got the following graphs:
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab8/Rat_Mil_S21_Phase.png)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab8/Rat_Mil_Match_dB.png)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab8/Rat_Mil_Match_Phase.png)<br>
-From these graphs we are able to see that our designed coupler works the same as the milled coupler. When port 2 is excited, port 3 is isolated and ports 1 and 4 recieve equal power. However, the phase graphs are significantly different. In the milled coupler, ports 1 and 4 have the same phase while in the simualted results, the phase difference is not the same. 
+From these graphs we are able to see that our designed coupler works the same as the milled coupler. When port 2 is excited, port 3 is isolated and ports 1 and 4 recieve equal power. 
 
 ## Conclusion
 From this lab, I was able to design 2 versions of a 4 port power splitter, with one port isolated. The hybrid coupler has a 90 degree phase shift between the 2 ports while the rate race coupler allows the 2 ports to have the same phase shift. I'm not sure if the additional lengths I had to add to the hybrid coupler were actually required for the design or if it was a problem with the HFSS file.
