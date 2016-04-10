@@ -8,17 +8,25 @@ For this lab, we created a TRL kit and a RF PIN diode series switch. The TRL kit
 Task 1: The first thing we are going to design is a TRL kit with a reference plane of 15mm.
 
 Design Parameters:
+
 Zo = 50 ohms
+
 Reference Plane = 15mm
+
 h = 62 mil = 1.5748mm
+
 FR4 Er = 4.1
+
 Frequency Range = 1GHz - 5GHz 
 
 The first thing we must do is calculate the physical width of the microstrip lines. 
 This measurement requires a specific design frequency within the middle of the range we wish to design our TRL kit at. We find the middle frequency to be:
+
 F_Middle = (F_Low + F_High)/2 = (1GHz + 5GHz)/2 = 3GHz
+
 From here we plug our design parameters and our F_Middle variable into a microstrip width calculator online to find the width to be 3.11mm.
-Now that we know the widths of our lines, we must now find the lengths.
+
+Now that we know the widths of our lines, we must now find the lengths. 
 We are given the Reference Length of 15mm.
 The Through Length must be twice the Reference length to give us 15mm * 2 = 30mm.
 The Line Length equals the Through Length plut the additional length of a quarter wavelength of the signal in the line. To find this additional length, we must also find the effective dielectric constant within the line to determine what the wavelength is. Luckily our microstrip calculator finds both of these values for us. We find the dielectric constant to be Eff = 3.17 and the quarter wavelength to be 14.04mm. Knowing this, the Line Length is found to be 44.04mm. 
@@ -28,23 +36,36 @@ This concludes the design portion of Task 1.
 Task 2: For this task we must design a PIN Diode switch. 
 
 Design Parameters:
+
 fc = 2.5GHz
+
 Reference Plane = 15mm
+
 Zo = 50 ohms
+
 FR4 Er = 4.1 
+
 h = 62 mil
 
+
 First we must find the width of the 50ohm line and the 100ohm lines. 
+
 For the 50ohm line, we find:
+
 width = 3.127mm
+
 Eff = 3.157
 
 For the 100ohm line, we find:
+
 width = .7455mm
+
 Eff = 2.878
 
 We must now calculate the length of the quarter wavelength transmission lines for the bias tees. We can find this number by the following equation:
+
 L_quarter = c/(4*Frequency*sqrt(Eff))
+
 Using this equation, we find the length to be 17.68mm.
 
 This concludes the design portion of task 2.
@@ -78,15 +99,22 @@ For the measured design:
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab5/TRL_SPARA_S21_Phase_Measured.png)<br>
 When initially simulated, we found that the line length of 44.04mm to be a little too long as our phase at 3GHz was a little above -90 degrees. When we altered this length to be 43.96mm, our phase was shown to be exactly -90 degrees, showing that our line length is correct. Our simulations and measurments appear to be in accordance with each other. 
 From these parameters, we can also determine the phase velocity of the line and the delay of the line standard. 
+
 phase_velocity = c/sqrt(Eff)
+
 The above equation gives us a phase velocity of 1.701*10^8 m/s.
+
 We can find the delay by the following:
+
 delay = sqrt(Eff)*length/c
+
 This gives us the delay of about .258ns.
 
 From the output of the simulation files we recieved from HFSS, we can determine the function of the capactive open-circuit termination. This can be derived by using the reactance of the of the S11 parameter for the Reflect line.
 Using this equation we can find the capacitance:
+
 C=1/(2*pi*Frequency*Reactance)
+
 Doing this allows us to find the capacitance and the 2nd order polynomial function. We used Excel to fit a curve to the data.
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab5/Capacitance.png)<br>
 
