@@ -25,7 +25,7 @@ We then simulate the design in HFSS.
 
 For the design of the phase shifter we built in lab, we first determined the length of a 50ohm line at 3GHz. We found that the width of the line must be 3.12mm. For a 90 degree phase shift, we must add a length of (effective wavelength)/4 to the line. To do this we measure a 35mm section of the line (after we measure the line with a network analyzer) and cut it off. We then add another 35mm line with stubs 7.02mm long attached to both ends. This means we added an eigth of a wavelength to both ends to add a distance of (effective wavelength)/4 to the line. We measure this with a network analyzer, and then cut the added piece off. We repeat the last procedure again, but not we cut a 35mm line with 14.036mm stubs attached to the end. This will add (effective wavelength)/2 to the line to give the signal a 180 degree phase shift.
 
-## Procedure
+##Procedure
 First simulate the WPD design in HFSS.
 
 Implement the phase shifter description mentioned in the Design section and measure the results.
