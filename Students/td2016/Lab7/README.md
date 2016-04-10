@@ -34,7 +34,7 @@ Implement the phase shifter description mentioned in the Design section and meas
 From the simulation of the WPD and the data of the milled WPD, we get the following graphs:
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab7/Milled_WPD_Phase.png)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab7/Milled_WPD_dB.png)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab7/Simulated_WPD_dB.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab7/Correct_S_Phase.png)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab7/Simulated_WPD_Phase.png)<br>
 From the above graphs it is clear to see that the simulated and milled design of the WPD work and have the relatively same result. Ports 2 and 3 get the same amount of power from port 1 and have low interation with each other and minimal reflection. It is interesting to note the the milled WPD has a better response in the lower frequencies than the simulated model does, but the opposite is true for the higher frequencies. 
 
