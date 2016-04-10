@@ -90,12 +90,20 @@ C=1/(2*pi*Frequency*Reactance)
 Doing this allows us to find the capacitance and the 2nd order polynomial function. We used Excel to fit a curve to the data.
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab5/Capacitance.png)<br>
 
+For Task 2:
+From the simulations performed in HFSS, we found that the lengths of the Bias Stub and the Ground Stub files needed to be slightly altered to minimize the insertion loss at 2.5GHz. We originally found the minimum loss to be above 2.5GHz, telling us we needed our lines to be a bit longer. Through trial and error, we found the optimal lengths to be L_SCG = 17.65mm and L_SCB = 18.25. These lengths gave us the following simulation graphs for the S-Parameters:
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab5/GroundStub.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab5/BiasStub.png)<br>
+Using these lengths, we then plugged in all of our values into the PIN diode switch circuit. We then compared this data to the measured data obtained from the TA.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab5/DiodeON.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab5/DiodeOFF.png)<br>
+From the above graphs, we were able to see that our simulations were in accordance with the measured data. Our measured data actually did perform better than the simulations predicted by minimizing insertion loss more than expected. 
 
 ## Conclusion
-
+From this lab I was able to design a TRL kit with relative accuracy and understand the effects that even the slightest change in length of a line can affect its response greatly. I also was able to learn how to obtain different measurements such as phase velocity and delay from the S-Parameters. From task 2 I was able to design a PIN diode series switch and see the effects it has on the propogation of high frequency signals.
 
 ## Hindsight
- 
+I wish I had known how to use HFSS more effectively before this lab began, as the simulations took me longer than they should have because I was not terribly sure how to use the program.
 
 ## Reflection
-
+Overall, this lab was very straightforward and easy to understand. I like that we were first slowly introduced to the concept of how to design a simple microstip line for the network analyzer, as that will be important for future labs. A difficulty I encountered, again, was learning how to use HFSS. The templates the TA provided were very helpful though, as I did not have to create the designs from scratch.
