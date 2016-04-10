@@ -98,4 +98,4 @@ Doing this allows us to find the capacitance and the 2nd order polynomial functi
  
 
 ## Reflection
-This was a really fun lab and it was nice being able to fabricate and test a design right then and there without having to wait for milling to occur. It was also fun to take on the challenge of fabricating a copper tape model that rivalled the milled version. This was a good lab to really get into the groove of creating microwave structures and testing them for comparison to simulations.
+
