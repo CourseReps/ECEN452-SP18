@@ -31,7 +31,7 @@ connecting the branch.
 ### Phase shifter
 1. The shortest T-line is taped down and measured to provide reference phase.
 2. The shortest T-line is cut, and additional 1/4 wavelength long T-line is added to the T-line. It's providing 90 degree of phase shift.
-2. The 1/2 wavelength long T-line is replaced with a 1/2 wavelength long T-line to provide 180 degree of phase shift.
+3. The 1/2 wavelength long T-line is replaced with a 1/2 wavelength long T-line to provide 180 degree of phase shift.
 
 ## Results and Discussion
 ### Wilkinson Power Divider
