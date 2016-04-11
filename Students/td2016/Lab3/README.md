@@ -17,11 +17,11 @@ From this equation, we know from the given data that f=3GHz, length = 6.44mm (th
 
 Eff = 3.10291
 
-From the dielectric constant, we can find the propogation velocity. The equation that denotes that is given below:
+From the dielectric constant, we can find the propagation velocity. The equation that denotes that is given below:
 
 V_phase = c/sqrt(Eff)
 
-From the dielectric constant we found, we solve the propogation velocity to be 1.703e8.
+From the dielectric constant we found, we solve the propagation velocity to be 1.703e8.
 
 Now let us find the valid frequency range of the kit. Using the equation we used to find the dielectric constant, we can solve for f to be:
 
