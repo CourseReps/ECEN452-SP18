@@ -5,30 +5,28 @@ Mazin M Mustafa
 
 ## Background
 
-In this lab we will design and simulate a patch antenna as shown in figure 1. Also, we will macth the antenna to 50 ohm transmission line. The design of patch atnenna can be done using the follwoing equations.
-
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m11.png) <br>
-fig.1 : Patch Antenna
-
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m12.png) <br>
-fig.2 : Equations
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m21.png) <br>
-fig.3 : Equations
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m22.png) <br>
-fig.4 : Equations
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/water.png) <br>
-fig.5 : Equations
+In this lab, we will measure the dielectric constants for various liquids using open-ended coaxial probe.
 
 ## Design
 
 ## Procedure
 
 ## Results
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m11.png) <br>
+fig.1 : Friday e' Measurements 
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m12.png) <br>
+fig.2 : Friday e'' Measurements 
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m21.png) <br>
+fig.3 : Wednesday e' Measurements 
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/m22.png) <br>
+fig.4 : Wednesday e'' Measurements 
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/water.png) <br>
+fig.5 : Friday DI Water Measurements 
 
 ## Discussion
 
@@ -40,6 +38,7 @@ fig.5 : Equations
 
 ## Reference
 
+http://www.intechopen.com/books/microwave-materials-characterization/relevance-of-dielectric-properties-in-microwave-assisted-processes#F2
 
 
 
