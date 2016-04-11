@@ -61,8 +61,7 @@ Note:<br>
 
 
 ## Conclusion
-The results of measurement data and simulated data are similiar. However, there may be some results are not matched very well. This problem may be coming from that the microstrip line may not be fabricated as precise as simulated model.
-
+The results of measurement data and simulated data are similiar. 
 ## Reflection
 No.
 
