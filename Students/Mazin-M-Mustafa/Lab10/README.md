@@ -5,7 +5,9 @@ Mazin M Mustafa
 
 ## Background
 
-In this lab, we will measure the dielectric constants for various liquids using open-ended coaxial probe.
+In this lab, we will measure the dielectric constants for various liquids using open-ended coaxial probe as shown in the next figure:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/image9.png) <br>
 
 ## Design
 
