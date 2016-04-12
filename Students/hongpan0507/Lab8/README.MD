@@ -28,9 +28,6 @@ Hong Pan
 3. All parameter is simulated in ADS
 4. The same parameter is inputted into HFSS. No tuning is required to get the structure to operate at 2.5GHz
 
-## Procedure
-None
-
 ## Results and Discussion
 ### Hybrid Coupler
 1. From port matching figure, all ports are matched at the design frequency.
@@ -46,15 +43,12 @@ None
 ### Rat-race Coupler
 1. From port matching figure, all ports are matched at the design frequency.
 2. From port transmission figure, port 2 and port 3 have -3.5dB power split. The extra -0.5dB comes from the loss from the T-line. The s41 has very little power transfer indicates that port 1 and port 4 are isolated.
-3. From port transmission phase figure, both simulated result and measured result have 90 degree phase difference between signals at port 2 and port 3 at the design frequency. The simulated reuslt has a minute difference in slope than the measured result.
+3. From port transmission phase figure, the simulated result has 180 degree phase difference between signals at port 2 and port 3 at the design frequency. The measured result probably contains error.
+4. From port isolation figure, port 2 and port 3 are isolated. There is no isolation between port 3 and port 4 or port 2 and port 4. It makes sense because of the symmetry of the structure.
 ![rat_race_port_matching](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_matching.png)
 ![rat_race_port_trans](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_trans.png)
 ![rat_race_port_trans_phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_trans_phase.png)
 ![rat_race_port_iso](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_iso.png)
-
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
