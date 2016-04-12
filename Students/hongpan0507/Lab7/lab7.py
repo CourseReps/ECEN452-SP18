@@ -173,6 +173,15 @@ for row in PS_0_deg1:   # row contains the row data
         PS_0_deg_s11_mag1.append(float(row[3]))
         PS_0_deg_s11_phase1.append(float(row[4]))
 
+for row in PS_0_deg2:   # row contains the row data
+    if PS_0_deg2.line_num > 8:    # ignore the first line
+        if row[0] == 'END':     # check if row reaches the last one
+            break
+        PS_0_deg_s21_mag2.append(float(row[1]))
+        PS_0_deg_s21_phase2.append(float(row[2]))
+        PS_0_deg_s11_mag2.append(float(row[3]))
+        PS_0_deg_s11_phase2.append(float(row[4]))
+
 for row in PS_90_deg:   # row contains the row data
     if PS_90_deg.line_num > 8:    # ignore the first line
         if row[0] == 'END':     # check if row reaches the last one
