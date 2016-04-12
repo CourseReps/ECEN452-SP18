@@ -27,7 +27,7 @@ Base on the HFSS file from github, calculating width and length, and apply the v
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sunchenhao/Lab7/S32_S33_Phase.png) <br>
 
 ##Discussion
-Both in simulation and measurement, S21 and S31 are about -3dB, and other especially S23 and S32 are both below -10dB, which means it work properly. <br>
+Both in simulation and measurement, S21 and S31 are about -3dB, and other parameters especially S23 and S32 are both below -10dB, which means it work properly with good isolation. <br>
 There are some difference between simulation and measurement, however not big and I think it can be tolerated.
 
 ##Conclusion
