@@ -15,7 +15,7 @@ The design process for the stub required the use of the Smith Chart. First the i
 Using a quarter-wave transform is another viable matching technique that could have used for this lab.
 
 ## Results and Discussion
-https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab9/patch_vswr.png
+![Patch Antenna: VSWR](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/alonzo_barraza/Lab9/patch_vswr.png)<br>
 
 ## Conclusion
 The matching network for a patch antenna is a straight foward design and can be easily implemented. This is useful because a patch antenna is an effective antenna that is widely used and it is important to have impedance matching. So the easy implemenetation of matching furthers the value of a patch antenna. 
