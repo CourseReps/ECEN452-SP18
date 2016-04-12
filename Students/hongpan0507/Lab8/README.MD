@@ -51,10 +51,4 @@ Hong Pan
 ![rat_race_port_iso](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_iso.png)
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
-
-## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
-
-## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
+The symmetry of the device is easily seen by analyzing the s-parameter. There will not be -3dB power split because of the loss of the T-line.
