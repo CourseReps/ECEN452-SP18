@@ -15,11 +15,18 @@ Hong Pan
   
 ## Design
 ### Hybrid Coupler
-#### Specification: operating frequency = 2.5GHz; Z0 = 50ohms
+#### Specification: operating frequency = 2.5GHz; Z0 = 50ohms; substrate = FR4 (e_r = 4.1); substrate height = 62 mil
+1. All T-line impedance is 50ohms except the vertical section; its impedance is 1/sqrt(2)*50ohms
+2. [microstrip line calculator](http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm) is used to calculated the microstrip line parameter
+3. All parameter is simulated in z0lver
+4. The same parameter is inputted into HFSS. Tuning is required to get the structure to operate at 2.5GHz
 
 ### Rat-race Coupler
-#### Specification: operating frequency = 2.5GHz; Z0 = 50ohms
-
+#### Specification: operating frequency = 2.5GHz; Z0 = 50ohms; substrate = FR4 (e_r = 4.1); substrate height = 62 mil
+1. All T-line impedance is 50ohms except the vertical section; its impedance is 1/sqrt(2)*50ohms
+2. [microstrip line calculator](http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm) is used to calculated the microstrip line parameter
+3. All parameter is simulated in z0lver
+4. The same parameter is inputted into HFSS. Tuning is required to get the structure to operate at 2.5GHz
 ## Procedure
 Provide a step-by-step decription of the activities you performed during the lab.
 
