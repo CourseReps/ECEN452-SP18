@@ -51,4 +51,4 @@ Hong Pan
 ![rat_race_port_iso](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_iso.png)
 
 ## Conclusion
-The symmetry of the device is easily seen by analyzing the s-parameter. There will not be -3dB power split because of the loss of the T-line.
+The symmetry of the device is easily seen by analyzing the s-parameter. The power split is close to -3dB, it will not be -3dB because of the loss of the T-line.
