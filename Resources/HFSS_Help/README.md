@@ -76,6 +76,23 @@ We need to assign a radiation boundary to the external faces of our design. Righ
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Assign_Radiation.png)
 
+## Assigning Wave Ports
+In order to simulate the design, we must create/assign at least one port excitation. There are a few different types of excitations to choose from, but the most common excitation we use in this lab is the Wave Port. You can create a wave port from either an existing object face or from a new 2D object. Wave Ports must be on an external face or backed by a perfect conductor on one side. In this design we will have two Wave Ports, one on each side of the transmission line. To create the first Wave Port, draw a 2D rectangle. Rename this object to 'Port1' and open the CreateRectangle window. Change the axis to 'Y' and close and re-open the CreateRectangle window. Now the rectangle will be normal to the Y-axis and you will be able to set the Xsize and Zsize. Use parameters to set the port width and height (for example: 'portx' and 'porth') to 15mm. Change the position of the port such that the bottom edge is on the ground plane and the port is on the face of the airbox/substrate on one end of the transmission line. Follow the same steps to create 'Port2' on the opposite side of the transmission line. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Create_Port_Face.png)
+
+Right-Click on Port1 and select "Assign Excitation -> Wave Port...". <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Assign_Waveport.png)
+
+In the window that appears, keep the default name (should be '1', this is how the excitation will be referenced when you go to plot S-parameters and other port related results) and click Next. Under 'Integration Line' click the drop-down list and select 'New Line...', this will bring up a drawing interface to draw the integration line. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/New_Integration_Line.png)
+
+Click on the middle of the bottom edge of the wave port (should see a triangle when you hover over the midpoint) to begin the line, then click the middle of the top edge of the wave port to finish the line. Then click Next and Finish. Do the same thing for Port2. The direction of the integration line is important for getting accurate phase results. The integration line direction should be the same for all ports, otherwise you will have a 180deg phase error. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Draw_Integration_Line.png)
+
 ## Modify Design Parameters
 First double-click on a design in the Project Manager window to make it the active design. Single-clicking the design name will bring up the parameter list in the Properties window below. Here you must enter the values for the physical dimensions of your design (e.g. widths and lengths of transmission lines). You should only modify parameters that pertain to your specific design, changing the substrate parameters can lead to errors in the simulation. When you have entered all of your design parameters and are ready to simulate, click on the green exclamation point ('Analyze All') to begin the simulation. 
 
