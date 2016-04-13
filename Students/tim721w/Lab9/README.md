@@ -34,13 +34,13 @@ Probe_feed_x: 5.8 mm<br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab9/HFSS_patch_antenna.png) <br>
 
 ##Procedure and Results
-Simply use physical width and length of patch antenna calculated above and implemented on FR4 substrate using copper tape with feed line length of 40 mm. The characteristic impedance was setup up as 50 ohm. The VSWR measurement of copper taped patch antenna can be acquired about 2.579 and the impedance is about 73+j54 ohm at frequency 3.092 GHz. It¡¦s easy to see that it¡¦s not match so well with such VSWR value. Therefore, a stub was added to match the impedance to 50 ohm. By using Smith Chart, stub length was found as 0.121 effective wavelength (6.793 mm) and the position of the stub was 0.102 effective wavelength (5.727 mm) toward antenna from reference plane. Adding copper stub on the previous hardware and connected with network analyzer to measure the VSWR. The result shows out that VSWR is around 1.124 at 3.098 GHz. It¡¦s obvious to see that VSWR decreases down below than 2 and can be regarded as well-matched.
+Simply use physical width and length of patch antenna calculated above and implemented on FR4 substrate using copper tape with feed line length of 40 mm. The characteristic impedance was setup up as 50 ohm. The VSWR measurement of copper taped patch antenna can be acquired about 2.579 and the impedance is about 73+j54 ohm at frequency 3.092 GHz. ItÂ¡Â¦s easy to see that itÂ¡Â¦s not match so well with such VSWR value. Therefore, a stub was added to match the impedance to 50 ohm. By using Smith Chart, stub length was found as 0.121 effective wavelength (6.793 mm) and the position of the stub was 0.102 effective wavelength (5.727 mm) toward antenna from reference plane. Adding copper stub on the previous hardware and connected with network analyzer to measure the VSWR. The result shows out that VSWR is around 1.124 at 3.098 GHz. It is obvious to see that VSWR decreases down below than 2 and can be regarded as well-matched.
 <br>
 
 <br>VSWR plot for fabricated patch antenna<br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab9/fabricated_VSWR.png) <br>
 
-For HFSS simulation, simply key in above calculated parameters into HFSS file and simulate at certain frequency range. Make sure VSWR curve got minimum value at 3 GHz. By looking at Smith Chart, using notes in class to determine best probe position until VSWR value below 1.2 at 3GHz. It¡¦s found out that optimized VSWR of 1.07 can be achieved at 3 GHz.
+For HFSS simulation, simply key in above calculated parameters into HFSS file and simulate at certain frequency range. Make sure VSWR curve got minimum value at 3 GHz. By looking at Smith Chart, using notes in class to determine best probe position until VSWR value below 1.2 at 3GHz. It is found out that optimized VSWR of 1.07 can be achieved at 3 GHz.
 <br>
 <br>VSWR plot for simulated patch antenna<br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab9/HFSS_patch_antenna_VSWR.png) <br>
@@ -60,5 +60,5 @@ Both fabricated and simulated results show that patch antenna matching can be ac
 Feeding line position can be calculated advance in order to save time on position sweeping in simulation.<br>
 
 ## Reflection
-This lab is pretty straightforward and not so difficult. With class notes, it¡¦s easy for us to apply theorem into experiment and simulation, making the learning more effective.
+This lab is pretty straightforward and not so difficult. With class notes, itÂ¡Â¦s easy for us to apply theorem into experiment and simulation, making the learning more effective.
 <br>
