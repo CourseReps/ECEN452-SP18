@@ -31,17 +31,19 @@ The optimum simulation results of the patch antenna is when patch_length = 23.85
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_design_parameters.png)<br><br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss.png)<br><br>
 
-The patch has VSWR of 1.0552 at 3 GHz and has a bandwidth from 2.9576GHz to 3.0420 GHz.
+The patch has VSWR of 1.0552 at 3 GHz and has a bandwidth from 2.9576GHz to 3.0420 GHz. As a result, the patch has the best impedance matching to the 50 Ohm at 3 GHz.
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_vswr.png)<br><br>
-
-
 </b>
 
 
 
 <br>Step 5: Look at the Smith Chart to check the impedance match of the antenna. Use your notes from class to determine whether to move the probe closer to the center or closer to the edge of the patch. Adjust probe_feed_x accordingly and rerun your simulation.<br>
+<b>Ans:<br>
+As mentioned above, when probe_feed_x = 4.7 mm comes the best impedance matching results. The Smith chart illustrated the resonant frequency is around 3 GHz and the normalized input impedance is 1.0389 - 0.0386j. The imaginary part of the impedance is very small which prove the resonance of the patch.<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_smith_chart.png)<br><br>
 
+</b>
 
 
 
