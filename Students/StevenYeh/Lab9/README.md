@@ -68,5 +68,7 @@ The measured results of the matched and unmatched are used to compare with the H
 <b>Conclusion:<br>
 
 1. The patch becomes resonant (imaginary part of the impedance is 0) when the length of the patch is around 0.49*Lumda_g.<br>
-2. In this work, the patch is built on FR4 which has a dielectric constant of 4.1. In general, FR4 has high loss at GHz frequency band, so other kinds of substrate is suggested to replace the FR4 such as the Duroid 5880 (εr=2.2).<br>
+
+2. In this work, the patch is built on FR4 which has a dielectric constant of 4.1. In general, FR4 is good for the traditional electronic circuit design but may not efficient for the patch antenna to radiate. Besides, it has high loss when the operating frequency over GHz. It's suggest to use other kinds of substrate to replace the FR4 such as the Duroid 5880 (εr=2.2) to get a better radiation characteristics.<br>
+
 3. The input impedance of the patch will increase when the feeding probe is close to the edge of the patch surface. We define the probe distance from the patch edge as Δx. In this experiment, when Δx = 5.655 mm, we observed input impedance = 42.105 - 39.205j (Ohm). When Δx = 7.655 mm, we have input impedance = 32.46 - 27.715j (Ohm). When Δx = 10.655 mm, we have input impedance = 13.67 - 4.51j (Ohm). As a result, if Δx increase, the input impedance of the patch will decrease. We use this phenomenon to do the impedance matching job.</b>
