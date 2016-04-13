@@ -31,7 +31,7 @@ The optimum simulation results of the patch antenna is when patch_length = 23.85
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_design_parameters.png)<br><br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss.png)<br><br>
 
-The patch has VSWR of 1.0552 at 3 GHz and has a bandwidth from 2.9576GHz to 3.0420 GHz. As a result, the patch has the best impedance matching to the 50 Ohm at 3 GHz.
+The patch has VSWR of 1.0552 at 3 GHz and has a bandwidth of 84.4 MHz (2.9576GHz to 3.0420 GHz). As a result, the patch has the best impedance matching to the 50 Ohm at 3 GHz. The results achieve the requirement of VSWR below 1.2.
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_vswr.png)<br><br>
 </b>
@@ -42,7 +42,6 @@ The patch has VSWR of 1.0552 at 3 GHz and has a bandwidth from 2.9576GHz to 3.04
 <b>Ans:<br>
 As mentioned above, when probe_feed_x = 4.7 mm comes the best impedance matching results. The Smith chart illustrated the resonant frequency is around 3 GHz and the normalized input impedance is 1.0389 - 0.0386j. The imaginary part of the impedance is very small which prove the resonance of the patch.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_smith_chart.png)<br><br>
-
 </b>
 
 
@@ -51,20 +50,7 @@ As mentioned above, when probe_feed_x = 4.7 mm comes the best impedance matching
 
 
 <br>Step 6: Repeat steps 4 and 5 and keep adjusting until the design is impedance matched at 3GHz. You should see a VSWR minimum at 3GHz (±50MHz); try to get the value at 3GHz below 1.2. The 3GHz marker on the Smith Chart should be close to the center of the Smith Chart<br>
-<b>Ans:<br>
-The original design parameters are shown in the following figures. Obviously, the results doesn't meet the requirement.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/original_maximally_flat_tline_amp_S11_S21.jpg) <br><br>
-Also, the Zolver design layout and simulation results are shown in the following figures.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_Tline_Design.jpg)<br><br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_Tline_Result.jpg)<br><br><br>
-After some tuning works, the new design parameters are illustrated below and also the results.<br>
-The new Z1 = 80.9 (lumda/8 = 8.7278mm), UE3 = 130.9 (lumda/8 = 8.9679mm), Z2 = 80.9 (lumda/8 = 8.7278mm), UE1 = 50 (lumda/8 = 8.4416mm), Z3 = 25 (lumda/8 = 8.04mm), UE2 = 130.9 (lumda/8 = 8.9679mm), Z4 = 80.9 (lumda/8 = 8.7278mm), UE4 = 50 (lumda/8 = 8.4416mm), Z5 = 80.9 (lumda/8 = 8.7278mm) (Ohm)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_parameters.jpg)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S21.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_phase_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_phase_S21.jpg) <br></b>
+
 
 <br>Step 7: Compare your results to the patch antenna you made during the lab session and use the lab report template to summarize the design objective, process, and results for Lab9.<br>
 <b>Ans:<br>
