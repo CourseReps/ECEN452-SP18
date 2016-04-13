@@ -27,10 +27,10 @@ L = c/(2*f*sqrt(ε_eff)) - 2*ΔL = 24.29 mm<br></b>
 
 <br>Step 4: Look at the VSWR plot to make sure the patch is resonant at 3GHz. You should see a minimum at 3GHz. Adjust patch_length accordingly.<br>
 <b>Ans:<br>
-The HFSS design parameters are provided as the figure.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/maximally_flat_parameter.jpg)<br>
-
-
+The HFSS design parameters are provided as the figure together with the design layout.<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_design_parameters.png)<br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss.png)<br>
+</b>
 
 
 
