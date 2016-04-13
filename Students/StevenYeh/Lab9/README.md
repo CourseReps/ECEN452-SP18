@@ -27,9 +27,15 @@ L = c/(2*f*sqrt(ε_eff)) - 2*ΔL = 24.29 mm<br></b>
 
 <br>Step 4: Look at the VSWR plot to make sure the patch is resonant at 3GHz. You should see a minimum at 3GHz. Adjust patch_length accordingly.<br>
 <b>Ans:<br>
-The HFSS design parameters are provided as the figure together with the design layout.<br>
+The optimum simulation results of the patch antenna is when patch_length = 23.85 mm and patch_width = 24 mm. Similarly, the feeding probe has a 7.225 mm distance (probe_feed_x = 4.7 mm) away from the edge of the patch surface. The HFSS design parameters are provided as the figure together with the design layout.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_design_parameters.png)<br><br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss.png)<br><br>
+
+The patch has VSWR of 1.0552 at 3 GHz and has a bandwidth from 2.9576GHz to 3.0420 GHz.
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_vswr.png)<br><br>
+
+
 </b>
 
 
