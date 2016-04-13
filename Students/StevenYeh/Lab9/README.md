@@ -10,19 +10,15 @@ For the Lab 9 activity you made an edge-fed patch antenna using copper tape on a
 
 <br>Step 1: Calculate the dimensions of the patch using the formulas and design parameters from the in-lab activity (f = 3GHz, εr = 4.1, h = 1.5748mm).<br>
 <b>Ans:<br>
-abs(w/w_c) - 1= abs(3.25-2.5) - 1 = 0.3<br>
-After check the table, n = 5 can provide at leat 10 dB attenuation at 3.25 GHz.<br></b>
+w = (c/2*f) * sqrt(2/εr + 1) = 31.31 mm<br>
+ε_eff = (εr+1)/2  + (εr-1/2)*(1+12*(h/w))^-0.5 = 3.77<br>
+ΔL = 0.412*h*((εr+0.3)*(w/h + 0.264)/(εr_eff-0.258)*(w/h + 0.8)) = 0.7324 mm<br>
+L = c/(2*f*sqrt(ε_eff)) - 2*ΔL = 24.29 mm<br></b>
 
 
 
 
 <br>Step 2: Enter these dimensions into the HFSS design for patch_width and patch_length<br>
-<b>Ans:<br>
-For n = 5, g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000<br></b>
-
-
-
-
 
 
 <br>Step 3: Enter a value for the probe position along the x-axis (probe_feed_x)<br>
@@ -30,8 +26,9 @@ For n = 5, g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 =
 
 
 <br>Step 4: Look at the VSWR plot to make sure the patch is resonant at 3GHz. You should see a minimum at 3GHz. Adjust patch_length accordingly.<br>
-
-
+<b>Ans:<br>
+The HFSS design parameters are provided as the figure.<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/maximally_flat_parameter.jpg)<br>
 
 
 
