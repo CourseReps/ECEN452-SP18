@@ -57,7 +57,7 @@ As mentioned above, when probe_feed_x = 4.7 mm comes the best impedance matching
 
 The patch with width = 31.31 mm and height = 24.29 mm fabricated on FR4 using the copper tape has VSWR = 2.50. Then the original patch using the stub tuning method to do the impedance matching work. Finally, a VSWR of 1.29 is derived.<br>
 
-The measured results of the matched and unmatched are used to compare to the HFSS simulation results. The plot is provided below.<br>
+The measured results of the matched and unmatched are used to compare with the HFSS simulation data. The plot is provided below to make a comparison.<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_vswr_comparison.png)<br><br>
 </b>
 
@@ -67,6 +67,6 @@ The measured results of the matched and unmatched are used to compare to the HFS
 
 <b>Conclusion:<br>
 
-1. Two filters are designed using the insertion loss method in this lab. One is the maximally flat LPF and another is the Equal-Ripple BSF.<br>
-2. Different filter transformations are involved in the filter design. For the maximally LPF, the impedance and frequency scaling are needed. Also, the Richard's transformation and Kuroda's identities are involved to successfully implement the LPF design. On the other hand, the BSF needs one extra process from the prototype filter. The inductor should convert to an inductor parallel with a capacitor and a capacitor should convert to an inductor in series with a capacitor.
-3. The lumped LC used in Task 1 step 7 only works well at low frequency. At high frequency, the distributed components are prefered.</b>
+1. The patch becomes resonant (imaginary part of the impedance is 0) when the length of the patch is around 0.49*Lumda_g.<br>
+2. In this work, the patch is built on FR4 which has a dielectric constant of 4.1. In general, FR4 has high loss at GHz frequency band, so other kinds of substrate is suggested to replace the FR4 such as the Duroid 5880 (εr=2.2).<br>
+3. The input impedance of the patch will increase when the feeding probe is close to the edge of the patch surface. We define the probe distance from the patch edge as Δx. In this experiment, when Δx = 5.655 mm, we observed input impedance = 42.105 - 39.205j (Ohm). When Δx = 7.655 mm, we have input impedance = 32.46 - 27.715j (Ohm). When Δx = 10.655 mm, we have input impedance = 13.67 - 4.51j (Ohm). As a result, if Δx increase, the input impedance of the patch will decrease. We use this phenomenon to do the impedance matching job.</b>
