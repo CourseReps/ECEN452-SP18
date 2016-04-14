@@ -112,7 +112,7 @@ Right-click on the solution setup you just created (Setup1) in the Project Manag
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Add_Frequency_Sweep.png)
 
-In the window that appears, change the start and stop frequencies to 1 GHz and 5 GHz, respectively. Change the step size to 0.001 GHz. For now you may leave the Sweep Type as 'Fast', however 'Interpolating' and 'Discrete' can be more precise at the expense of longer simulation time. CLick OK to close this window. <br>
+In the window that appears, change the start and stop frequencies to 1 GHz and 5 GHz, respectively. Change the step size to 0.001 GHz. For now you may leave the Sweep Type as 'Fast', however 'Interpolating' and 'Discrete' can be more precise at the expense of longer simulation time. Click OK to close this window. <br>
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Frequency_Sweep_Properties.png)
 
