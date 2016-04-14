@@ -139,6 +139,57 @@ If you click on the 'Convergence' tab, you will see a table that has the Maximum
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Convergence_Data.png)
 
+## Creating Results Plots
+### Modal Solution Data: Rectangular Plot
+Once the simulation has finished, you can create plots to view the results. Rectangular plots are good for plotting S-parameters and VSWR data. For now, we will plot S11 and S21 in dB. Right-click on 'Results' in the Project Manager window and select 'Create Modal Solution Data Report -> Rectangular Plot'. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Add_Results_Plot.png)
+
+In the window that appears, select 'S parameter' under Category, then hold Ctrl and select 'S(1,1)' and 'S(2,1)' under Quantity, then select dB under Function. Then click 'New Report' to create the plot.<br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Create_Report_Traces.png)
+
+You can adjust the scale of the graph by double-clicking on one of the numbers on the y-axis. In the window that appears, click on the 'Scaling' tab. If there is no 'Scaling' tab then you probably clicked in the wrong place and it pulled up a different window. In the 'Scaling' tab check 'Specify Min', 'Specify Max', and 'Specify Spacing'. A typical scale for S-parameters in dB is a min of -40, a max of 0, and a spacing of 10. Modify these values and click OK to close the window. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Adjust_Plot_Scale.png)
+
+You can add a marker by righ-clicking on the graph and selecting 'Marker -> Add Marker'. Click on the trace at the point you wish to add a marker. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Add_Marker.png)
+
+A table with the list of markers will appear when you create a marker. Double-click on the marker you just created in the list to bring up its properties. Here you can change the name of the marker, the trace it corresponds to, and the frequency. Change the marker frequency to the solution frequency of 2.5 GHz to see the value at the design frequency. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Marker_Details.png)
+
+You could also follow similar steps to plot the phase of the S-parameters, to do this you would just select 'cang_deg' under Function when creating the rectangular plot. You could also plot VSWR by selecting 'VSWR' under Category, then select which port under Quantity, and then select '<none>' under Function since it is a unit-less value. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Create_Report_Traces.png)
+
+### Far Fields Report: Radiation Pattern
+To plot the radiation pattern, you need to first define a geometry over which to plot. In this example, we will plot over the xz (phi = 0deg) and yz (phi = 90deg) cutplanes. I am using the patch antenna from Lab 9 for this demonstration since transmission lines are not designed to radiate. Right-click on 'Radiation' in the Project Manager window and select 'Insert Far Field Setup -> Infinite Sphere...'. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Insert_Far_Field_Setup.png)
+
+In the window that appears, it is helpful to change the name of the geometry to something that you will remember later. In this example we are plotting over the xz and yz cutplanes, so I will name this 'XZ/YZ'. Now we must think about how to define the xz and yz planes in terms of phi and theta. The xz plane is equivalent to phi = 0deg and theta = [-180,180)deg. The yz plane is equivalent to phi = 90deg and theta = [-180,180)deg. Mathematically, theta is bound between 0 and 180deg, but the software allows theta to go from -180deg to 180deg or even 0deg to 360deg if you prefer. So, we can set phi to start at 0deg and stop at 90deg with a step size of 90deg. This gives us phi = 0deg,90deg. And we can set theta to start at -180deg and stop at 180deg with a step size of 1deg. This gives us theta = -180deg,-179deg,...,179deg,180deg. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Far_Field_Radiation_Sphere_Setup.png)
+
+Now, right-click on 'Results' in the Project Manager window and select 'Create Far Fields Report -> Radiation Pattern'. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Create_Radiation_Pattern.png)
+
+In the window that appears, make sure the geometry is set to 'XZ/YZ'. Set the Primary Sweep to 'Theta' since we want the polar graph to sweep over theta and show seperate traces for different values of phi. We will plot the phi-polarized gain and the theta-polarized gain on one graph. Select 'Gain' under Category, then hold Ctrl and select 'GainPhi' and 'GainTheta' under Quantity, then select 'dB' under Function. Click 'New Report' to create the plot. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Create_Radiation_Pattern_Traces.png)
+
+You can change the scaling by double-clicking on the numbers on the radial axis. Make sure you are on the 'Grid' tab and scroll down until you see Min Scale, Max Scale, and Spacing. Typically, we look at radiation patterns over a 40 dB range, that is the difference between the Max and Min. So change the 'Min Scale' to '-30', the 'Max Scale' to '10', and 'Spacing' to '10'. Click OK to close this window. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Radiation_Pattern_Scaling.png)
+
+You should see 4 different traces corresponding to GainPhi Phi=0deg, GainPhi Phi=90deg, GainTheta Phi=0deg, and GainTheta Phi=90deg. The Phi=0deg traces are for the xz plane and the Phi=90deg are for the yz plane, and theta is the variable that is swept on the polar plot with 0deg being the positive z direction. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Radiation_Pattern.png)
+
 ## Modify Design Parameters
 First double-click on a design in the Project Manager window to make it the active design. Single-clicking the design name will bring up the parameter list in the Properties window below. Here you must enter the values for the physical dimensions of your design (e.g. widths and lengths of transmission lines). You should only modify parameters that pertain to your specific design, changing the substrate parameters can lead to errors in the simulation. When you have entered all of your design parameters and are ready to simulate, click on the green exclamation point ('Analyze All') to begin the simulation. 
 
