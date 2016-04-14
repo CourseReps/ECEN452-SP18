@@ -1,116 +1,74 @@
 <b>ECEN 452-500: Ultra High Frequency Techniques</b><br>
 Spring 2016 – Prof. Huff<br>
-Lab 6
+Lab 9 - Patch Antenna HFSS design
 
-Pull the Lab 6 subdirectory in the ECEN 452 GitHub directory Labs and locate the HFSS project files “ECEN452_Lab6_Filters.hfss”. Open each project file (File-Open…), then save them to the local drive of the computer you are running your simulations on and rename it by appending your team number to each file (e.g., “ECEN452_LabX_TopicY_TeamZ”).<br>
-In this lab you will be completing two designs of a low pass filter and the design of a band stop. These are found in your “ECEN452_Lab6_Filters_GroupX.hfss” project file. These design files are named “N5_MaxFlat_LPF_T-Line”, “N5_MaxFlat_LPF_TLine_Tapped”, and “N5_MaxFlat_BSF_T-Line”. You will be designing these for a Z0 = 50 Ohm reference impedance on the 62 mil thick FR4 (er = 4.1, tan_d = 0.01) substrate.<br>
-Task 1: Synthesis and implementation of a maximally-flat low-pass filter.<br>
-In this exercise you will synthesize a maximally-flat low-pass filter with a cut-off frequency fc = 2.5 GHz and a minimum attenuation of 10 dB at 3.25 GHz.<br>
-<br>Step 1: First, calculate the order N of the filter required to meet the specifications of providing 10 dB isolation at 3.25 GHz using abs(w/w_c)-1 = abs(f_10dB/f_c)-1 and the figure below.<br>
+For the Lab 9 activity you made an edge-fed patch antenna using copper tape on an FR4 substrate. You used either a quarter wave transformer or a single stub to impedance match the antenna. In the HFSS file for Lab 9 you will design a probe-fed patch antenna on 62 mil FR4 at 3GHz; same parameters as the in-lab activity. You will impedance match this antenna by adjusting the position of the probe feed. The following steps outline the process for designing this antenna.<br>
+
+
+
+
+
+<br>Step 1: Calculate the dimensions of the patch using the formulas and design parameters from the in-lab activity (f = 3GHz, εr = 4.1, h = 1.5748mm).<br>
 <b>Ans:<br>
-abs(w/w_c) - 1= abs(3.25-2.5) - 1 = 0.3<br>
-After check the table, n = 5 can provide at leat 10 dB attenuation at 3.25 GHz.<br></b>
+w = (c/2*f) * sqrt(2/εr + 1) = 31.31 mm<br>
+ε_eff = (εr+1)/2  + (εr-1/2)*(1+12*(h/w))^-0.5 = 3.77<br>
+ΔL = 0.412*h*((εr+0.3)*(w/h + 0.264)/(εr_eff-0.258)*(w/h + 0.8)) = 0.7324 mm<br>
+L = c/(2*f*sqrt(ε_eff)) - 2*ΔL = 24.29 mm<br></b>
 
-<br>Step 2: Next, use the table on the following page to determine the filter coefficients for the (hint: five-element) low-pass prototype.<br>
+
+
+
+<br>Step 2: Enter these dimensions into the HFSS design for patch_width and patch_length<br>
+
+
+<br>Step 3: Enter a value for the probe position along the x-axis (probe_feed_x)<br>
+
+
+
+<br>Step 4: Look at the VSWR plot to make sure the patch is resonant at 3GHz. You should see a minimum at 3GHz. Adjust patch_length accordingly.<br>
 <b>Ans:<br>
-For n = 5, g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000<br></b>
+The optimum simulation results of the patch antenna is when patch_length = 23.85 mm and patch_width = 24 mm. Similarly, the feeding probe has a 7.225 mm distance (probe_feed_x = 4.7 mm) away from the edge of the patch surface. The HFSS design parameters are provided as the figure together with the design layout.<br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_design_parameters.png)<br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss.png)<br><br>
 
-<br>Step 3: Assemble the prototype LC ladder network.
-To simplify the analysis (visually), we will replace this ladder network will the table shown below.
+The patch has VSWR of 1.0552 at 3 GHz and has a bandwidth of 84.4 MHz (2.9576GHz to 3.0420 GHz). As a result, the patch has the best impedance matching to the 50 Ohm at 3 GHz. The results achieve the requirement of VSWR below 1.2.<br><br>
 
-
-
-<br>Step 4: Use Richard’s Transformation to convert the capacitors into open circuit stubs and the inductors into short circuit stubs.
-
-
-
-<br>Step 5: Use Kuroda’s identities to convert series stubs to shunt stubs. This is a multi-step process, but the filter coefficients are symmetric in so we only need to transform one side of the filter and then capitalize on the symmetry. This will begin at the load and/or source side and work to the center of the filter (note: the center element is a shunt open-circuit stub, so it will remain untouched in this process).
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_vswr.png)<br><br>
+</b>
 
 
-<br>Step 5.1 Insert unit elements source and load sides of the circuit to separate z1 from z2 and z5 from z4.
 
-
-<br>Step 5.2 Insert two more unit element source and load sides of the circuit. This will separate z2 from z3 and z4 from z3, then separate z4 from z5 and z1 from z2. This process will also convert z1, z2, z4, and z5 into shunt OC stubs.
-
-
-<br>Step 5.3 Perform impedance scaling for the transmission line.
-
-
-<br>Step 6: Calculate the widths of the transmission lines and enter these into the design “N5_MaxFlat_LPF_T-Line” within the HFSS project “ECEN452_Lab6_Filters.hfss”. You will also need to enter this information into the “N5_MaxFlat_LPF_T-Line.zov” Z0lver assignment.<br>
+<br>Step 5: Look at the Smith Chart to check the impedance match of the antenna. Use your notes from class to determine whether to move the probe closer to the center or closer to the edge of the patch. Adjust probe_feed_x accordingly and rerun your simulation.<br>
 <b>Ans:<br>
-The original design parameters are shown in the following figures. Obviously, the results doesn't meet the requirement.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_parameter.jpg)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/original_maximally_flat_tline_amp_S11_S21.jpg) <br><br>
-Also, the Zolver design layout and simulation results are shown in the following figures.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_Tline_Design.jpg)<br><br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_Tline_Result.jpg)<br><br><br>
-After some tuning works, the new design parameters are illustrated below and also the results.<br>
-The new Z1 = 80.9 (lumda/8 = 8.7278mm), UE3 = 130.9 (lumda/8 = 8.9679mm), Z2 = 80.9 (lumda/8 = 8.7278mm), UE1 = 50 (lumda/8 = 8.4416mm), Z3 = 25 (lumda/8 = 8.04mm), UE2 = 130.9 (lumda/8 = 8.9679mm), Z4 = 80.9 (lumda/8 = 8.7278mm), UE4 = 50 (lumda/8 = 8.4416mm), Z5 = 80.9 (lumda/8 = 8.7278mm) (Ohm)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_parameters.jpg)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_amp_S21.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_phase_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tline_phase_S21.jpg) <br></b>
+As mentioned above, when probe_feed_x = 4.7 mm comes the best impedance matching results. The Smith chart illustrated the resonant frequency is around 3 GHz and the normalized input impedance is 1.0389 - 0.0386j. The imaginary part of the impedance is very small which prove the resonance of the patch.<br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_hfss_smith_chart.png)<br><br>
+</b>
 
-<br>Step 7: Perform impedance and frequency scaling for the lumped element prototype you found in Step 2 and enter these into the “N5_MaxFlat_LPF_LC.zov” Z0lver assignment.<br>
+
+
+
+
+
+<br>Step 6: Repeat steps 4 and 5 and keep adjusting until the design is impedance matched at 3GHz. You should see a VSWR minimum at 3GHz (±50MHz); try to get the value at 3GHz below 1.2. The 3GHz marker on the Smith Chart should be close to the center of the Smith Chart<br>
+
+
+<br>Step 7: Compare your results to the patch antenna you made during the lab session and use the lab report template to summarize the design objective, process, and results for Lab9.<br>
 <b>Ans:<br>
-For n = 5, g1 = 0.6180, g2 = 1.6180, g3 = 2.0000, g4 = 1.6180, g5 = 0.6180, g6 = 1.0000<br>
-impedance scaling:<br>
-Rs = 50, RL = 50, C1 = 0.618/50 = 0.01236, L2 = 50 * 1.618 = 80.9, C3 = 2/50 = 0.04, L4 = 80.9, C5 = 0.01236<br>
-Frequency Scaling:<br>
-C1' = C5' = C1/w_c = 0.01236/(2 * pi * 2.5 * 10^9) = 0.787 pF<br>
-L2' = L4' = L2/w_c = 80.9/(2 * pi * 2.5 * 10^9) = 5.15 nH<br>
-C3' = 0.04/(2 * pi * 2.5 * 10^9) = 2.55 pF<br><br>
-The Zolver design layout and simulation results are shown in the following figures.<br></b>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_LC_Design.jpg)<br><br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/N5_MaxFlat_LPF_LC_Result.jpg)<br><br><br>
-<br>Step 8: Calculate the values x1, x2, x3, x4, and x5 (e.g., the electrical length of the stubs) for the modified low pass filter design “N5_MaxFlat_LPF_T-Line_Tapped_Stubs” that uses tapped stubs with a 1 mm width (Z0 = 89 W).<br>
-<b>Ans:<br>
-for Z_in_x1 = -362j, characteristic impedance of x1 = 89 Ohm, l_x1 = 0.038, lumda = 2.6693 mm<br>
-l_x1 = l_x5<br>
-for Z_in_x2 = -86j, characteristic impedance of x2 = 89 Ohm, l_x2 = 0.1277, lumda = 8.9703 mm<br>
-l_x2 = l_x4<br>
-for Z_in_x3 = -50j, characteristic impedance of x3 = 89 Ohm, l_x3 = 0.1685, lumda = 11.8363 mm<br>
 
-The design parameters are shown in the following figures.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapped_stub_parameter.jpg) <br><br>
+The patch with width = 31.31 mm and height = 24.29 mm fabricated on FR4 using the copper tape has VSWR = 2.50. Then the original patch using the stub tuning method to do the impedance matching work. Finally, a VSWR of 1.29 is derived.<br>
 
-The HFSS simulation results are as follows.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_amp_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_amp_S21.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_phase_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/maximally_flat_tapered_stubs_phase_S21.jpg) <br></b>
-
-<br>Task 2: Synthesis and implementation of an equi-ripple band-stop filter.
-In this exercise you will synthesize a fifth-order 0.5 dB equi-ripple band-pass filter with a center frequency fc = 3.0 GHz and a bandwidth of 2.25 GHz to 3.75 GHz (e.g., delta = 0.5), and then implement your design using microstrip transmission lines for a Z0 = 50 Ohm reference impedance on a 62 mil thick FR4 (er = 4.1, tan_d = 0.01).
-
-<br>Step 1: First, use the table on the following page to determine the element values of the low pass prototype.
+The measured results of the matched and unmatched are used to compare with the HFSS simulation data. The plot is provided below to make a comparison.<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab9/patch_vswr_comparison.png)<br><br>
+</b>
 
 
-<br>Step 2: Assemble the prototype LC ladder network.
-To simplify the analysis (visually), we will replace this ladder network will the table shown below.
 
-
-<br>Step 3: Convert this to a band-stop filter topology by replacing shunt elements with shunted LC series networks, and series LC parallel networks.
-
-
-<br>Step 4: Use inverters (e.g., quarter-wave transformers) to provide separation between the series elements and convert series stubs into shunt stubs.
-
-
-<br>Step 5: Calculate the scaled impedance values of the equivalent open-circuit stubs using<br>
-<b>Ans:<br>
-The design parameters are shown in the following figures.<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/equal_ripple_parameter.jpg) <br><br>
-
-The HFSS simulation results are as follows.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/equal_ripple_amp_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/equal_ripple_amp_S21.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/equal_ripple_phase_S11.jpg) <br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab6/equal_ripple_phase_S21.jpg) <br></b>
 
 
 <b>Conclusion:<br>
 
-1. Two filters are designed using the insertion loss method in this lab. One is the maximally flat LPF and another is the Equal-Ripple BSF.<br>
-2. Different filter transformations are involved in the filter design. For the maximally LPF, the impedance and frequency scaling are needed. Also, the Richard's transformation and Kuroda's identities are involved to successfully implement the LPF design. On the other hand, the BSF needs one extra process from the prototype filter. The inductor should convert to an inductor parallel with a capacitor and a capacitor should convert to an inductor in series with a capacitor.
-3. The lumped LC used in Task 1 step 7 only works well at low frequency. At high frequency, the distributed components are prefered.</b>
+1. The patch becomes resonant (imaginary part of the impedance is 0) when the length of the patch is around 0.49*Lumda_g.<br>
+
+2. In this work, the patch is built on FR4 which has a dielectric constant of 4.1. In general, FR4 is good for the traditional electronic circuit design but may not efficient for the patch antenna to radiate. Besides, it has high loss when the operating frequency over GHz. It's suggest to use other kinds of substrate to replace the FR4 such as the Duroid 5880 (εr=2.2) to get a better radiation characteristics.<br>
+
+3. The input impedance of the patch will increase when the feeding probe is close to the edge of the patch surface. We define the probe distance from the patch edge as Δx. In this experiment, when Δx = 5.655 mm, we observed input impedance = 42.105 - 39.205j (Ohm). When Δx = 7.655 mm, we have input impedance = 32.46 - 27.715j (Ohm). When Δx = 10.655 mm, we have input impedance = 13.67 - 4.51j (Ohm). As a result, if Δx increase, the input impedance of the patch will decrease. We use this phenomenon to do the impedance matching job.</b>

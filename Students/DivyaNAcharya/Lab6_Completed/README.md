@@ -1,7 +1,7 @@
 # Lab 6: Filter Design
 Divya Acharya 
 
-#Task: Design of Patch Antenna
+#Task: Design of Low Pass and Band Stop Filters
 
 ## Background
 - Filters can be classified into Low-Pass, High-Pass, Band-Pass and Band-Stop based on the range of frequencies that they allow to pass. 
