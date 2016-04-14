@@ -93,6 +93,52 @@ Click on the middle of the bottom edge of the wave port (should see a triangle w
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Draw_Integration_Line.png)
 
+## Add Solution Setup and Frequency Sweep
+### Solution Setup
+We need to define our solution setup with parameters such as solution frequency, maximum number of passes, and convergence criteria. Right-click on 'Analysis' in the Project Manager window and select 'Add Solution Setup...'. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Add_Solution_Setup.png)
+
+In the window that appears, change the Solution Frequency to the design frequency (2.5 GHz in this case). Change the Maximum Number of Passes to 20 and the Maximum Delta S to 0.01. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Solution_Setup_Properties.png)
+
+In the 'Options' tab, change the Minimum Converged Passes to 2. Click OK to close this window. The simulation will continue to run until the convergence criteria is met or until the Maximum Number of Passes is reached, whichever comes first. The convergence criteria is that the Maximum Delta S needs to be below 0.01 for 2 consecutive passes. Before we run the simulation, we need to setup a frequency sweep. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Solution_Setup_Options.png)
+
+### Frequency Sweep
+Right-click on the solution setup you just created (Setup1) in the Project Manager window and select 'Add Frequency Sweep...' <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Add_Frequency_Sweep.png)
+
+In the window that appears, change the start and stop frequencies to 1 GHz and 5 GHz, respectively. Change the step size to 0.001 GHz. For now you may leave the Sweep Type as 'Fast', however 'Interpolating' and 'Discrete' can be more precise at the expense of longer simulation time. CLick OK to close this window. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Frequency_Sweep_Properties.png)
+
+## Running the Simulation and Checking the Progress
+### Design Validation
+Though it is not required, it is sometimes good to use the validation check to make sure there are no obvious errors in your design (no ports defined, no solution setup, invalid object geometry, etc.). To do this simply click the green check mark located in the toolbar. This will quickly check your design for errors and list them in the Message Manager window in the bottom-left part of the screen. If this succeeds without errors, you can run the simulation. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Validation_Check.png)
+
+### Running the Simulation
+To run the simulation, click the green exclamation point in the toolbar (located next to the green validation check mark). This will run all simulation setups associated with the current design. Alternatively, you may right-click on an individual solution setup (such as Setup1) in the Project Manager and select 'Analyze'. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Analyze_All.png)
+
+This will start the simulation and you should see the red progress bar in the bottom-right part of the screen. To see more information about the simulation, click on the icon in the toolbar that says 'Solution Data' when you hover over it. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Solution_Data_Icon.png)
+
+In the window that appears you will see the S Matrix at the solution frequency in (Magnitude, Phase[deg]) by default. You can also check the boxes for Gamma, Z0, Y Matrix, and Z Matrix to see the reflection coefficient, port impedance, Y Matrix, and Z Matrix, respectively. Typically, this is a good way to verify that the port impedances are approximately 50 ohms or whatever impedance you designed for. This information is updated every time a new pass is solved. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Solution_Data.png)
+
+If you click on the 'Convergence' tab, you will see a table that has the Maximum Delta S for each pass number. According to our convergence criteria, the simulation will finish when this is below 0.01 for two consecutive passes. You can also view this information as a plot by clicking the 'Plot' button instead of 'Table'. This will graphically show you how your solution is converging. <br>
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Resources/HFSS_Help/Convergence_Data.png)
+
 ## Modify Design Parameters
 First double-click on a design in the Project Manager window to make it the active design. Single-clicking the design name will bring up the parameter list in the Properties window below. Here you must enter the values for the physical dimensions of your design (e.g. widths and lengths of transmission lines). You should only modify parameters that pertain to your specific design, changing the substrate parameters can lead to errors in the simulation. When you have entered all of your design parameters and are ready to simulate, click on the green exclamation point ('Analyze All') to begin the simulation. 
 
