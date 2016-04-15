@@ -13,6 +13,9 @@ y4 = []
 y5 = []
 y6 = []
 y7 = [] 
+y8 = []
+y9 = []
+
 ##Read .csv data file
 #replace quoted text below with filepath to your .csv file
 with open('EquiRipplet_T-Line-BSF.csv.xls') as csvfile:
@@ -49,14 +52,32 @@ with open('DJ_JR_50ohm_line_dB.csv') as csvfile:
 		if row['Freq(Hz)']!="END":
 			y6.append(float(row['S21 Log Mag(dB)']))
 			y7.append(float(row['S11 Log Mag(dB)']))
+#File 4####################################################################
+##Read .csv data file
+#replace quoted text below with filepath to your .csv file
+with open('Milled_BSF_dB.csv') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+        #items in '' below need to exactly match the entry in the first row of the columns in the .csv file
+        #edit/add additional lines as needed for each column of data
+		if row['Freq(Hz)']!="END":
+			y8.append(float(row['S11 Log Mag(dB)']))
+			y9.append(float(row['S21 Log Mag(dB)']))
+
 ##Plotting
 plt.figure(1) #initialize plot1
 ax1 = plt.subplot(111) #create axes handle for plot1
 ax1.plot(x, y1, '-b', label="S11 Simulated") #plot y1 vs. x, solid-blue, add lable for legend
 
 ax1.plot(x, y2, '-r', label="S21 Simulated") #plot y2 vs. x, solid-red, add lable for legend
-ax1.plot(x, y3, '--b', label="S11 Measured") #plot y3 vs. x, dashed-red, add lable for legend
-ax1.plot(x, y4, '--r', label="S21 Measured") #plot y3 vs. x, dashed-red, add lable for legend
+ax1.plot(x, y3, '--b', label="S11 Cu Tape") #plot y3 vs. x, dashed-red, add lable for legend
+ax1.plot(x, y4, '--r', label="S21 Cu Tape") #plot y3 vs. x, dashed-red, add lable for legend
+
+ax1.plot(x, y8, ':b', label="S11 Milled") #plot y3 vs. x, dashed-red, add lable for legend
+ax1.plot(x, y9, ':r', label="S21 Milled") #plot y3 vs. x, dashed-red, add lable for legend
+
+ax1.plot(x,y5, '-g', label="3dB Cut-Off")
+
 ax1.set_xlim(min(x), max(x)) #set x-axis limits
 ax1.legend(loc=3) #add legend at location #4 (bottom-right corner)
 
