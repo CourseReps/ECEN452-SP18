@@ -49,7 +49,7 @@ This Low pass filter could be converted into a tapped stub filter by converting 
 Where ZoA is the original stub's impedance, ZoB is 89 Ohms, and L is the length of the parallel stubs. Like in the previous filter, the stubs are separated by eighth wave unit elements of either 69 or 112 Ohms. The final device is pictured below: 
 
 ![Tapped_Stub_LPF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/LPF-Tapped_Stub.PNG)
-https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/Kuroda_Identity.png)
+
 
 ###Equi-Ripple Bandstop Filter
 The development of an equi-ripple filter begins the same way as the development of the Maximally Flat filter did. A ladder network of Inductors and Capacitors is constructed based on a table of known values. This low pass prototype is then converted to a band pass prototype by replacing each series inductor or shunt capacitor in the circuit with a series or paralell LC network. Quarter wave resonators were used to replace the LC networks so that each LC network could either be converted into a quarter-wave stub separated by a quarter wave transformer. For band stop characteristics, all lengths are quarter-wave and all stubs are open circuit. The scaled impedance values of each stub were calculated by the relation:
@@ -65,19 +65,23 @@ With the impedances and electrical lengths determined, the physical lengths and 
 Each device was modeled and simulated in HFSS. Also, David milled a version of each device, which was tested with the Network Analyzer. The Network Analyzer was configured for a 15mm reference plane to calculate out the effects of the connectors and isolate the filter response. In Lab the Equi-Ripple Band Stop Filter was constructed on FR4 substrate using copper tape as the conductor. A heat gun was used to solder the lengths of tape to one another as well as to solder connections to the boards. The results of each of these filters are plotted in the following section.
 
 ## Results and Discussion
-(analysis coming)
+
 ###Low Pass Filter
 ![LPF_TLine](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/LPF_TL-SParams.png)
+Both the milled and simulated devices exhibit maximally flat low pass filter behavior. However, the location of the 3dB cutoff frequency and the 10dB frequency is higher than desired by the initial design considerations. Because this is present in both the milled and the simulated design, this issue points to an error in the initial design phase. (Maybe the wrong order of filter was chosen?)
 
 ###Tapped Stub Filter
 ![LPF-TappedStub](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/LPF-TappedStub-SParam.PNG)
+When the low pass filter is trasnformed into a tapped stub equivalent, the S-paramaters have a similarly shaped response to the original filter, but shifted back toward the desired cutoff and isolation frequencies. The cutoff frequency is around 2.75 GHz and the isolation frequency is around 3.25 GHz. 
 
 ###Equi-Ripple Bandstop Filter
-
 ![BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab6/Pictures/BSFilter.png)
+The Simulated filter has a stop band of approximately 2.75 to 3.75 GHz. The filter built with copper tape is centered around the same frequency band, but has less precision, especially at higher frequencies. The copper tape filter's stop band ranges from approximately 2.6 GHz to 4.1 GHz. This extra bandwidth in the upper frequency range is likely due to a measurement error when cutting the copper tape. <br>
+
+The milled version of this filter had a bandwidth of approximately 2.25 to 3.15 GHz. This lower frequency range can be attributed once again to design differences between the simulated and milled versions of the filters. 
 
 ## Conclusion
-The filters designed in this lab achieved the desired behavior (i.e the low-pass filter exhibited low-pass filter behavior, and the band-stop filter exhibited band-stop filter behavior); however, there were discrepancies in the cut-off frequency of the low pass filters and the band-stop filters. The frequency range didn't necessarily match up to the desired range, likely due to small errors in calculations. 
+The filters designed in this lab achieved the desired behavior (i.e the low-pass filter exhibited low-pass filter behavior, and the band-stop filter exhibited band-stop filter behavior); however, there were discrepancies in the cut-off frequency of the low pass filters and the band-stop filters. The frequency range didn't necessarily match up to the desired range, likely due to small errors in the design or calculations. 
 
 ## Reflection
 Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
