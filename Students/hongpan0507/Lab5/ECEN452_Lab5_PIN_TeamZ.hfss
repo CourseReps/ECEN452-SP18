@@ -159,7 +159,7 @@ $begin 'AnsoftProject'
 				VariableProp('Diode_Capacitance', 'URHD', '', '0.18pF')
 				VariableProp('Diode_ReverseBias_R', 'URHD', '', '10000ohm')
 				VariableProp('Diode_ForwardBias_R', 'URHD', '', '1.5ohm')
-				VariableProp('_1_for_ON__0_for_OFF', 'UD', '', '1')
+				VariableProp('_1_for_ON__0_for_OFF', 'UD', '', '0')
 				VariableProp('biasR_length', 'URHD', '', '0.9mm')
 				VariableProp('biasR_width', 'URHD', '', '0.9mm')
 				VariableProp('Bias_Resistor', 'URHD', '', '510ohm')
@@ -3422,131 +3422,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='15mm;17mm;17.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_length'
-								Column='15mm;17mm;17.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_length'
-								Column='0.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_width'
-								Column='0.7mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_L'
-								Column='0.7nH'
-								Units='nH'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_Capacitance'
-								Column='0.18pF'
-								Units='pF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ReverseBias_R'
-								Column='10000ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ForwardBias_R'
-								Column='1.5ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='_1_for_ON__0_for_OFF'
-								Column='1'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -3629,7 +3504,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='SCBias_length'
-								Column='15mm;17mm;17.8mm'
+								Column='15mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -3644,7 +3519,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='SCGround_length'
-								Column='15mm;17mm;17.6mm'
+								Column='15mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -3704,7 +3579,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='_1_for_ON__0_for_OFF'
-								Column='1'
+								Column='0;1'
 								Units=''
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -3730,8 +3605,8 @@ $begin 'AnsoftProject'
 					ID=56
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=1649, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(2,1)', 2, 90, false, SimValueID=1650, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=1649, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=1650, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -3810,7 +3685,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='SCBias_length'
-								Column='15mm;17mm;17.8mm'
+								Column='15mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -3825,7 +3700,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='SCGround_length'
-								Column='15mm;17mm;17.6mm'
+								Column='15mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -3885,7 +3760,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='_1_for_ON__0_for_OFF'
-								Column='1'
+								Column='0;1'
 								Units=''
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -3939,7 +3814,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR183642814568988685.tmp'
+		CacheHeaderFile='HDR228B900145722266865.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -5413,8 +5288,6 @@ $begin 'AnsoftProject'
 		$begin 'PortFieldDisplay'
 			$begin 'PortFieldDisplay'
 				ScaleFactor=5
-				Solution='Setup1 : LastAdaptive'
-				Frequency='2.5GHz'
 			$end 'PortFieldDisplay'
 		$end 'PortFieldDisplay'
 		$begin 'FieldsReporter'
@@ -5424,8 +5297,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=54
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='2.5GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -5583,76 +5454,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='17.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -5661,8 +5462,8 @@ $begin 'AnsoftProject'
 					ID=56
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=981, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(2,1)', 2, 90, false, SimValueID=982, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=1091, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=1092, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -5815,7 +5616,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR183642814568988686.tmp'
+		CacheHeaderFile='HDR228B900145722266867.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -7005,8 +6806,6 @@ $begin 'AnsoftProject'
 		$begin 'PortFieldDisplay'
 			$begin 'PortFieldDisplay'
 				ScaleFactor=5
-				Solution='Setup1 : LastAdaptive'
-				Frequency='2.5GHz'
 			$end 'PortFieldDisplay'
 		$end 'PortFieldDisplay'
 		$begin 'FieldsReporter'
@@ -7016,8 +6815,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=54
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='2.5GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -7125,46 +6922,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='1mm;3.3mm;3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_width'
-								Column='0.8mm;1mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_length'
-								Column='10mm;17.63mm;17.7mm;18mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -7215,46 +6972,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='1mm;3.3mm;3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_width'
-								Column='0.8mm;1mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_length'
-								Column='10mm;17.63mm;17.7mm;18mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -7329,7 +7046,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='feed_line_width'
-								Column='1mm;3.3mm;3.4mm'
+								Column='3.4mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -7339,12 +7056,12 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='SCGround_width'
-								Column='0.8mm;1mm'
+								Column='0.8mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='SCGround_length'
-								Column='10mm;17.6mm;17.63mm;17.7mm;18mm'
+								Column='17.6mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -7388,7 +7105,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR183642814568988687.tmp'
+		CacheHeaderFile='HDR228B900145722266868.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -7918,8 +7635,6 @@ $begin 'AnsoftProject'
 		$begin 'PortFieldDisplay'
 			$begin 'PortFieldDisplay'
 				ScaleFactor=5
-				Solution='Setup1 : LastAdaptive'
-				Frequency='2.5GHz'
 			$end 'PortFieldDisplay'
 		$end 'PortFieldDisplay'
 		$begin 'FieldsReporter'
@@ -7929,8 +7644,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=22
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='2.5GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -8038,31 +7751,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='30mm;42.3mm;43.8mm;43.9mm;46mm;46.6mm;46.7mm;46.725mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_width'
-								Column='3.3mm;3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_length'
-								Column='30mm;42.3mm;43.8mm;43.9mm;46mm;46.6mm;46.7mm;46.725mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -8113,31 +7801,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_width'
-								Column='3.3mm;3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_length'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -8213,7 +7876,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='line_width'
-								Column='3.3mm;3.4mm'
+								Column='3.4mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -8257,7 +7920,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR52C36428145689926616.tmp'
+		CacheHeaderFile='HDR228B900145722266869.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -8815,8 +8478,6 @@ $begin 'AnsoftProject'
 		$begin 'PortFieldDisplay'
 			$begin 'PortFieldDisplay'
 				ScaleFactor=5
-				Solution='Setup1 : LastAdaptive'
-				Frequency='2.5GHz'
 			$end 'PortFieldDisplay'
 		$end 'PortFieldDisplay'
 		$begin 'FieldsReporter'
@@ -8826,8 +8487,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=22
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='2.5GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -8935,31 +8594,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_width'
-								Column='0.65mm;0.7mm;0.75mm;0.8mm;0.85mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_length'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -9010,31 +8644,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_width'
-								Column='0.65mm;0.7mm;0.75mm;0.8mm;0.85mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='line_length'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -9110,7 +8719,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='line_width'
-								Column='0.65mm;0.7mm;0.75mm;0.8mm;0.85mm'
+								Column='0.8mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -9154,7 +8763,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR52C36428145689926617.tmp'
+		CacheHeaderFile='HDR228B900145722266870.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -11389,8 +10998,6 @@ $begin 'AnsoftProject'
 		$begin 'PortFieldDisplay'
 			$begin 'PortFieldDisplay'
 				ScaleFactor=5
-				Solution='Setup1 : LastAdaptive'
-				Frequency='2.5GHz'
 			$end 'PortFieldDisplay'
 		$end 'PortFieldDisplay'
 		$begin 'FieldsReporter'
@@ -11400,8 +11007,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=54
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='2.5GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -11509,76 +11114,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='17.8mm;18mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -11629,76 +11164,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='36mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='17.7mm;17.8mm;18mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -11787,7 +11252,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='SCBias_length'
-								Column='17.7mm;17.8mm;18mm'
+								Column='17.8mm'
 								Units='mm'
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -11861,7 +11326,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR2D2336428145690239956.tmp'
+		CacheHeaderFile='HDR228B900145722266871.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -13302,8 +12767,6 @@ $begin 'AnsoftProject'
 		$begin 'PortFieldDisplay'
 			$begin 'PortFieldDisplay'
 				ScaleFactor=5
-				Solution='Setup1 : LastAdaptive'
-				Frequency='2.5GHz'
 			$end 'PortFieldDisplay'
 		$end 'PortFieldDisplay'
 		$begin 'FieldsReporter'
@@ -13313,8 +12776,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=54
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='2.5GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -13422,131 +12883,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='15mm;17mm;17.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_length'
-								Column='15mm;17mm;17.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_length'
-								Column='0.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_width'
-								Column='0.7mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_L'
-								Column='0.7nH'
-								Units='nH'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_Capacitance'
-								Column='0.18pF'
-								Units='pF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ReverseBias_R'
-								Column='10000ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ForwardBias_R'
-								Column='1.5ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='_1_for_ON__0_for_OFF'
-								Column='1'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -13597,131 +12933,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='15mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_length'
-								Column='15mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_length'
-								Column='0.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_width'
-								Column='0.7mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_L'
-								Column='0.7nH'
-								Units='nH'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_Capacitance'
-								Column='0.18pF'
-								Units='pF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ReverseBias_R'
-								Column='10000ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ForwardBias_R'
-								Column='1.5ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='_1_for_ON__0_for_OFF'
-								Column='1'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -13730,8 +12941,8 @@ $begin 'AnsoftProject'
 					ID=56
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=1649, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=1650, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=1704, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=1705, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -13939,7 +13150,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR4F2836428145690506695.tmp'
+		CacheHeaderFile='HDR228B900145722266872.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -17145,8 +16356,6 @@ $begin 'AnsoftProject'
 		$begin 'PortFieldDisplay'
 			$begin 'PortFieldDisplay'
 				ScaleFactor=5
-				Solution='Setup1 : LastAdaptive'
-				Frequency='2.5GHz'
 			$end 'PortFieldDisplay'
 		$end 'PortFieldDisplay'
 		$begin 'FieldsReporter'
@@ -17156,8 +16365,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=54
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='2.5GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -17265,131 +16472,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='15mm;17mm;17.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_length'
-								Column='15mm;17mm;17.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_length'
-								Column='0.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_width'
-								Column='0.7mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_L'
-								Column='0.7nH'
-								Units='nH'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_Capacitance'
-								Column='0.18pF'
-								Units='pF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ReverseBias_R'
-								Column='10000ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ForwardBias_R'
-								Column='1.5ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='_1_for_ON__0_for_OFF'
-								Column='1'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -17440,131 +16522,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='subx'
-								Column='40mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='suby'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='subh'
-								Column='62mil'
-								Units='mil'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_width'
-								Column='3.4mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='feed_line_length'
-								Column='71mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_length'
-								Column='17.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCBias_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_width'
-								Column='0.8mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_length'
-								Column='17.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='SCGround_d'
-								Column='10mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_length'
-								Column='0.6mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='diode_width'
-								Column='0.7mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='via_radius'
-								Column='0.51mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_length'
-								Column='1.2mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_cap_width'
-								Column='1.3mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='DCblock_C'
-								Column='47nF'
-								Units='nF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_L'
-								Column='0.7nH'
-								Units='nH'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_Capacitance'
-								Column='0.18pF'
-								Units='pF'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ReverseBias_R'
-								Column='10000ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Diode_ForwardBias_R'
-								Column='1.5ohm'
-								Units='ohm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='_1_for_ON__0_for_OFF'
-								Column='0;1'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_length'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='biasR_width'
-								Column='0.9mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Bias_Resistor'
-								Column='510ohm'
-								Units='ohm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -17728,7 +16685,7 @@ $begin 'AnsoftProject'
 							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='_1_for_ON__0_for_OFF'
-								Column='0;1'
+								Column='0'
 								Units=''
 							$end 'Sweep'
 							$begin 'Sweep'
@@ -17782,7 +16739,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR4FAE364281456905107101.tmp'
+		CacheHeaderFile='HDR228B900145722266873.tmp'
 	$end 'HFSSModel'
 	$begin 'DataInstances'
 		$begin 'Instance'
@@ -17791,7 +16748,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 0, 0, 941, 436), OrientationMatrix(0, -0.0435394942760468, 1.99844918391534e-009, 0, 0.0435394942760468, -2.66246905842379e-024, 2.66246905842379e-024, 0, 0, -1.99844940595995e-009, 0.0435394942760468, 0, -1.5456520318985, 0.290263324975967, -5.88848733901978, 1, 0, -1.85025370121002, 1.85025370121002, -1, 1, -3.9515438079834, 14.7085971832275), Drawings[13: 'Substrate', 'FeedLine', 'Diode_L', 'Diode_RC', 'SCBias', 'SCGround', 'Via1', 'Via2', 'DCblock_cap', 'AirBox', 'Port1', 'Port2', 'Bias_Resistor'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 125, 125, 1213, 602), OrientationMatrix(-1.18119528047522e-010, -0.0328798890113831, 2.79396772384644e-009, 0, 0.0328798927366734, -2.43360051730704e-018, -1.72081567474765e-018, 0, 8.35231050988483e-011, -2.79396772384644e-009, 0.0328798890113831, 0, -1.16723644733429, 0.219199508428574, -6.25784397125244, 1, 0, -2.27979421615601, 5.38257884979248, -1.99605941772461, 1.47234058380127, -1.17309093475342, 12.9185609817505), Drawings[13: 'Substrate', 'FeedLine', 'Diode_L', 'Diode_RC', 'SCBias', 'SCGround', 'Via1', 'Via2', 'DCblock_cap', 'AirBox', 'Port1', 'Port2', 'Bias_Resistor'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -18180,7 +17137,7 @@ $begin 'AnsoftProject'
 									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=73
+									NextUniqueID=79
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -18747,17 +17704,17 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=68
+											ItemID=78
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=902
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=754
+																Left=577
+																Bottom=9804
+																Right=9229
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -18765,10 +17722,10 @@ $begin 'AnsoftProject'
 														DataSourceID=12
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=902
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=754
+																Left=577
+																Bottom=9804
+																Right=9229
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -18779,7 +17736,7 @@ $begin 'AnsoftProject'
 																Top=75
 																Left=75
 																Bottom=9925
-																Right=669
+																Right=439
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -18790,15 +17747,15 @@ $begin 'AnsoftProject'
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=8920
+																Left=9229
 																Bottom=9925
 																Right=9925
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=902
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=754
+																Left=577
+																Bottom=9804
+																Right=9229
 															$end 'GridRect'
 														$end 'CartesianAxisLayoutAttribute'
 													$end 'SubMapItem'
@@ -18807,15 +17764,15 @@ $begin 'AnsoftProject'
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=694
-																Bottom=901
-																Right=8920
+																Left=464
+																Bottom=753
+																Right=9229
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=902
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=754
+																Left=577
+																Bottom=9804
+																Right=9229
 															$end 'GridRect'
 														$end 'CartesianAxisLayoutAttribute'
 													$end 'SubMapItem'
@@ -18840,13 +17797,13 @@ $begin 'AnsoftProject'
 															$begin 'Dock_0'
 																$begin 'OverlayLayoutAttribute'
 																	$begin 'BoundingRect'
-																		Top=8281
-																		Left=3703
-																		Bottom=9391
-																		Right=11203
+																		Top=4850
+																		Left=539
+																		Bottom=9850
+																		Right=8039
 																	$end 'BoundingRect'
 																	ModifySize=false
-																	ModifyPosition=true
+																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
 														$end 'DockableOverlayLayoutAttribute'
@@ -18912,7 +17869,7 @@ $begin 'AnsoftProject'
 								$begin 'Report2D'
 									$begin 'ViewInfo'
 										$begin 'WrapperView'
-											ID(68)
+											ID(78)
 										$end 'WrapperView'
 										$begin 'WrapperDoc'
 											HiddenDrawings()
@@ -18922,13 +17879,13 @@ $begin 'AnsoftProject'
 													$begin 'MedCamera'
 														$begin 'svrc'
 															svid=4
-															view(68, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.86735416389368e-039, 8.72444219993238e-039)))
+															view(78, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 7.53062839402628e-039, 5.56618248291446e-034)))
 														$end 'svrc'
 													$end 'MedCamera'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 75, 75, 891, 386))
+										WindowPos(WindowPos(5, -1, -1, -8, -30, 150, 150, 1242, 631))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
@@ -18949,7 +17906,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=5
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 250, 250, 1191, 686), OrientationMatrix(-2.41696398138591e-012, -0.0450000017881393, 6.70842265456082e-029, 0, 0.0450000017881393, -2.41696398138591e-012, 1.52025317023716e-025, 0, -1.52025317023716e-025, 0, 0.0450000017881393, 0, -0.810000061988831, 0.300000011920929, -5.92500066757202, 1, 0, -0.390235245227814, 0.257928669452667, -0.635652542114258, -0.258990883827209, -1.35414838790894, 12.1500148773193), Drawings[9: 'Substrate', 'FeedLine', 'SCBias', 'Via1', 'DCblock_cap', 'AirBox', 'Port1', 'Port2', 'DCblock_gap'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 175, 175, 1267, 656), OrientationMatrix(-0.0116573013365269, -0.0186932682991028, 0.0295566525310278, 0, 0.0349719077348709, -0.0062310891225934, 0.00985221844166517, 0, 0, 0.0311554484069347, 0.0197044406086206, 0, -0.551779091358185, -0.128129899501801, -6.4354681968689, 1, 0, -2.19817733764648, 2.19817733764648, -1, 1, 0.299045562744141, 11.3615417480469), Drawings[9: 'Substrate', 'FeedLine', 'SCBias', 'Via1', 'DCblock_gap', 'DCblock_cap', 'AirBox', 'Port1', 'Port2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -19833,6 +18790,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -19875,26 +18856,6 @@ $begin 'AnsoftProject'
 							ReportID=13
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(42)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(42, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 50, 50, 866, 361))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S11_S21_dB'
@@ -19914,7 +18875,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=7
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 275, 275, 1216, 711), Drawings[7: 'Substrate', 'FeedLine', 'SCGround', 'Via1', 'AirBox', 'Port1', 'Port2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 200, 200, 1292, 681), OrientationMatrix(-0.0116573013365269, -0.0186932682991028, 0.0295566525310278, 0, 0.0349719077348709, -0.0062310891225934, 0.00985221844166517, 0, 0, 0.0311554484069347, 0.0197044406086206, 0, -0.551779091358185, -0.128129899501801, -6.4354681968689, 1, 0, -2.19817733764648, 2.19817733764648, -1, 1, 0.299045562744141, 11.3615417480469), Drawings[7: 'Substrate', 'FeedLine', 'SCGround', 'Via1', 'AirBox', 'Port1', 'Port2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -20955,6 +19916,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -21012,7 +19997,7 @@ $begin 'AnsoftProject'
 									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=23
+									NextUniqueID=29
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -21429,17 +20414,17 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=20
+											ItemID=28
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=764
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=591
+																Left=398
+																Bottom=9826
+																Right=9419
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -21447,10 +20432,10 @@ $begin 'AnsoftProject'
 														DataSourceID=12
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=764
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=591
+																Left=398
+																Bottom=9826
+																Right=9419
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -21461,7 +20446,7 @@ $begin 'AnsoftProject'
 																Top=75
 																Left=75
 																Bottom=9925
-																Right=669
+																Right=302
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -21472,15 +20457,15 @@ $begin 'AnsoftProject'
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=8920
+																Left=9419
 																Bottom=9925
 																Right=9925
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=764
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=591
+																Left=398
+																Bottom=9826
+																Right=9419
 															$end 'GridRect'
 														$end 'CartesianAxisLayoutAttribute'
 													$end 'SubMapItem'
@@ -21489,15 +20474,15 @@ $begin 'AnsoftProject'
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=694
-																Bottom=763
-																Right=8920
+																Left=327
+																Bottom=590
+																Right=9419
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=764
-																Left=879
-																Bottom=9762
-																Right=8920
+																Top=591
+																Left=398
+																Bottom=9826
+																Right=9419
 															$end 'GridRect'
 														$end 'CartesianAxisLayoutAttribute'
 													$end 'SubMapItem'
@@ -21506,10 +20491,10 @@ $begin 'AnsoftProject'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=500000000
+															X_spc=100000000
 															X_fwd=3
 															X_fpr=2
-															Y1_spc=0.05
+															Y1_spc=0.1
 															Y1_fwd=3
 															Y1_fpr=2
 														$end 'CartesianCurveGroupLayoutAttribute'
@@ -21523,9 +20508,9 @@ $begin 'AnsoftProject'
 																$begin 'OverlayLayoutAttribute'
 																	$begin 'BoundingRect'
 																		Top=4850
-																		Left=769
+																		Left=402
 																		Bottom=9850
-																		Right=8269
+																		Right=7902
 																	$end 'BoundingRect'
 																	ModifySize=false
 																	ModifyPosition=false
@@ -21572,26 +20557,6 @@ $begin 'AnsoftProject'
 							ReportID=13
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(52)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(52, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1.0652917554327e-038)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 125, 125, 941, 436))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S11_S21_dB'
@@ -21601,7 +20566,7 @@ $begin 'AnsoftProject'
 								$begin 'Report2D'
 									$begin 'ViewInfo'
 										$begin 'WrapperView'
-											ID(20)
+											ID(28)
 										$end 'WrapperView'
 										$begin 'WrapperDoc'
 											HiddenDrawings()
@@ -21611,13 +20576,13 @@ $begin 'AnsoftProject'
 													$begin 'MedCamera'
 														$begin 'svrc'
 															svid=4
-															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, -2.98023223876953e-008, 1.99619237634652e+035)))
+															view(28, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
 														$end 'svrc'
 													$end 'MedCamera'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 100, 100, 916, 411))
+										WindowPos(WindowPos(3, -1, -1, -8, -30, 225, 225, 1317, 706))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
@@ -21638,7 +20603,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=11
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 25, 25, 841, 336), OrientationMatrix(-0.0119552817195654, -0.0191710963845253, 0.030312167480588, 0, 0.0358658395707607, -0.00639036623761058, 0.0101040564477444, 0, -4.97812902011674e-010, 0.0319518260657787, 0.0202081110328436, 0, -0.785461902618408, -0.18636217713356, -6.29337978363037, 1, 0, -2.56133818626404, 2.56133818626404, -1, 1, 1.45200347900391, 10.2794437408447), Drawings[3: 'substrate', 'Line', 'AirBox'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -24045,6 +23010,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -24670,6 +23659,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -25471,6 +24484,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -26437,26 +25474,6 @@ $begin 'AnsoftProject'
 							ReportID=6
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(44)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(44, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 6.70399121953336e-039, 8.72448143628938e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 75, 75, 891, 386))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'z0'
@@ -26464,26 +25481,6 @@ $begin 'AnsoftProject'
 							ReportID=8
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(44)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(44, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 1.40129846432482e-045, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 50, 50, 866, 361))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'e_eff'
@@ -26491,26 +25488,6 @@ $begin 'AnsoftProject'
 							ReportID=10
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(54)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(54, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 462.5234375, 2.30584300921369e+018)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 100, 100, 916, 411))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'wave_len'
@@ -26537,7 +25514,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=13
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 50, 50, 866, 361), OrientationMatrix(-2.44501724422364e-010, -0.0438455455005169, 0, 0, 0.0438455455005169, 2.32534103083992e-010, -4.41952641150323e-010, 0, -7.76686104320135e-010, 1.86264514923096e-009, 0.0438455492258072, 0, -0.109613850712776, 8.69349491949833e-007, -6.25642013549805, 1, 0, -1.46011400222778, 1.46011400222778, -0.65901118516922, 0.65901118516922, 0.689815521240234, 10.9274711608887), Drawings[3: 'substrate', 'Line', 'AirBox'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -27663,6 +26640,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -28274,6 +27275,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -28987,6 +28012,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -29616,6 +28665,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -30511,6 +29584,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -31463,26 +30560,6 @@ $begin 'AnsoftProject'
 							ReportID=2
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(48)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(48, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 125, 125, 941, 436))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S11_S21_dB'
@@ -31490,26 +30567,6 @@ $begin 'AnsoftProject'
 							ReportID=4
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(44)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(44, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, -2.71050543121376e-020)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 0, 0, 816, 311))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S21_Phase'
@@ -31517,26 +30574,6 @@ $begin 'AnsoftProject'
 							ReportID=6
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(44)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(44, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 5.05102795880659e-039, 4.4082327350423e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 100, 100, 916, 411))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'z0'
@@ -31544,26 +30581,6 @@ $begin 'AnsoftProject'
 							ReportID=8
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(44)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(44, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 26.5406475067139, 4.23942450166552e+035)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 25, 25, 841, 336))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'e_eff'
@@ -31571,26 +30588,6 @@ $begin 'AnsoftProject'
 							ReportID=10
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(54)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(54, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 75, 75, 891, 386))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'wave_len'
@@ -31617,7 +30614,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=15
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 0, 0, 816, 311), OrientationMatrix(0, -0.0368636287748814, 0, 0, 0.0368636287748814, -2.15284082227818e-010, 7.95164933897752e-010, 0, 9.31322574615479e-010, 1.86264514923096e-009, 0.0368636325001717, 0, -0.66354501247406, 0.24575711786747, -6.26206350326538, 1, 0, -1.9196457862854, 1.9196457862854, -0.749469876289368, 0.749469876289368, 0.299045562744141, 11.3615436553955), Drawings[9: 'Substrate', 'FeedLine', 'SCBias', 'Via1', 'DCblock_cap', 'AirBox', 'Port1', 'Port2', 'Bias_Resistor'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -32619,6 +31616,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -32665,26 +31686,6 @@ $begin 'AnsoftProject'
 							ReportID=13
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(42)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(42, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.77552147033262e-039, 5.14285784977072e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 100, 100, 916, 411))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S11_S21_dB'
@@ -32704,7 +31705,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=17
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 25, 25, 841, 336), OrientationMatrix(-6.98491930961609e-010, -0.0328799039125443, 1.16415321826935e-009, 0, 0.032879900187254, 4.65661287307739e-010, -6.54836185276508e-009, 0, -6.02449290454388e-009, -1.16415321826935e-009, 0.0328799113631248, 0, -1.16723656654358, 0.21919909119606, -6.25784397125244, 1, 0, -1.55297231674194, 1.62981700897217, -0.585835099220276, 0.867764592170715, -1.17309331893921, 12.9185638427734), Drawings[7: 'Substrate', 'FeedLine', 'AirBox', 'Port1', 'Port2', 'Diode_RC', 'Diode_L'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -33762,6 +32763,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -33823,26 +32848,6 @@ $begin 'AnsoftProject'
 							ReportID=13
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(78)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(78, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 1.2502384898706e-041, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 50, 50, 866, 361))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S11_S21_dB'
@@ -33862,7 +32867,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=19
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 100, 100, 916, 411), OrientationMatrix(-0.0103975366801023, -0.0166731495410204, 0.0263625662773848, 0, 0.031192610040307, -0.0055577177554369, 0.00878752209246159, 0, -1.0425729723984e-010, 0.027788583189249, 0.0175750460475683, 0, -1.03802084922791, -0.0170230269432068, -6.56629180908203, 1, 0, -2.56133818626404, 2.56133818626404, -1, 1, -1.17309188842773, 12.9185619354248), Drawings[13: 'Substrate', 'FeedLine', 'Diode_L', 'Diode_RC', 'SCBias', 'SCGround', 'Via1', 'Via2', 'DCblock_cap', 'AirBox', 'Port1', 'Port2', 'Bias_Resistor'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -34920,6 +33925,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -34981,26 +34010,6 @@ $begin 'AnsoftProject'
 							ReportID=13
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(78)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(78, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 1.79367029666901, -9.53566292733723e-016)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(3, -1, -1, -8, -30, 0, 0, 816, 311))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S11_S21_dB'
@@ -35769,7 +34778,7 @@ AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q=='
 		DesignName='SCGroundStub'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[0:]
 		'Optimetrics Experiment Types'[0:]
@@ -36107,7 +35116,7 @@ igAooooAKKKKACiiigD/2Q=='
 		DesignName='Line_50'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[0:]
 		'Optimetrics Experiment Types'[0:]
@@ -36313,7 +35322,7 @@ igAooooAKKKKACiiigAooooAKKKKAP/Z'
 		DesignName='Line_100'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[1: 'ParametricSetup1']
 		'Optimetrics Experiment Types'[1: 0]
@@ -36518,7 +35527,7 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k='
 		DesignName='SCBiasStub1'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[0:]
 		'Optimetrics Experiment Types'[0:]
@@ -36861,7 +35870,7 @@ FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q=='
 		DesignName='PINSeriesSwitch1'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[0:]
 		'Optimetrics Experiment Types'[0:]
@@ -37136,7 +36145,7 @@ oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z'
 		DesignName='PINSeriesSwitch2'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[0:]
 		'Optimetrics Experiment Types'[0:]

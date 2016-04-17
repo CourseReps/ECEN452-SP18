@@ -130,7 +130,9 @@ rat_race_hfss_s31_phase = []
 
 freq_marker = []
 meas_s21_marker = []
+meas_s31_marker = []
 hfss_sim_s21_marker = []
+hfss_sim_s31_marker = []
 z0lver_sim_s21_marker = []
 meas_s31_marker = []
 hfss_sim_s31_marker = []
@@ -154,6 +156,12 @@ for row in hybrid_trans_mag:   # row contains the row data
         hybrid_hfss_s21_mag.append(float(row[2]))
         hybrid_hfss_s31_mag.append(float(row[3]))
         hybrid_hfss_s41_mag.append(float(row[4]))
+        if float(row[0]) == 2.5:
+            hfss_sim_s21_marker.append(float(row[2]))
+            hfss_sim_s31_marker = [float(row[3])]
+
+print hfss_sim_s21_marker
+print hfss_sim_s31_marker
 
 for row in hybrid_trans_phase:   # row contains the row data
     if hybrid_trans_phase.line_num > 1:    # ignore the first line

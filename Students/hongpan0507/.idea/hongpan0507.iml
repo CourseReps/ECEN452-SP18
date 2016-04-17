@@ -6,7 +6,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="programs" />
     <orderEntry type="module" module-name="ecen641" />
-    <orderEntry type="module" module-name="ecen452" />
+    <orderEntry type="module" module-name="sinusoidal_antenna" />
+    <orderEntry type="module" module-name="reconfig_slot_antenna" />
+    <orderEntry type="module" module-name="ecen638_hw1" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

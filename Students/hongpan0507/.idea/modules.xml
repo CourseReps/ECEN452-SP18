@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen452/.idea/ecen452.iml" filepath="$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen452/.idea/ecen452.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen638_hw/.idea/ecen638_hw1.iml" filepath="$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen638_hw/.idea/ecen638_hw1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/.idea/ecen641.iml" filepath="$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/.idea/ecen641.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hongpan0507.iml" filepath="$PROJECT_DIR$/.idea/hongpan0507.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/.idea/programs.iml" filepath="$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/.idea/programs.iml" />
+      <module fileurl="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/.idea/reconfig_slot_antenna.iml" filepath="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/.idea/reconfig_slot_antenna.iml" />
+      <module fileurl="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/.idea/sinusoidal_antenna.iml" filepath="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/.idea/sinusoidal_antenna.iml" />
     </modules>
   </component>
 </project>
