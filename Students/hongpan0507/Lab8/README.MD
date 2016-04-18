@@ -1,4 +1,4 @@
-# Lab X Report
+# Lab 8 Report
 Hong Pan
 
 ## Background
