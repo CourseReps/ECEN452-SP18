@@ -12,32 +12,26 @@ Patch antenna is a low profile antenna that is easily built on a flat surface.
 ![patch formula](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab9/patch_formula.png)
 
 ## Procedure
+#### Lab activity
 1. An unmatched patch with 50ohms feed-line is constructed on the substrate.
 2. input impedance at 15mm into the feed-line of the patch is measured and recorded.
 3. From the measurement of input impedance at 15mm into the feed-line, the input impedance at the design frequency is rotated towards the load on smith chart for at lease one quater-wave length long and until the impedance is purely real.
 4. The real impedance is transformed into 50ohms using an quarter-wave transformer is constructed
 
+#### HFSS simulation
+1. A patch with length and width from the design above is simulated and tuned to 3GHz
+2. The position of the probe is adjusted until the patch is matched to 50ohms
+
 ## Results and Discussion
-### Hybrid Coupler
-1. From port matching figure, all ports are matched at the design frequency.
-2. From port transmission figure, port 2 and port 3 have -3.5dB power split. The extra -0.5dB comes from the loss from the T-line. The s41 has very little power transfer indicates that port 1 and port 4 are isolated.
-3. From port transmission phase figure, both simulated result and measured result have 90 degree phase difference between signals at port 2 and port 3 at the design frequency. The simulated reuslt has a minute difference in slope than the measured result.
-4. From port isolation figure, port 2 and port 3 are isolated. There is no isolation between port 3 and port 4 or port 2 and port 4. It makes sense because of the symmetry of the structure.
-![hybrid_port_matching](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/hybrid_port_matching.png)
-![hybrid_port_trans](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/hybrid_port_trans.png)
-![hybrid_port_trans_phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/hybrid_port_trans_phase.png)
-![hybrid_port_iso](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/hybrid_port_iso.png)
+### edge-fed impedance matching using quater-wave transformer
+From the smith chart below, it is obvious that the quater-wave transformer is implemented correctly, and it matched the 50ohms line to the patch. The reflect is significantly reduced in s11 magnitude plot.
+![smith chart 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab9/smith_chart1.png)
+![s11 mag 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab9/s11_mag1.png)
 
-
-### Rat-race Coupler
-1. From port matching figure, all ports are matched at the design frequency.
-2. From port transmission figure, port 2 and port 3 have -3.5dB power split. The extra -0.5dB comes from the loss from the T-line. The s41 has very little power transfer indicates that port 1 and port 4 are isolated.
-3. From port transmission phase figure, the simulated result has 180 degree phase difference between signals at port 2 and port 3 at the design frequency. The measured result probably contains error.
-4. From port isolation figure, port 2 and port 3 are isolated. There is no isolation between port 3 and port 4 or port 2 and port 4. It makes sense because of the symmetry of the structure.
-![rat_race_port_matching](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_matching.png)
-![rat_race_port_trans](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_trans.png)
-![rat_race_port_trans_phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_trans_phase.png)
-![rat_race_port_iso](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab8/plotting/rat_race_port_iso.png)
+### edge-fed vs probe-fed
+From the plots below, the probe-fed patch is just as good edge-fed in terms of input impedance matching
+![smith chart 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab9/smith_chart2.png)
+![s11 mag 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/hongpan0507/Lab9/s11_mag2.png)
 
 ## Conclusion
-The symmetry of the device is easily seen by analyzing the s-parameter. The power split is close to -3dB, it will not be -3dB because of the loss of the T-line.
+The patch formula is very useful during the lab activity. No tuning was required to get the patch to resonate at the design frequency. The quater-wave transformer works well for the input impedance matching. 
