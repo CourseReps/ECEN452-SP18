@@ -9,7 +9,7 @@ import csv
 # convert from csv file to touchstone file (.snp; n = 1, 2, 3...)
 
 
-def s1p(file_name):
+def imp_s1p(file_name):     # csv input impedance to s1p s11
     file_r = open(file_name, 'rb')  # open the file
     csv_data = csv.reader(file_r, delimiter=',')   # convert cvs file to python list
 
@@ -31,3 +31,24 @@ def s1p(file_name):
 
     return rf_n
 
+
+def s11_s1p(file_name):     # csv s11 to s1p s11
+    file_r = open(file_name, 'rb')  # open the file
+    csv_data = csv.reader(file_r, delimiter=',')   # convert cvs file to python list
+
+    freq = []   # cell to hold data
+    s11 = []    # cell to hold data
+    z0 = [50]   # port impedance = 50ohms
+
+    for row in csv_data:   # row contains the row data
+        if csv_data.line_num > 1:    # ignore the first 8 line
+            if row[0] == 'END':     # check if row reaches the last one
+                break
+            f = float(row[0])
+            if f >= 2 and f <= 4:   # only plot data from 2 to 3 GHz
+                freq.append(f)   # convert from Hz to GHz
+                s11.append(float(row[1])+1j*float(row[2]))    # convert to complex s-parameter
+
+    rf_n = rf.Network(f=freq, s=s11, z0=z0)
+
+    return rf_n
