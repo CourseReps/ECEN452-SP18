@@ -42,7 +42,7 @@ Results are close to the simulation but not exact. This depends on the many fact
 
 ## Conclusion
 
-Wilkinson pwoer divider design and simulations were performed successfully. 
+Wilkinson pwoer divider design and simulations were performed successfully. The phase shifter didn't work properly.
 
 ## Hindsight
 
