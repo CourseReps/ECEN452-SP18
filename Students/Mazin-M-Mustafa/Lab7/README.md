@@ -9,7 +9,7 @@ In this lab we will design a Wilkinson power divider. The theory of the power di
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/Po.png) <br>
 fig.1 : Wilkinson Power Divider
 
-We Also fabricated and measured phase shifter. This is a transmission line phased shifter as shown below.
+We Also fabricated and measured a phase shifter. It was a transmission line phased shifter as shown below.
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/PS.png) <br>
 fig.2 : Transmission line phase shifter
