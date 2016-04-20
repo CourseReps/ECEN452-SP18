@@ -1,4 +1,4 @@
-# Lab X Report
+# Lab 7 Report
 Joshua Ruff
 
 ## Background
@@ -7,6 +7,8 @@ The Wilkinson Power Divider (WPD) splits all power input to port one between por
 The phase shifter uses a 50 ohm through as a reference phase, and then uses two longer lines to provide 90 degrees and 180 degrees of phase shift respectively. 
 
 ## Design
+Both devices had a design frequency of f_o=2.5 GHz. 
+
 ###Wilkinson Power Divider
 The lumped element model for the Wilkinson Power Divider is a simple resistive divider. Transforming these resistors into transmission lines offers better power transfer and isolation. Aditionally, a resistor passed between ports 2 and 3 offers complete isolation between ports 2 and three. The resulting device schematic appears as follows: 
 
@@ -16,18 +18,24 @@ Zo of the feedlines is 50 Ohms. The characteristic impedance of the quarter wave
 
 To implement this device in microstrip, the phsyical widths of each microstrip line is calculated based on the impeadance. A microstrip line calculator is used to expedite this process. The substrate used is FR4 with a relative permittivity of 4.1 and a height of 62 mil. Thus, the Width of the feedlines comes out to be 3.13 mm. The width of the quarter wave transformers is 1.71 mm, and the length of the quarter wave transformers is 24.4 mm (Later adjusted). 
 
-###Phasse shifter
+###Phase Shifter
+The 50 Ohm line will be used as a reference length for 0 degrees phase. To add 90 degrees, an extra quarter wave of line is added to this path. To add 180 degrees, an extra half wave of line is necessary. All parts of the phase shifter are implemented on 3.13 mm 50 Ohm line. The extra phase length for each path is split between two vertical sections of line (Thus, the 90 degree path will have an eigth-wave separation from the center, and the 180 degree path will have a quarter wave separation. Because two sections of microstrip are necessary to connect the shifted microstrip to the center, this length doubles to the extra length required for the desired pase shift.) 
 
-
+These paramters led to a 90 degree shift segment physically separated from the center by a length of 7.02 mm, and a 180 degree segment phsyically separated from the center by 14.04 meters. 
 
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+The WPD was created to the above design specifications in HFSS and simulated. This was compared to measurements taken on a version of this device which David milled. 
+
+The Phase shifter was constructed on FR4 in lab. First the 50 Ohm line was constructed and measured. Then the 90 degree line was measured. Lastly, the 180 degree line was measured.
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
+###WPD
+![Reflection](https://github.com/CourseReps/ECEN452-Spring2016/edit/master/Students/joshruff/Lab7/Reflections.png)<br>
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-See the raw text of the tutorials for an example.
+![Divide](https://github.com/CourseReps/ECEN452-Spring2016/edit/master/Students/joshruff/Lab7/Division.png)<br>
+
+![Isolation](https://github.com/CourseReps/ECEN452-Spring2016/edit/master/Students/joshruff/Lab7/Isolation.png)<br>
+
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
