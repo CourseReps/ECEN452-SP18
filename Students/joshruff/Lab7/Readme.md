@@ -12,7 +12,7 @@ Both devices had a design frequency of f_o=2.5 GHz.
 ###Wilkinson Power Divider
 The lumped element model for the Wilkinson Power Divider is a simple resistive divider. Transforming these resistors into transmission lines offers better power transfer and isolation. Aditionally, a resistor passed between ports 2 and 3 offers complete isolation between ports 2 and three. The resulting device schematic appears as follows: 
 
-![WPD_Schematic](https://github.com/CourseReps/ECEN452-Spring2016/edit/master/Students/joshruff/Lab7/WPD.jpg)<br>
+![WPD_Schematic](https://github.com/CourseReps/ECEN452-Spring2016/master/Students/joshruff/Lab7/WPD.jpg)<br>
 
 Zo of the feedlines is 50 Ohms. The characteristic impedance of the quarter wave transformers is 70.1 Ohms. The resistor strung between points two and three is 2*Zo or 100 Ohms. 
 
@@ -30,11 +30,11 @@ The Phase shifter was constructed on FR4 in lab. First the 50 Ohm line was const
 
 ## Results and Discussion
 ###WPD
-![Reflection](https://github.com/CourseReps/ECEN452-Spring2016/edit/master/Students/joshruff/Lab7/Reflections.png)<br>
+![Reflection](https://github.com/CourseReps/ECEN452-Spring2016/master/Students/joshruff/Lab7/Reflections.png)<br>
 
-![Divide](https://github.com/CourseReps/ECEN452-Spring2016/edit/master/Students/joshruff/Lab7/Division.png)<br>
+![Divide](https://github.com/CourseReps/ECEN452-Spring2016/master/Students/joshruff/Lab7/Division.png)<br>
 
-![Isolation](https://github.com/CourseReps/ECEN452-Spring2016/edit/master/Students/joshruff/Lab7/Isolation.png)<br>
+![Isolation](https://github.com/CourseReps/ECEN452-Spring2016/master/Students/joshruff/Lab7/Isolation.png)<br>
 
 
 ## Conclusion
