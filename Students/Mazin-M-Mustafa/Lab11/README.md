@@ -5,9 +5,9 @@ Mazin M Mustafa
 
 ## Background
 
-In this lab, we will measure the dielectric constants for various liquids using open-ended coaxial probe as shown in the next figure:
+In this lab, we will measure the dielectric constants for various solid materials using the following setup. This measurement setup requires GRL calibration
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab10/image9.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab11/Setup.png) <br>
 
 ## Design
 
