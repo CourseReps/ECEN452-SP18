@@ -11,7 +11,11 @@ In this lab, we will measure the dielectric constants for various liquids using 
 
 ## Design
 
+There is no design.
+
 ## Procedure
+
+The procedure was perfromed in the lab by the teaching assistant.
 
 ## Results
 
