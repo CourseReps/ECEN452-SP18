@@ -15,14 +15,25 @@ fig.1 : TRL calibration kit
 Given the following parameters:
 
 FR4 
+
 er = 4.1
+
 tand = 0.01
+
 h = 62 mil
+
 Zo = 50 ohm
+
 
 One can derive the following equations for simple calculations: 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab3/1234.png) <br>
+
+Using the above equations, we can conclude the follwing results:
+
+fo = 6.611 GHz and L = 6.4 mm
+
+- The length 
 
 ## Procedure
 
