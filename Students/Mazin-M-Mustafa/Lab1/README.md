@@ -1,23 +1,43 @@
 
 
-# Lab 11 Report
+# Lab 1 Report
 Mazin M Mustafa 
 
 ## Background
 
-In this lab, we will measure the dielectric constants for various solid materials using the following setup. This measurement setup requires GRL calibration
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab11/Setup.png) <br>
-
-The Free Space Calibration Option increases ease of use and reduces the costs associated with TRM and TRL calibration methods. The Gated Reflect Line (GRL) calibration technique converts a coaxial/waveguide 2-port calibration into a full 2-port freespace [1] calibration. This also requires methemtical model to calculte the permittivity.
+In this lab we will become familiar with basic softwares and S parameters for series impedance.
 
 ## Design
 
-There is no design.
+There is no design
 
 ## Procedure
 
-The procedure was performed in the lab by the teaching assistant.
+1- Python code was executed and the plot of the three datasets were generated as shown in figure 1:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/Python_code_output.png) <br>
+fig.2 : Python output
+
+HFSS & Z0lver files were simulated and the results are shown below:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_1.png) <br>
+fig.3 : Z0lver circuit
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_2.png) <br>
+fig.4 : Z0lver circuit
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_3.png <br>
+fig.5 : Z0lver circuit
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_4.png) <br>
+fig.6 : Z0lver circuit
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P6_2_S11.png) <br>
+fig.7 : S11 HFSS vs Z0lver vs Analytic
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P6_1_S21.png) <br>
+fig.8 : S21 HFSS vs Z0lver vs Analytic
+
 
 ## Results
 
