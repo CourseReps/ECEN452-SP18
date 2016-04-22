@@ -13,10 +13,44 @@ There is no design
 
 ## Procedure
 
-1- Python code was executed and the plot of the three datasets were generated as shown in figure 1:
+Python code was executed and the plot of the three datasets were generated as shown in figure 1:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/Python_code_output.png) <br>
 fig.2 : Python output
+
+For a series impedance, from symmetry & reciprocity :
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/1.png) <br>
+fig.2 : Python output
+
+And as a result of this we have:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/2.png) <br>
+fig.2 : Python output
+
+
+The results can be obtained from ABCE matrix as follows:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/3.png) <br>
+fig.2 : Python output
+
+
+By shifting the reference planes:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/4.png) <br>
+fig.2 : Python output
+
+or 
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/5.png) <br>
+fig.2 : Python output
+
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/6.png <br>
+Table.1 : Python output
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/7.png <br>
+Table.2 : Python output
 
 HFSS & Z0lver files were simulated and the results are shown below:
 
