@@ -48,15 +48,23 @@ fo = 6.611 GHz and l = 6.4 mm
 - Assuming sigma = 5.8e7 siemens/m and metal thickness t = 0.001 cm
 - Comparing the previous results with proided information
 
-L = 11 mmand Line = 28.44 mm
+L = 11 mm and Line = 28.44 mm
 
-For we can finally find l = Line-THRU = 28.44 - 2x11 = 6.44 mmand w = 3.07 mm
+We can finally find l = Line-THRU = 28.44 - 2x11 = 6.44 mm and w = 3.07 mm
 
 whcih agrees
 
 ## Procedure
 
+There is no procedure
+
 ## Results
+
+L = 11 mm 
+
+l = Line-THRU = 28.44 - 2x11 = 6.44 mm
+
+w = 3.07 mm
 
 ## Discussion
 
