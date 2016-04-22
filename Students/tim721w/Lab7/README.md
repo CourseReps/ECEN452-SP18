@@ -48,7 +48,7 @@ The results of measurement data and simulated data are close to each other basic
 <br>
 <br>Q2: Width and length of microstrip line are calculated based on given substrate information. The calculation can be done using microtrip line calculator online. (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm) 
 <br>
-<br>Q3: There are no much difference between THRU and THRU2 resutls in my group.
+<br>Q3: There are no much difference between THRU and THRU2 results in my group.
 <br>
 <br>Q4: For achieving better phase shifter, I would recalculate the phase shifter length of microstrip line from edge to edge. This will make my results more close to ideal value.
 <br>
