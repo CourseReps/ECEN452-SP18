@@ -1,5 +1,5 @@
-# Lab X Report
-Your Name (**Rename this file README.md and place it in the LabX folder in your student folder)
+# Lab 11 Report
+Francisco Espinal
 
 ## Background
 Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
@@ -11,11 +11,10 @@ All of your calculations go here. Include relevant dimensions and/or diagrams. C
 Provide a step-by-step decription of the activities you performed during the lab.
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
+![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab11/Final/Material.png) <br>
+![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab11/Final/S11_Air.png) <br>
+![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab11/Final/S21_Thru.png) <br>
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
