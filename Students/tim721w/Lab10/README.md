@@ -25,7 +25,7 @@ Expected value of fluids:
 <br>Isopropyl Alcoho: 19.92
 <br>Silicone Fluid: 2.7
 
-It can be seen that common fluid such as acetone and water dielectric constants are similiar as measured data. However, most of measured chemical dielectric constants are lower than expected values. This may due to different brand containing different contents and causing dielectric constants turn out different. 
+It can be seen that common fluid such as acetone and water expected dielectric constants are similiar as measured data. However, most of measured chemical dielectric constants are lower than expected values. This may due to different brand containing different contents and causing dielectric constants turn out different. 
 <br>
 
 <br>Imaginary part of dielectric constant
