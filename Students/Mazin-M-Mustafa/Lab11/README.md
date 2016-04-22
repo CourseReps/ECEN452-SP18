@@ -17,6 +17,8 @@ There is no design.
 
 ## Procedure
 
+The procedure was performed in the lab by the teaching assistant.
+
 ## Results
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab11/Time%20Domain%20S11.png) <br>
@@ -30,7 +32,7 @@ fig.4 : e' Measurements
 
 ## Discussion
 
-
+The time domain transform measures the delay for receiving the reflected wave. The peak value of S11 indicates the MUT location. After applying a time window, this removes the effects of over reflections. The reflect in a calibration standard which helps in determining the location of MUT and also de-embed the free space. Results are close what was expected. 
 
 ## Conclusion
 
