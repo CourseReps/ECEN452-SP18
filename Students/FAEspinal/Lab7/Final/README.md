@@ -8,16 +8,17 @@ In this lab we constructed a Wilkinson Power divider and a phase shifter. A Wilk
 We used a Z_0 = 50 ohms reference impedance on a 62mil thick FR4 (e_r=4.1, tan d = 0.01) substrate to support a frequency range of 1 GHz to 5 GHz.  With these design specification we were able to use an online calculator to find the dimensions needed for both devices. And to find the lengths of each line I use the following equation. 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Labs/Lab3/Equation.png) <br>
 ## Procedure
-To construct the Wilkinson power divider I started by calculating the impedance of each stub by using the equation Z_0*Sqrt(2).  Then to get the physical lengths of the quarter wavelengths, I plugged in all of my given values and 90 into the above equation. From here I just plug my values into HFSS to get my simulated values in order to compare them to the measured values. 
-To construct the phase shifter, we started by cut up a 50-ohm piece of cooper tape and placing it on a FR4 board to get a reference angle. We measured it using the network analyzer and recorded the data. Next we added more lines so we could achieve a 90-degree and 180-degree shift. The lengths of the lines were calculated with the same equation as above. The resistor was 100 ohms, the formula used was 2*Z_0. 
+To construct the Wilkinson power divider I started by calculating the impedance of each stub by using the equation (Z_0)Sqrt(2).  Then to get the physical lengths of the quarter wavelengths, I plugged in all of my given values and 90 into the above equation. From here I just plug my values into HFSS to get my simulated values in order to compare them to the measured values. 
+To construct the phase shifter, we started by cut up a 50-ohm piece of cooper tape and placing it on a FR4 board to get a reference angle. We measured it using the network analyzer and recorded the data. Next we added more lines so we could achieve a 90-degree and 180-degree shift. The lengths of the lines were calculated with the same equation as above. The resistor was 100 ohms, the formula used was 2(Z_0). 
 
 |    |    Impedance (ohms)  | Width (mm) | Length (mm)|
 | ----- |:-----:| :-----:|:------:|
-|    Port 1   | 50 |  3.11| --|
+|    Port 1   | 50 |  3.11| 0 |
 |    Port 2|   70.1   | 1.67|17.3 |
 |    Port 3  |   70.1   | 1.67| 17.3| 
 
 ## Results and Discussion
+
 ##### Wilkinson Power Divider
 ![Mag](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab7/Final/WPD_S_Parameter_Plots.png) <br>
 ![Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab7/Final/WPD_Phase_Plot.png) <br>
