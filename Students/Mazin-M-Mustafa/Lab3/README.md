@@ -1,11 +1,14 @@
 
 
-# Lab 1 Report
+# Lab 3 Report
 Mazin M Mustafa 
 
 ## Background
 
-In this lab we will become familiar with basic softwares and S parameters for series impedance.
+In this lab we will discuss and design a TRL kit. This lab is a preparation for lab 5. The TRL calibration kit is used to shift reference planes for a circuit to avoid the effects from connectors and transmission lines. We would like to focus on the DUT. The TRL kit is hown in the next figure:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab5/TRL2.png) <br>
+fig.1 : TRL calibration kit
 
 ## Design
 
