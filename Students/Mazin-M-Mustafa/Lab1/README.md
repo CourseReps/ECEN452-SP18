@@ -16,41 +16,38 @@ There is no design
 Python code was executed and the plot of the three datasets were generated as shown in figure 1:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/Python_code_output.png) <br>
-fig.2 : Python output
+fig.1 : Python output
 
 For a series impedance, from symmetry & reciprocity :
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/1.png) <br>
-fig.2 : Python output
 
 And as a result of this we have:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/2.png) <br>
-fig.2 : Python output
 
 
 The results can be obtained from ABCE matrix as follows:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/3.png) <br>
-fig.2 : Python output
 
 
 By shifting the reference planes:
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/4.png) <br>
-fig.2 : Python output
 
 or 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/5.png) <br>
-fig.2 : Python output
 
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/6.png <br>
-Table.1 : Python output
+Table.1 : substrates properties
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/7.png <br>
-Table.2 : Python output
+Table.2 : Coaxial connectors
+
+## Results
 
 HFSS & Z0lver files were simulated and the results are shown below:
 
@@ -58,13 +55,13 @@ HFSS & Z0lver files were simulated and the results are shown below:
 fig.3 : Z0lver circuit
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_2.png) <br>
-fig.4 : Z0lver circuit
+fig.4 : Z0lver circuit results
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_3.png <br>
 fig.5 : Z0lver circuit
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_4.png) <br>
-fig.6 : Z0lver circuit
+fig.6 : Z0lver circuit results
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P6_2_S11.png) <br>
 fig.7 : S11 HFSS vs Z0lver vs Analytic
@@ -72,21 +69,9 @@ fig.7 : S11 HFSS vs Z0lver vs Analytic
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P6_1_S21.png) <br>
 fig.8 : S21 HFSS vs Z0lver vs Analytic
 
-
-## Results
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab11/Time%20Domain%20S11.png) <br>
-fig.2 : Time domain S11
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab11/Frequency%20Domain%20S21.png) <br>
-fig.3 : Frequency domain S21
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab11/e_prime.png) <br>
-fig.4 : e' Measurements 
-
 ## Discussion
 
-The time domain transform measures the delay for receiving the reflected wave. The peak value of S11 indicates the MUT location. After applying a time window, this removes the effects of over reflections. The reflect in a calibration standard which helps in determining the location of MUT and also de-embed the free space. Results are close what was expected. 
+All tasks were performed successfully and results agree with theory.
 
 ## Conclusion
 
@@ -96,7 +81,6 @@ The time domain transform measures the delay for receiving the reflected wave. T
 
 ## Reference
 
-[1] http://cp.literature.agilent.com/litweb/pdf/5988-9472EN.pdf 
 
 
 
