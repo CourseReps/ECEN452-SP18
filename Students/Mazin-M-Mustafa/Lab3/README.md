@@ -24,6 +24,12 @@ h = 62 mil
 
 Zo = 50 ohm
 
+Given the following data:
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab3/S211.png) <br>
+fig.2 : S21 dB Line
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab3/S212.png) <br>
+fig.3 : S21 Phase Line
 
 One can derive the following equations for simple calculations: 
 
