@@ -57,7 +57,7 @@ fig.3 : Z0lver circuit
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_2.png) <br>
 fig.4 : Z0lver circuit results
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_3.png <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_3.png) <br>
 fig.5 : Z0lver circuit
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_4.png) <br>
