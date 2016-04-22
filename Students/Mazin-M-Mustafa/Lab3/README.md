@@ -31,67 +31,25 @@ One can derive the following equations for simple calculations:
 
 Using the above equations, we can conclude the follwing results:
 
-fo = 6.611 GHz and L = 6.4 mm
+fo = 6.611 GHz and l = 6.4 mm
 
-- The length 
+- The length of l is 6.4 mm from calculations
+- Similiarly fL = 1.47 GHz and fH = 11.75 GHz
+- Now, considering the calculations fro fo = 6.611 GHz
+- w = 3.17 mm , e_eff = 3.14 , lamda_o = 5.645 cm, l = lamda/4 = 6.4 mm
+- Also, the attenuation is estimated to be 0.57 dB/cm
+- Assuming sigma = 5.8e7 siemens/m and metal thickness t = 0.001 cm
+- Comparing the previous results with proided information
+
+L = 11 mmand Line = 28.44 mm
+
+For we can finally find l = Line-THRU = 28.44 - 2x11 = 6.44 mmand w = 3.07 mm
+
+whcih agrees
 
 ## Procedure
 
-Python code was executed and the plot of the three datasets were generated as shown in figure 1:
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/Python_code_output.png) <br>
-fig.1 : Python output
-
-For a series impedance, from symmetry & reciprocity :
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/1.png) <br>
-
-And as a result of this we have:
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/2.png) <br>
-
-
-The results can be obtained from ABCE matrix as follows:
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/3.png) <br>
-
-
-By shifting the reference planes:
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/4.png) <br>
-
-or 
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/5.png) <br>
-
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/6.png) <br>
-Table.1 : substrates properties
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/7.png) <br>
-Table.2 : Coaxial connectors
-
 ## Results
-
-HFSS & Z0lver files were simulated and the results are shown below:
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_1.png) <br>
-fig.3 : Z0lver circuit
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_2.png) <br>
-fig.4 : Z0lver circuit results
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_3.png) <br>
-fig.5 : Z0lver circuit
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P2_4.png) <br>
-fig.6 : Z0lver circuit results
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P6_2_S11.png) <br>
-fig.7 : S11 HFSS vs Z0lver vs Analytic
-
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab1/P6_1_S21.png) <br>
-fig.8 : S21 HFSS vs Z0lver vs Analytic
 
 ## Discussion
 
@@ -105,7 +63,7 @@ All tasks were performed successfully and results agree with theory.
 
 ## Reference
 
-Agilent precision RF connector FAQ document
+"Microwave Transistor Amplifiers", Gonzalez
 
 
 
