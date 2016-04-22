@@ -60,6 +60,10 @@ There is no procedure
 
 ## Results
 
+fL = 1.47 GHz 
+
+fH = 11.75 GHz
+
 L = 11 mm 
 
 l = Line-THRU = 28.44 - 2x11 = 6.44 mm
