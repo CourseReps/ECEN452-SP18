@@ -59,4 +59,4 @@ Both simulation and hardware measurement of Wilkinson power divider are conducte
 Small length variation will cause phase result turning out big different. It should be very careful when cutting copper tape.<br>
 
 ## Reflection
-If possible, it¡¦s better to have a lab instruction document. That would make me more clearly to understand what to do for the lab.<br>
+Fabricating using copper tape is not so easy. If there is enough time, I would prefer to do it one more time for better results.<br>
