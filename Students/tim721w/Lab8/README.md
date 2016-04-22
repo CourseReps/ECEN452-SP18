@@ -29,12 +29,12 @@ Simply key in above calculated parameters into HFSS file and simulate at certain
 <br>S parameters are shown below:<br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/Hybrid_dB.png) <br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/Phase_diff.png) <br>
-It can be seen that power splits equally to port 2 and port 3 from S21 and S31 (about 3 dB at 2.5GHz). Port 4 is regarded as isolated with port 1 from S41(about 25dB at 2.5GHz). Phase difference between port 2 and port 3 is about 90 degree. 
+It can be seen that power splits equally to port 2 and port 3 from S21 and S31 (about 3 dB at 2.5GHz). Port 4 is regarded as isolated with port 1 from S41(about 25dB at 2.5GHz). Phase difference between port 2 and port 3 is about 90 degree at 2.5GHz. 
 <br>
 
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/RatRace_dB.png) <br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/RatRace_phase_diff.png) <br>
-It can be seen that power splits equally to port 2 and port 3 from S21 and S31 (about 3 dB at 2.5GHz). Port 4 is regarded as isolated with port 1 from S41(about 40dB at 2.5GHz). Phase difference between port 2 and port 3 is close to zero degree. 
+It can be seen that power splits equally to port 2 and port 3 from S21 and S31 (about 3 dB at 2.5GHz). Port 4 is regarded as isolated with port 1 from S41(about 40dB at 2.5GHz). Phase difference between port 2 and port 3 is close to zero degree at 2.5GHz. 
 <br>
 
 ## Discussion
