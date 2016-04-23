@@ -2,13 +2,13 @@
 Francisco Espinal
 
 ## Background
-Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
+In this lab, we preformed free space measurements with GLR calibration. This calibration is similar to the TRL calibrations technique but is simpler. This is used for the measurements of permittivity or permeability of planar materials.  
 
 ## Design
-All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
+We didn’t have a design. No calculations were made. 
 
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+Everything was already set up and ready to go when we got into the lab. We just watch our TA preform all the necessary tasks. First he calibrated the network analyzer in order for us to get precise measurements using open and short circuits. Next he did the calibration for the horn antennas using air and a metal plate. Then he measured multiple materials as he explained everything that was happening.   
 
 ## Results and Discussion
 
@@ -17,10 +17,10 @@ Provide a step-by-step decription of the activities you performed during the lab
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab11/Final/S21_Thru.png) <br>
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+The GRL calibration worked perfectly. What does it mean to transform in to the time domain? How do you interpret the s11 data in time domain? How does looking at the time domain help with the calibration? What are we looking for when we put reflect in before performing the calibration? How do the three materials measured compare to expectations? How could we improve the calibration process to get more accurate results?
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+NA
 
 ## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
+The most rewarding part of the lab was learning how this calibration was used in Diana project. 
