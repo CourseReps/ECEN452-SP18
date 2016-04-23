@@ -36,12 +36,12 @@ It can be seen that the maximum reflected signal is occurred at about 3.6ns.
 <br>
 <br>Q4: A metal plate is used to reflect all of the incident energy back to the transmitter. It means the metal plate is an isolation standard, as no signal should be detected at the opposite antenna.
 <br>
-<br>Q5: Dielectric constant of air is almost close to one and can be regarded as a standard. Cardboard expected dielectric constant is from 2 to 5 depending on moisture and ingredient of board. Plexiglass expected dielectric constant is about 2.6~3.5. All three measurements are located within expected values.
+<br>Q5: Dielectric constant of air is almost close to one and can be regarded as a standard. Cardboard expected dielectric constant is from 2 to 5 depending on moisture and ingredient of board. Plexiglass expected dielectric constant is about 2.6~3.5. Air and plexiglass measurements are located within expected values. Cardboard measurement is slightly lower than expected value.
 <br>
 <br>Q6: A fixed platform of antenna can be built to ensure the stability of antenna for improving calibration process.
 
 ## Conclusion
-Three dielectric constant measurements are similiar to our expected values. The difference may be caused by antenna alignment error(not ), cable alignment error.
+Three dielectric constant measurements are similiar to our expected values. The difference may be caused by antenna alignment error, cable alignment error.
 
 ## Hindsight
 MUT should be flat and large as possible for precise result. Antennas should be aligned to each other as precise as possible.
