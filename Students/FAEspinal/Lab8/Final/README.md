@@ -10,13 +10,18 @@ We used a (Z_0=50) ohms reference impedance on a 62mil thick FR4 (e_r=4.1, tan d
 
 ## Procedure
 This lab only consisted of HFSS simulations. I started by finding all the dimensions needed by using the following equation I was able to get the impedance of the coupler, (Z_0)/(sqrt(2)). Then to find the length I use the equation given in the last section. Once I found all the values I plugged them into HFSS and analyzed the plots. The same procedure was conducted for the rat race coupler but instead of using the last equation I used (sqrt(2)(Z_0)).   
-
+Hybrid Coupler 
 |    |    Impedance (ohms)  | Width (mm) | Length (mm)|
 | ----- |:-----:| :-----:|:------:|
 |    Feed   | 50 |  3.11 | 16.8|
 |    Port 1 to 2 |   35   | 15 |16.5 |
 |    Port 4 to 3  |   35   | 15 | 16.5| 
 
+Rat Race Coupler 
+|    |    Impedance (ohms)  | Width (mm) | Length (mm)|
+| ----- |:-----:| :-----:|:------:|
+|    Half Circle   | 70.1|  1.6 | 100 |
+|   The rest |   50  | 3.12 |16.5 |
 
 ## Results and Discussion
 ##### Hybrid Coupler
