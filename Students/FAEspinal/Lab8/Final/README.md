@@ -24,7 +24,7 @@ Rat Race Coupler
 |    |  Impedance (ohms)  | Width (mm) | Length (mm)|
 | ----- |:-----:| :-----:|:------:|
 |    Half Circle   | 70.1|  1.6 | 100 |
-|   The rest |   50  | 3.12 | 16.5 |
+|   The rest |   50  | 3.12 | 16.8 |
 
 
 ## Results and Discussion
