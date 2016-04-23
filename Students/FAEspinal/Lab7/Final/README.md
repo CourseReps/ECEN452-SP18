@@ -36,8 +36,7 @@ To construct the phase shifter, we started by cut up a 50-ohm piece of cooper ta
 
 
 ## Conclusion
-The simulations for the power divider ran as excepted but for some unknown reason our phase shifter was not working. And it wasn’t just ours a majority of the class had the same problem. 
-
+The simulations for the power divider ran as excepted but for some unknown reason our phase shifter was not working. And it wasn’t just ours a majority of the class had the same problem.  Why do you need a resistor in the power divider design? What modification did you have to make to the t-line widths/lengths to improve your simulated results? How di the presence of the additional micro strip line affect the thru measurements (difference between thru and thru2)? How could you improve the performance of your phase shifter if you had time to make a new one? 
 ## Hindsight
 N/A
 
