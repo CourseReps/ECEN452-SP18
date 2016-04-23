@@ -8,7 +8,7 @@ In this lab we used a dielectric probe to determine the dielectric properties of
 We didn’t have a design. No calculations were made. 
 
 ## Procedure
-Everything was already set up and ready to go when we got into the lab. We just watch our TA preform all the necessary tasks. First he calibrated the probe in order for us to get precise measurements using water, short, and open. Then he measured multiple materials as we listen to him explain everything he was doing.  
+Everything was already set up and ready to go when we got into the lab. We just watch our TA preform all the necessary tasks. First he calibrated the probe in order for us to get precise measurements using water, a short, and a open. Then he measured multiple materials as we listened to him explain everything he was doing.  
 
 ## Results and Discussion
 
