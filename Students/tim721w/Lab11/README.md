@@ -30,7 +30,7 @@ It can be seen that the maximum reflected signal is occurred at about 3.6ns.
 
 <br>Q1: Signals are recevied with time, so that we can easily see when the signal comes into the antenna.
 <br>	
-<br>Q2: The maximum main beam represents MUT position and sencond highest sidelobe will be gated reflection which occurred at 3.6ns.
+<br>Q2: The maximum main beam represents MUT position and sencond highest sidelobe will be gated reflection which is occurred at 3.6ns.
 <br>
 <br>Q3: Time domain gating is to ensure there are no multiple reflections in the sample itself, though appropriate thickness should able to avoid this.
 <br>
