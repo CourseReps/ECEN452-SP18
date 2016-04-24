@@ -14,8 +14,8 @@ There was no design for this lab, the only part was the measurement which was do
 
 ## Procedure
 
-David walked through the steps and demoed the GRL calibration for the lab. The setup for this calibration consisted of two horn antenna facing each other with a sheet between them. These horn antennas were dual polarized with a frequency range from 2GHz to 18GHz. <br>
-Step 1: Two-port SOLT calibration. This was to calibrate the cables that connected to the antennas. There is a sample between the antennas. The sample was Plexiglas that had a thickness of 5.6mm which was the same thickness of the reflect sheet. 
+David walked through the steps and demoed the GRL calibration for the lab. The setup for this calibration consisted of two horn antenna facing each other with a sheet between them. These horn antennas were dual polarized with a frequency range from 2GHz to 18GHz. <br><br>
+Step 1: Two-port SOLT calibration. This was to calibrate the cables that connected to the antennas. There is a sample between the antennas. The sample was Plexiglas that had a thickness of 5.6mm which was the same thickness of the reflect sheet. <br>
 Step 2: Replace the sample with the metal reflect sheet. Once the calibration was completed, the data gathered had to go through a Time-Domain Fourier transform which allows to see where the calibration needs to be gated around.
 
 ## Results
