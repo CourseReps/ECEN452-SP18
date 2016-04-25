@@ -1,15 +1,48 @@
 <b>ECEN 452-500: Ultra High Frequency Techniques</b><br>
 Spring 2016 – Prof. Huff<br>
-Lab 10 - Material Measurement<br>
+Lab 11 – Free Space Measurement with GRL Calibration<br>
+
+<b><br>Apply the report template to discuss the theory, setup, procedure, and sources of error for the Gated Line Reflect (GRL) calibration. In the results/discussion section, include the following plots:<br>
 
 
-<br>
-<b>Introduction:<br>
-This lab will demonstrate how to use the coaxial probe to measure the dielectric constant of different kinds of materials. A T-Line measurement has broadband and reasonable accuracy characteristics, so it's suitable in this experiment. <br>
-During the calibration procedures, three different load will be used to test and they are short, open and water. The water has high dielectric constant around 81, so it is a good candidate in this work. Besides, the material under test such as different kinds of liquid should be thick enough to get decent fringing fields from the probe.<br>
 
-Result:<br>
-The experiment tests different kinds of liquid and the results are shown below.<br>
+S11_TD_wReflect_preGRLcal.csv – This is a plot of the time domain S11 data with the reflect in place. Remember you can see the reflecting sheet as a local maximum at approximately 3.66ns.<br>
+
+
+S21_Thru_postGRL.csv – This is a plot of the frequency domain S21 data with an empty test fixture. Comment on what the measurement should look like given that the system is calibrated.<br>
+
+
+Air.csv, Cardboard.csv,Plexiglass.csv – Only plot the ε’ data for each material. You can plot the three data sets on the same graph.
+Questions to consider for the report:<br>
+
+
+What does it mean to transform into the time domain?<br>
+
+How do you interpret the S11 data in time domain?<br>
+Ans:<br>
+
+
+How does looking at the time domain help with the calibration?<br>
+Ans:<br>
+
+
+What are we looking for when we put the reflect in before performing the calibration?<br>
+Ans:<br>
+
+
+How do the three materials measured compare to expectations?<br>
+Ans:<br>
+
+
+How could we improve the calibration process to get more accurate results?<br>
+Ans:<br>
+
+
+
+
+
+
+
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab10/dielectric_constant.png)<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab10/dielectric_loss.png) <br><br>
 
