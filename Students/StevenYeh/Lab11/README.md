@@ -31,29 +31,45 @@ Ans:<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/dielectric_constant_materials.png)<br>
 Figure - 3<br><br>
 
+
 What does it mean to transform into the time domain?<br>
 Ans:<br>
 When look at the time domain plot, the highest S11 values means the EM wave have biggest reflection. In this case, the highest point of S11 at 0.4 ns is when the wave hits the metal plane. After observe the highest reflection point, we can record the time delay and use to calibrate the VNA. In other words, we can precisely known the position of the MUT plane. That's the main reason why we choose to use the time domain instead of the frequency domain.<br>
 
 
+
 How do you interpret the S11 data in time domain?<br>
 Ans:<br>
-As mentioned above, the highest S11 values means the propogating wave encounters the metal plane.
+As mentioned above, the highest S11 values means the propogating wave encounters the metal plane. As a result, wave propogates 0.4 ns and hits the metal plane.<br>
+
+
+
 
 How does looking at the time domain help with the calibration?<br>
 Ans:<br>
+When we known the position of the MUT plane, we can measure the characteristics of the MUT next time.<br> 
+
+
+
 
 
 What are we looking for when we put the reflect in before performing the calibration?<br>
 Ans:<br>
 
 
+
+
+
 How do the three materials measured compare to expectations?<br>
 Ans:<br>
+After look up the dielectric constant values of the three material, we found the plexiglass should be 2.6 @ 3 GHz, paper is around 2.2~3.1 and air is 1. The measured dielectric constant of the cardboard is a little lower than the expected value; otherwise other materials are very close to the expecation.<br>
+
+
 
 
 How could we improve the calibration process to get more accurate results?<br>
 Ans:<br>
+Methods like diminish the multi-path reflection, horn antennas fixed alignment and a good material holder will help increase the measurement accuracy.<br>
 
 
 
