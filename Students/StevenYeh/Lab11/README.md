@@ -33,12 +33,12 @@ Figure - 3<br><br>
 
 What does it mean to transform into the time domain?<br>
 Ans:<br>
-When look at the time domain plot, the highest S11 values means the EM wave have biggest reflection. In this case, the highest point of S11 at 4 ns is when the wave hits the metal plane. After observe the highest reflection point, we can record the time delay and use to calibrate the VNA. In other words, we can precisely known the position of the MUT plane. That's the main reason why we choose to use the time domain instead of the frequency domain.<br>
+When look at the time domain plot, the highest S11 values means the EM wave have biggest reflection. In this case, the highest point of S11 at 0.4 ns is when the wave hits the metal plane. After observe the highest reflection point, we can record the time delay and use to calibrate the VNA. In other words, we can precisely known the position of the MUT plane. That's the main reason why we choose to use the time domain instead of the frequency domain.<br>
 
 
 How do you interpret the S11 data in time domain?<br>
 Ans:<br>
-
+As mentioned above, the highest S11 values means the propogating wave encounters the metal plane.
 
 How does looking at the time domain help with the calibration?<br>
 Ans:<br>
