@@ -16,23 +16,24 @@ Before measuring the characteristics of the material, a calibration adjustment s
 
 S11_TD_wReflect_preGRLcal.csv – This is a plot of the time domain S11 data with the reflect in place. Remember you can see the reflecting sheet as a local maximum at approximately 3.66ns.<br>
 Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/free_space_s11.png)
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/free_space_s11.png)<br>
 Figure - 1<br><br>
 
 
 S21_Thru_postGRL.csv – This is a plot of the frequency domain S21 data with an empty test fixture. Comment on what the measurement should look like given that the system is calibrated.<br>
 Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/free_space_through_s21.png) 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/free_space_through_s21.png) <br>
 Figure - 2<br><br>
 
 Air.csv, Cardboard.csv,Plexiglass.csv – Only plot the ε’ data for each material. You can plot the three data sets on the same graph.
 Questions to consider for the report:<br>
 Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/dielectric_constant_materials.png)
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/dielectric_constant_materials.png)<br>
 Figure - 3<br><br>
 
 What does it mean to transform into the time domain?<br>
 Ans:<br>
+When look at the time domain plot, the highest S11 values means the EM wave have biggest reflection. In this case, the highest point of S11 at 4 ns is when the wave hits the metal plane. After observe the highest reflection point, we can record the time delay and use to calibrate the VNA. In other words, we can precisely known the position of the MUT plane. That's the main reason why we choose to use the time domain instead of the frequency domain.<br>
 
 
 How do you interpret the S11 data in time domain?<br>
