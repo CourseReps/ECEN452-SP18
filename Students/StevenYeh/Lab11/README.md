@@ -7,14 +7,18 @@ Lab 11 – Free Space Measurement with GRL Calibration<br>
 
 
 S11_TD_wReflect_preGRLcal.csv – This is a plot of the time domain S11 data with the reflect in place. Remember you can see the reflecting sheet as a local maximum at approximately 3.66ns.<br>
+Ans:<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/free_space_s11.png)<br>
 
 
 S21_Thru_postGRL.csv – This is a plot of the frequency domain S21 data with an empty test fixture. Comment on what the measurement should look like given that the system is calibrated.<br>
-
+Ans:<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/free_space_through_s21.png) <br><br>
 
 Air.csv, Cardboard.csv,Plexiglass.csv – Only plot the ε’ data for each material. You can plot the three data sets on the same graph.
 Questions to consider for the report:<br>
-
+Ans:<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab10/dielectric_constant_materials.png) <br><br>
 
 What does it mean to transform into the time domain?<br>
 
@@ -43,8 +47,7 @@ Ans:<br>
 
 
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab10/dielectric_constant.png)<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab10/dielectric_loss.png) <br><br>
+
 
 
 Conclusion:<br>
