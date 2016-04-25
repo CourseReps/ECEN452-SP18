@@ -8,6 +8,12 @@ Lab 11 – Free Space Measurement with GRL Calibration<br>
 Background:<br>
 In this lab, a Vector Network analyzers (VNA) will be used to measure the free space s-parameter of different kinds of materials. The MUT will be suspended in air and the characteristics of the material such as permitivity, loss etc will be estimated. This method is good for the solid materials such as plastic, glass, metal and so on. The experiment involves two horn antennas, a MUT sampler holder, and some absorbing materials laid on the ground plane.<br>
 
+
+Procedure:<br>
+Before measuring the characteristics of the material, a calibration adjustment should be implemented to improve the estimation precision. There are lots of methods can be used to do the free space calibration such as the TRM, TRL or GRL(Gated Line Reflect). In this work, we would use GRL to calibrate the VNA. First, a normal coaxial line calibration at each port should be implemented such as the load, short and through. Second, a metal plate with known thickness place between the two horn antennas and measure the S11 parameters in time domain. Third, measure the free space S11 parameters.<br>
+
+
+
 S11_TD_wReflect_preGRLcal.csv – This is a plot of the time domain S11 data with the reflect in place. Remember you can see the reflecting sheet as a local maximum at approximately 3.66ns.<br>
 Ans:<br>
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/free_space_s11.png)<br>
