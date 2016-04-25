@@ -10,7 +10,7 @@ In this lab, a Vector Network analyzers (VNA) will be used to measure the free s
 
 
 Procedure:<br>
-Before measuring the characteristics of the material, a calibration adjustment should be implemented to improve the estimation precision. There are lots of methods can be used to do the free space calibration such as the TRM, TRL or GRL(Gated Line Reflect). In this work, we would use GRL to calibrate the VNA. First, a normal coaxial line calibration at each port should be implemented such as the load, short and through. Second, a metal plate with known thickness place between the two horn antennas and measure the S11 parameters in time domain. Third, measure the free space S11 parameters.<br>
+Before measuring the characteristics of the material, a calibration adjustment should be implemented to improve the estimation precision. There are lots of methods can be used to do the free space calibration such as the TRM, TRL or GRL(Gated Line Reflect). In this work, we would use GRL to calibrate the VNA. First, a normal coaxial line calibration at each port should be implemented such as the load, short and through. Second, a metal plate with known thickness place between the two horn antennas and measure the S11 parameters in time domain. Third, measure the free space through S21 parameters. To implement the GRL calibration, two free space standards are needed to correctly estimate the measurement errors.<br>
 
 
 
@@ -62,14 +62,14 @@ Ans:<br>
 
 How do the three materials measured compare to expectations?<br>
 Ans:<br>
-After look up the dielectric constant values of the three material, we found the plexiglass should be 2.6 @ 3 GHz, paper is around 2.2~3.1 and air is 1. The measured dielectric constant of the cardboard is a little lower than the expected value; otherwise other materials are very close to the expecation.<br>
+After look up the dielectric constant values of the three materials, we found the plexiglass should be 2.6 @ 3 GHz, paper is around 2.2~3.1 and air is 1. The measured dielectric constant of the cardboard is a little bit lower than the expected value; otherwise other materials are very close to the expecation.<br>
 
 
 
 
 How could we improve the calibration process to get more accurate results?<br>
 Ans:<br>
-Methods like diminish the multi-path reflection, horn antennas fixed alignment and a good material holder will help increase the measurement accuracy.<br>
+Methods like diminish the multi-path reflection, horn antennas fixed alignment and a good material holder will help increase the accuracy.<br>
 
 
 
@@ -82,8 +82,8 @@ Methods like diminish the multi-path reflection, horn antennas fixed alignment a
 
 Conclusion:<br>
 
-1. Dielectric constant of all the experimental material will change the values at different frequency. We observe the dielectric constant will decrease as the frequency goes higher.<br>
-2. Dielectric loss ε" = σ/ω, for a lossless medium with σ =0, then ε" = 0. In this work, the lower the dielectric loss values means less loss. For example, the simple green cleaner has dielectric loss of 25 at 2.5 GHZ; on the other hand the WD 40 has dielectric loss less than 1. As a result, the simple green cleaner has higher loss than WD 40.<br>
+1. In this lab, a free space method is used to estimate the characteristics of different materials. The permittivity, loss tangent and so on can be derived through different frequency spectrum.<br>
+2. .<br>
 
 
 
