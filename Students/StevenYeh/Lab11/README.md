@@ -10,7 +10,7 @@ In this lab, a Vector Network analyzers (VNA) will be used to measure the free s
 
 
 Procedure:<br>
-Before measuring the characteristics of the material, a calibration adjustment should be implemented to improve the estimation precision. There are lots of methods can be used to do the free space calibration such as the TRM, TRL or GRL(Gated Line Reflect). In this work, we would use GRL to calibrate the VNA. First, a normal coaxial line calibration at each port should be implemented such as the load, short and through. Second, a metal plate with known thickness place between the two horn antennas and measure the S11 parameters in time domain. Third, measure the free space through S21 parameters. To implement the GRL calibration, two free space standards are needed to correctly estimate the measurement errors.<br>
+Before measuring the characteristics of the material, a calibration adjustment should be implemented to improve the estimation precision. There are lots of methods can be used to do the free space calibration such as the TRM, TRL or GRL(Gated Line Reflect). In this work, we would use GRL to calibrate the VNA. First, a normal coaxial line calibration at each port should be implemented such as the load, short and through. Second, a metal plate with known thickness place between the two horn antennas and measure the S11 parameters in time domain. Third, measure the free space through S21 parameters. To implement the GRL calibration, two free space standards are needed to correctly substract the VNA errors.<br>
 
 
 
@@ -34,20 +34,20 @@ Figure - 3<br><br>
 
 What does it mean to transform into the time domain?<br>
 Ans:<br>
-When look at the time domain plot, the highest S11 values means the EM wave have biggest reflection. In this case, the highest point of S11 at 0.4 ns is when the wave hits the metal plane. After observe the highest reflection point, we can record the time delay and use to calibrate the VNA. In other words, we can precisely known the position of the MUT plane. That's the main reason why we choose to use the time domain instead of the frequency domain.<br>
+Time domain plot is easy to extract the distance of the MUT.<br>
 
 
 
 How do you interpret the S11 data in time domain?<br>
 Ans:<br>
-As mentioned above, the highest S11 values means the propogating wave encounters the metal plane. As a result, wave propogates 0.4 ns and hits the metal plane.<br>
+Compare the two S11 values of free space and metal plane placed, we can know the position of the metal plane. The spike S11 values means the EM wave have reflection. In this case, the spike point of S11 at 3.66 ns is when the wave hits the metal plane. Then, we can transform the time delay to the distance. In other words, we can precisely known the position of the MUT plane. That's the main reason why we use the time domain instead of the frequency domain.<br>
 
 
 
 
 How does looking at the time domain help with the calibration?<br>
 Ans:<br>
-When we known the position of the MUT plane, we can measure the characteristics of the MUT next time.<br> 
+When we known the position of the MUT plane, we feed the data into VNA to do the calibration. Activate the time-domain gate, we could have a better estimation of the measurement.<br> 
 
 
 
@@ -55,6 +55,7 @@ When we known the position of the MUT plane, we can measure the characteristics 
 
 What are we looking for when we put the reflect in before performing the calibration?<br>
 Ans:<br>
+We want to find the location of the metal plane.<br>
 
 
 
@@ -82,8 +83,8 @@ Methods like diminish the multi-path reflection, horn antennas fixed alignment a
 
 Conclusion:<br>
 
-1. In this lab, a free space method is used to estimate the characteristics of different materials. The permittivity, loss tangent and so on can be derived through different frequency spectrum.<br>
-2. .<br>
+In this lab, a free space method is used to estimate the characteristics of different materials. The permittivity, loss tangent and so on can be derived through different frequency spectrum.<br>
+
 
 
 
