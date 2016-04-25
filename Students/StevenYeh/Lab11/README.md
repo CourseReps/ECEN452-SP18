@@ -18,7 +18,7 @@ Ans:<br>
 Air.csv, Cardboard.csv,Plexiglass.csv – Only plot the ε’ data for each material. You can plot the three data sets on the same graph.
 Questions to consider for the report:<br>
 Ans:<br>
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab10/dielectric_constant_materials.png) <br><br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/StevenYeh/Lab11/dielectric_constant_materials.png) <br><br>
 
 What does it mean to transform into the time domain?<br>
 
