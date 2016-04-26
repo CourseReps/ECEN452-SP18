@@ -10,7 +10,9 @@ In this lab, a Vector Network analyzers (VNA) will be used to measure the free s
 
 
 Procedure:<br>
-Before measuring the characteristics of the material, a calibration adjustment should be implemented to improve the estimation precision. There are lots of methods can be used to do the free space calibration such as the TRM, TRL or GRL(Gated Line Reflect). In this work, we would use GRL to calibrate the VNA. First, a normal coaxial line calibration at each port should be implemented such as the load, short and through. Second, a metal plate with known thickness place between the two horn antennas and measure the S11 parameters in time domain. Third, measure the free space through S21 parameters. To implement the GRL calibration, two free space standards are needed to correctly substract the VNA errors.<br>
+Before measuring the characteristics of the material, a calibration adjustment should be implemented to improve the estimation precision. There are lots of methods can be used to do the free space calibration such as the TRM, TRL or GRL(Gated Line Reflect). In this work, we would use GRL to calibrate the VNA. The GRL calibration will convert a 2-port coaxial calibration into a 2-port free
+space calibration.<br>
+First, a normal coaxial line calibration at each port should be implemented such as the load, short and through calibration. Second, a metal plate with known thickness 5.6mm placed between the two horn antennas and then measure the S11 parameters in time domain. Third, measure the free space through S21 parameters. To implement the GRL calibration, two free space standards are needed to correctly substract the VNA errors.<br>
 
 
 
