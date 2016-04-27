@@ -23,6 +23,7 @@ Students
 * Joshua Ruff, joshruff, [joshruff](https://github.com/joshruff)
 * Benjamin Jack, aggieland18, [benejack](https://github.com/benejack)
 * Derek Janak, dajanak, [derekjanak](https://github.com/derekjanak)
+* Steven Yeh, steven.yeh66@gmail.com
 
 Faculty Members
 ---------------
