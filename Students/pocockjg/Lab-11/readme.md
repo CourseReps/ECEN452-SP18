@@ -18,10 +18,10 @@ Overall, the numbers were about what to expect for plexiglass, cardboard, and ai
 Having less noise in the connection and having less of a makeshift setup would greatly increase the accuracy of the measurements.
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+The key points of the lab was to understand the concept of why gating is necessary along with changing from the frequency domain to the time domain. While the setup isn't perfect by any means, we did get good measurements out of the lab. Plexiglass, cardboard, and air had values close to the known values they should have. 
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+I wish I knew signal processing better than I do now.
 
 ## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
+It's definitely interesting seeing how dielectric constants of solids can be measured by using antennas instead of a probe.
