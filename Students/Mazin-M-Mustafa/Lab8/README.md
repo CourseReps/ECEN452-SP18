@@ -34,19 +34,19 @@ fig.4 : Rat Race coupler HFSS model
 
 ## Results
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid1.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/a1.png) <br>
 fig.5 : 90 Hybrid coupler |S| dB
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid2.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/a2.png) <br>
 fig.6 : 90 Hybrid coupler Phase Difference
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/Hybrid3.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/a3.png) <br>
 fig.7 : 90 Hybrid coupler RL
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/RatRace.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/a4.png) <br>
 fig.8 : Rat Race coupler |S| dB
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/sigma_delta.png) <br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab8/a5.png) <br>
 fig.9 : Rat Race coupler phase difference
 
 ## Discussion

@@ -17,7 +17,10 @@ a frequency range from 1 GHz to 5 GHz and was set to deembed 15 mm into the DUT.
 
 Design:
 
-See images from Lab Notebook
+The following pages show the calculations performed in designing this circuit.
+
+![Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Lab5_1.jpeg)
+![](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Lab5_2.jpeg)
 
 Procedure:
 
@@ -27,7 +30,21 @@ future labs were discussed.
 
 Results:
 
-See Plot images for data.
+The following plots show the results of simulations and lab measurements.
+
+![Simulated Thru Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Thru.png)
+
+![Measured Thru Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Measured_Thru.png)
+
+![Simulated Reflect Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Reflect.png)
+
+![Simulated Line Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Line.png)
+
+![Measured Line Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Measured_Line.png)
+
+![Simulated PIN Diode Switch Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Pin_Diode.png)
+
+![Measured PIN Diode Switch Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Measured_Pin_Diode.png)
 
 Conclusion:
 

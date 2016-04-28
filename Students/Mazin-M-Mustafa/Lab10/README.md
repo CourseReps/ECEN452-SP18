@@ -1,6 +1,6 @@
 
 
-# Lab 9 Report
+# Lab 10 Report
 Mazin M Mustafa 
 
 ## Background
@@ -11,7 +11,11 @@ In this lab, we will measure the dielectric constants for various liquids using 
 
 ## Design
 
+There is no design.
+
 ## Procedure
+
+The procedure was perfromed in the lab by the teaching assistant.
 
 ## Results
 
@@ -31,6 +35,9 @@ fig.4 : Wednesday e'' Measurements
 fig.5 : Friday DI Water Measurements 
 
 ## Discussion
+
+Resutls are close to what was expected. The reason for choosing DI water as a reference for calibration is because DI water has a stable dielectric constant over wide frequency range and e" appears at high frequency. To improve the calibration accuaracy we can make sure to reduce the following factors: Cable stability, air gaps and sample thickness. The coaxial probe method is broadband but it has a limited accuracy. From the behavior of e' and e" we can see that the following materials are watered down: WD-40, Glass cleaner and Silicon fluid.
+
 
 ## Conclusion
 

@@ -29,10 +29,24 @@ Simply key in above calculated parameters into HFSS file and simulate at certain
 <br>S parameters are shown below:<br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/Hybrid_dB.png) <br>
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/Phase_diff.png) <br>
+It can be seen that power splits equally to port 2 and port 3 from S21 and S31 (about 3 dB at 2.5GHz). Port 4 is regarded as isolated with port 1 from S41(about 25dB at 2.5GHz). Phase difference between port 2 and port 3 is about 90 degree at 2.5GHz. 
+<br>
+
 <br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/RatRace_dB.png) <br>
+<br>![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/tim721w/Lab8/RatRace_phase_diff.png) <br>
+It can be seen that power splits equally to port 2 and port 3 from S21 and S31 (about 3 dB at 2.5GHz). Port 4 is regarded as isolated with port 1 from S41(about 40dB at 2.5GHz). Phase difference between port 2 and port 3 is close to zero degree at 2.5GHz. 
+<br>
 
 ## Discussion
 The results of measurement data and simulated data are similiar. However, there may be some curves are not match very well. This may due to that connectors may not be will implemented and microstrip line may not be fabricated as precise as simulated model.<br>
+
+<br>Q1: Widths and lengths of T-Line are calculated based on the structures of coupler shown above. The calculations are done through microstrip online calculator. (http://www1.sphere.ne.jp/i-lab/ilab/tool/ms_line_e.htm)
+<br>
+<br>Q2: Hybrid coupler is useful for 90 degree phase shifted power divider. Ratrace coupler is useful for 180 degree phase shifted power divider or combiner.
+<br>
+<br>Q3: To put matched loads when measuring S parameters is to reduce reflection from ports.
+<br>
+
 
 ## Conclusion
 Only simulations are conducted for both Hybrid coupler and Rat Race coupler. The hardware measurements were done by David. The results for both simulated and measurements show out the curve correspondence.<br>
@@ -41,4 +55,4 @@ Only simulations are conducted for both Hybrid coupler and Rat Race coupler. The
 None<br>
 
 ## Reflection
-If possible, it's better to have a lab instruction document. That would make me more clearly to understand what to do for the lab. Also, it's much easier to understand design process if we can do the hardware experiment.<br>
+It would be better for us to measure S-parameters with VNA. 

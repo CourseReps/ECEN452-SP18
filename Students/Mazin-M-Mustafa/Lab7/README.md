@@ -9,6 +9,10 @@ In this lab we will design a Wilkinson power divider. The theory of the power di
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/Po.png) <br>
 fig.1 : Wilkinson Power Divider
 
+We Also fabricated and measured a phase shifter. It was a transmission line phased shifter as shown below.
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/PS.png) <br>
+fig.2 : Transmission line phase shifter
 
 ## Design
 
@@ -25,12 +29,12 @@ fo = 2.5 GHz
 The procedure is to calculate the dimensions of the structure at the specified frequency. Then optimizing the results to achieve the best performance as shown in the following figure.
 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/W1.png) <br>
-fig.2 : HFSS model
+fig.3 : HFSS model
 
 ## Results
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/PowerDivider.png) <br>
-fig.3 : HFSS Vs Measured results
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Mazin-M-Mustafa/Lab7/vvvvv.png) <br>
+fig.4 : HFSS Vs Measured results
 
 ## Discussion
 
@@ -38,7 +42,7 @@ Results are close to the simulation but not exact. This depends on the many fact
 
 ## Conclusion
 
-Wilkinson pwoer divider design and simulations were performed successfully. 
+Wilkinson pwoer divider design and simulations were performed successfully. The phase shifter didn't work properly.
 
 ## Hindsight
 
