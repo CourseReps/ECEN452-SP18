@@ -39,13 +39,12 @@ S21 and S31 are both nearly -3dB at the design frequency. This demonstrates an a
 This Graph demonstrates the isolation of ports 2 and 3. This isolation is seen most obviously at the resonance at 2.45 GHz, which shows very little power leaks between ports 2 and 3 around the design frequency. 
 
 ###Phase Shifter
-
+![PS_Taped](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab7/Phase_Shifter.jpg)<br>
+Both my lab partner and I struggled to soldier the connections using the heat gun during this lab. the result was a burnt up substrate, and several segments of the copper tape shrunk below their measured length, which likely threw off the 
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+I need more soldiering practice. 
 
-## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
