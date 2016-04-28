@@ -30,11 +30,15 @@ The Phase shifter was constructed on FR4 in lab. First the 50 Ohm line was const
 
 ## Results and Discussion
 ###WPD
+
 ![Reflection](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab7/Reflections.png)<br>
-
+This graph shows the reflection at each of the three ports. At the design frequency, all of the reflections are well below 10dB, which means very little power is reflected here.  This is a desired characteristic for this device. 
 ![Divide](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab7/Division.png)<br>
-
+S21 and S31 are both nearly -3dB at the design frequency. This demonstrates an approximately half power split between these ports, which was the ratio the power divider was designed for. The measured, milled version correlates fairly closely to the simulated version for these S-Parameters. 
 ![Isolation](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab7/Isolation.png)<br>
+This Graph demonstrates the isolation of ports 2 and 3. This isolation is seen most obviously at the resonance at 2.45 GHz, which shows very little power leaks between ports 2 and 3 around the design frequency. 
+
+###Phase Shifter
 
 
 ## Conclusion
