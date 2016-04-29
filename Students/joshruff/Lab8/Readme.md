@@ -13,7 +13,7 @@ All interconnections of the hybrid coupler are quarter-wave. In the diagram, the
 To achieve an equal power split, the interconnections in the Rat-Race coupler are all equally set to root 2 times the feed line impedance, or 71 Ohms. The three smaller interconnections are all quarter wave in length, while the longer interconnection is three-quarters of a wavelength long. Using the microstrip calculator, the feedline is determined ot have a width of 1.71 mm, and a length of 17.7 mm. The feedline had a width of 3.13 mm. 
 
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+These devices were designed and simulated in HFSS, and optimized as necessary. Afterwards they were compared to versions of the devices which were fabricated by a milling machine. When measuring S-parameters, matched loads were placed on each port to prevent signal from being reflected back into the device by unused ports. Such a reflection would prevent lead to an innacurate measurement. 
 
 ## Results and Discussion
 Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
@@ -25,8 +25,3 @@ See the raw text of the tutorials for an example.
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
 
-## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
-
-## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
