@@ -1,11 +1,16 @@
-# Lab X Report
-Your Name (**Rename this file README.md and place it in the LabX folder in your student folder)
+# Lab 8 Report
+Joshua Ruff
 
 ## Background
-Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
+The Hybrid coupler and Rat Rase couplers are four port divices in which the power input into one port is divided between two output ports and isolated from the fourth. The Hybrid coupler provides 90 degrees of phase shift in the out of phase port, while the Rat Race coupler provides 180 degrees in the out of phase port. The phase difference on the rat-race allows it to be used to output the sum and difference of input signals. 
 
 ## Design
-All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
+###Hybrid Coupler
+All interconnections of the hybrid coupler are quarter-wave. In the diagram, the vertical strips match the feedline impedance (50-Ohms), while the horizontal strips are scaled down to 35-Ohms. A microstrip line calculator was used to determine the physical lengths and widths. The 50 Ohm lines had a width of 3.13 mm and a length of 16.88 mm. The 35 Ohm lines had a width of 5.27 mm and a physical length of 16.47 mm. 
+
+
+###Rat-Race Coupler
+To achieve an equal power split, the interconnections in the Rat-Race coupler are all equally set to root 2 times the feed line impedance, or 71 Ohms. The three smaller interconnections are all quarter wave in length, while the longer interconnection is three-quarters of a wavelength long. Using the microstrip calculator, the feedline is determined ot have a width of 1.71 mm, and a length of 17.7 mm. The feedline had a width of 3.13 mm. 
 
 ## Procedure
 Provide a step-by-step decription of the activities you performed during the lab.
