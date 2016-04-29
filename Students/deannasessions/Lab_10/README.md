@@ -12,7 +12,7 @@ Below is a graph of the different dielectric constants that were measured over t
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/deannasessions/Lab_10/Lab10_dielectrics.png)<br>
 
 Below is a graph that shows the wide range of dielectric values for DI water as it sweeps though a wide range of frequencies.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/deannasessions/Lab_10/Lab10_DI_water_20MHz_20GHz.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/deannasessions/Lab_10/DI_water_20MHz_20GHz.png)<br>
 
 ## Conclusion
 This lab presented the testing necessary to determine the dielectric values of different materials over a range of frequencies. This information is important because so much of RF and microwave design is based on the materials that are used. Many designs are moving toward fluids and knowing the characteristics of these fluids at different frequencies can help determine what liquid would be most useful in a certain design.
