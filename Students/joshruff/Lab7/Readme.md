@@ -40,7 +40,7 @@ This Graph demonstrates the isolation of ports 2 and 3. This isolation is seen m
 
 ###Phase Shifter
 ![PS_Taped](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab7/Phase_Shifter.jpg)<br>
-Both my lab partner and I struggled to soldier the connections using the heat gun during this lab. the result was a burnt up substrate, and several segments of the copper tape shrunk below their measured length, which likely threw off the 
+Both my lab partner and I had issues soldiering the connections using the heat gun during this lab. The result was a burnt up substrate, and several segments of the copper tape shrunk below their measured length, which likely threw off the measurements. THe graph of the phase shifted measurements is shown below: 
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
