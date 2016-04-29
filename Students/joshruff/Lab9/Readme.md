@@ -1,11 +1,11 @@
-# Lab X Report
-Your Name (**Rename this file README.md and place it in the LabX folder in your student folder)
+# Lab 9 Report
+
 
 ## Background
-Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
+The Microstrip Patch Antenna is a rectangular antenna characterized by it's length and width. The length of the antenna determines the operating frequency, while the width controls the impedance. Edge effects lead to a longer electrical length than physical length. To maximize the amount of power radiated by the patch, a stub is used to match the patch to the feeding circuitry. 
 
 ## Design
-All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
+The patch was designed to target a 3 GHz operating frequency. 
 
 ## Procedure
 Provide a step-by-step decription of the activities you performed during the lab.
