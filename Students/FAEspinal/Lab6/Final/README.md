@@ -3,7 +3,7 @@ Francisco A. Espinal
 
 ## Background
 
-We design two filters a maximally flat low pass and equi-ripple band stop filter. These filters accept desired signals and reject signals outside the operation band. To design them we must find the order (N) of the filter and using this information construct a Ladder network.  Then additional transformations, such as Richard’s transformation, and Kuroda identities can be used to calculate the components needed like the transmission lines and stubs.      
+We design two filters a maximally flat low pass and equi-ripple band stop filter. These filters accept desired signals and reject signals outside the operation band. To design them we must find the order (N) of the filter and using this information construct a Ladder network.  Then additional transformations, such as Richard’s transformation, and Kuroda identities can be used to calculate the transmission lines and stubs needed.      
 
 
 ## Design
