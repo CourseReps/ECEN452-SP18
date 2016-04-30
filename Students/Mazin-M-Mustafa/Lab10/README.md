@@ -15,7 +15,7 @@ There is no design.
 
 ## Procedure
 
-The procedure was perfromed in the lab by the teaching assistant.
+The procedure was perfromed in the lab by the teaching assistant. basically, the calibration was performed before every measurement. Also, the probe was cleaned evrytime after measurement. Results were calculated automatically by a software to obtain e' and e''.
 
 ## Results
 
