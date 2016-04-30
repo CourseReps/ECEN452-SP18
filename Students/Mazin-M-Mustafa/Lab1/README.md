@@ -5,7 +5,7 @@ Mazin M Mustafa
 
 ## Background
 
-In this lab we will become familiar with basic softwares and S parameters for series impedance.
+In this lab we will become familiar with basic softwares and S parameters for series impedance. This lab is just to start using the tools for this lab. Also, this lab gives an introduction to ABCD and S-parameters. Also, some review about the most common RF coaxial connectors.
 
 ## Design
 
@@ -71,13 +71,7 @@ fig.8 : S21 HFSS vs Z0lver vs Analytic
 
 ## Discussion
 
-All tasks were performed successfully and results agree with theory.
-
-## Conclusion
-
-## Hindsight
-
-## Reflection
+All tasks were performed successfully and results agree with theory. It was useful to explore Z0lver software and know about various connectors types.
 
 ## Reference
 
