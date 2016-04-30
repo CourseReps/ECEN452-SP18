@@ -42,9 +42,7 @@ Results are close to the simulation but not exact. This depends on the many fact
 
 ## Conclusion
 
-Wilkinson pwoer divider design and simulations were performed successfully. The phase shifter didn't work properly.
-
-## Hindsight
+Wilkinson pwoer divider design and simulations were performed successfully. The phase shifter didn't work properly. Wilkinson power dividers are useful to built phased arrays and other applications in RF. The advantage of this power divider is that it is broadband.
 
 ## Reflection
 
