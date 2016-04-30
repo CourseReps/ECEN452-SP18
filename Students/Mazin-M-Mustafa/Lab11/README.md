@@ -34,11 +34,9 @@ fig.4 : e' Measurements
 
 The time domain transform measures the delay for receiving the reflected wave. The peak value of S11 indicates the MUT location. After applying a time window, this removes the effects of over reflections. The reflect in a calibration standard which helps in determining the location of MUT and also de-embed the free space. Results are close what was expected. 
 
-## Conclusion
-
-## Hindsight
-
 ## Reflection
+
+It would be more useful for student to perform the measurement by themselves.
 
 ## Reference
 
