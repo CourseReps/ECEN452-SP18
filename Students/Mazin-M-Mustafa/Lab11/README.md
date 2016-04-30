@@ -17,7 +17,7 @@ There is no design.
 
 ## Procedure
 
-The procedure was performed in the lab by the teaching assistant.
+The procedure was performed in the lab by the teaching assistant. As seen from the figure above of the setup of them measurement. The clibration procedure can be generalized to other configurations like having a container for liquids. The GRL calibration consists of SOLT calibration to cancel the effect of cables and connectors. Then the reflect was introduced in the location of the MUT. Then using time gating to focus on a specific delay. The rest of the calibration is done by the software.
 
 ## Results
 
