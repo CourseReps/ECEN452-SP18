@@ -55,9 +55,7 @@ Results are close to the simulation as expected. This process required optimizin
 
 ## Conclusion
 
-Rat Race and 90 degree Hybrid couplers designs and simulations were performed successfully. 
-
-## Hindsight
+Rat Race and 90 degree Hybrid couplers designs and simulations were performed successfully. The hybrid coupler provide two options of phase shift: -90 and -180 degree which means that the output phase difference is 90 degrees. Also, the output of the coupler is divided between the two outputs eqaully. The disadvantage is a narrow bandwidth of the chybrid coupler. The rat race or ring coupler provides two options: in phase and 180 phase difference. This has different applications. Results are relatively broadband.
 
 ## Reflection
 
