@@ -16,7 +16,7 @@ The Thru has a S21 phase of -.71° at 3 GHz and the Line has a S21 phase of -91.9
 
 Using the imaginary part of the impedance of the Reflect, the polynomial model of the capacitive open circuit termination was found.
 
-![lab_5_graph1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_graphs1.PNG)
+![lab_5_graph1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_graph1.PNG)
 
 For the RF PIN Diode Series Switch:
 ![lab_5_eq3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_eq3.PNG)
@@ -29,11 +29,11 @@ In lab, a TRL calibration kit was already designed. Students learned how to cali
 ## Results and Discussion
 The simulated and measured results line up fairly well for the TRL kit. The differences can be accounted for in slight variations of the simulated widths and lengths and the actual widths and lengths of the TRL kit.
 
-![lab_5_graph2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_graphs2.PNG)
+![lab_5_graph2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_graph2.PNG)
 
 The simulated and measured results line up fairly well. The differences can be accounted for in slight variations of the simulated widths and lengths and the actual widths and lengths of the PIN diode Switch. This switch could be drastically improved because at the design frequency, 2.5 GHz, the S21 barely gets below -10 dB.
 
-![lab_5_graph3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_graphs3.PNG)
+![lab_5_graph3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_graph3.PNG)
 
 ## Conclusion
 
