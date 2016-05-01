@@ -13,6 +13,7 @@ Line-Thru = 6.44 mm (**This is the physical length measured after the reference 
 Substrate thickness (62 mil)
 
 These equations will be used to find the desired values using the measured data.
+
 ![lab_3_eq](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/Lab-3/lab_3_eq.PNG)
 
 ## Procedure
@@ -20,7 +21,7 @@ In lab, a TRL calibration kit was already designed. Students learned how to cali
 
 ## Results and Discussion
 In this lab, the TRL kit was pre-made and no simulations were required. Below are the graphs for the log magnitude of S21 and the phase of S21.
-![lab_3_graphs](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/Lab-
+![lab_3_graphs](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/Lab-3/lab_3_graphs.PNG)
 
 Using the equations from before, the frequency range, effective dielectric, phase velocity, and attenuation are calculated.
 ![lab_3_values](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/Lab-3/lab_3_values.PNG)
