@@ -84,12 +84,12 @@ The rat race coupler provides 180 degrees or a 0degree phase shift between outpu
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/DivyaNAcharya/Lab8_Completed/OutpuPhases.png)
 
 ###Q&A
-1.What modifications did you have to make to the T-line widths/lengths to improve your simulated results?
-<br> As noted in the observations, the value for Hybrid coupler needed to be tweaked whereas rat race coupler gave good results without changes.
+1. What modifications did you have to make to the T-line widths/lengths to improve your simulated results?
+<br>As noted in the observations, the value for Hybrid coupler needed to be tweaked whereas rat race coupler gave good results without changes.
 2. For what applications would each coupler be useful?
-<br> The quadrature hybrid coupler can provide quadrature signals as the name suggests and can be used in design of mixers or simply for obtaining quadrature signals. The rat race coupler can be used for obtaining sum and difference of input signals.
+<br>The quadrature hybrid coupler can provide quadrature signals as the name suggests and can be used in design of mixers or simply for obtaining quadrature signals. The rat race coupler can be used for obtaining sum and difference of input signals.
 3. Why did we put matched loads on the ports while measuring the S-parameters?
-<br> Since the Hybrid coupler is a 4 port device, we had to explicitly match the un-connected ports to ensure accurate S parameter measurements.
+<br>Since the Hybrid coupler is a 4 port device, we had to explicitly match the un-connected ports to ensure accurate S parameter measurements.
 
 ## Observations
 - The calculated values gave good results without any need to tweak the values.
