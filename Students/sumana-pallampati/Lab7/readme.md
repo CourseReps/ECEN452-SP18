@@ -20,7 +20,9 @@ For the wilkinson power divider, the length of the quarterwave was adjusted in H
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab7/Phase_Shifter_S11_Phase.png)<br>
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab7/Phase_Shifter_S21.png)<br>
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab7/Phase_Shifter_S21_Phase.png)<br>
-The reference phase was obtained as -421.8 deg. With 90 degrees phase shift, the phase measured was -490 deg. Which implies the phase shifted by 68.2 deg. With 180 degrees phase shift, the phase measured was -599.8 deg. Which implies the phase shifted by 178 deg.
+The reference phase was obtained as -421.8 deg. With 90 degrees phase shift, the phase measured was -490 deg. Which implies the phase shifted by 68.2 deg. With 180 degrees phase shift, the phase measured was -599.8 deg. Which implies the phase shifted by 178 deg. The additional microstrip lines did not affect the phase of S21. The measured phase is almost identical in both the cases. The magnitude of S11 is lower for thru with coupling rather than for thru without coupling. This implies that there is more reflection (loss) for thru with coupling compared to thru without coupling.
+
+To improve the design, we could add more length to the 90 deg phase shifter as we were just getting a phase shift of 68.2 deg. The other solution is instead of adding quarter wavelength, we can add 3*(lambda/4). 
 
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab7/S11_wilkinson.png) <br>
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab7/S21_wilkinson.png)
@@ -31,6 +33,7 @@ The reference phase was obtained as -421.8 deg. With 90 degrees phase shift, the
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab7/Wilkinson_Phase_S11_S22_S33.png)
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab7/Wilkinson_Phase_S21_S31_S32.png)<br>
 The measured and simulated results are close to each other.
+
 
 ## Conclusion
 The design of a phase shifter is just adding electrical length depending on how much phase shift is required. The design of a power divider depends on the power split required. For the power splitter, the length of the quarterwave had to be increased substantially to obtain low S11, S22 and S33. 
