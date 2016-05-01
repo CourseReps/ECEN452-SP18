@@ -14,7 +14,7 @@ The equations below are used to find the dimensions of the patch antenna. For si
 ![lab_9_values](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-9/lab_9_values.PNG)
 
 ## Procedure
-In lab, a 50 ? microstrip transmission line was used to feed the antenna with a quarter wave transform used to match the antenna. The antenna was feed first with an unmatched to find the input impedance. Then a Smith chart was used to find how far away from the reference point (15 mm) the transform needed to be.
+In lab, a 50 Ohm microstrip transmission line was used to feed the antenna with a quarter wave transform used to match the antenna. The antenna was feed first with an unmatched to find the input impedance. Then a Smith chart was used to find how far away from the reference point (15 mm) the transform needed to be.
 
 ![lab_9_eq2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-9/lab_9_eq2.PNG)
 
