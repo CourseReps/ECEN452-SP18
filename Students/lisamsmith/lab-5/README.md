@@ -36,7 +36,10 @@ The simulated and measured results line up fairly well. The differences can be a
 ![lab_5_graph3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-5/lab_5_graph3.PNG)
 
 ## Conclusion
+In this lab, both the TRL and RF PIN Diode switch were simulated in HFSS and had similar results to the premade TRL and Switch designs that were measured in lab. Because the measured devices were did not have the exact same design dimetions as the simlated models, there are some dicrepencies in the results.
 
 ## Hindsight
+In my experience, I already knew how to design and use a TRL calibration kit on the network analyzer. However, this was a good refresher on the topic and I did learn how I could find certain values based only on the S21 values of magnitude and phase. As far as the PIN Diode switch goes, I felt prepared to design the device based on the instuctions from class. However, I wish I had simulated the design dimetions that were used for the actual device for a better comparison of the results (this goes for both devices).
 
 ## Reflection
+Because this lab was just measuring the pre-made TRL kit, it wasn't very challenging. However this lab did give good insight to how the network analyzer operates and why it needs calibration. In addition, the RF PIN diode switch was simle to make and was interesting to measure.
