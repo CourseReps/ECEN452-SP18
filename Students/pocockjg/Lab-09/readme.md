@@ -6,16 +6,17 @@ The device made in this lab is the patch antenna. To help with the design, David
 
 ## Design
 Using the designs given to us at the beginning of the lab, we found the length and width needed to make the patch resonant for the required frequency. The calculations are given in the following photos. 
+![Image](image001.jpg)
+![Image](image002.jpg) <br>
 
+I can't figure out how to rotate the images.
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+The first part of the procedure was to simply to solder the connector onto the board. The next step was to add the 50 ohm feed line to the board. After that, using the dimensions that were found using the equations, the patch antenna was added to the board. After measuring what the impedance of the antenna was, the QWT was calculated and placed onto the feed line of the antenna. The system was then measured again to see how well it was impedance matched. 
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
+From the results, the results were pretty close to the mark. Even being unmatched, the VSWR was still at its lowest around the 3 GHz mark. When the antenna was matched, again the VSWR was still at its best at the 3 GHz mark which is what was wanted and expected.
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
+With the HFSS file, the patch antenna had to be modified slightly to resonate at 3 GHz. The length had to be reduce to 24 mm to get the proper signal.
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
