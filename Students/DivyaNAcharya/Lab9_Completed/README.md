@@ -48,3 +48,9 @@ Smith Chart (HFSS) shows good impedance matching as shown below
 
 ## Conclusion
 - Patch Antenna design was understood and implemented in this lab. The design is simple and quick to implement and good results can be obtained even with copper tape.
+
+## Hindsight
+- Should have used a slightly smaller length of the patch to get resonance at 3GHz
+
+## Reflection
+- Understanding implementation of Quarter Wave matching was interesting and something that only lab could have explained. 
