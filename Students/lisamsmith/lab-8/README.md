@@ -9,7 +9,7 @@ The hybrid coupler is a device that equally divides the power into the two outpu
 
 For Hybrid Coupler:
 
-Below are the calculated values used for simulation at 2.5 Ghz. The values of lenght and width were found using an online calculator.
+Below are the calculated values used for simulation at 2.5 Ghz. The values of length and width were found using an online calculator.
 
 ![lab_8_eq1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-8/lab_8_eq1.PNG)
 
@@ -17,7 +17,7 @@ Below are the calculated values used for simulation at 2.5 Ghz. The values of le
 
 For Rat Race:
 
-Below are the calculations and the values used in the HFSS simulation at 2.5 GHz. The values of lenght and width were found using an online calculator.
+Below are the calculations and the values used in the HFSS simulation at 2.5 GHz. The values of length and width were found using an online calculator.
 
 ![lab_8_eq2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-8/lab_8_eq2.PNG)
 
@@ -38,10 +38,10 @@ The device works similarly to the simulated results. S11 shows the matched port,
 ![lab_8_graph2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-8/lab_8_graph2.PNG)
 
 ## Conclusion
-In this lab, the measured and simulated results for each device were fairly similar. The phase shift of the output signal is the major consideration of which type of power divider to use. If no phase shift between the 2 outputs is wanted, the the hybrid coupler should be used. If a 90 degrees phase shift is wanted, then the rat race is the better device to use. Matched ports were used when measuring the devices to get more accurate results and to prevent any errors that would occur from impedance mismatch as apposed to error from the design.
+In this lab, the measured and simulated results for each device were fairly similar. The phase shift of the output signal is the major consideration of which type of power divider to use. If no phase shift between the 2 outputs is wanted, the the hybrid coupler should be used. If a 90 degrees phase shift is wanted, then the rat race is the better device to use. Matched ports were used when measuring the devices to get more accurate results and to prevent any errors that would occur from impedance mismatch as opposed to error from the design.
 
 ## Hindsight
-Because there was no actuall building of the devices, this lab was fairly easy and strait forward.
+Because there was no actual building of the devices, this lab was fairly easy and straight forward.
 
 ## Reflection
-This lab did give good insight to the operation of 2 types od power dividers and the advantages to each type of device and how they are designed.
+This lab did give good insight to the operation of 2 types of power dividers and the advantages to each type of device and how they are designed.
