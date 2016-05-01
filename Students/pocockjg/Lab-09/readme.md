@@ -15,14 +15,21 @@ The first part of the procedure was to simply to solder the connector onto the b
 
 ## Results and Discussion
 From the results, the results were pretty close to the mark. Even being unmatched, the VSWR was still at its lowest around the 3 GHz mark. When the antenna was matched, again the VSWR was still at its best at the 3 GHz mark which is what was wanted and expected.
+![image](figure_1.png)
+![image](figure_2.png)
 
 With the HFSS file, the patch antenna had to be modified slightly to resonate at 3 GHz. The length had to be reduce to 24 mm to get the proper signal.
 
+![image](figure_3.png)
+![image](Smith_Chart_Lab9.jpg)
+
+The VSWR is a little high at the marker frequency. Unfortunately, I didn't have much time to tweak the program to perfection.
+
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+The lab was really successful. Using numbers that we calculated, we got really close with the patch antenna and the QWt that we made. No adjustments were really needed in the lab.
 
 ## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
+I wish that I was more knowledgeable in making QWT. Hong did most of the calculations.
 
 ## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
+It always feels great when something works in a lab, but again I wish I was more familiar with QWT calculations.
