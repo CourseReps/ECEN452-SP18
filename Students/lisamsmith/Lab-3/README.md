@@ -13,6 +13,7 @@ Line-Thru = 6.44 mm (**This is the physical length measured after the reference 
 Substrate thickness (62 mil)
 
 These equations will be used to find the desired values using the measured data.
+
 ![lab_3_eq](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/Lab-3/lab_3_eq.PNG)
 
 ## Procedure
