@@ -25,6 +25,8 @@ Results:
 
 ![Coaxial Probe Measurements](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab10/Coaxial_Probe_Measurements.png)
 
+The plot makes it easy to compare the various fluids based on their permittivities.  Note that distilled water has the highest real component of relative permittivity, followed by the water based solutions.  By comparison, it has one of the lower imaginary components of relative permittivity.
+
 Conclusion:
 
 This lab allowed students to see the way in which some electrical parameters of materials are
