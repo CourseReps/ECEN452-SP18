@@ -27,7 +27,10 @@ strips of tape were joined using solder, and the output was plotted using a netw
 
 Results:
 
-See Plot images for data.
+![50 Ohm Line](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_50ohm_Line.png)
+![Cut-Tape BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_BSF.png)
+![Milled BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_Milled_BSF.png)
+![Milled LPF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_Milled_LPF.png)
 
 Conclusion:
 

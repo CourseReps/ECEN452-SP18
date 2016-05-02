@@ -41,7 +41,7 @@ measured using the network analyzer, and the data was saved and plotted.
 
 Results:
 
-See plots included in lab.
+![Patch Antenna](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab9/Measured_Antenna.png)
 
 Conclusion:
 
