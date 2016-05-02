@@ -7,17 +7,23 @@ This lab introduced us to different types of power dividers. The following four 
 ## Design
 The 90 degree phase shifter required 1/8th wavelength T-lines at each side of the thru length. We calculated a quarter wavelength which at 3 GHz is 14.06 mm, so the 1/8th wavelength is 7.03 mm long. The 180 degree phase shifter required a half wavelength overall so we added a quarter wavelength (14.06 mm) to both ends of the thru. Both designs had an impedance of 50 ohms which corresponds to a copper strip of length 3.1 mm.
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab7/Lab7WilkinsonPowerDividerHFSS.png)
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab7/Lab7WilkinsonPowerDividerParameters.png)
+
 The Wilkinson power divider also had a feed line with impedance 50 ohms (3.1 mm). The new frequency was 2.5 GHz so we calculated the quarter wavelength to be 17.4 mm. The line needed to have impedance equal to Z_0*√2 which was equal to 70.7 ohms. This value corresponds to a width of 1.65 mm. The length of the line was set to about 24 mm to get lower values of S11, S22, and S33.
 
 ## Procedure
 In lab we built a time delay shifter out of copper tape. This shifter had a 90 degree shift and a 180 degree shift, both of which required separate designs. There was a 50 ohm line with length similar to previous labs and we measured a reference phase of -429.5 degrees. The first delay path we made was for the 90 degree phase shift. We found a quarter wavelength to be 14.0364 mm which was the length of each path leg (the path looked like a boxy U so each “leg” refers to the two parallel sides of the U). There was a small separation between the 50 ohm line and the path legs so we had to solder across the gap to connect the path legs. When David measured our shift it showed to be -516.9 degrees which was approximately 88 degrees of phase shift.  The second delay path was created in a similar manner but with lengths to create a 180 degree shift. This time the path legs were calculated to be 23.98 mm.  Once the 90 degree path was removed and the 180 degree path soldered onto the 50 ohm line, David once again measured the phase shift.  He had warned us ahead of time that the result would not be correct because there was a discontinuity when the shift was this high.  The analyzer measured the phase to be -233.9 degrees which David told us to subtract 360 degrees from.  The result was 593.9 degrees which from our reference phase was a shift of about 164 degrees instead of 180.
 
 ## Results and Discussion
-The questions in the lab instructions are answered in this section.  The resistor is necessary in the power divider to dissipate half of the input power. We could not see any major differences between THRU and THRU2. If we had time to make a new phase shifter we would have wanted to re-cut our copper strips to make them more accurate widths.  We also would have obviously preferred to mill the design instead of cutting it by hand.
+The resistor is necessary in the power divider to dissipate half of the input power. We could not see any major differences between THRU and THRU2. If we had time to make a new phase shifter we would have wanted to re-cut our copper strips to make them more accurate widths. We also would have obviously preferred to mill the design instead of cutting it by hand.
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab7/Wilkinson_Magnitude2.png)
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab7/Phase_Shifter_S11.png)
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab7/Phase_Shifter_S21.png)
 
 ## Conclusion
 The main point of this lab was to learn about the design of different power dividers and to practice constructing phase shifters.  While there were some errors due to the poor connections with the copper tape, our measurements were fairly accurate.  Our desired value for the 180 degree shift should have been closer to 609 degrees and we believe that if we had done this shift first it would have been more accurate.  Since we had to remove and re-solder on the 50 ohm line, the second shifter was less accurate due to poor connection.
