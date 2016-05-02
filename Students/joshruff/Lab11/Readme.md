@@ -6,7 +6,7 @@ This lab introduced the gated calibration for free space systems. A two port cal
 
 ## Procedure
 The systematic errors described in the signal flow diagram can be removed using a gated calibration. First, the two ports are calibrated in air. An absorber sheet is used as a matched load, and finally a metal sheet is used as a short circuit. 
-![Time_Domain](Time_domain.png)
+![Time_Domain](Time_Domain.png)
 ## Results and Discussion
 ![Time_Domain](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab11/Time_Domain.png)<br>
 ![Thru_PostCal](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab11/Thru_PostCal.png)<br>
