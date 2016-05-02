@@ -16,6 +16,11 @@ In lab David demonstrated how the GRL calibration works. David had set up some P
 
 ## Results and Discussion
 Ideally the thru should have very little attenuation, whereas this graph has a very large slope. In reality this result is actually very close to what it’s supposed to look like. If the y-axis showed more dB values, we would be able to see that the S21 values are extremely close to zero, which is what they should be for low attenuation.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab11/Free_Space_Measurements.png)
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab11/S11_TD_wReflect_preGRLcal.png)
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab11/S21_Thru_postGRL.png)
 
 ## Conclusion
 The main point of this lab was to see the GRL calibration and watch how the dielectric constants of solids could be measured.  David explained to us that this setup was far from perfect some there was a margin of error that could be seen but for the most part it was an accurate depiction of the process.
