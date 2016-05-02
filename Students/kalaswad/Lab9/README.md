@@ -11,11 +11,14 @@ We designed two different networks in this lab.  The first was the general patch
 	△L = 0.73 mm
 	L = 24.2 mm
 
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab9/Patch_Antenna_HFSS.PNG)
+
 ## Procedure
 In lab we built the general patch antenna with just a 50 ohm feed line out of copper tape and then had David test it with network analyzer to show the operating frequency and impedance of the antenna. David then told us to implement the single stub tuner using the smith chart to calculate the dimensions of the stub. Our antenna’s impedance was 57.75-j52Ω which we normalized with 50 ohms and plotted on the Smith chart.  Then the point was rotated a quarter wavelength in order to match the network.  To find the length, we rotated the point until we hit the VSWR = 1 circle. We also used the equation Z_0= √(Z_OT*Z_L )= √(50*20)=31.62Ω. Get stub length and effective wavelengthand VSWR  from Matias. When David ran our circuit through the network analyzer again, we were able to see that the operating frequency was 3.066 GHz.
 
 ## Results and Discussion
 Below is the graph from HFSS of the patch antenna.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab9/Patch_Antenna.png)
 
 ## Conclusion
 The main point of this lab was to show us the design process of building a patch antenna
