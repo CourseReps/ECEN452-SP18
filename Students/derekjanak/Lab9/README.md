@@ -41,6 +41,10 @@ measured using the network analyzer, and the data was saved and plotted.
 
 Results:
 
+![Simulated Patch Antenna VSWR](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab9/Antenna_VSWR.png)
+
+The simulation shows a VSWR much greater than the measured values at low frequency.  However, at the design frequency, the VSWR declines to lower values, approaching the measured values around 0.
+
 ![Patch Antenna](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab9/Measured_Antenna.png)
 
 The matched data shows less noise and slightly less reflection than the unmatched data.  The matching network eliminates the reflection from the loading effect of the antenna, increasing power transmission.
