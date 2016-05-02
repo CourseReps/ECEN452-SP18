@@ -34,6 +34,11 @@ this also results in additional reactance which requires a slight compensation i
 output ports also curve outward from the resistor in order to avoid coupling.  The analysis of
 the circuit is carried out using even/odd mode analysis.
 
+The Wilkinson Power divider differs from the basic power splitter through the inclusion of a resistance
+placed across the output lines.  This resistance results in isolation of the ports at the cost of 
+additional attenuation.  This allows the device to function as a power combiner as well as a power
+splitter.
+
 The phase shifter designed in this lab utilized lengths of transmission line to shift the phase
 of the output.  An initial line was established in order to determine a reference phase; then
 the original line was cut and two phase shifting circuit routes were tested.  These routes
@@ -80,7 +85,7 @@ This plot shows the same line with coupling from the now adjacent phase shifted 
 
 ![90 Degree](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_90deg.png)
 
-This plot shows the phase of the signal shifted 90 degrees.  Note that the spacing between the S11 and S21 phase curves is much greater than in the previous plot.
+This plot shows the phase of the signal shifted approximately 90 degrees.  Note that the spacing between the S11 and S21 phase curves is much greater than in the previous plot.
 
 ![180 Degree](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_180deg.png)
 
@@ -91,8 +96,14 @@ Conclusion:
 In this lab, the student applied knowledge from lecture to the analysis of a pre-fabricated
 Wilkinson power divider, as well as to the design and construction of two phase shifter circuits.
 The lab was fairly straightforward, with the only difficulties being encountered in simulation
-of the Wilkinson power divider, where it was necessary to adjust the length of the quarter
-wavelength sections in order to compensate for reactance due to the unusual geometry of the lines.
+of the Wilkinson power divider, where it was necessary to increase the length of the quarter
+wavelength sections in order to compensate for capacitive reactance due to the unusual geometry of the lines.
+
+With regards to the phase shifter, the presence of the additional paths resulted in coupling, increasing signal noise
+and introducing error.  This also caused an additional phase shift in the output signal.  A redesign of this device would
+entail the removal of the additional paths to decrease error.  The most ideal means of creating a phase shift would be to
+lengthen the board so as to increase the transmission line length along a straight line, decreasing distortion.
+
 Ultimately, this lab progressed smoothly and resulted in a greater understanding of power
 transmission and phase shifting within high frequency circuits.
 
