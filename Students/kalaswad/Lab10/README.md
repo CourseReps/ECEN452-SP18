@@ -11,6 +11,9 @@ There was no design stage for this lab.
 In lab David measured the dielectric constants of 10 materials using the coaxial probe discussed in the introduction.  He first had to calibrate the probe by measuring air, short, and water.  Water has the highest dielectric constant, so we were able to compare how much smaller the other materials’ dielectric constants were. The probe had to be re-calibrated between each material. The graph below shows a super-imposed version of the data collected in lab.
 
 ## Results and Discussion
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab10/Various_fluids.png)
+
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/kalaswad/Lab10/DI_water.png)
 
 ## Conclusion
 The main points of this lab were to prove the fact that water has the highest dielectric constant, as discussed in class, and to show us a reliable way to measure the dielectric constant of liquids.
