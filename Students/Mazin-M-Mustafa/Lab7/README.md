@@ -42,9 +42,9 @@ Results are close to the simulation but not exact. This depends on the many fact
 
 ## Conclusion
 
-Wilkinson pwoer divider design and simulations were performed successfully. The phase shifter didn't work properly.
+Wilkinson pwoer divider design and simulations were performed successfully. The phase shifter didn't work properly. Wilkinson power dividers are useful to built phased arrays and other applications in RF. The advantage of this power divider is that it is broadband.
 
-## Hindsight
+For the 3-bit phase shifter fabricated in the lab, the results were not as expected due to lack of accuracy. At 2.45 GHz we have about 5.22 degrees/mm. This is sensitive to hand made fabrications.
 
 ## Reflection
 

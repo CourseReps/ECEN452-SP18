@@ -72,13 +72,7 @@ w = 3.07 mm
 
 ## Discussion
 
-All tasks were performed successfully and results agree with theory.
-
-## Conclusion
-
-## Hindsight
-
-## Reflection
+All tasks were performed successfully and results agree with theory. TRL calibration is a powerful calibration technique to measure RF circuits more precisely. This lab is just an introduction to Lab 5.
 
 ## Reference
 

@@ -95,9 +95,9 @@ The probe feed is eaiser to model and simulate but it requires drilling the subs
 
 Patch antenna was fabricated and simulated successfully.
 
-## Hindsight
-
 ## Reflection
+
+It would be better to measure the radiation pattern of the antenna.
 
 ## Reference
 

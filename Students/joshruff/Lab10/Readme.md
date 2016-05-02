@@ -1,27 +1,15 @@
-# Lab X Report
-Your Name (**Rename this file README.md and place it in the LabX folder in your student folder)
+# Lab 10 Report
+Joshua Ruff
 
 ## Background
-Breifly explain what the device does and what it is used for. This section does not need to be a long paragraph and does not need to be very technical.
-
-## Design
-All of your calculations go here. Include relevant dimensions and/or diagrams. Comment on any modifications you had to make to your original design after simulation and include you rationale for making these modifications.
+The Dielectric probe measurement system uses the magnitude and phase of the S-Parameters of different materials to characterize their permittivity and permeability. The result is highly dependent on the topology of the measurement device used. This lab used a coaxial probe to take the dielectric measeurements. The probe has a sophisitcated error model, and a three stage calibration is used to remove error terms. The first two stages use a shorted and open circuit load, while the third stage uses DI Water. DI water has the advantages that its properties are extremely well known, and it's characteristic impedance is far enough away from the open and short circuit points on a smith chart to make it an acceptable load. 
 
 ## Procedure
-Provide a step-by-step decription of the activities you performed during the lab.
+The dielectric probe was calibrated for the measurement of a variety of materials, including Acetone, Isopropyl alcohol, DI water among others. To produce the most accurate measurements, the probe was recalibrated in between each measurement. 
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
 
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
 
-## Hindsight
-Comment on anything you know now, having completed the lab, that you wish you knew at the beginning of the lab.
-
-## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.

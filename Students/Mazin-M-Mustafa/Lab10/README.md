@@ -15,7 +15,7 @@ There is no design.
 
 ## Procedure
 
-The procedure was perfromed in the lab by the teaching assistant.
+The procedure was perfromed in the lab by the teaching assistant. basically, the calibration was performed before every measurement. Also, the probe was cleaned evrytime after measurement. Results were calculated automatically by a software to obtain e' and e''.
 
 ## Results
 
@@ -38,13 +38,9 @@ fig.5 : Friday DI Water Measurements
 
 Resutls are close to what was expected. The reason for choosing DI water as a reference for calibration is because DI water has a stable dielectric constant over wide frequency range and e" appears at high frequency. To improve the calibration accuaracy we can make sure to reduce the following factors: Cable stability, air gaps and sample thickness. The coaxial probe method is broadband but it has a limited accuracy. From the behavior of e' and e" we can see that the following materials are watered down: WD-40, Glass cleaner and Silicon fluid.
 
-
-## Conclusion
-
-## Hindsight
-
 ## Reflection
 
+It would be more useful for students to perform the calibration and measurement by themselves.
 ## Reference
 
 http://www.intechopen.com/books/microwave-materials-characterization/relevance-of-dielectric-properties-in-microwave-assisted-processes#F2

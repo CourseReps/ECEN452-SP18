@@ -14,7 +14,7 @@ Port 3 is isolated; port 1 is sum and port 4 is difference. We can use it for in
 * Quadrature (3 dB) Hybrid Coupler - <br>
 The width and length of quarter wavelength for a 35.35 ohms (0.707*Z0) line at 2.5 GHz is 5.25 mm amd 16.5 mm respectively.  The width and length of quarter wavelength for a 50 ohms (Z0) line at 2.5 GHz is 3.1 mm amd 16.9 mm respectively.  To centre the port matching S parameters at 2.5 GHz, the lengths of the quarterwave lines had to be increased to 18.7 mm.
 * Rat Race Coupler - <br>
-The width of the 70.7 ohm (1.414*Z0) line is 1.65 mm. The length of the line is (3/2)*lambda. Which implies, the circumference of the coupler is calculated to be 101.54 mm. This circumference is increased to 103.5 mm to provide a low attenuation for port matching S parameters at 2.5 GHz. 
+The width of the 70.7 ohm (1.414*Z0) line is 1.65 mm. The length of the line is (3/2) *lambda. Which implies, the circumference of the coupler is calculated to be 101.54 mm. This circumference is increased to 103.5 mm to provide a low attenuation for port matching S parameters at 2.5 GHz. 
 
 ## Procedure
 The calculated widths and lengths of the couplers were inserted in HFSS design files and simulated. The parameters were tweaked a bit so that the input port S parameters have a low attenuation at 2.5 GHz. The simulated results were compared with the measured data.
@@ -29,8 +29,12 @@ The calculated widths and lengths of the couplers were inserted in HFSS design f
 ![Plot_Name](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/sumana-pallampati/Lab8/Port_Matching_RatRace.png) <br>
 We observe a 3 dB power split from S31 and S21 at 2.5 GHz for both the couplers. For the hybrid coupler, the measured phase difference is around 100 deg and simulated phase difference is around 89 deg between ports 2 and 3 ( calculated from phase(S21-S31)). Ideally the phase should be 90 deg.
 
+The rat race coupler gives a phase shift of 180 deg, whereas the hybrid coupler gives a phase shift of 90 deg. The hybrid coupler gives an equal power split whereas we can obtain an unequal power split from the rat race coupler by changing the widths of the microstrip lines. Hybrid coupler is used in broadband amplifier design or as power divider or to get quadrature signals. Rat Race coupler is used as  to get in-phase or out-of-phase power combiner/divider and in mixer design.
+
+We put matched loads while measuring S parameters because the network analyzer is a 2 port device whereas the couplers are 4 port devices. Thus, we can measure only two ports at a time using the network analyzer and the other two ports are matched.
+
 ## Conclusion
-The deesign of a hybrid coupler and rat race coupler is straightforward. In the case of a rat race coupler, we can get an unequal power split by simply changing the impedances of the quarter wave sections. The only challenge was tweaking the lengths to get the correct response at 2.5 GHz.
+The design of a hybrid coupler and rat race coupler is straightforward. In the case of a rat race coupler, we can get an unequal power split by simply changing the impedances of the quarter wave sections. The only challenge was tweaking the lengths to get the correct response at 2.5 GHz.
 
 ## Hindsight
 The design was easy and the lab strengthened my understanding on couplers. 
