@@ -33,18 +33,25 @@ Results:
 The following plots show the results of simulations and lab measurements.
 
 ![Simulated Thru Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Thru.png)
+The plot shows the simulated Thru parameters.  The minimum reflection falls at a point just shy of 3 GHz, indicating that the simulated line was slightly longer than it should have been.
 
 ![Measured Thru Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Measured_Thru.png)
+This plot shows the measured Thru parameter S21.  Note that the magnitude of this parameter hovers around 0 dB, in close agreement with both simulated and theoretical results.
 
 ![Simulated Reflect Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Reflect.png)
+The simulated reflect behaves as expected, hovering near 0 dB across the frequency band.  Note the apparently logarithmic response of the reactance in accordance with the theoretical expectation.
 
 ![Simulated Line Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Line.png)
+The line simulation shows a predictably small reflection and a transmission close to unity.  The minima of S11 fall slightly offset from the desired value of 3 GHz, indicating a slight error in line length.
 
 ![Measured Line Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Measured_Line.png)
+The measured line magnitude hovers near 0 dB, and the measured phase exhibits a fairly linear decline.
 
 ![Simulated PIN Diode Switch Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Simulated_Pin_Diode.png)
+The pin diode switch behaves as predicted in the simulation at the target frequency of 2.5 GHz, with high reflection and low transmission when the diode is off, and high transmission and low reflection when the diode is on.  
 
 ![Measured PIN Diode Switch Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab5/Measured_Pin_Diode.png)
+The measured data approximately matches the simulated data, although the peak transmission occurs at around 2.25 GHz, indicative of excess transmission line length.
 
 Conclusion:
 
