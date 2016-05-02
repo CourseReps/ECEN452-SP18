@@ -20,6 +20,7 @@ The load was measured using the Network analyzer, and since the dimensions were 
 The patch antenna was designed to the specifications in the lab manual, and constructed during lab using copper tape. The load impeadance of the patch was determined using the network analyzer, and a single stub was used to match the patch to the feedline. The device was then simulated in HFSS to compare with the measured results. 
 
 ## Results and Discussion
+![VSWR](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab9/VSWR.png)<br>
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
