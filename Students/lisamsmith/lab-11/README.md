@@ -21,7 +21,7 @@ Form the pre-GRL data, it can be seen that the gate reflection occurs at 3.66 ns
 
 ![lab_11_graph2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-11/lab_11_graph2.PNG)
 
-![lab_11_graph3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-11/lab_11_graoh3.PNG)
+![lab_11_graph3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-11/lab_11_graph3.PNG)
 
 ## Conclusion
 In the post-GRL calibration data, S11 goes above zero at about 3.15 Ghz. This means there is stilll error event after calibration. This could be solved by having more absorber around the test set up, a better SOLT calibration, and better matched horn antennas. 
