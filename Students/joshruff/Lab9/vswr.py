@@ -48,18 +48,18 @@ plt.figure(1) #initialize plot1
 ax1 = plt.subplot(111) #create axes handle for plot1
 
 
-ax1.plot(x, y1, '--r', label="Simulated") #plot y2 vs. x, solid-red, add lable for legend
-ax1.plot(x, y2, '--b', label="Cu Tape Stub Matched") #plot y2 vs. x, solid-red, add lable for legend
-ax1.plot(x, y3,'--g', label="Cu Tape Unmatched")#y3 vs. x, dashed-red, add lable for legend
+ax1.plot(x, y1, '-r', label="Simulated") #plot y2 vs. x, solid-red, add lable for legend
+ax1.plot(x, y2, '-b', label="Cu Tape Stub Matched") #plot y2 vs. x, solid-red, add lable for legend
+ax1.plot(x, y3,'-g', label="Cu Tape Unmatched")#y3 vs. x, dashed-red, add lable for legend
 
 
 
 ax1.set_xlim(min(x), max(x)) #set x-axis limits
-ax1.legend(loc=4) #add legend at location #4 (bottom-right corner)
-#ax1.set_ylim(-5,5)#Force y axis limits if necessary
+ax1.legend(loc=3) #add legend at location #4 (bottom-right corner)
+ax1.set_ylim(0,5)#Force y axis limits if necessary
 
 plt.grid(b=True, which='both', color='0.65', linestyle='-') #add solid grey gridlines
-plt.title('RatRace Coupler S-Parameters') #add plot title plt.xlabel('Frequency [GHz]') #add x-axis title
-ax1.set_ylabel('Magnitude [dB]') #add y-axis title
+plt.title('Patch VSWR') #add plot title plt.xlabel('Frequency [GHz]') #add x-axis title
+ax1.set_ylabel('VSWR') #add y-axis title
 
 plt.show()
