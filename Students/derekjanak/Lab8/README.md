@@ -48,7 +48,10 @@ data were created.
 
 Results:
 
-See data plots.
+![Hybrid Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port1.png)
+![Hybrid Coupler Port 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port2.png)
+![Hybrid Coupler Port 3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port3.png)
+![Hybrid Coupler Port 4](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port4.png)
 
 Conclusion:
 
