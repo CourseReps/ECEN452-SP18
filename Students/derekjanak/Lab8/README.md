@@ -44,7 +44,9 @@ Procedure:
 The devices were designed and simulated in HFSS in order to verify their correct operation.  The
 designs were then milled in microstrip on a 62 mil FR4 substrate.  In lab, the network analyzer was
 used to measure each of the devices and the results were saved.  Plots of simulated and measured
-data were created.
+data were created.  During measurement, it was necessary to provide matched loads at unused ports when
+taking a measurement in order to prevent reflections which would introduce noice and error into the
+measurements.
 
 Results:
 
@@ -59,6 +61,10 @@ The simulation shows all ports matched just below 3 GHz.  During simulation, 3 G
 ![Simulated Hybrid Coupler 2-3 Phase shift](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Simulated_Hybrid_Coupler_Phase.png)
 
 The simulation shows the phase difference between ports 2 and 3 reaching 90 degrees at the design frequency, in agreement with design specifications.
+
+![Measured Hybrid Coupler 2-3 Phase shift](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Phase_Shift.png)
+
+As in the simulations, the phase difference between ports 2 and 3 approaches 90 degrees at the design frequency.
 
 ![Hybrid Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port1.png)
 
@@ -78,7 +84,7 @@ The data shows port 4 as being isolated from port 1.  The effects observed at po
 
 ![Simulated Rat Race Coupler Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Simulated_RatRace.png)
 
-The simulation shows transmission from ports 2 and 3 to port 1 and isolation between ports 4 and 1.  This agrees well with experimental data.
+The simulation shows transmission from ports 2 and 3 to port 1 and isolation between ports 4 and 1 (Based on S41).  This agrees well with experimental data.
 
 ![Rat Race Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port1.png)
 
@@ -86,7 +92,7 @@ Port 1 shows low reflectivity near the design frequency, as well as 90 degree ph
 
 ![Rat Race Coupler Port 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port2.png)
 
-Port 2 shows low reflectivity and relative isolation from port 3 at the design frequency.
+Port 2 shows low reflectivity and relative isolation (Based on S23) from port 3 at the design frequency.
 
 ![Rat Race Coupler Port 3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port3.png)
 
@@ -104,6 +110,9 @@ design.  The design was based on models discussed in lecture, and provided a tho
 in even/odd mode analysis.  There were few difficulties in completing this lab, as the design
 was covered thoroughly in lecture and the major part of the assignment centered on the simulation
 of the design.
+
+The simulations did provide a slight challenge, as it was necessary to shorten the lengths of the hybrid coupler
+transmission lines in order to compensate for excess reactance.
 
 Hindsight:
 
