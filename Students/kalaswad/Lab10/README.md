@@ -20,7 +20,7 @@ We used DI water because it does not have extra ions that would affect the probe
 Open-ended elliptical coaxial probes can be used in wideband dielectric constant measurements as well as narrowband. The dielectric constants of liquids are measuring the ability of a substance to store electrical energy in an electric field; so we can generalize the liquids that are good at storing energy like water and glass cleaner, versus the ones that are not good at storing energy like silicon fluid and WD-40. Glass cleaner and Simple Green were considered “watered down” because they had dielectric constants closest to water.
 
 ## Hindsight
-We realized that we should have brought some liquids to measure so that there would be more materials to compare to water.ng of the lab.
+We realized that we should have brought some liquids to measure so that there would be more materials to compare to water.
 
 ## Reflection
 There really wasn’t a challenging part of this lab because there was no design and the in-class portion was done completely by David.
