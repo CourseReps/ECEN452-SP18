@@ -16,12 +16,11 @@ To achieve an equal power split, the interconnections in the Rat-Race coupler ar
 These devices were designed and simulated in HFSS, and optimized as necessary. Afterwards they were compared to versions of the devices which were fabricated by a milling machine. When measuring S-parameters, matched loads were placed on each port to prevent signal from being reflected back into the device by unused ports. Such a reflection would prevent lead to an innacurate measurement. 
 
 ## Results and Discussion
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
-
-To embed graphs or diagrams in your README.md file, commit and push the graphs to your LabX folder (I prefer to save them as .png files) and then get the URL link to the file on github. Then use: <br>
-`![Plot_Name](https://link_to_image_on_github)` <br>
-See the raw text of the tutorials for an example.
-
+###Hybrid Coupler
+![Hybrid-S](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/Hybrid-S.png)<br>
+![Phase_Diff](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/Phase_Diff.png)<br>
+###RatRace Coupler
+![RatRace-S](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/RatRace-S.png)<br>
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
 
