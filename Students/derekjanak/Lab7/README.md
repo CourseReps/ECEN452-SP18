@@ -62,7 +62,12 @@ wavelength offset line segments to achieve phase shifts of 90 degrees.
 
 Results:
 
-See plot images for data.
+![Milled WPD](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Milled_WPD.png)
+![Phase Shifter Line](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_Line.png)
+![Coupled Line](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_Line2.png)
+![90 Degree](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_90deg.png)
+![180 Degree](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_180deg.png)
+
 
 Conclusion:
 
