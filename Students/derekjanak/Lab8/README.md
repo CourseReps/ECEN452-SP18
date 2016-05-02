@@ -1,4 +1,4 @@
-Lab 8
+Lab 8: Couplers
 
 Background:
 
@@ -49,9 +49,34 @@ data were created.
 Results:
 
 ![Hybrid Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port1.png)
+
+
+
 ![Hybrid Coupler Port 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port2.png)
+
+
+
 ![Hybrid Coupler Port 3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port3.png)
+
+
+
 ![Hybrid Coupler Port 4](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port4.png)
+
+
+
+![Rat Race Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port1.png)
+
+
+
+![Rat Race Coupler Port 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port2.png)
+
+
+
+![Rat Race Coupler Port 3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port3.png)
+
+
+
+![Rat Race Coupler Port 4](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port4.png)
 
 Conclusion:
 
