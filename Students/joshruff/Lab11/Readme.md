@@ -9,7 +9,7 @@ The systematic errors described in the signal flow diagram can be removed using 
 
 ## Results and Discussion
 ![Time_Domain](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab11/Time_Domain.png)<br>
-[Thru_PostCal](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab11/Thru_PostCal.png)<br>
+![Thru_PostCal](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab11/Thru_PostCal.png)<br>
 ![Permittivity](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab11/Permittivity.png)<br>
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
