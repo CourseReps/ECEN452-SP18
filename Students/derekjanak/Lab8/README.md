@@ -50,33 +50,35 @@ Results:
 
 ![Hybrid Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port1.png)
 
-
+The reflection shows the expected minimum at the design frequency of 2.5 GHz.
 
 ![Hybrid Coupler Port 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port2.png)
 
-
+The S21 value is approximately -3 dB and the S22 value is minimized at the design frequency, as expected.  The phase shift is noticeable, as can be seen from comparison with the S11 phase.
 
 ![Hybrid Coupler Port 3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port3.png)
 
-
+The S33 and S32 values are minimized at the design frequency, indicating that the two ports are isolated.  The S31  value is approximately -3 dB.  The phase shift is even greater, approximately 180 degrees.
 
 ![Hybrid Coupler Port 4](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port4.png)
 
-
+The data shows port 4 as being isolated from port 1.  The effects observed at ports 2 and 3 are inverted, with port 2 yielding the greater phase shift.
 
 ![Rat Race Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port1.png)
 
-
+Port 1 shows low reflectivity near the design frequency, as well as 90 degree phase shift from port 2.
 
 ![Rat Race Coupler Port 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port2.png)
 
-
+Port 2 shows low reflectivity and relative isolation from port 3 at the design frequency.
 
 ![Rat Race Coupler Port 3](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port3.png)
 
-
+Port 3 shows transmission to port 1 at the design frequency.
 
 ![Rat Race Coupler Port 4](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port4.png)
+
+Port 4 appears to be isolated with inverted effects at ports 2 and 3.
 
 Conclusion:
 
