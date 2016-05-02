@@ -62,6 +62,10 @@ wavelength offset line segments to achieve phase shifts of 90 degrees.
 
 Results:
 
+![Simulated WPD](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Simulated_WPD.png)
+
+The simulated values are in good agreement with the measured results.  The reflectivities and transmission between isolated ports were very low across the band, and S21 and S31 were high, in accordance with expected values.
+
 ![Milled WPD](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Milled_WPD.png)
 
 The measured values of the Wilkinson Power Divider are in agreement with expected values.  The S32 value is low around the target frequency, indicating isolation between ports 2 and 3.  The values of S21 and S31 are both approximately -3 dB, the expected signal attenuation of the circuit.  The reflectivities of all three ports are low in the vicinity of the target frequency.
