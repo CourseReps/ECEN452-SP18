@@ -8,7 +8,7 @@ The Dielectric probe measurement system uses the magnitude and phase of the S-Pa
 The dielectric probe was calibrated for the measurement of a variety of materials, including Acetone, Isopropyl alcohol, DI water among others. To produce the most accurate measurements, the probe was recalibrated in between each measurement. 
 
 ## Results and Discussion
-
+![Permittivity](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab10/Permittivity.png)<br>
 
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
