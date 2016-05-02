@@ -23,7 +23,7 @@ The graphs below show the values for E' of each material from 1 to 5 GHZ and the
 
 ![lab_10_graph2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-10/lab_10_graph2.PNG)
 
-![lab_10_values](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-10/lab_10_values.PNG)
+![lab_10_value](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/lisamsmith/lab-10/lab_10_value.PNG)
 
 ## Conclusion
 Materials that had higher E' values have more water in them. Materials that did not contain water had very low E' values. This process was highly sensitive to the movement and placement of the probe and the cables it was attached to. Ways to improve this lab include re calibrating in between each material tested, larger sample sizes used to maintain a better open circuit coax model, and better cleaning of the probe in between measurements. 
