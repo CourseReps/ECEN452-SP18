@@ -43,6 +43,8 @@ Results:
 
 ![Patch Antenna](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab9/Measured_Antenna.png)
 
+The matched data shows less noise and slightly less reflection than the unmatched data.  The matching network eliminates the reflection from the loading effect of the antenna, increasing power transmission.
+
 Conclusion:
 
 In this lab, students designed a patch antenna and matched it to an input feedline.  The design
