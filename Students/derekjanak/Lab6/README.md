@@ -28,9 +28,16 @@ strips of tape were joined using solder, and the output was plotted using a netw
 Results:
 
 ![50 Ohm Line](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_50ohm_Line.png)
+The 50 ohm line shows the expected near unity transmission of signal.
+
 ![Cut-Tape BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_BSF.png)
+The filter response shows a stop band around 3 GHz.  The response is shifted slightly toward higher frequencies, indicating that the stub lengths are slightly shorter than they should be.  Ultimately,  the design met the specified parameters within acceptable error bounds, especially considering that it was hand fabricated using copper tape.
+
 ![Milled BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_Milled_BSF.png)
+The milled filter response shows a stop band around 2.6 GHz, slightly shy of the target 3 GHz.  The stop band of the filter is much more symmetrical and smooth than the copper tape design due to the precision of its fabrication.
+
 ![Milled LPF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_Milled_LPF.png)
+The milled low-pass filter design shows a low reflectivity which reaches a minimum around the target 3 GHz before rising to near unity.  This is accompanied by a unity transmission which begins to fall off after the pole frequency at approximately 3 GHz.
 
 Conclusion:
 
