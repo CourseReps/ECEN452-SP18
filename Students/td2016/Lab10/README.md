@@ -17,7 +17,11 @@ For this lab, I have graphed the results of the dielectric materials that were m
 We also plotted the dielectric constant for DI water over a larger range to have a better understand of how the constant changes after a certain frequency range. 
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/td2016/Lab10/diwater.png)<br>
 
-
+The values that we got for our measurements were roughly the same as the standard values for the dielectric constants of these materials.
+For Acetone, we measured 20.9 when the actual was 20.7
+For Ethylene Gylcol, we measured 37.9 when the actual was 37.
+For Isopropyl Alcohol, we measured 19.9 when the actual was 17.9.
+For Silicone Fluid, we measured 1.92 when the actual was 2.18.
 
 ## Conclusion
 From this lab, I can conclude that the higher the dielectric constant a material has, the more likely it is to be water based. Our test setup did cause errors within our measurement, as the liquids had been sitting our for about a week and their purity was questionable (they could have had contaminants like dust). Our test setup was also extremely senstive to movement. A way we could improve our measurements is by taking the measurments right after we open the product and by having multiple samples to eliminate noise.
