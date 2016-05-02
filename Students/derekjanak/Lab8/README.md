@@ -48,6 +48,18 @@ data were created.
 
 Results:
 
+![Simulated Hybrid Coupler Input Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Simulated_Hybrid_Input.png)
+
+The simulation plot shows transmission from port 2 to port 1 and port 3 to port 1, and isolation between ports 1 and 4.  This is in good agreement with measured values.  Due to design error, the center frequency was mistakenly chosen as 3 GHz, explaining the offset from measured values.
+
+![Simulated Hybrid Coupler Port Match](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Simulated_Hybrid_Port_Match.png)
+
+The simulation shows all ports matched just below 3 GHz.  During simulation, 3 GHz was mistakenly used as the target value, explaining the large deviation from 2.5 GHz.  Taking this discrepancy into account, the values match with the measured data.
+
+![Simulated Hybrid Coupler 2-3 Phase shift](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Simulated_Hybrid_Coupler_Phase.png)
+
+The simulation shows the phase difference between ports 2 and 3 reaching 90 degrees at the design frequency, in agreement with design specifications.
+
 ![Hybrid Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port1.png)
 
 The reflection shows the expected minimum at the design frequency of 2.5 GHz.
@@ -63,6 +75,10 @@ The S33 and S32 values are minimized at the design frequency, indicating that th
 ![Hybrid Coupler Port 4](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_Milled_Hybrid_Port4.png)
 
 The data shows port 4 as being isolated from port 1.  The effects observed at ports 2 and 3 are inverted, with port 2 yielding the greater phase shift.
+
+![Simulated Rat Race Coupler Parameters](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Simulated_RatRace.png)
+
+The simulation shows transmission from ports 2 and 3 to port 1 and isolation between ports 4 and 1.  This agrees well with experimental data.
 
 ![Rat Race Coupler Port 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Measured_RatRace_Port1.png)
 
