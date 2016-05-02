@@ -63,11 +63,24 @@ wavelength offset line segments to achieve phase shifts of 90 degrees.
 Results:
 
 ![Milled WPD](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Milled_WPD.png)
+
+The measured values of the Wilkinson Power Divider are in agreement with expected values.  The S32 value is low around the target frequency, indicating isolation between ports 2 and 3.  The values of S21 and S31 are both approximately -3 dB, the expected signal attenuation of the circuit.  The reflectivities of all three ports are low in the vicinity of the target frequency.
+
 ![Phase Shifter Line](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_Line.png)
+
+This measurement shows the 50 ohm line used in the phase shifter.  The response is characteristic of a normal transmission line.
+
 ![Coupled Line](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_Line2.png)
+
+This plot shows the same line with coupling from the now adjacent phase shifted paths.  Note the greater irregularity of the signal.
+
 ![90 Degree](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_90deg.png)
+
+This plot shows the phase of the signal shifted 90 degrees.  Note that the spacing between the S11 and S21 phase curves is much greater than in the previous plot.
+
 ![180 Degree](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/Measured_Phase_Shifter_180deg.png)
 
+This plot shows the signal phase shifted 180 degrees.  Note that the S21 signal has been shifted up from the S11 curve.
 
 Conclusion:
 
