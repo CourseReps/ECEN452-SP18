@@ -6,10 +6,12 @@ The Hybrid coupler and Rat Rase couplers are four port divices in which the powe
 
 ## Design
 ###Hybrid Coupler
+![Hybrid](Hybrid_Coupler.jpg)
 All interconnections of the hybrid coupler are quarter-wave. In the diagram, the vertical strips match the feedline impedance (50-Ohms), while the horizontal strips are scaled down to 35-Ohms. A microstrip line calculator was used to determine the physical lengths and widths. The 50 Ohm lines had a width of 3.13 mm and a length of 16.88 mm. The 35 Ohm lines had a width of 5.27 mm and a physical length of 16.47 mm. 
 
 
 ###Rat-Race Coupler
+![RatRace](RR_Coupler.jpg)
 To achieve an equal power split, the interconnections in the Rat-Race coupler are all equally set to root 2 times the feed line impedance, or 71 Ohms. The three smaller interconnections are all quarter wave in length, while the longer interconnection is three-quarters of a wavelength long. Using the microstrip calculator, the feedline is determined ot have a width of 1.71 mm, and a length of 17.7 mm. The feedline had a width of 3.13 mm. 
 
 ## Procedure
