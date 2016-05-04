@@ -20,6 +20,8 @@ These devices were designed and simulated in HFSS, and optimized as necessary. A
 ## Results and Discussion
 ###Hybrid Coupler
 ![Hybrid-S](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/Hybrid-S.png)<br>
+The S11 Plot shows the amount of power reflected by the input port. The resonance in each S11 demonstrates frequency the device is matched at. The milled S11 showed a match at 2.5 GHz, while the simulated version showed a match at closer to 2.8 GHz. The S41 parameter has minima at the same locations which demonstrates isolation between ports 1 and 4. S21 and S31 approach -3dB at 2.5 GHz for the milled version of the Hybrid and 2.8 for the phase shifted version, showng a decent half power split. 
+
 ![Phase_Diff](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/Phase_Diff.png)<br>
 ###RatRace Coupler
 ![RatRace-S](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/RatRace-S.png)<br>
