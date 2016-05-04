@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90639bd6-a5f0-4445-81a3-2dcde220e984" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lab9/patch.png" afterPath="$PROJECT_DIR$/Lab9/plotting/patch.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lab9/patch_formula.png" afterPath="$PROJECT_DIR$/Lab9/plotting/patch_formula.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lab9/s11_mag1.png" afterPath="$PROJECT_DIR$/Lab9/plotting/s11_mag1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lab9/s11_mag2.png" afterPath="$PROJECT_DIR$/Lab9/plotting/s11_mag2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lab9/smith_chart1.png" afterPath="$PROJECT_DIR$/Lab9/plotting/smith_chart1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lab9/smith_chart2.png" afterPath="$PROJECT_DIR$/Lab9/plotting/smith_chart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/com_port.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/reflection0.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/reflection1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/reflection2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/reflection3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/reflection4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/test2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/test3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hongpan0507.iml" afterPath="$PROJECT_DIR$/.idea/hongpan0507.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab9/mod_snp.py" afterPath="$PROJECT_DIR$/Lab9/mod_snp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab9/plotting.py" afterPath="$PROJECT_DIR$/Lab9/plotting.py" />
     </list>
     <ignored path="hongpan0507.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,24 +40,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lab9_patch_s11_smith.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab9/lab9_patch_s11_smith.csv">
+      <file leaf-file-name="com_port.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/final_project/com_port.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4489796">
+              <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotting.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab9/plotting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5533662">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -66,9 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Lab7/lab7.py" />
-        <option value="$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/reconfig_slot_antenna/plotting.py" />
         <option value="$PROJECT_DIR$/Lab8/lab8.py" />
         <option value="$PROJECT_DIR$/Lab9/README.MD" />
         <option value="$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw3/transistor_stability.py" />
@@ -82,28 +79,52 @@
         <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/plot_mod.py" />
         <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/test2.py" />
         <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/test3.py" />
-        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_norm_rad.py" />
-        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_read_data.py" />
         <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/test.py" />
-        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/main_plotting.py" />
-        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/main_plotting.py" />
-        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/mod_plot.py" />
-        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/test.py" />
-        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_plot.py" />
         <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/mod_s1p.py" />
         <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/test.py" />
         <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/mod_snp.py" />
         <option value="$PROJECT_DIR$/Lab9/test.py" />
-        <option value="$PROJECT_DIR$/Lab9/mod_snp.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/plotting.py" />
         <option value="$PROJECT_DIR$/Lab9/plotting.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/test1.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/test.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/main_plotting.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/mod_read_data.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/plotting.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/mod_plot.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_read_data.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_plot.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/mod_plot.py" />
+        <option value="$PROJECT_DIR$/final_project/reflection.py" />
+        <option value="$PROJECT_DIR$/final_project/reflection1.py" />
+        <option value="$PROJECT_DIR$/final_project/reflection2.py" />
+        <option value="$PROJECT_DIR$/final_project/reflection3.py" />
+        <option value="$PROJECT_DIR$/final_project/reflection4.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/hfss/main_plotting.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/PNA/main_plotting.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/test.py" />
+        <option value="$PROJECT_DIR$/Lab9/mod_snp.py" />
+        <option value="$PROJECT_DIR$/final_project/test3.py" />
+        <option value="$PROJECT_DIR$/final_project/test2.py" />
+        <option value="$PROJECT_DIR$/final_project/test.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/mod_read_data.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/mod_read_data.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/mod_plot.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/main_plotting.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/mod_norm_rad.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_norm_rad.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/main_plotting.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/mod_norm_rad.py" />
+        <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/main_plotting.py" />
+        <option value="$PROJECT_DIR$/final_project/com_port.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -131,7 +152,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,114 +180,124 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lab9" />
+              <option name="myItemId" value="final_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen638_hw" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="C:/Anaconda3/envs/python2/python.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="cross_antenna" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="cross_antenna" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\ECEN452-Spring2016\Students\hongpan0507\final_project" />
       <recent name="D:\Github\ECEN452-Spring2016\Students\hongpan0507\Lab9\plotting" />
       <recent name="D:\Github\Programming\Python\pycharm\ecen641\hw1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Github\Programming\Python\pycharm\programs\s-parameter_plotting" />
-      <recent name="D:\Github\ECEN452-Spring2016\Students\hongpan0507\Lab9" />
-      <recent name="D:\Dropbox\tamu\eGaIn\reconfig_slot_antenna\data\2016_04_10\PNA" />
-      <recent name="D:\Github\ECEN452-Spring2016\Students\hongpan0507\Lab5" />
-      <recent name="D:\Github\ECEN452-Spring2016\Students\hongpan0507\Lab6" />
+      <recent name="D:\Dropbox\tamu\eGaIn\cross_antenna\data\2016_04_28\chamber_measurement" />
+      <recent name="D:\Dropbox\tamu\eGaIn\cross_antenna\data\2016_04_28\PNA" />
+      <recent name="D:\Dropbox\tamu\eGaIn\cross_antenna\data\2016_04_28\hfss" />
+      <recent name="D:\Github\ECEN452-Spring2016\Students\hongpan0507" />
+      <recent name="D:\Github\ECEN452-Spring2016\Students\hongpan0507\final_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.plotting (1)">
-    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.com_port">
+    <configuration default="false" name="com_port" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/final_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hongpan0507" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab9/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/final_project/com_port.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="plotting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="main_plotting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA" />
+      <option name="WORKING_DIRECTORY" value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cross_antenna" />
+      <option name="SCRIPT_NAME" value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/main_plotting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main_plotting (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sinusoidal_antenna" />
+      <option name="SCRIPT_NAME" value="D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/main_plotting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mod_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cross_antenna" />
+      <option name="SCRIPT_NAME" value="D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/mod_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main_plotting (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="reconfig_slot_antenna" />
-      <option name="SCRIPT_NAME" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/plotting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="reconfig_slot_antenna" />
-      <option name="SCRIPT_NAME" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="mod_snp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="reconfig_slot_antenna" />
-      <option name="SCRIPT_NAME" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/mod_snp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="plotting (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hongpan0507" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab9/plotting.py" />
+      <option name="SCRIPT_NAME" value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/main_plotting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -395,19 +425,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.plotting" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mod_snp" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plotting (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.com_port" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main_plotting" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main_plotting (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mod_plot" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main_plotting (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.plotting (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plotting" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mod_snp" />
+        <item index="0" class="java.lang.String" itemvalue="Python.com_port" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main_plotting (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main_plotting" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main_plotting (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mod_plot" />
       </list>
     </recent_temporary>
   </component>
@@ -438,19 +468,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19599578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13252376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851636" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34155598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20603538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796207" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5151803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905214" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -490,6 +520,81 @@
           <line>57</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_plot.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/reflection0.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/reflection2.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/reflection2.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/reflection2.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/reflection3.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/test.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/test.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/test2.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/final_project/com_port.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/main_plotting.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/main_plotting.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/main_plotting.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/main_plotting.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/main_plotting.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -501,332 +606,247 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="measured_rad_state7" language="Python" />
-        <watch expression="row" language="Python" />
+        <watch expression="x" language="Python" />
+        <watch expression="c" language="Python" />
+        <watch expression="ratio_T1_T2" language="Python" />
+        <watch expression="gamma_ang2" language="Python" />
+        <watch expression="gamma_ang1" language="Python" />
+        <watch expression="ratio_T1_T2" language="Python" />
+        <watch expression="c" language="Python" />
+        <watch expression="RX" language="Python" />
+        <watch expression="H" language="Python" />
+        <watch expression="cmd_in" language="Python" />
+        <watch expression="addr_bit" language="Python" />
+        <watch expression="vcc" language="Python" />
+        <watch expression="x_pol_YZ_measured_rad" language="Python" />
+        <watch expression="x_pol_XZ_measured_rad" language="Python" />
+        <watch expression="y_pol_YZ_measured_rad" />
+        <watch expression="y_pol_XZ_measured_rad" />
+        <watch expression="XZ_measured_rad_state0" language="Python" />
+        <watch expression="YZ_measured_rad_state0" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab8/lab8_hybrid_coupler_transmission_phase.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/LMA_data_plotting/panel2A/5/plotting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab6/lab6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab7/lab7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-95.93104">
-          <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/README.MD">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab8/lab8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40949228">
-          <caret line="172" column="57" selection-start-line="172" selection-start-column="57" selection-end-line="172" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw1/S-parameter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw3/transistor_stability.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.553696">
-          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/exam1/microstrip_line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw4/dB_decimal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21212122">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3939394">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/LMA_data_plotting/TRL_data/plotting_TRL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/TRL_cal/plotting_TRL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel1/csv/s11_plotting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/LMA_data_plotting/panel1/VSWR_to_s11_log_mag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel1/csv/VSWR_to_s11_log_mag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4848485">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/state0_horizontal_polCSV.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5307517">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen638_hw/hw2_problem1_part1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw1/utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw1/S-parameter_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74603176">
-          <caret line="2410" column="0" selection-start-line="2410" selection-start-column="0" selection-end-line="2410" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_read_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05860806">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_norm_rad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2930403">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw4/mini_noise_amp_design.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53662694">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/chamber_setup.png">
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/vertical_pol.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/test.py">
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/sim_model.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/plotting/Measured State 0_mode1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/state0.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79727095">
-          <caret line="55" column="77" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/plotting/measured state 0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state1_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state0_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state2_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="55" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state3_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="55" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state4_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="57" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state5_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="55" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state6_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="58" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/simulated_state7_rad.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/mod_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78559464">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.15307583">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8308208">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/main_plotting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82222223">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/HP_JP_QWT.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16816817">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/HP_JP_Unmatched.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3813815">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/state0.csv">
+    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw4/dB_decimal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/plotting.py">
+    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/ecen641/hw4/mini_noise_amp_design.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.096096">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/slot_antenna_state_1_measurement1.csv">
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/mod_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26426426">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="4" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/test.py">
+    <entry file="file://$PROJECT_DIR$/final_project/reflection0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24024025">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
-            <element signature="e#0#17#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/test.py">
+    <entry file="file://$PROJECT_DIR$/final_project/reflection1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45714286">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/plotting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="122" column="66" selection-start-line="122" selection-start-column="66" selection-end-line="122" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/PNA/mod_read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="72" selection-start-line="69" selection-start-column="72" selection-end-line="69" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_project/reflection2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/main_plotting.py">
+    <entry file="file://$PROJECT_DIR$/Lab8/lab8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7237236">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="465" column="0" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_plot.py">
+    <entry file="file://$PROJECT_DIR$/final_project/reflection3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8138138">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/mod_snp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6006006">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
-            <element signature="e#0#17#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/plotting.py">
+    <entry file="file://$PROJECT_DIR$/final_project/reflection4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14414415">
-          <caret line="74" column="75" selection-start-line="74" selection-start-column="75" selection-end-line="74" selection-end-column="75" />
-          <folding />
+        <state vertical-scroll-proportion="0.3586207">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/s-parameter_extraction/s-parameter_extract.py">
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/PNA/straight_channel_RI.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Programming/Python/pycharm/programs/s-parameter_extraction/reflect_s11_discrete_RI_deembedding.csv">
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/PNA/main_plotting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.60229445">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/lab9_patch_s11_smith.csv">
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/PNA/mod_snp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.77931035">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/PNA/main_plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50344825">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="70" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19478261">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -834,50 +854,153 @@
     <entry file="file://$PROJECT_DIR$/Lab9/mod_snp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/plotting/patch.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/plotting/patch_formula.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/plotting/smith_chart2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/plotting/smith_chart1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/plotting/s11_mag2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab9/plotting/s11_mag1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab9/plotting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5533662">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_project/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023021583">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_project/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_project/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7496403">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/state0_horizontal_polCSV.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/x_pol_yz_planePhi90.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34532374">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/mod_read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027777778">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/mod_read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/mod_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9158576">
+          <caret line="123" column="31" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/mod_norm_rad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4586549">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/sinusoidal_antenna/data/panel2B/4/chamber_measurement/main_plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/main_plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+          <folding>
+            <element signature="e#213#223#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/cross_antenna/data/2016_04_28/chamber_measurement/mod_norm_rad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/main_plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4467742">
+          <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/mod_norm_rad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8451613">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_project/com_port.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4489796">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

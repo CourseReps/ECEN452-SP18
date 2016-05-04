@@ -10,7 +10,7 @@ import csv
 
 
 def imp_s1p(file_name):     # csv input impedance to s1p s11
-    file_r = open(file_name, 'rb')  # open the file
+    file_r = open(file_name, 'rt')  # open the file
     csv_data = csv.reader(file_r, delimiter=',')   # convert cvs file to python list
 
     freq = []   # cell to hold data
@@ -33,7 +33,7 @@ def imp_s1p(file_name):     # csv input impedance to s1p s11
 
 
 def s11_s1p(file_name):     # csv s11 to s1p s11
-    file_r = open(file_name, 'rb')  # open the file
+    file_r = open(file_name, 'rt')  # open the file
     csv_data = csv.reader(file_r, delimiter=',')   # convert cvs file to python list
 
     freq = []   # cell to hold data

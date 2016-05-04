@@ -1,5 +1,3 @@
-import skrf as rf
-import os
 from matplotlib import pyplot as plot
 from mod_snp import imp_s1p, s11_s1p
 
