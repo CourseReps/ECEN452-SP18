@@ -19,8 +19,15 @@ The patch antenna was designed to the specifications in the lab manual, and cons
 
 ## Results and Discussion
 ![VSWR](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab9/VSWR.png)<br>
+The unmatched patch shows a resonant frequency of 3.11 GHz on this chart. When the stub matching network is added to the patch, the VSWR drops to nearly 1 (which is the ideal value.) The simulated version of the patch is successfully matched to exactly 3 GHz. 
+
+
+![SmithChart](Smith.png)
+The marker m1 shows the load experienced by the simulated patch at 3 GHz. Ideally, the load should be centered at z=1+0j at this frequency. The load shown is 1.1064 -.032j which is very cloase to the ideal value. 
+
+
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+A patch antenna was constructed with copper tape in lab and simulated in HFSS. The version constructed in lab ended up with a Resonant frequency of 3.11 GHz because the length was slightly shorter than designed, while the simulated version had a resonant frequency of 3 GHz as designed. 
 
 
