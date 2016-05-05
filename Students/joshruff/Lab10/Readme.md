@@ -13,5 +13,5 @@ Glass cleaner correlated most closely to water, while Pine Sol and Simple Green 
 ![DI_Water](DI_Water.png)
 This measurement starts out neear 80 as expected, but falls off as the frequency increases into the Gigahertz range, which shows that the probe is more accurate for smaller frequency ranges. 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
+The Dielectric constant of a varietey of materials was measured, and the results were used to make generalizations about the contents of the materials. Glass cleaner, Pine Sol, and Simple Green Cleaner all had relatively high water content, while WD-40, Silicone Fluid and Hydrocal were more oil based. 
 
