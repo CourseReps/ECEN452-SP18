@@ -26,8 +26,7 @@ The S11 Plot shows the amount of power reflected by the input port. The resonanc
 At the target frequency of 2.5 GHz, ports 2 and 3 have a targeted phase shift of 90 degrees. This is measured by subtracting the phase of S31 from S21 to and plotted above. The simulated design has closer to 85 degrees of phase difference at the target frequency, while the milled design rests at approximately 92 degrees. The simulated design's phase shift could be improved in similar fasion to the S11 matching discussed earlier, by lengthening the interconnects of the coupler. 
 ###RatRace Coupler
 ![RatRace-S](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/RatRace-S.png)<br>
-Unlike the hybrid coupler, the Rat-Race design didn't have any issues with overlapping sections of transmisison line, so The simulated and milled designs both demonstrated a match to the desired design frequency of 2.5 GHz. The S11 parameter demonstrates this match with it's minima at that frequency. 
+Unlike the hybrid coupler, the Rat-Race design didn't have any issues with overlapping sections of transmisison line, so The simulated and milled designs both demonstrated a match to the desired design frequency of 2.5 GHz. The S11 parameter demonstrates this match with it's minima near that frequency. The S41 Parameter also has a minima around 2.5 GHz, which demonstrates that port 4 is the isolation port. S21 and S31 are both around -3dB at 2.5 GHz which demonstrates an equal power split between ports 2 and 3. The milled design's S-Parameters correlate  closely to the simulated design; the differences between the two versions of the coupler are minimal. 
 
 ## Conclusion
-Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
-
+The RatRace and Hybrid couplers were designed to split the power input at port one between ports 2 and 3 at 2.5 GHz. For the hybrid coupler, the simulated design frequency ran into issues with overlapping microstrip lines, and thus had a higher than desired match frequency. With the exception of this issue, the devices behaved as desired.  
