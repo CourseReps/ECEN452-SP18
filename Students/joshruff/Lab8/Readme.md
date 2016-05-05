@@ -20,11 +20,14 @@ These devices were designed and simulated in HFSS, and optimized as necessary. A
 ## Results and Discussion
 ###Hybrid Coupler
 ![Hybrid-S](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/Hybrid-S.png)<br>
-The S11 Plot shows the amount of power reflected by the input port. The resonance in each S11 demonstrates frequency the device is matched at. The milled S11 showed a match at 2.5 GHz, while the simulated version showed a match at closer to 2.8 GHz. The S41 parameter has minima at the same locations which demonstrates isolation between ports 1 and 4. S21 and S31 approach -3dB at 2.5 GHz for the milled version of the Hybrid and 2.8 for the phase shifted version, showng a decent half power split. 
+The S11 Plot shows the amount of power reflected by the input port. The resonance in each S11 demonstrates frequency the device is matched at. The milled S11 showed a match at 2.5 GHz, while the simulated version showed a match at closer to 2.8 GHz. The S41 parameter has minima at the same locations which demonstrates isolation between ports 1 and 4. S21 and S31 approach -3dB at 2.5 GHz for the milled version of the Hybrid and 2.8 for the phase shifted version, showng a decent half power split. The design frequency of 2.5 GHz  could be achieved in the simulation by lengthening the quarter-wave interconnects in the coupler to account for the overlap between connecting sections of microstrip. 
 
 ![Phase_Diff](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/Phase_Diff.png)<br>
+At the target frequency of 2.5 GHz, ports 2 and 3 have a targeted phase shift of 90 degrees. This is measured by subtracting the phase of S31 from S21 to and plotted above. The simulated design has closer to 85 degrees of phase difference at the target frequency, while the milled design rests at approximately 92 degrees. The simulated design's phase shift could be improved in similar fasion to the S11 matching discussed earlier, by lengthening the interconnects of the coupler. 
 ###RatRace Coupler
 ![RatRace-S](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab8/Data/RatRace-S.png)<br>
+Unlike the hybrid coupler, the Rat-Race design didn't have any issues with overlapping sections of transmisison line, so The simulated and milled designs both demonstrated a match to the desired design frequency of 2.5 GHz. The S11 parameter demonstrates this match with it's minima at that frequency. 
+
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
 
