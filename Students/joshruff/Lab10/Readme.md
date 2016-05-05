@@ -9,8 +9,8 @@ The dielectric probe was calibrated for the measurement of a variety of material
 
 ## Results and Discussion
 ![Permittivity](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab10/Permittivity.png)<br>
-Glass cleaner correlated most closely to water, while Pine Sol and Simple Green cleaner both had high permittivity values, which shows that they are relatively watered down. Ethylene Glycol and Isopropyl Alcohol had similar shapes, and correlated more closely as frequency increased. Acetone remained roughly constant at a relative permittivity of 20. Silicone Fluid, Hydrocal, and WD-40 all have very close permitivities, which shows that they all have a high oil content. 
-![DI_Water](DI_Water.png)
+Glass cleaner correlated most closely to water, while Pine Sol and Simple Green cleaner both had high permittivity values, which shows that they are relatively watered down. Ethylene Glycol and Isopropyl Alcohol had similar shapes, and correlated more closely as frequency increased. Acetone remained roughly constant at a relative permittivity of 20. Silicone Fluid, Hydrocal, and WD-40 all have very close permitivities, which shows that they all have a high oil content.<br> 
+![DI_Water](DI_Water.png)<br>
 This measurement starts out neear 80 as expected, but falls off as the frequency increases into the Gigahertz range, which shows that the probe is more accurate for smaller frequency ranges. 
 ## Conclusion
 The Dielectric constant of a varietey of materials was measured, and the results were used to make generalizations about the contents of the materials. Glass cleaner, Pine Sol, and Simple Green Cleaner all had relatively high water content, while WD-40, Silicone Fluid and Hydrocal were more oil based. 
