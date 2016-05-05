@@ -45,6 +45,3 @@ Both my lab partner and I had issues soldiering the connections using the heat g
 ## Conclusion
 Summarize the key points in the design and results. Also mention unexpected challenges (if any) in the design and how you overcame them. 
 
-## Hindsight
-I need more soldiering practice. 
-
