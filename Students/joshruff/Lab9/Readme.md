@@ -23,7 +23,7 @@ The unmatched patch shows a resonant frequency of 3.11 GHz on this chart. When t
 
 
 ![SmithChart](Smith.PNG)
-The marker m1 shows the load experienced by the simulated patch at 3 GHz. Ideally, the load should be centered at z=1+0j at this frequency. The load shown is 1.1064 -.032j which is very cloase to the ideal value. 
+S11 is plotted on the Smith Chart above. The marker m1 shows the load experienced by the simulated patch at 3 GHz. For an ideal match, the load should be centered at z=1+0j at this frequency. The load shown is 1.1064 -.032j which is very close to the ideal value. 
 
 
 
