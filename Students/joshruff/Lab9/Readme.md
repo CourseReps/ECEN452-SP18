@@ -11,7 +11,7 @@ The patch was designed to target a 3 GHz operating frequency. The dimensions wer
 
 ![Equations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab9/Equations.png)<br>
 
-The load was measured using the Network analyzer, and the patch demonstrated a resonant frequency of 3.11 GHz. The stub matching version of the antenna was matched to this frequency using a smith chart. 
+The load was measured using the Network analyzer, and the patch demonstrated a resonant frequency of 3.11 GHz. The stub matching version of the antenna was matched to this frequency using a smith chart. <br>
 ![StubMatch](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/joshruff/Lab9/Stub_Diagram.png)<br>
 
 ## Procedure
