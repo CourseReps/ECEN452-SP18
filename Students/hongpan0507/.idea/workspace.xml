@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90639bd6-a5f0-4445-81a3-2dcde220e984" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_plot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_read_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab11/main_plotting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab11/mod_plot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab11/mod_read_data.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Acetone.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/DI_water.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Ethylene_Glycol.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Glass_Cleaner.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Hydrocal.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Isopropyl_Alcohol.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Pine_Sol.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Silicone_Fluid.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/Simple_Green_Cleaner.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Wednesday/WD_40.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hongpan0507.iml" afterPath="$PROJECT_DIR$/.idea/hongpan0507.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/plotting/die_meas.png" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/plotting/die_meas.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py" />
     </list>
     <ignored path="hongpan0507.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,12 +35,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_plotting.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_plotting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab11/main_plotting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62015504">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Acetone.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/Acetone.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_plotting.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08480565">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="4" selection-end-column="88" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,20 +138,20 @@
         <option value="D:/Dropbox/tamu/eGaIn/reconfig_slot_antenna/data/2016_04_10/chamber_measurement/main_plotting.py" />
         <option value="$PROJECT_DIR$/final_project/com_port.py" />
         <option value="$PROJECT_DIR$/Lab10/MeasuredData/Friday/test.py" />
-        <option value="$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py" />
         <option value="$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_read_data.py" />
         <option value="$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_plot.py" />
         <option value="$PROJECT_DIR$/Lab11/mod_read_data.py" />
         <option value="$PROJECT_DIR$/Lab11/mod_plot.py" />
         <option value="$PROJECT_DIR$/Lab11/main_plotting.py" />
+        <option value="$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="-311" />
+    <option name="y" value="491" />
+    <option name="width" value="1920" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -203,7 +208,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lab11" />
+              <option name="myItemId" value="Lab10" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,11 +222,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lab11" />
+              <option name="myItemId" value="Lab10" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plotting" />
+              <option name="myItemId" value="MeasuredData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Friday" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,7 +265,7 @@
       <recent name="D:\Github\Programming\Python\pycharm\ecen641\hw1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_plotting">
+  <component name="RunManager" selected="Python.main_plotting (3)">
     <configuration default="false" name="com_port" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -473,8 +482,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main_plotting" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main_plotting (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main_plotting (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main_plotting" />
         <item index="2" class="java.lang.String" itemvalue="Python.mod_plot" />
         <item index="3" class="java.lang.String" itemvalue="Python.test" />
         <item index="4" class="java.lang.String" itemvalue="Python.com_port" />
@@ -517,16 +526,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-311" y="491" width="1920" height="1092" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26264882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18756641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922202" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5613497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796207" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -651,7 +660,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py</url>
-          <line>8</line>
+          <line>6</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
@@ -1010,30 +1019,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/Acetone.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3090129">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1071,9 +1062,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab11/main_plotting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62015504">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/Acetone.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08480565">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="4" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
