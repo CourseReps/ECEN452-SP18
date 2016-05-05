@@ -23,6 +23,3 @@ How the dielectric constant of DI water was found and used as a standard before 
 
 ## Hindsight
 Dielectric probe is very sensitive to its movement.
-
-## Reflection
-Breifly describe the most challenging parts of the lab and the most rewarding parts of the lab.
