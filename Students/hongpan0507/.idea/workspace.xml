@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="90639bd6-a5f0-4445-81a3-2dcde220e984" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/plotting/die_meas.png" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/plotting/die_meas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/plotting/die_meas_water.png" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/plotting/die_meas_water.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_plot.py" afterPath="$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_plot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab11/mod_plot.py" afterPath="$PROJECT_DIR$/Lab11/mod_plot.py" />
     </list>
     <ignored path="hongpan0507.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main_plotting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab11/main_plotting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main_plotting.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/main_plotting.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,20 +38,10 @@
         </entry>
       </file>
       <file leaf-file-name="mod_plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab11/mod_plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mod_plot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_plot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -1070,14 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab11/main_plotting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab11/mod_plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1086,10 +1056,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11/main_plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28268552">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab10/MeasuredData/Friday/mod_plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
