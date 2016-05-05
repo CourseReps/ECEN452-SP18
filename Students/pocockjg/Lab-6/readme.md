@@ -2,13 +2,13 @@
 Jared Pocock
 
 ## Background
-The goal of this lab was to build a band stop filter that would prevent transmission from 2.25 to 3.75 GHz. 
+The goal of this lab was to build a band stop filter that would prevent transmission from 2.25 to 3.75 GHz. There were also Low Pass Filter designs that were simulated in HFSS.
 
 ## Design
 From the calculations in the pre-lab, the charateristic impedance of the thru line and center stub of the filter is 50 ohms, which when inputted to the online calculator gave a line width of 3 mm. From the pre-lab, we know that the other line widths for the stubs should be for 77 and 104 ohms should be 1.3 mm and .56 mm respectively. The lengths of all stubs were a quarter wavelength.
 
 ## Procedure
-The first step in the lab is to lay the copper tape across the FR4 board to act as the transmission line. After that, the connectors on the ends of the transmission line are soldered onto the board. When that was finished, the strips of copper tape were cut out to the widths and length needed.
+For the procedure in the physical part of the lab, the first step in the lab is to lay the copper tape across the FR4 board to act as the transmission line. After that, the connectors on the ends of the transmission line are soldered onto the board. When that was finished, the strips of copper tape were cut out to the widths and length needed.
 
 ## Results and Discussion
 Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
