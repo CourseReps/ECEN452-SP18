@@ -1,5 +1,8 @@
 Lab 8: Couplers
 
+![Hybrid Coupler](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/Hybrid.PNG)
+![Rat Race Coupler](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab8/RatRace.PNG)
+
 Background:
 
 This lab focused on the demonstration of milled  quadrature hybrid couplers and rat race coupler 
