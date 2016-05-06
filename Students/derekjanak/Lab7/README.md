@@ -1,5 +1,7 @@
 Lab 7
 
+![WPD](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/WPD.PNG)
+
 Background:
 
 In this lab, we designed and built simple phase shifter circuits, then took measurements of
