@@ -21,7 +21,7 @@ The higher the dielectric constant (the ones close to 80), the more water down i
 The probe accuracy decreased as the frequency got bigger. 
 
 ## Conclusion
-The lab was very informative. We can easily determine if a material is water, acetone or oil based using its dielectric constant. The reason we use DI water as a calibration standard is because it’s neutral, and gives the maximum difference between a short and open circuit. One way we can improve the calibration process is to get a better stand that will wobble less. The dielectric probe be used for both wideband and narrowband measurements but it works better if we use it for narrowband, I based my conclusion from the water data given above.  
+The lab was very informative. We can easily determine if a material is water, acetone or oil based using its dielectric constant. The reason we use DI water as a calibration standard is because it’s neutral, and gives the maximum difference between a short and open circuit. One way we can improve the calibration process is to get a better stand that will wobble less. The dielectric probe can be used for both wideband and narrowband measurements but it works better if we use it for narrowband, I based my conclusion from the water data given above.  
 
 ## Hindsight
 NA
