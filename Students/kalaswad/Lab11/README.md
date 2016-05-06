@@ -1,6 +1,8 @@
 # Lab 11 Report
 Matias Kalaswad
 
+In this lab I worked with Chloe Dixon and Matthew Walck. Some of the things that we worked on include lab reports and plots.
+
 ## Background
 This lab introduced us to a calibration technique called the Gated Reflect Line or GRL. It is used for free space calibration on devices like the horn antennas that we used in lab. The S11 parameter in time domain can be used to locate discontinuities as a function of time. It can show you where unwanted reflections are occurring so you can filter them with gating. This helps with calibration.
 
