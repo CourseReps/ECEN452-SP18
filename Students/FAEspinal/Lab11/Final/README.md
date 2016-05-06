@@ -1,5 +1,5 @@
 # Lab 11 Report
-Francisco Espinal
+Francisco A. Espinal
 
 ## Background
 In this lab, we preformed free space measurements with GLR calibration. This calibration is similar to the TRL calibrations technique but is simpler. This is used for the measurements of permittivity or permeability of planar materials.  
