@@ -1,5 +1,9 @@
 Lab 6
 
+![BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/BSF_Shot.PNG)
+![LPF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/LPF.PNG)
+![LPF_Tapped_Stub](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/LPF_Tapped_Stub.PNG)
+
 Background:
 
 In this week's lab, the students designed high frequency lowpass and bandstop filters.  The filters
