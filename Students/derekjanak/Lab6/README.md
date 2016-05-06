@@ -17,7 +17,7 @@ antenna and to focus output signals into a desired frequency band.
 
 Design:
 
-![Filter Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab_Notebook(Antenna&Filters).jpeg)
+![Filter Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab_Notebook(Antenna&Filters).pdf)
 
 The design of the filters began with a prototype ladder network using normalized parameters obtained from a table to calculate maximally flat and equi-ripple designs.  The series stubs were transformed to open circuit stubs and then spacing transmission lines were added using Richard's Transformation and Kuroda's Identities.
 
