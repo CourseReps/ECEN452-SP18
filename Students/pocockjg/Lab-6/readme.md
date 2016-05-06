@@ -26,6 +26,15 @@ After the stubs were added in, creating a band stop filter, the band stop region
 
 The band stop region is centered around 2.75 GHz instead of 3. Also, as expected, the S11 parameter (the return loss) is almost 0 in the band stop region. The phase shift is almost 90 degrees at 2.75 GHz which is to be expected at the band stop frequency.
 
+The simulations from HFSS give similiar results.
+
+![image](figure_5.png)
+
+For the simulations, the LPF T-line model was modeled to the z0lver file. The tapped stub was modeled using the equations in the pre-lab. However, both models overshoot the planned frequency for ending pass-through.
+
+![image](figure_6.png)
+![image](figure_7.png)
+
 ## Conclusion
 Though the lab was far from perfect, the results in it did at least show the principles of a band stop filter, an extremely low S21 parameter at a center frequency and a small, if any, return loss as well.
 
