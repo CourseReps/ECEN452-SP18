@@ -29,7 +29,9 @@ effects) was calculated and subtracted from the patch length to determine the fi
 the patch.  After measuring the impedance of the patch plus a 50 ohm feedline, a quarter wave
 transformer was inserted in order to match the antenna to the input port.
 
-All calculations and diagrams are included in the scanned lab notebook pages.
+![Filter Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab_Notebook(Antenna&Filters).pdf)
+
+The length of the antenna is responsible for the frequency of transmission, while the width dictates efficiency.
 
 Procedure:
 
