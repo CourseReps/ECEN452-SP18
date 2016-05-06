@@ -1,6 +1,8 @@
 # Lab 7 Report
 Matias Kalaswad
 
+In this lab I worked with Chloe Dixon and Matthew Walck. Some of the things that we worked on include parameter calculations, HFSS simulations, lab reports, and plots.
+
 ## Background
 In this lab we worked with different types of power dividers. The following four types were simulated using Z0lver as part of a homework assignment: delta power divider, splitter, four-way splitter, and Wilkinson power divider. The basic function of power dividers is to split and input signal into two or more identical output signals.
 
