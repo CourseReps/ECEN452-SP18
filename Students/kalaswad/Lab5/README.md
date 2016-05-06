@@ -1,6 +1,8 @@
 # Lab 5 Report
 Matias Kalaswad
 
+In this lab I worked with Chloe Dixon and Matthew Walck. Some of the things that we worked on include parameter calculations, HFSS simulations, lab reports, and plots.
+
 ## Background
 In this lab we worked with the TRL calibration kit and the PIN diode switch. The TRL kit was designed for frequencies between 1 GHz and 5 GHz. The diode switch is a current-controlled resistor; it can also be described as a semiconductor diode in which a highly resistive intrinsic region is put in between a P-type and N-type region.
 
