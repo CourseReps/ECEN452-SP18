@@ -34,7 +34,7 @@ S11 shows the power reflected. S41 shows the isolation. S21 and S31 show the spl
 
 ![Match](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab8/Final/Hybrid_Coupler_Matched_Magnitude_Plot.png) <br>
 
-![Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab8/Final/Hybrid_Coupler_Matched_Magnitude_Plot.png) <br>
+![Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/FAEspinal/Lab8/Final/Lab_8_Hybrid_Phase_Difference.png) <br>
 
 My HFSS design did not quite align with the Milled data. My design matched closer to 3GHz than the desired 2.5GHz, other than that everything else was flawless. There was good isolation, and an acceptable split in power. Then the phase based of the graph was around 90 as expected.  
 
