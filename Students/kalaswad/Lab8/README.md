@@ -1,6 +1,8 @@
 # Lab 8 Report
 Matias Kalaswad
 
+In this lab I worked with Chloe Dixon and Matthew Walck. Some of the things that we worked on include parameter calculations, HFSS simulations, lab reports, and plots.
+
 ## Background
 In this lab we worked with the ratrace coupler and the hybrid coupler. Ratrace couplers are used in planar technologies like microstrips and waveguides. It consists of a ring-shaped structure, with four ports, each a quarter wavelength from each other around and impedance factor of sqrt(2) compared to the port’s impedance.  The hybrid coupler is a passive device that is often used in radio and telecommunications. It is a directional coupler with the input power divided equally between two output ports.
 
