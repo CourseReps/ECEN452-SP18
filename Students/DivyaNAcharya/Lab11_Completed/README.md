@@ -34,9 +34,9 @@ Free-space methods use antennas to focus microwave energy at or through a slab o
 <br> We are trying to determine the location of of M.U.T. in terms of time<br>
 
 5.How do the three materials measured compare to expectations?
-<br> Plexiglass has er in the range 2.2 - 3.4, Air has er=1 and which are values close to observed value. Coudn't find value of er for cardboard.<br>
+<br> Plexiglass has er in the range 2.2 - 3.4, Air has er=1 and which are values close to observed value. Coudn't find value of er for cardboard.
 
-6. How could we improve the calibration process to get more accurate results?
+6.How could we improve the calibration process to get more accurate results?
 <br> Steady stands to hold the M.U.T between the horn antennas at the same position instead of holding them by hand would give accurate results.<br>
 
 ##Conclusion
