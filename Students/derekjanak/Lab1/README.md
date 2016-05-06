@@ -1,6 +1,6 @@
 Lab 1: Introduction to High Frequency Techniques
 
-![Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab1/Lab_1.pdf.png)
+![Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab1/Lab_1.pdf)
 ![Simulation Plot](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab1/Lab1_Sim.png)
 ![Test Plot](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab1/Test_Plot.png)
 ![Lab 1a Circuit](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab1/Lab1a_Zolver.PNG)
