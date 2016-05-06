@@ -21,11 +21,11 @@ control beam steering of a patch antenna array.
 
 Design:
 
-The rat race coupler consists of a ring of characteristic impedance Z0*sqrt(2) with a 
-circumference of 1.5 wavelengths.  Spaced around the port are four ports with feedlines of 
+The rat race coupler consists of a ring of characteristic impedance Z0*sqrt(2) (Assuming even power
+split) with a circumference of 1.5 wavelengths.  Spaced around the port are four ports with feedlines of 
 characteristic impedance Z0.  Port 2 is the input port.  Port 1 is spaced one quarter wavelength 
-clockwise around the circle,and functions as a summation of inputs at ports 2 and 3.  Port 3 is 
-spaced one quarter wavelength clockwise from port 1, and is isolated.  Port 4 is spaced one 
+clockwise around the circle from port 2,and functions as a summation of inputs at ports 2 and 3.  
+Port 3 is spaced one quarter wavelength clockwise from port 1, and is isolated.  Port 4 is spaced one 
 quarter wavelength clockwise from port 3, and functions as a difference of inputs at ports 2 and 3.
 Application of an input signal at port 1 yields an in-phase power division at ports 2 and 3, while
 application of an input signal at port 4 yields a 180 degree out-of-phase power division at ports
