@@ -3,6 +3,8 @@ Lab 6
 ![BSF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/BSF_Shot.PNG)
 ![LPF](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/LPF.PNG)
 ![LPF_Tapped_Stub](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/LPF_Tapped_Stub.PNG)
+![LPF_Milled](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/IMG_0627.jpg)
+![BSF_Cut_Tape](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/IMG_0636.jpg)
 
 Background:
 
