@@ -1,6 +1,8 @@
 # Lab 6 Report
 Matias Kalaswad
 
+In this lab I worked with Chloe Dixon and Matthew Walck. Some of the things that we worked on include parameter calculations, HFSS simulations, lab reports, and plots.
+
 ## Background
 In this lab we demonstrated two types of microstrip filters: low-pass and band-pass. Two types of low-pass filters were made; one was a maximally flat T-line filter while the other was tapped. Prior to lab we simulated the filters in HFSS and then in lab we built the circuits with copper tape. These filters are commonly used and we’ve learned about them in many other ECEN classes.
 
