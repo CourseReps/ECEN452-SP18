@@ -29,6 +29,7 @@ The band stop region is centered around 2.75 GHz instead of 3. Also, as expected
 The simulations from HFSS give similiar results.
 
 ![image](figure_5.png)
+![image](figure_8.png)
 
 For the simulations, the LPF T-line model was modeled to the z0lver file. The tapped stub was modeled using the equations in the pre-lab. However, both models overshoot the planned frequency for ending pass-through.
 
