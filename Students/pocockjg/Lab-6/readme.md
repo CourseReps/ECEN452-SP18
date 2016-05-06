@@ -1,4 +1,4 @@
-# Lab 6 Report (Unfinished)
+# Lab 6 Report
 Jared Pocock
 
 ## Background
