@@ -5,7 +5,12 @@ Jared Pocock
 The two devices in this lab is the Wilkinson Power Divider and the Delay Line Phase Shifter. The Wilkinson Power Divider, as its name suggests, can split power without the two ports coupling to each other. The Delay Line Phase shifter can shift an incoming signal a certain amount of degrees based on its design.
 
 ## Design
-Using the usual online microstrip calculator, we know the parameters of the FR4 board and our design frequency (3 GHz) we can determine the QW length as 14.18 mm. We know that a length of lambda/8 gives us a phase shift of 45 degrees and adding a QW length will add 90 degrees of phase shift. Therefore, the phase shifter will be two lengths of 7.09 mm for a 90 phase shift and two lengths of 14.18 for a 180 degree phase shift.
+
+The Wikinson Power Divider has to be designed to the following standard.
+
+![image](Capture.PNG)
+
+For the delay line shifter, using the usual online microstrip calculator, we know the parameters of the FR4 board and our design frequency (3 GHz) we can determine the QW length as 14.18 mm. We know that a length of lambda/8 gives us a phase shift of 45 degrees and adding a QW length will add 90 degrees of phase shift. Therefore, the phase shifter will be two lengths of 7.09 mm for a 90 phase shift and two lengths of 14.18 for a 180 degree phase shift.
 
 ## Procedure
 The first step in the procedure is to measure and cut out a 50 ohm feedline and lay it across the board of FR4. The board was then measured by David to get our initial phase measurement. After adding the 90 degree and 180 degree phase shift sections onto the board we took the board back to David to measure the phase again to see if the phase shifting sections changed the phase at all. The feedline is cut and the 90 degree phase shift section is soldered to the feedline. The board is measured again to see if the phase changed 90 degrees. The 90 degree line is unsoldered and the 180 degree line is soldered in its place. The board is measured again to see if the phase changed 180 degrees.
