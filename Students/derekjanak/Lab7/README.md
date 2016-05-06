@@ -1,6 +1,7 @@
 Lab 7
 
 ![WPD](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/WPD.PNG)
+![WPD_Milled](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab7/IMG_0633.jpg)
 
 Background:
 
