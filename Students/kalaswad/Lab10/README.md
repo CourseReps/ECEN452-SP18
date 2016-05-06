@@ -1,6 +1,8 @@
 # Lab 10 Report
 Matias Kalaswad
 
+In this lab I worked with Chloe Dixon and Matthew Walck. Some of the things that we worked on include lab reports and plots.
+
 ## Background
 This lab gave us a great demonstration of measuring dielectric constants. David used a coaxial probe which is basically just a simple open-ended section of coaxial cable. The dielectric constant is the relative permittivity of a dielectric material.  It is very beneficial in characterizing capacitors. 
 
