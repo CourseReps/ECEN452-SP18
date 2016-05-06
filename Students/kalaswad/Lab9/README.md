@@ -1,6 +1,8 @@
 # Lab 9 Report
 Matias Kalaswad
 
+In this lab I worked with Chloe Dixon and Matthew Walck. Some of the things that we worked on include parameter calculations, HFSS simulations, lab reports, and plots.
+
 ## Background
 In this lab we made and measured the design of a patch antenna. They are frequently used in mobile devices because they are relatively cheap and easy to manufacture.
 
