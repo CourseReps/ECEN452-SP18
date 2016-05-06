@@ -25,7 +25,7 @@ Design:
 
 ![Filter Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab_Notebook(Antenna&Filters).pdf)
 
-The design of the filters began with a prototype ladder network using normalized parameters obtained from a table to calculate maximally flat and equi-ripple designs.  The series stubs were transformed to open circuit stubs and then spacing transmission lines were added using Richard's Transformation and Kuroda's Identities.
+The design of the filters began with a prototype ladder network using normalized parameters obtained from a table to calculate maximally flat and equi-ripple designs.  The series stubs were transformed to open circuit stubs and then spacing transmission lines were added using Richard's Transformation and Kuroda's Identities.  The length of the unit element spacers was set at a quarter wavelength, and the length of the stubs was an eight of a wavelength.
 
 Procedure:
 
