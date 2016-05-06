@@ -17,7 +17,9 @@ antenna and to focus output signals into a desired frequency band.
 
 Design:
 
-See images from Lab Notebook
+![Filter Calculations](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab_Notebook(Antenna%26Filters).pdf)
+
+The design of the filters began with a prototype ladder network using normalized parameters obtained from a table to calculate maximally flat and equi-ripple designs.  The series stubs were transformed to open circuit stubs and then spacing transmission lines were added using Richard's Transformation and Kuroda's Identities.
 
 Procedure:
 
@@ -26,6 +28,18 @@ element bandstop filter in microstrip according to the design calculations done 
 strips of tape were joined using solder, and the output was plotted using a network analyzer. 
 
 Results:
+
+![Band Stop Filter Simulation](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/BSF_Sim.png)
+
+The simulated response shows a stop band at 3 GHz in excellent agreement with measured results.
+
+![Low Pass Filter Simulation](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/LPF_Sim.png)
+
+The simulation shows a good agreement with the measured data, but as in the milled version the pole frequency is a bit high, suggesting that the stubs may be a bit too long.
+
+![Tapped Stub Low Pass Filter Simulation](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/LPF_T_Sim.png)
+
+The simulated response of this filter shows a pole frequency right at 3 GHz, in perfect agreement with the design parameters.
 
 ![50 Ohm Line](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab6/Measured_50ohm_Line.png)
 
