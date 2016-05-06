@@ -1,5 +1,8 @@
 Lab 9: Design of a Microstrip Patch Antenna
 
+![Patch Antenna](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/derekjanak/Lab9/Antenna.PNG)
+
+
 Background:
 
 In this lab, students designed and fabricated a microstrip patch antenna.  Microstrip patch
