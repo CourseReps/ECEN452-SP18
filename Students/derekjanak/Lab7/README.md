@@ -31,10 +31,11 @@ Design:
 
 The design of the Wilkinson power divider is primarily based on symmetry.  The circuit consists
 of an input port connected to a transmission line with a normalized characteristic impedance of 1.
-This line terminates in two quarter wave transformers which connect to output ports with normalized
-characteristic impedance equal to 1.  The two quarter wave transformers are bridged by a SMD
-resistor of value 2Z0, resulting in an even 3 dB power split.  To accomplish this, the quarter
-wave sections are curved to form a circular pattern in order to avoid strong coupling effects;
+This line terminates in two quarter wave transformers (of normalized characteristic impedance sqrt(2) 
+for even power split) which connect to output ports with normalized characteristic impedance 
+equal to 1.  The two quarter wave transformers are bridged by a SMD resistor of value 2Z0, 
+resulting in an even 3 dB power split.  To accomplish this, the quarter wave sections 
+are curved to form a circular pattern in order to avoid strong coupling effects;
 this also results in additional reactance which requires a slight compensation in length.  The
 output ports also curve outward from the resistor in order to avoid coupling.  The analysis of
 the circuit is carried out using even/odd mode analysis.
