@@ -92,7 +92,7 @@ ax1.plot(freq, Pine_sol, '-c', label="Pine Sol")
 ax1.plot(freq, Simple_Green, '--c', label="Simple Green")
 ax1.plot(freq, Acetone, '-g', label="Acetone")
 ax1.set_xlim(min(freq), max(freq))  # set x-axis limits
-ax1.set_ylim(0, 85)  # set x-axis limits
+ax1.set_ylim(0, 80)  # set x-axis limits
 ax1.legend(loc=2)  # add legend at location #4 (bottom-right corner)
 plt.grid(b=True, which='both', color='0.65', linestyle='-')  # add solid grey grid-lines
 plt.title('Dielectric Constant - Liquids')  # add plot title
@@ -105,8 +105,8 @@ plt.figure(2)  # initialize plot2
 ax1 = plt.subplot(111)
 ax1.plot(freq20, DI_water_20MHz_20GHz, '-r', label="DI Water")
 ax1.set_xlim(min(freq20), max(freq20))  # set x-axis limits
-ax1.set_ylim(0, 85)  # set x-axis limits
-ax1.legend(loc=2)  # add legend at location #4 (bottom-right corner)
+ax1.set_ylim(40, 80)  # set x-axis limits
+ax1.legend(loc=3)  # add legend at location #4 (bottom-right corner)
 plt.grid(b=True, which='both', color='0.65', linestyle='-')  # add solid grey grid-lines
 plt.title('Dielectric Constant - DI Water')  # add plot title
 plt.xlabel('Freq [GHz]')  # add x-axis title
