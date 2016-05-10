@@ -7,9 +7,9 @@ The microstrip patch antenna is a simple and cheap antenna which is useful in ma
 ## Design
 We use the equations below to calculate the width and length of the patch antenna for our design.
 We have the following parameters: f = 3GHz, Er = 4.1, h = 1.5748mm and Z0 = 50 ohms. From this we calculate W = 31.3mm and L = 24.4mm.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab9/PatchEquations.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab9/PatchEquations.PNG)<br>
 
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab9/Patch.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab9/Patch.PNG)<br>
 
 We used a single stub tuning network to impedance match our antenna. We measured our impedance at a 15mm reference plane to be 73 + j54 ohms.
 This gives a normalized load impedance of 1.46 + j1.08. We plotted this on the smith chart and drew the VSWR circle around 2.5 and then converted our
