@@ -33,7 +33,7 @@ the desired 3dB. However, the power split is approximately even, as desired. The
 The phase difference between S21 and S31 is right around 90 degrees, as we should expect, at 2.5GHz. However, as the frequency increases, the simulated and measured data do not follow closely. One reason for this might be how I modified the length
 of the 35.5 ohm sections of my coupler. I believe it also may have affected the phase difference here as I did not change both the horizontal and vertical sections of my coupler to get my desired operating frequency. This also may have attributed to
 some port mismatch and why our signals at S21 and S31 had a little over 3dB loss.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab8/HC_Phase_Difference.png)<br>
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab8/HCPhase_Difference.png)<br>
 
 For the rat-race coupler, we see almost the same behavior as with the hybrid coupler and the HFSS results match the milled results even more closely. The exception is the HFSS file has a slight curve in the S11 plot at 2.5GHz which gives it a slightly
 wider bandwidth than the milled circuit. I don't know why this would happen in HFSS alone except maybe the milled result is not as precise. However, that hardly explains much here and it is a minor difference. As we expected from the design, ports four
