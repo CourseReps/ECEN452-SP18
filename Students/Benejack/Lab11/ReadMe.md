@@ -20,9 +20,8 @@ The peak in the S11 graph showing reflection shows the highest reflection at 3.6
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab11/S11.png)<br>
 
 The S21 measurement shows that around 3GHz, we do not have any loss across the airspace we calibrated for in the GRL calibration.
-![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab11/S21.png)<br>
 
-Include measured/simulated Plots here. All plots are to be made in Python by modifying the csv plotter code. Explain how you can tell the device is working by examining the data (S-parameters). Comment on any differences between the measured and simulated results and sources of error.
+![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab11/S21.png)<br>
 
 ## Conclusion
 The calibration is key to this method working correctly, so it is important to have consistency in between measurements and ensure that all measurements are taken carefully and in approximately the same manner. Each material tested should be perpendicular to the
