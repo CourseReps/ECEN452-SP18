@@ -41,7 +41,6 @@ and one are drastically attenuated at the design frequency of 2.5GHz, while port
 ![image](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/Students/Benejack/Lab8/OutputMag.png)<br>
 
 ## Conclusion
-***Applications
 It is important to put matched loads on the ports we are not measuring during these measurements so that none of the input signal is reflected back out of these ports. For example, if we are measuring port three with an input signal at port one, we need
 to match ports two and four so that it doesn't appear that a small input signal is coming from port two/four from reflections. The hybrid coupler is better for applications which are lower than 40 GHz. The rat-race coupler has been used up to higher frequencies,
 but the rat-race coupler is better for designs which do not require a bandwidth over 20-30%.
