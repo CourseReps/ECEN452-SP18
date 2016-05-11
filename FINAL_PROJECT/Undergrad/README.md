@@ -37,4 +37,4 @@ More time to design and simulate the antenna array may have allowed for better r
 
 Reflection:
 
-The most rewarding part of this lab was applying our knowledge to a practical design problem.
+The most rewarding part of this lab was applying our knowledge to a practical design problem.  The greatest challenge was the HFSS design of the models.  Additional challenges of determining the nature of the malfunctions within the design were curtailed by a lack of time to conduct iterated testing.
