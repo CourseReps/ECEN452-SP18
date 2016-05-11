@@ -28,6 +28,7 @@ with open('Milled_Hybrid_S11.csv') as csvfile:
 		if row['Freq(Hz)']!="END":
 			x.append(float(row['Freq(Hz)'])/1e9)
 			y1.append(float(row['S11 Log Mag(dB)']))
+			y12.append(-3)
 
 #---FILE 2---#############################################################
 with open('Milled_Hybrid_S21.csv') as csvfile:
@@ -84,7 +85,7 @@ ax1.plot(x, y2, '--b', label="S21 Milled") #plot y2 vs. x, solid-red, add lable 
 ax1.plot(x, y3,'--g', label="S31 Milled") #plot y3 vs. x, dashed-red, add lable for legend
 
 ax1.plot(x, y4,'--m', label="S41 Milled") #plot y3 vs. x, dashed-red, add lable for legend
-
+ax1.plot(x,y12,'-k', label="3dB Cutoff")
 
 ax1.set_xlim(min(x), max(x)) #set x-axis limits
 ax1.legend(loc=4) #add legend at location #4 (bottom-right corner)
@@ -110,6 +111,6 @@ plt.grid(b=True, which='both', color='0.65', linestyle='-') #add solid grey grid
 plt.title('Hybrid S21-S31 Phase Difference') #add plot title
 plt.xlabel('Frequency [GHz]') #add x-axis title
 ax2.set_ylabel('Phase [degrees]') #add y-axis title
-ax2.set_ylim(0,200)#Force y axis limits if necessary
+ax2.set_ylim(50,100)#Force y axis limits if necessary
 
 plt.show() #required to display plots
