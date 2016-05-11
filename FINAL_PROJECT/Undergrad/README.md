@@ -20,7 +20,8 @@ Each of the hybrid coupler phase shifters was hooked to an antenna and the phase
 
 ![Undergraduate Design 1 Magnitude](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Undergrad/Design1/Undergrad_Design1_Mag_Freq.png)
 ![Undergraduate Design 1 Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Undergrad/Design1/Undergrad_Design1_Phase_Freq.png)
-![Undergraduate Design 2](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Undergrad/Design2/Undergrad%20Design%202%20plots.pdf)
+![Undergraduate Design 2 Magnitude](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Undergrad/Design2/Undergrad_Design2_Mag_Freq.png)
+![Undergraduate Design 2 Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Undergrad/Design2/Undergrad_Design2_Phase_Freq.png)
 
 By way of comparison, below are the graduate designs:
 ![Graduate Design 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Graduate/Design1/Graduate1_Plot.png)
