@@ -6,7 +6,7 @@ Antenna arrays are used for a broad variety of applications in wireless signal t
 
 ## Design
 
-The phase shifted antenna array was designed by connecting matched 50 ohm patch antennas to hybrid coupler circuits.  The hybrid coupler ports 2 and 3 were connected to identical varactor based phase shifting circuits in order to allow the phase of the signal to be shifted and controlled.  The class was broken into 2 teams of undergraduate and graduate students, respectively.  Each team submitted 2 designs for a total of 4 antennas in the array.
+The phase shifted antenna array was designed by connecting matched 50 ohm patch antennas to hybrid coupler circuits.  The hybrid coupler ports 2 and 3 were connected to identical varactor-based phase shifting circuits in order to allow the phase of the signal to be shifted and controlled.  The class was broken into 2 teams of undergraduate and graduate students, respectively.  Each team submitted 2 designs for a total of 4 antennas in the array.
 
 The first undergraduate phase shifter design consisted of two transmission lines of characteristic impedances 30 ohms and 20 ohms.  Identical inductive lines with series varactor diodes were run from the junction between the lines and from the end of the second line.  By controlling the DC biasing of the varactor diodes through application of 1-5VDC, the  capacitance could be controlled to adjust the phase.
 
@@ -42,7 +42,7 @@ In this lab, the students designed a phase shifted array.  Ultimately, the desig
 
 ## Hindsight
 
-More time to design and simulate the antenna array may have allowed for better results.  Additionally, it would have been interesting to see the full array assembled.
+More time to design and simulate the antenna array may have allowed for better results.  With the first design from the undergraduate team, the numbers should produce at least a 360 degree phase shift with acceptable impedance matching. However, the nonideal effects in this design are severe. The intersection of the 20 and 30 ohm lines is not ideal and because of the widths of the lines, the transmission lines had capacitive effectts which are difficult to account for in Python or Z0lver. Addittionaly, the placement of the shunt varactor and inductor is difficult between two transmission line widths, and this design is simple and sensitive to small inaccuracies in the line lengths, inductances, and other measured values. More testing and modeling in HFSS may have helped improve the design some, but most likely not enough to see the design function near fully. Additionally, it would have been interesting to see the full array assembled.
 
 ## Reflection
 
