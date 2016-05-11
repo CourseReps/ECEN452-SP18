@@ -7,7 +7,6 @@ import csv
 
 #Initialize arrays for x, y1, y2, y3
 x = []      #frequency
-y1 = []
 y2 = []
 
 ##Read .csv data file
@@ -18,13 +17,11 @@ with open('Undergrad_Design1.csv') as csvfile:
         #items in '' below need to exactly match the entry in the first row of the columns in the .csv file
         #edit/add additional lines as needed for each column of data
         x.append(float(row['Voltage']))
-        y1.append(float(row['S11 Phase']))
         y2.append(float(row['S21 Phase']))
 
 ##Plotting
 plt.figure(1) #initialize plot1
 ax1 = plt.subplot(111) #create axes handle for plot1
-ax1.plot(x, y1, 'b', label="S11") #plot y1 vs. x, solid-blue, add lable for legend
 ax1.plot(x, y2, 'g', label="S21")
 
 ax1.set_xlim(min(x), max(x)) #set x-axis limits
