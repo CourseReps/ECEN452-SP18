@@ -31,9 +31,10 @@ Undergrad design 2 plots are shown below:
 By way of comparison, below are the graduate designs:
 ![Graduate Design 1](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Graduate/Design1/Graduate1_Plot.png)
 ![Graduate Design 1 at 2.5GHz](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Graduate/Design1/Graduate1_Plot_2.5GHz.png)
+This design shows a phase shift of approximately 310 degrees; note that the phase wraps between 2V and 3V.  The circuit shows an attenuation of between 3dB and 5dB.
 ![Graduate Design 2 Magnitude](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Graduate/Design2/Graduate2_Magnitude.png)
 ![Graduate Design 2 Phase](https://github.com/CourseReps/ECEN452-Spring2016/blob/master/FINAL_PROJECT/Graduate/Design2/Graduate2_Phase.png)
-This design shows a phase shift of approximately 310 degrees; note that the phase wraps between 2V and 3V.  The circuit shows an attenuation of between 3dB and 5dB.
+
 
 ## Conclusion
 
