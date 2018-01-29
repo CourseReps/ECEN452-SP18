@@ -1,4 +1,4 @@
-# Python Programming and Notebooks
+# Python Programming and Jupyter Notebooks
 
 ## The Python Programming Language
 
@@ -6,14 +6,17 @@
 Its design philosophy emphasizes code readability.
 Python interpreters are available for installation on many operating systems, allowing Python code execution on a wide variety of systems.
 
-
 ### Action Items
 
 * __Peruse__: The [Python Software Foundation](https://www.python.org) website.
 
+----
+
+[Jupyter Notebooks](http://jupyter.org/) will be the primary tool in this course for programming assignments and lab generating laboratory reports. This is included in the Anaconda distribution of Python. 
+
 ### Action Items
 
-* __Read__: [About PyCharm](https://www.jetbrains.com/pycharm/).
+* __Download Anaconda__: [About PyCharm](https://www.jetbrains.com/pycharm/).
 * __Watch__: [Take a tour of PyCharm Educational Edition](https://www.youtube.com/watch?v=xCCHIfC-dtA).
 * __Download and Install__: [PyCharm Educational Edition](https://www.jetbrains.com/pycharm-educational/).
 * __Complete__: Introduction to Python in PyCharm.
