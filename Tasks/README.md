@@ -15,6 +15,11 @@ These tasks consist of installing pertinent software and mastering relevant prog
 * Programming with [Python](https://www.python.org/)
 * Using [Jupyter Notebooks](http://jupyter.org/)
 
-## [Task 3](./3task.md): Circuit Analysis and Full-Wave Electromagnetic Simulation
+## [Task 3](./3task.md): CAD and Simulation
 
 * Getting started with [ANSYS Electronics Desktop](https://www.ansys.com/products/electronics/ansys-electronics-desktop/electronics-desktop-features#2)
+
+## [Task 4](./3task.md): Layout and Fabrication
+
+* Printed circuit boards using [KiCAD](http://kicad-pcb.org/) for printed circuit boards
+* Submitting jobs to the [EIC](http://kicad-pcb.org/) for printed circuit boards
