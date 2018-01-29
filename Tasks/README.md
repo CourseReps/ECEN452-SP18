@@ -4,15 +4,14 @@ A series of tasks are assigned at the onset of the semester.
 These tasks consist of installing pertinent software and mastering relevant programming frameworks.
 
 
-## [Task 1](./1task.md): Code Management System
+## [Task 1](./1task.md): Understanding the Code Management System
 
 * Source Code Management with [Git](http://git-scm.com/)
-* [GitHub](https://github.com/)
+* Getting started with [GitHub](https://github.com/)
 
 
-## [Task 2](./2task.md): Python and PyCharm
+## [Task 2](./2task.md): Get Your Programmin Rig Up and Runing
 
-* [Python](https://www.python.org/)
-* [PyCharm](https://www.jetbrains.com/pycharm-educational/)
-* [Anaconda](https://www.continuum.io/downloads)
+* Programming with [Python](https://www.python.org/)
+* Using [Jupyter Notebooks](http://jupyter.org/)
 
