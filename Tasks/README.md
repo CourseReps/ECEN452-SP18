@@ -10,7 +10,7 @@ These tasks consist of installing pertinent software and mastering relevant prog
 * Getting started with [GitHub](https://github.com/)
 
 
-## [Task 2](./2task.md): Programmin Rig
+## [Task 2](./2task.md): Programming Rig
 
 * Programming with [Python](https://www.python.org/)
 * Using [Jupyter Notebooks](http://jupyter.org/)
@@ -21,5 +21,10 @@ These tasks consist of installing pertinent software and mastering relevant prog
 
 ## [Task 4](./3task.md): Layout and Fabrication
 
-* Printed circuit boards using [KiCAD](http://kicad-pcb.org/) for printed circuit boards
-* Submitting jobs to the [EIC](http://kicad-pcb.org/) for printed circuit boards
+* Preparing circuit boards using [KiCAD](http://kicad-pcb.org/)
+* Utilizing the [TAMU Engineering Innovation Center (EIC)](https://engineering.tamu.edu/easa/areas/enrichment/eic/students/forms) for printed circuit board fabrication
+
+## [Task 5](./3task.md): Calibration and Measurement
+
+* Using the [Keysight FieldFox](https://literature.cdn.keysight.com/litweb/pdf/N9927-90001.pdf?id=2877238&cc=US&lc=eng)
+* Using the [Keysight PNA](https://literature.cdn.keysight.com/litweb/pdf/N5227-90001.pdf?id=2063439&cc=US&lc=eng)
