@@ -1,4 +1,5 @@
-# ECEN452-Spring2016 Ultra-High Frequency Techniques (RF, Microwave, and Millimeter Laboratory)
+# ECEN452-Spring2016 Ultra-High Frequency Techniques 
+RF, Microwave, and Millimeter Measurement Laboratory
 
 # Mandatory Lab Meeting Times in WEB 159
 ## Monday 1pm - 2:30pm
