@@ -12,11 +12,13 @@ Python interpreters are available for installation on many operating systems, al
 
 ----
 
-[Jupyter Notebooks](http://jupyter.org/) will be the primary tool in this course for programming assignments and lab generating laboratory reports. This is included in the Anaconda distribution of Python. 
+## Jupyter Notebooks
+
+[Jupyter Notebooks](http://jupyter.org/) will be the primary tool in this course for programming assignments and lab generating laboratory reports. This web application (web-app) is included in the Anaconda distribution of Python, and we will leverage a few additional tools to complete the lab tasks in this course.
 
 ### Action Items
 
-* __Download Anaconda__: [About PyCharm](https://www.jetbrains.com/pycharm/).
+* __Download Anaconda__: [Anaconda](https://www.continuum.io/downloads) is the recomended cross-platform compatable Python distribution package for this class. It includes all but a few of the additional packages you will need for this class (matplolib, numpy, scipy, etc.). Install Anaconda on your computer and make note of the installation directory. If you need to select an interpreter for PyCharm, point to python.exe in the Anaconda folder.
 * __Watch__: [Take a tour of PyCharm Educational Edition](https://www.youtube.com/watch?v=xCCHIfC-dtA).
 * __Download and Install__: [PyCharm Educational Edition](https://www.jetbrains.com/pycharm-educational/).
 * __Complete__: Introduction to Python in PyCharm.
