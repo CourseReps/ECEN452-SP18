@@ -1,4 +1,4 @@
-# Python Programming and PyCharm
+# Python Programming and Notebooks
 
 
 ## The Python Programming Language
@@ -28,4 +28,13 @@ The educational edition is free and open source.
 * __Complete__: Introduction to Python in PyCharm.
 
 ## Anaconda
-I recommend using [Anaconda](https://www.continuum.io/downloads) for this class, especially if you are using Windows. Anaconda is a Python distribution for Mac, Windows, or Linux that includes all of the additional packages you will need for this class (matplolib, numpy, scipy, etc.). Install Anaconda on your computer and make note of the installation directory. Then when you need to select an interpreter for PyCharm, point to python.exe in the Anaconda folder.
+[Anaconda](https://www.continuum.io/downloads) is the recomended cross-platform compatable Python distribution package for this class. It includes all but a few of the additional packages you will need for this class (matplolib, numpy, scipy, etc.). Install Anaconda on your computer and make note of the installation directory. If you need to select an interpreter for PyCharm, point to python.exe in the Anaconda folder.
+
+## scikit-rf
+[scikit-rf] (http://scikit-rf-web.readthedocs.io/) is a python package specifically developed for working with RF, microwave, etc. (handling common data formats, plotting smith charts, interfacing with instruments, etc.). [Install sciKit-rf] (http://scikit-rf-web.readthedocs.io/install.html) and peruse some of the features.
+
+## scikit-learn
+[scikit-learn] (http://scikit-learn.org/stable/) is a python package specifically developed for machine learning. [Install scikit-learn] (http://scikit-learn.org/stable/install.html) and peruse some of the features.
+
+## Pandas 
+[Pandas] (https://pandas.pydata.org/) is a python package specifically developed for data analysis. It is included in the Anaconda distribution but you are encouraged to explore some of the features.
