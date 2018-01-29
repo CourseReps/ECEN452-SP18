@@ -1,6 +1,5 @@
 # Python Programming and Notebooks
 
-
 ## The Python Programming Language
 
 [Python](https://www.python.org) is a widely used general-purpose, high-level programming language that supports multiple programming paradigms.
@@ -11,14 +10,6 @@ Python interpreters are available for installation on many operating systems, al
 ### Action Items
 
 * __Peruse__: The [Python Software Foundation](https://www.python.org) website.
-
-
-## PyCharm
-
-[PyCharm](https://www.jetbrains.com/pycharm/) is a Python integrated development environment (IDE) for programming computer software.
-It is developed by [JetBrains](https://www.jetbrains.com).
-The educational edition is free and open source.
-
 
 ### Action Items
 
@@ -31,10 +22,10 @@ The educational edition is free and open source.
 [Anaconda](https://www.continuum.io/downloads) is the recomended cross-platform compatable Python distribution package for this class. It includes all but a few of the additional packages you will need for this class (matplolib, numpy, scipy, etc.). Install Anaconda on your computer and make note of the installation directory. If you need to select an interpreter for PyCharm, point to python.exe in the Anaconda folder.
 
 ## scikit-rf
-[scikit-rf] (http://scikit-rf-web.readthedocs.io/) is a python package specifically developed for working with RF, microwave, etc. (handling common data formats, plotting smith charts, interfacing with instruments, etc.). [Install sciKit-rf] (http://scikit-rf-web.readthedocs.io/install.html) and peruse some of the features.
+[scikit-rf](http://scikit-rf-web.readthedocs.io/) is a python package specifically developed for working with RF, microwave, etc. (handling common data formats, plotting smith charts, interfacing with instruments, etc.). [Install sciKit-rf](http://scikit-rf-web.readthedocs.io/install.html) and peruse some of the features.
 
 ## scikit-learn
-[scikit-learn] (http://scikit-learn.org/stable/) is a python package specifically developed for machine learning. [Install scikit-learn] (http://scikit-learn.org/stable/install.html) and peruse some of the features.
+[scikit-learn](http://scikit-learn.org/stable/) is a python package specifically developed for machine learning. [Install scikit-learn](http://scikit-learn.org/stable/install.html) and peruse some of the features.
 
 ## Pandas 
-[Pandas] (https://pandas.pydata.org/) is a python package specifically developed for data analysis. It is included in the Anaconda distribution but you are encouraged to explore some of the features.
+[Pandas](https://pandas.pydata.org/) is a python package specifically developed for data analysis. It is included in the Anaconda distribution but you are encouraged to explore some of the features.
