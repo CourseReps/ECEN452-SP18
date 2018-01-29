@@ -19,18 +19,6 @@ Python interpreters are available for installation on many operating systems, al
 ### Action Items
 
 * __Download Anaconda__: [Anaconda](https://www.continuum.io/downloads) is the recomended cross-platform compatable Python distribution package for this class. It includes all but a few of the additional packages you will need for this class (matplolib, numpy, scipy, etc.). Install Anaconda on your computer and make note of the installation directory. If you need to select an interpreter for PyCharm, point to python.exe in the Anaconda folder.
-* __Watch__: [Take a tour of PyCharm Educational Edition](https://www.youtube.com/watch?v=xCCHIfC-dtA).
-* __Download and Install__: [PyCharm Educational Edition](https://www.jetbrains.com/pycharm-educational/).
-* __Complete__: Introduction to Python in PyCharm.
-
-## Anaconda
-[Anaconda](https://www.continuum.io/downloads) is the recomended cross-platform compatable Python distribution package for this class. It includes all but a few of the additional packages you will need for this class (matplolib, numpy, scipy, etc.). Install Anaconda on your computer and make note of the installation directory. If you need to select an interpreter for PyCharm, point to python.exe in the Anaconda folder.
-
-## scikit-rf
-[scikit-rf](http://scikit-rf-web.readthedocs.io/) is a python package specifically developed for working with RF, microwave, etc. (handling common data formats, plotting smith charts, interfacing with instruments, etc.). [Install sciKit-rf](http://scikit-rf-web.readthedocs.io/install.html) and peruse some of the features.
-
-## scikit-learn
-[scikit-learn](http://scikit-learn.org/stable/) is a python package specifically developed for machine learning. [Install scikit-learn](http://scikit-learn.org/stable/install.html) and peruse some of the features.
-
-## Pandas 
-[Pandas](https://pandas.pydata.org/) is a python package specifically developed for data analysis. It is included in the Anaconda distribution but you are encouraged to explore some of the features.
+* __Install scikit-rf__: [scikit-rf](http://scikit-rf-web.readthedocs.io/) is a python package specifically developed for working with RF, microwave, etc. (handling common data formats, plotting smith charts, interfacing with instruments, etc.). [Install sciKit-rf](http://scikit-rf-web.readthedocs.io/install.html) and peruse some of the features.
+* __Install scikit-learn__: [scikit-learn](http://scikit-learn.org/stable/) is a python package specifically developed for machine learning. [Install scikit-learn](http://scikit-learn.org/stable/install.html) and peruse some of the features. [Pandas](https://pandas.pydata.org/) is a python package specifically developed for data analysis - it is used quite often in conjunction with scikit-learn and is included in the Anaconda distribution, but you are encouraged to explore some of the features.
+* __Verify__: Verify your programming rig is up and running by completing the [coaxial cable example](http://scikit-rf.readthedocs.io/en/latest/examples/plotting/Modeling%20RG-58.html) and [microstrip measurement example](http://scikit-rf.readthedocs.io/en/latest/examples/networktheory/Correlating%20microstripline%20model%20to%20measurement.html). Note: for both of these you should open a new Jupyter notebook, and paste in the different code blocks.
