@@ -21,7 +21,9 @@ All students are required to attend at least one of the above sessions
 - Lab 5: Standing Waves Measurements and Time Domain Reflectometry 
 - Lab 6: Calibration Standards and Automation of SOLT and TRL Calibrations  
 - Lab 7: Automated RF, Microwave, and Millimeter-Wave Measurements  
+
 **Mid-Term Project: High Frequency Circuit Forensics for Data-Driven Model Synthesis** 
+
 - Lab 8: Tapered Microstrip Transmission Lines and Radial Bias Stubs  
 - Lab 9: Synthesis and Characterization of Filters and Diplexers 
 - Lab 10: Synthesis and Characterization of Power Dividers and Couplers   
@@ -29,4 +31,5 @@ All students are required to attend at least one of the above sessions
 - Lab 12: Synthesis and Characterization of Microstrip Antennas 
 - Lab 13: Dielectric Spectroscopy of Solids, Liquids, and Mixtures 
 - Lab 14: Free-Space Material and Frequency Selective Surface Characterization 
+
 **Final Project: Automated Antenna Impedance Matching Network**
