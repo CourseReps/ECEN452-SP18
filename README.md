@@ -1,5 +1,6 @@
-# ECEN452-Spring2016 Ultra-High Frequency Techniques 
-## RF, Microwave, and Millimeter-Wave Laboratory
+# RF, Microwave, and Millimeter-Wave Laboratory
+## ECEN 452: Ultra-High Frequency Techniques
+### Spring 2018 (SP18) Semester
 Conceptualize. Synthesize. Design. Analyze. Fabricate. Experiment. Observe. Report. Repeat.
 
 ----
