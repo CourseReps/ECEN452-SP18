@@ -1,16 +1,13 @@
 # RF, Microwave, and Millimeter-Wave Laboratory
 ## ECEN 452: Ultra-High Frequency Techniques
+## Prof. Gregory H. Huff
 ### Spring 2018 (SP18) Semester
 Conceptualize. Synthesize. Design. Analyze. Fabricate. Experiment. Observe. Report. Repeat.
 
 ----
-
-### Mandatory Lab Meeting Times in WEB 159
-#### Monday: 1pm - 2:30pm
-### Mandatory Lab Meeting Times in WEB 159
-#### Friday: 1pm - 2:30pm
-All students are required to attend at least one of the above sessions
-
+### Meeting Times (WEB 159)
+#### Monday: 1pm - 2:30pm (Lecture/Discussion/Demonstration)
+#### Friday: 1pm - 2:30pm (Lab)
 ----
 ## Lab Topics
 
