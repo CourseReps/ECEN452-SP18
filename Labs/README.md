@@ -3,7 +3,7 @@
 
 ## Lab Topics
 
-### [Lab 1](./Lab1): Schematic Capture and Circuit Simulation 
+- [Lab 1](./Lab1): Schematic Capture and Circuit Simulation 
 
 - Lab 1: Schematic Capture and Circuit Simulation 
 - Lab 2: CAD Modeling and Full Wave Electromagnetic Simulation 
