@@ -10,7 +10,7 @@
 ### [Lab 6](./Lab6): Calibration Standards and Automation of SOLT and TRL Calibrations
 ### [Lab 7](./Lab7): Automated RF, Microwave, and Millimeter-Wave Measurements
 
-## [Mid-Term Project](./MidtermProject): High Frequency Circuit Forensics for Data-Driven Model Synthesis
+### [Mid-Term Project](./MidtermProject): Data-Driven High Frequency Circuit Forensics
 
 ### [Lab 8](./Lab8): Schematic Capture and Circuit Simulation 
 ### [Lab 9](./Lab9): CAD Modeling and Full Wave Electromagnetic Simulation
@@ -20,4 +20,4 @@
 ### [Lab 13](./Lab13): Calibration Standards and Automation of SOLT and TRL Calibrations
 ### [Lab 14](./Lab14): Automated RF, Microwave, and Millimeter-Wave Measurements
 
-## [Final Project](./FinalProject): Automated Antenna Impedance Matching Network
+### [Final Project](./FinalProject): Automated Antenna Impedance Matching Network
