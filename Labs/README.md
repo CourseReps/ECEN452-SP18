@@ -2,8 +2,8 @@
 **Please Copy the files into your own student folder and only modify your own copies**
 
 ## Lab Topics
-
-- [Lab 1](./Lab1): Schematic Capture and Circuit Simulation 
+### [Lab 1](./Lab1): Schematic Capture and Circuit Simulation 
+### [Lab 2](./Lab2): CAD Modeling and Full Wave Electromagnetic Simulation
 
 - Lab 1: Schematic Capture and Circuit Simulation 
 - Lab 2: CAD Modeling and Full Wave Electromagnetic Simulation 
