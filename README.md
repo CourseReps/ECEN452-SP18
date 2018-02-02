@@ -12,22 +12,22 @@ Conceptualize. Synthesize. Design. Analyze. Fabricate. Experiment. Observe. Repo
 ## Lab Topics
 
 
-- Lab 1: Schematic Capture and Circuit Simulation 
-- Lab 2: CAD Modeling and Full Wave Electromagnetic Simulation 
-- Lab 3: Introduction to RF, Microwave, and Millimeter-Wave Measurements 
-- Lab 4: Etching, Milling, and Additive Manufacturing Techniques 
-- Lab 5: Standing Waves Measurements and Time Domain Reflectometry 
-- Lab 6: Calibration Standards and Automation of SOLT and TRL Calibrations  
-- Lab 7: Automated RF, Microwave, and Millimeter-Wave Measurements  
+- (Jacob) Lab 1: Schematic Capture and Circuit Simulation 
+- (Eli) Lab 2: CAD Modeling and Full Wave Electromagnetic Simulation 
+- (Cody) Lab 3: Introduction to RF, Microwave, and Millimeter-Wave Measurements 
+- (Melanie) Lab 4: Etching, Milling, and Additive Manufacturing Techniques 
+- (Ryan) Lab 5: Standing Waves Measurements and Time Domain Reflectometry 
+- (Chloe) Lab 6: Calibration Standards and Automation of SOLT and TRL Calibrations  
+- (TBD) Lab 7: Automated RF, Microwave, and Millimeter-Wave Measurements  
 
 **Mid-Term Project: High Frequency Circuit Forensics for Data-Driven Model Synthesis** 
 
-- Lab 8: Tapered Microstrip Transmission Lines and Radial Bias Stubs  
-- Lab 9: Synthesis and Characterization of Filters and Diplexers 
-- Lab 10: Synthesis and Characterization of Power Dividers and Couplers   
-- Lab 11: Amplifier Characterization and Automatic Gain Control  
-- Lab 12: Synthesis and Characterization of Microstrip Antennas 
-- Lab 13: Dielectric Spectroscopy of Solids, Liquids, and Mixtures 
-- Lab 14: Free-Space Material and Frequency Selective Surface Characterization 
+- (Jacob) Lab 8: Tapered Microstrip Transmission Lines and Radial Bias Stubs  
+- (Melanie) Lab 9: Synthesis and Characterization of Filters and Diplexers 
+- (Chloe) Lab 10: Synthesis and Characterization of Power Dividers and Couplers   
+- (Jacob) Lab 11: Amplifier Characterization and Automatic Gain Control  
+- (Eli) Lab 12: Synthesis and Characterization of Microstrip Antennas 
+- (Cody) Lab 13: Dielectric Spectroscopy of Solids, Liquids, and Mixtures 
+- (Ryan) Lab 14: Free-Space Material and Frequency Selective Surface Characterization 
 
 **Final Project: Automated Antenna Impedance Matching Network**
