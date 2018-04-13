@@ -1,1 +1,0 @@
-# Lab 1: Schematic Capture and Circuit Simulation
